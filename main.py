@@ -12,15 +12,30 @@ def findKeywordsTag(filename):
                 return [keyword.removeprefix('<term>').removesuffix('</term>') for keyword in alltags]
     return False
 
-def deletehyphen(keywords):
+def deleteHyphen(keywords):
     keywords[0] = keywords[0].removeprefix('-').removeprefix('—')
 
-# case, where some terms are numbers
-def case1(keywords):
-    for linenum, line in enumerate(keywords):
-
-
-    
+def wordKeywordsRemainCase(keywords: list[str]) -> list[str]:
+    for kwnum, keyword in enumerate(keywords):
+        if keyword.lower().find('keywords:') != -1: # case, where it wrongly parsed and there is word Keywords after which written all keywords; maybe try a 'keyword' pattern to find?
+            onlykeywordslist = keywords[kwnum:]
+            onlykeywordslist[0] = onlykeywordslist[0][onlykeywordslist[0].lower().find('keywords:')+10:]
+            trueterms = []
+            for wnum, word in enumerate(onlykeywordslist):
+                while onlykeywordslist[wnum].find(',') != -1:
+                    trueterms.append(onlykeywordslist[wnum][:onlykeywordslist[wnum].find(',')])
+                    onlykeywordslist[wnum] = onlykeywordslist[wnum][onlykeywordslist[wnum].find(',')+1:].lstrip() # cut off term that we already added to trueterms
+                if word[-1].rstrip == ',':
+                    trueterms.append(onlykeywordslist[wnum][:-1])
+                elif word[-1] == '-':
+                    onlykeywordslist[wnum+1] = onlykeywordslist[wnum][:-1] + onlykeywordslist[wnum+1]
+                else:
+                    if len(onlykeywordslist) == wnum+1:
+                        trueterms.append(onlykeywordslist[wnum])
+                    else:
+                        onlykeywordslist[wnum+1] = '{0} {1}'.format(onlykeywordslist[wnum][:].rstrip(), onlykeywordslist[wnum+1])
+            return trueterms
+    return False
 
 print(findKeywordsTag('file1.xml'))
-print(case1(findKeywordsTag('file1.xml')))
+print(wordKeywordsRemainCase(findKeywordsTag('file1.xml')))
