@@ -13,6 +13,23 @@ def extractKeywordsAsList(filename, PREFIX):
     keywords = [i.text for i in keywordsTerms]
     return keywords
 
+def keywordsDividedByCommas(keywords: list[str]) -> list[str]:
+    trueterms = []
+    for wnum, word in enumerate(keywords):
+        allterms = [i.strip() for i in word.split(',')]
+        trueterms += allterms[:-1]
+        # allterms[-1][-1] - last symbol of last word in a row
+        if allterms[-1][-1].rstrip == ',': # example: 18933.tei.xml in folder 2
+            trueterms.append(allterms[-1])
+        elif allterms[-1][-1] == '-': # example: 260371.tei.xml in folder 2
+            keywords[wnum+1] = allterms[-1][:-1] + keywords[wnum+1]
+        else: # example: 1337244.tei.xml or 260347.tei.xml in folder 2
+            if len(keywords) == wnum+1:
+                trueterms.append(allterms[-1])
+            else:
+                keywords[wnum+1] = '{0} {1}'.format(allterms[-1].rstrip(), keywords[wnum+1])
+    return trueterms
+
 def deleteHyphen(keywords):
     keywords[0] = keywords[0].removeprefix('-').removeprefix('—')
 
@@ -21,19 +38,5 @@ def wordKeywordsRemainCase(keywords: list[str]) -> list[str]:
         if keyword.lower().find('keywords:') != -1: # case, where it wrongly parsed and there is word Keywords after which written all keywords; maybe try a 'keyword' pattern to find?
             onlykeywordslist = keywords[kwnum:]
             onlykeywordslist[0] = onlykeywordslist[0][onlykeywordslist[0].lower().find('keywords:')+10:]
-            trueterms = []
-            for wnum, word in enumerate(onlykeywordslist):
-                while onlykeywordslist[wnum].find(',') != -1:
-                    trueterms.append(onlykeywordslist[wnum][:onlykeywordslist[wnum].find(',')])
-                    onlykeywordslist[wnum] = onlykeywordslist[wnum][onlykeywordslist[wnum].find(',')+1:].lstrip() # cut off term that we already added to trueterms
-                if word[-1].rstrip == ',':
-                    trueterms.append(onlykeywordslist[wnum][:-1])
-                elif word[-1] == '-':
-                    onlykeywordslist[wnum+1] = onlykeywordslist[wnum][:-1] + onlykeywordslist[wnum+1]
-                else:
-                    if len(onlykeywordslist) == wnum+1:
-                        trueterms.append(onlykeywordslist[wnum])
-                    else:
-                        onlykeywordslist[wnum+1] = '{0} {1}'.format(onlykeywordslist[wnum][:].rstrip(), onlykeywordslist[wnum+1])
-            return trueterms
+            return keywordsDividedByCommas(onlykeywordslist)
     return False
