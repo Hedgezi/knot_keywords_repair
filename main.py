@@ -1,16 +1,17 @@
-def findKeywordsTag(filename):
-    with open(filename, 'r') as f:
-        for line in f:
-            if '<keywords>' in line.strip(' \t\n'):
-                if '</keywords>' in line.strip(' \t\n'):
-                    return False
-                alltags = []
-                nextline = f.readline().strip(' \t\n')
-                while nextline != '</keywords>':
-                    alltags.append(nextline)
-                    nextline = f.readline().strip(' \t\n')
-                return [keyword.removeprefix('<term>').removesuffix('</term>') for keyword in alltags]
-    return False
+import xml.etree.ElementTree as ET
+
+PREFIX = "{http://www.tei-c.org/ns/1.0}"
+
+def extractKeywordsAsList(filename, PREFIX):
+    tree = ET.parse(filename)
+    source = tree.getroot()
+
+    profileDesc = source.find(f"{PREFIX}teiHeader/{PREFIX}profileDesc")
+    keywordsTag = profileDesc.find(f'{PREFIX}textClass/{PREFIX}keywords')
+    keywordsTerms = keywordsTag.findall(f'{PREFIX}term')
+
+    keywords = [i.text for i in keywordsTerms]
+    return keywords
 
 def deleteHyphen(keywords):
     keywords[0] = keywords[0].removeprefix('-').removeprefix('—')
@@ -36,6 +37,3 @@ def wordKeywordsRemainCase(keywords: list[str]) -> list[str]:
                         onlykeywordslist[wnum+1] = '{0} {1}'.format(onlykeywordslist[wnum][:].rstrip(), onlykeywordslist[wnum+1])
             return trueterms
     return False
-
-print(findKeywordsTag('file1.xml'))
-print(wordKeywordsRemainCase(findKeywordsTag('file1.xml')))
