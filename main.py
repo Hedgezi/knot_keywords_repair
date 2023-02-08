@@ -37,5 +37,24 @@ def wordKeywordsRemainCase(keywords: list[str]) -> list[str]:
             return trueterms
     return False
 
+
+# Returns True, if there is rubbish in all the keywords, list of correct keywords - othrerwise
+def rubbishInKeywords(keywords: list[str]) -> list[str]:
+    correctterms = []
+    for term in keywords:
+        if ':' in term: # case "smth: " or "smth: smth"
+            pass
+        
+        # cases "smth, smth" ; "smth, " ; ", smth" ; ", smth, "
+        termparts = term.split(',') 
+        if len(termparts) == 1: 
+            correctterms.append(term)
+        elif len(termparts) == 2: 
+            if '' in termparts:
+                pass
+
+        
+
+
 print(findKeywordsTag('file1.xml'))
 print(wordKeywordsRemainCase(findKeywordsTag('file1.xml')))
