@@ -63,18 +63,24 @@ def wordKeywordsRemainCase(keywords: list[str]) -> list[str]:
             return keywordsDividedByCommas(onlykeywordslist)
     return False
 
-def checkCycle(keywords: list[str]) -> list[str]: # order is important
-    if wordKeywordsRemainCase(keywords) != False:
-        return wordKeywordsRemainCase(keywords)
-    elif oneNumberRemainCase(keywords) != False:
-        return oneNumberRemainCase(keywords)
-    elif randomLettersWasIncluded(keywords) != False:
-        return randomLettersWasIncluded(keywords)
-    elif otherColonWasIncludedCase(keywords) != False:
-        return otherColonWasIncludedCase(keywords)
-    else:
-        return keywordsDividedByCommas(keywords)
+def checkForProblems(keywords: list[str]) -> list[str]:
+    problems = {'commas': False, 'keyword_word': False, 'hyphen': False, 'pseudo_ampersand': False, 'one_number': False, 'random_short_letters': False, 'some_colon': False}
+    for kwnum, keyword in enumerate(keywords):
+        if keyword.find(',') != -1:
+            problems['commas'] = True
+        if keyword.lower().find('keywords:') != -1:
+            problems['keyword_word'] = True
+        if keyword.find('—') != -1:
+            problems['hyphen'] = True
+        if keyword.find('&apos;') != -1:
+            problems['pseudo_ampersand'] = True
+        if keyword.isnumeric():
+            problems['one_number'] = True
+        if len(keyword) <= 2:
+            problems['random_short_letters'] = True
+        if keyword.find(':') != -1:
+            problems['some_colon'] = True
+    return problems
 
 if __name__ == '__main__':
     keywords = extractKeywordsAsList("1337244.tei.xml", PREFIX)
-    print(checkCycle(keywords))
