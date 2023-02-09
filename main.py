@@ -27,14 +27,32 @@ def keywordsDividedByCommas(keywords: list[str]) -> list[str]:
             trueterms.append(allterms[-1])
     return trueterms
 
-def deleteHyphen(keywords):
-    keywords[0] = keywords[0].removeprefix('-').removeprefix('—')
+def deleteHyphen(keywords: list[str]) -> list[str]:
+    keywords[0] = keywords[0].lstrip(' —-')
 
-def otherColonWasIncludedCase(keywords: list[str]) -> list[str]: # as in 260105.tei.xml and 260347.tei.xml in folder 2
+def deleteAmps(keywords: list[str]) -> list[str]:
     for kwnum, keyword in enumerate(keywords):
-        if keyword.find(':') != -1:
+        if keyword.find('&apos;') != -1:
+            keywords[kwnum] = keyword.replace('&apos;', '')
+
+def oneNumberRemainCase(keywords: list[str]) -> list[str]: # example: 260404.tei.xml in folder 2
+    for kwnum, keyword in enumerate(keywords):
+        if keyword.isnumeric():
             onlykeywordslist = keywords[:kwnum]
             return keywordsDividedByCommas(onlykeywordslist)
+    return False
+
+def randomLettersWasIncluded(keywords: list[str]) -> list[str]: # example: 260882.tei.xml in folder 2
+    for kwnum, keyword in enumerate(keywords):
+        if len(keywords) <= 2:
+            onlykeywordslist = keywords[:kwnum]
+            return keywordsDividedByCommas(onlykeywordslist)
+    return False
+
+def otherColonWasIncludedCase(keywords: list[str]) -> list[str]: # as in 260105.tei.xml and 260347.tei.xml in folder 2
+    for kwnum, keyword in enumerate(keywords): # think i can't fix those keywords, so i'll better just tell that they are wrong
+        if keyword.find(':') != -1:
+            return True
     return False
 
 def wordKeywordsRemainCase(keywords: list[str]) -> list[str]:
@@ -45,5 +63,18 @@ def wordKeywordsRemainCase(keywords: list[str]) -> list[str]:
             return keywordsDividedByCommas(onlykeywordslist)
     return False
 
+def checkCycle(keywords: list[str]) -> list[str]: # order is important
+    if wordKeywordsRemainCase(keywords) != False:
+        return wordKeywordsRemainCase(keywords)
+    elif oneNumberRemainCase(keywords) != False:
+        return oneNumberRemainCase(keywords)
+    elif randomLettersWasIncluded(keywords) != False:
+        return randomLettersWasIncluded(keywords)
+    elif otherColonWasIncludedCase(keywords) != False:
+        return otherColonWasIncludedCase(keywords)
+    else:
+        return keywordsDividedByCommas(keywords)
+
 if __name__ == '__main__':
-    print(otherColonWasIncludedCase(extractKeywordsAsList("1337244.tei.xml", PREFIX)))
+    keywords = extractKeywordsAsList("1337244.tei.xml", PREFIX)
+    print(checkCycle(keywords))
