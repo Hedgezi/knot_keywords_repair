@@ -16,12 +16,12 @@ def extractKeywordsAsList(filename, PREFIX):
 def keywordsDividedByCommas(keywords: list[str]) -> list[str]:
     trueterms = []
     for wnum, word in enumerate(keywords):
-        allterms = [i.strip() for i in word.split(',') if i != '']
+        allterms = [i.strip() for i in word.split(',') if i != ''] # all words in a row, that was stripped by commas
         trueterms += allterms[:-1]
         # allterms[-1][-1] - last symbol of last word in a row
         if len(allterms) == 0: # example: 6189781.tei.xml
             continue
-        elif allterms[-1][-1] == '-': # example: 260371.tei.xml in folder 2
+        elif allterms[-1][-1] == '-': # example: 260371.tei.xml in folder 2, last word is moved to next line
             keywords[wnum+1] = allterms[-1][:-1] + keywords[wnum+1]
         else: # example: 1337244.tei.xml or 260347.tei.xml in folder 2
             trueterms.append(allterms[-1])
@@ -40,23 +40,34 @@ def colon_in_keywords(keywords: list[str]) -> list[str]:
             true_terms = keywords[:len(keywords)-wnum-2]
     return true_terms
 
-def checkForProblems(keywords: list[str]) -> dict[str, list[int]]:
+def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
     problems = {'commas': [], 'keyword_word': [], 'hyphen': [], 'pseudo_ampersand': [], 'one_number': [], 'random_short_letters': [], 'some_colon': []}
+    keyword_word_variations =  ['keywords', 'keyword', 'key word', 'key words']
+    ampersand_replaced_variations = ['&apos;', '&quot;', '&amp;']
+
+    if keywords[0].find('—') != -1: # it is primarily can be found only in first word, so we can extract this to check only first word
+        problems['hyphen'].append(0)
+
     for kwnum, keyword in enumerate(keywords):
         if keyword.find(',') != -1:
             problems['commas'].append(kwnum)
-        if keyword.lower().find('keyword:') != -1: # case, where it wrongly parsed and there is word Keywords after which written all keywords; maybe try a 'keyword' pattern to find?
-            problems['keyword_word'] = [keyword.lower().find('keyword:')]
-        if keyword.find('—') != -1: # it is primarily can be found only in first word, so we can extract this to check only first word
-            problems['hyphen'].append(kwnum)
-        if keyword.find('&apos;') or keyword.find('&quot;') or keyword.find('&amp;') != -1:
-            problems['pseudo_ampersand'].append(kwnum)
+
+        for keyvar in keyword_word_variations: # case, where it wrongly parsed and there is word Keywords (or variations) after which written all keywords
+            if kwindex := keyword.lower().find(keyvar) != -1:
+                problems['keyword_word'] = [kwindex, keyvar]
+                break
+
+        if keyword.find(':') != -1: # as in 260105.tei.xml and 260347.tei.xml in folder 2
+            problems['some_colon'].append(kwnum) # я могу поставить этот кейс выше, потому что (по идее) если мы итак находим двоеточие (не со словом keywords), то мы сразу бракуем весь документ, следовательно нам и не приходится исследовать его на другие ошибки 
+
+        for amprep in ampersand_replaced_variations:
+            if keyword.find(amprep) != -1:
+                problems['pseudo_ampersand'].append([kwnum, amprep])
+
         if keyword.isdigit(): # example: 260404.tei.xml in folder 2
             problems['one_number'] = [kwnum]
         if len(keyword) <= 2: # example: 260882.tei.xml in folder 2
             problems['random_short_letters'] = [kwnum]
-        if keyword.find(':') != -1: # as in 260105.tei.xml and 260347.tei.xml in folder 2
-            problems['some_colon'].append(kwnum) # я могу поставить этот кейс выше, потому что (по идее) если мы итак находим двоеточие (не со словом keywords), то мы сразу бракуем весь документ, следовательно нам и не приходится исследовать его на другие ошибки 
     return problems
 
 def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) -> list[str]:
@@ -66,11 +77,11 @@ def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) 
             keywords[i] = deleteHyphen(keywords[i])
     if problems['pseudo_ampersand']:
         for i in problems['pseudo_ampersand']:
-            keywords[i] = deleteHyphen(keywords[i])
+            keywords[i[0]] = deleteHyphen(keywords[i])
     # some other easy cases
     if problems['keyword_word']:
         onlykeywordslist = keywords[problems['keyword_word'][0]:]
-        onlykeywordslist[0] = onlykeywordslist[0][onlykeywordslist[0].lower().find('keyword:')+9:]
+        onlykeywordslist[0] = onlykeywordslist[0][onlykeywordslist[0].lower().find(problems['keyword_word'][1])+len(problems['keyword_word'][1])+1:]
         return keywordsDividedByCommas(onlykeywordslist)
     if problems['one_number']:
         onlykeywordslist = keywords[:problems['one_number'][0]]
