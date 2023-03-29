@@ -34,11 +34,10 @@ def deleteAmps(keyword: str) -> str:
     return keyword.replace('&apos;', '').replace('&quot;', '').replace('&amp;', '')
 
 def colon_in_keywords(keywords: list[str]) -> list[str]:
-    true_terms = []
-    for wnum, word in enumerate(keywords[::-1]):
-        if word.find(':'):
-            true_terms = keywords[:len(keywords)-wnum-2]
-    return true_terms
+    for wnum, word in enumerate(keywords):
+        if word.find(':') != -1:
+            return keywords[:wnum]
+    return keywords
 
 def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
     problems = {'commas': [], 'keyword_word': [], 'hyphen': [], 'pseudo_ampersand': [], 'one_number': [], 'random_short_letters': [], 'some_colon': []}
