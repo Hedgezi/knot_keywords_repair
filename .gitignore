@@ -1,2 +1,4 @@
 testingarea/*
-*.xml
+1337.tei.xml
+file*.xml
+__pycache__/*

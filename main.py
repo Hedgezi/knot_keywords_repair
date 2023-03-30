@@ -52,7 +52,8 @@ def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
             problems['commas'].append(kwnum)
 
         for keyvar in keyword_word_variations: # case, where it wrongly parsed and there is word Keywords (or variations) after which written all keywords
-            if kwindex := keyword.lower().find(keyvar) != -1:
+            kwindex = keyword.lower().find(keyvar)
+            if kwindex != -1:
                 problems['keyword_word'] = [kwindex, keyvar]
                 break
 
@@ -94,6 +95,6 @@ def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) 
     return keywords
 
 if __name__ == '__main__':
-    keywords = extractKeywordsAsList("1337244.tei.xml", PREFIX)
+    keywords = extractKeywordsAsList("1337.tei.xml", PREFIX)
     allproblems = checkForProblems(keywords)
     print(repairPossibleProblems(keywords, allproblems))
