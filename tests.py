@@ -28,7 +28,24 @@ class ColonTest(unittest.TestCase):
         keywords = extractKeywordsAsList("examples/5.tei.xml", PREFIX)
         allproblems = checkForProblems(keywords)
         repaired = repairPossibleProblems(keywords, allproblems)
-        self.assertEqual(repaired, ["body orientation", "camouflage"])
+        self.assertEqual(repaired, ["Hypergeometric function", "bebra"])
+    def testB(self):
+        keywords = extractKeywordsAsList("examples/6.tei.xml", PREFIX)
+        allproblems = checkForProblems(keywords)
+        repaired = repairPossibleProblems(keywords, allproblems)
+        self.assertEqual(repaired, ["Hypergeometric function", "bebra"])
+
+class NumbersTest(unittest.TestCase):
+    def testA(self):
+        keywords = extractKeywordsAsList("examples/7.tei.xml", PREFIX)
+        allproblems = checkForProblems(keywords)
+        repaired = repairPossibleProblems(keywords, allproblems)
+        self.assertEqual(repaired, ["Hypergeometric function", "bebra"])
+    def testB(self):
+        keywords = extractKeywordsAsList("examples/8.tei.xml", PREFIX)
+        allproblems = checkForProblems(keywords)
+        repaired = repairPossibleProblems(keywords, allproblems)
+        self.assertEqual(repaired, ["Hypergeometric function", "bebra"])
 
 if __name__ == '__main__':
     unittest.main()

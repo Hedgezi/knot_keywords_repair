@@ -41,7 +41,7 @@ def colon_in_keywords(keywords: list[str]) -> list[str]:
 
 def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
     problems = {'commas': [], 'keyword_word': [], 'hyphen': [], 'pseudo_ampersand': [], 'one_number': [], 'random_short_letters': [], 'some_colon': []}
-    keyword_word_variations =  ['keywords', 'keyword', 'key word', 'key words']
+    keyword_word_variations =  ['keywords', 'keyword', 'key word', 'key-word']
     ampersand_replaced_variations = ['&apos;', '&quot;', '&amp;']
 
     if keywords[0].find('—') != -1: # it is primarily can be found only in first word, so we can extract this to check only first word
@@ -54,8 +54,8 @@ def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
         for keyvar in keyword_word_variations: # case, where it wrongly parsed and there is word Keywords (or variations) after which written all keywords
             kwindex = keyword.lower().find(keyvar)
             if kwindex != -1:
-                problems['keyword_word'] = [kwindex, keyvar]
-                break
+                problems['keyword_word'] = [kwnum, keyvar]
+                return problems
 
         if keyword.find(':') != -1: # as in 260105.tei.xml and 260347.tei.xml in folder 2
             problems['some_colon'].append(kwnum) # я могу поставить этот кейс выше, потому что (по идее) если мы итак находим двоеточие (не со словом keywords), то мы сразу бракуем весь документ, следовательно нам и не приходится исследовать его на другие ошибки 
@@ -81,7 +81,10 @@ def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) 
     # some other easy cases
     if problems['keyword_word']:
         onlykeywordslist = keywords[problems['keyword_word'][0]:]
-        onlykeywordslist[0] = onlykeywordslist[0][onlykeywordslist[0].lower().find(problems['keyword_word'][1])+len(problems['keyword_word'][1])+1:]
+        onlykeywordslist[0] = onlykeywordslist[0][onlykeywordslist[0].lower().find(': ')+1:]
+        return keywordsDividedByCommas(onlykeywordslist)
+    if problems['some_colon']:
+        onlykeywordslist = keywords[:problems['some_colon'][0]]
         return keywordsDividedByCommas(onlykeywordslist)
     if problems['one_number']:
         onlykeywordslist = keywords[:problems['one_number'][0]]
@@ -89,12 +92,9 @@ def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) 
     if problems['random_short_letters']:
         onlykeywordslist = keywords[:problems['random_short_letters'][0]]
         return keywordsDividedByCommas(onlykeywordslist)
-    if problems['some_colon']:
-        onlykeywordslist = colon_in_keywords(keywords)
-        return keywordsDividedByCommas(onlykeywordslist)
     return keywords
 
 if __name__ == '__main__':
-    keywords = extractKeywordsAsList("1337.tei.xml", PREFIX)
+    keywords = extractKeywordsAsList("examples/6.tei.xml", PREFIX)
     allproblems = checkForProblems(keywords)
     print(repairPossibleProblems(keywords, allproblems))
