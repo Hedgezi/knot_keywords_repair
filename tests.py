@@ -34,6 +34,11 @@ class ColonTest(unittest.TestCase):
         allproblems = checkForProblems(keywords)
         repaired = repairPossibleProblems(keywords, allproblems)
         self.assertEqual(repaired, ["Hypergeometric function", "bebra"])
+    def testC(self):
+        keywords = extractKeywordsAsList("examples/9.tei.xml", PREFIX)
+        allproblems = checkForProblems(keywords)
+        repaired = repairPossibleProblems(keywords, allproblems)
+        self.assertEqual(repaired, ["spatio-temporal modeling", "stochastic modeling", "Markov chain Monte Carlo"])
 
 class NumbersTest(unittest.TestCase):
     def testA(self):
