@@ -54,7 +54,7 @@ def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
         for keyvar in keyword_word_variations: # case, where it wrongly parsed and there is word Keywords (or variations) after which written all keywords
             kwindex = keyword.lower().find(keyvar)
             if kwindex != -1:
-                problems['keyword_word'] = [kwnum, keyvar]
+                problems['keyword_word'] = [kwnum, kwindex, keyvar]
                 return problems
 
         if keyword.find(':') != -1: # as in 260105.tei.xml and 260347.tei.xml in folder 2
@@ -81,7 +81,7 @@ def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) 
     # some other easy cases
     if problems['keyword_word']:
         onlykeywordslist = keywords[problems['keyword_word'][0]:]
-        onlykeywordslist[0] = onlykeywordslist[0][onlykeywordslist[0].lower().find(': ')+1:]
+        onlykeywordslist[0] = onlykeywordslist[0][problems['keyword_word'][1]+len(problems['keyword_word'][2])+1:].lstrip(' :') # +1 is for random s (it find 'keyword' not 'keywords')
         return keywordsDividedByCommas(onlykeywordslist)
     if problems['some_colon']:
         onlykeywordslist = keywords[:problems['some_colon'][0]]
@@ -95,6 +95,6 @@ def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) 
     return keywords
 
 if __name__ == '__main__':
-    keywords = extractKeywordsAsList("examples/6.tei.xml", PREFIX)
+    keywords = extractKeywordsAsList("examples/1.tei.xml", PREFIX)
     allproblems = checkForProblems(keywords)
     print(repairPossibleProblems(keywords, allproblems))
