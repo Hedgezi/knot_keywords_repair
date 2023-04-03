@@ -40,12 +40,12 @@ class NumbersTest(unittest.TestCase):
         keywords = extractKeywordsAsList("examples/7.tei.xml", PREFIX)
         allproblems = checkForProblems(keywords)
         repaired = repairPossibleProblems(keywords, allproblems)
-        self.assertEqual(repaired, ["Hypergeometric function", "bebra"])
+        self.assertEqual(repaired, ["bruh", "bruh1", "bruh2"])
     def testB(self):
         keywords = extractKeywordsAsList("examples/8.tei.xml", PREFIX)
         allproblems = checkForProblems(keywords)
         repaired = repairPossibleProblems(keywords, allproblems)
-        self.assertEqual(repaired, ["Hypergeometric function", "bebra"])
+        self.assertEqual(repaired, ["femininity", "individual differences", "masculinity"])
 
 if __name__ == '__main__':
     unittest.main()

@@ -64,7 +64,7 @@ def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
             if keyword.find(amprep) != -1:
                 problems['pseudo_ampersand'].append([kwnum, amprep])
 
-        if keyword.isdigit(): # example: 260404.tei.xml in folder 2
+        if keyword.isdigit() and not problems['one_number']: # example: 260404.tei.xml in folder 2
             problems['one_number'] = [kwnum]
         if len(keyword) <= 2: # example: 260882.tei.xml in folder 2
             problems['random_short_letters'] = [kwnum]
@@ -95,6 +95,6 @@ def repairPossibleProblems(keywords: list[str], problems: dict[str, list[int]]) 
     return keywords
 
 if __name__ == '__main__':
-    keywords = extractKeywordsAsList("examples/1.tei.xml", PREFIX)
+    keywords = extractKeywordsAsList("examples/7.tei.xml", PREFIX)
     allproblems = checkForProblems(keywords)
     print(repairPossibleProblems(keywords, allproblems))
