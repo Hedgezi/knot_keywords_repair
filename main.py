@@ -41,7 +41,7 @@ def colon_in_keywords(keywords: list[str]) -> list[str]:
 
 def checkForProblems(keywords: list[str]) -> dict[str, list[int, str]]:
     problems = {'commas': [], 'keyword_word': [], 'hyphen': [], 'pseudo_ampersand': [], 'one_number': [], 'random_short_letters': [], 'some_colon': []}
-    keyword_word_variations =  ['keywords', 'keyword', 'key word', 'key-word']
+    keyword_word_variations =  ['keyword', 'key word', 'key-word', 'kjwvords', 'keywords']
     ampersand_replaced_variations = ['&apos;', '&quot;', '&amp;']
 
     if keywords[0].find('—') != -1: # it is primarily can be found only in first word, so we can extract this to check only first word
