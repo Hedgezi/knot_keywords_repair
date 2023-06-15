@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:///data/grobid/grobid-home/schemas/rng/Grobid.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Certain transformations and summations for generalized hypergeometric series with integral parameter differences</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">A</forename>
+								<forename type="middle">R</forename>
+								<surname>Miller</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Formerly Professor of Mathematics at George</orgName>
+								<orgName type="institution">Washington University</orgName>
+								<address>
+									<addrLine>1616 18th Street NW, No. 210</addrLine>
+									<postCode>20009-2525</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName>
+								<forename type="first">R</forename>
+								<forename type="middle">B</forename>
+								<surname>Paris</surname>
+							</persName>
+							<email>r.paris@abertay.ac.uk</email>
+							<affiliation>
+								<orgName type="department">Division of Complex Systems</orgName>
+								<orgName type="institution">University of Abertay Dundee</orgName>
+								<address>
+									<postCode>DD1 1HG</postCode>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Certain transformations and summations for generalized hypergeometric series with integral parameter differences</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Mathematics Subject Classification: 33C15, 33C20</term>
+					<term>Keywords: Generalized hypergeometric series, Quadratic transformation, Summation the-</term>
+					<term>orems</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Certain transformation and summation formulas for generalized hypergeometric series with integral parameter differences are derived.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div>
+				<head n="1">Introduction</head>
+
+				<p>The generalized hypergeometric function p F q (x) is defined for complex parameters and argument by the series p F q a 1 , a 2 ,</p>
+
+				<figure>
+					<trash>. . . , a p b 1 , b 2 , . . . , b q x = ∞ k=0 (a 1 ) k (a 2 ) k . . . (a p ) k (b 1 ) k (b 2 ) k . . . (b q ) k x k k! . (1.1)</trash>
+
+
+				</figure>
+
+				<p>When q = p this series converges for |x| &lt; ∞, but when q = p − 1 convergence occurs when |x| &lt; 1. However, when only one of the numeratorial parameters a j is a negative integer or zero, then the series always converges since it is simply a polynomial in x of degree −a j . In (1.1) the Pochhammer symbol, or ascending factorial, (a) k is defined by (a) 0 = 1 and for k ≥ 1 by (a) k = a(a + 1) . . . (a + k − 1). However, for all integers k we write simply (a) k = Γ(a + k) Γ(a) .</p>
+
+				<p>In what follows we shall adopt the convention of writing the finite (except where noted otherwise) sequence of parameters (a 1 , . . . , a p ) simply by (a p ) and the product of p Pochhammer symbols by ((a p )) k ≡ (a 1 ) k . . . (a p ) k , with an empty product p = 0 reducing to unity.</p>
+
+				<p>In</p>
+
+				<p><ref type="bibr" target="#b0" coords="1,126.84,641.25,20.65,9.96">[1]</ref> <ref type="bibr" target="#b1" coords="1,126.84,641.25,20.65,9.96">[2]</ref> <ref type="bibr" target="#b2" coords="1,126.84,641.25,20.65,9.96">[3]</ref> <ref type="bibr" target="#b3" coords="1,126.84,641.25,20.65,9.96">[4]</ref> we derived in various ways transformation formulas for the generalized hypergeometric functions r+1 F r+1 (x) and r+2 F r+1 (x), where here and below at least r pairs of numeratorial and denominatorial parameters differ by arbitrary positive integers. In particular, in <ref type="bibr" target="#b3" coords="2,463.10,25.29,10.57,9.96">[4]</ref> we stated without proof that the generalized hypergeometric function r+1 F r+1 (x) in which r + 1 pairs of numeratorial and denominatorial parameters differ by arbitrary positive integers may be written as a product of e x and a certain polynomial in x. In Section 3 we shall provide a proof of this result and discuss its implications. In <ref type="bibr" target="#b0" coords="2,127.08,85.05,10.57,9.96">[1]</ref> <ref type="bibr" target="#b3" coords="2,127.08,85.05,10.57,9.96">[4]</ref> <ref type="bibr" target="#b4" coords="2,127.08,85.05,10.57,9.96">[5]</ref> we showed that essentially the same methods used to obtain the transformation formulas alluded to above may be employed to deduce the Karlsson-Minton and other more general summation formulas for the r+2 F r+1 (1) generalized hypergeometric series with unit argument. In the present investigation we shall derive in Section 4 in a similar manner analogous summation formulas for generalized hypergeometric series of the type r+2 F r+1 ( 1 2 ) with half unit argument. Finally, in Section 5 we shall consider a certain quadratic transformation for the 3 F 2 (x) hypergeometric function.</p>
+
+			</div>
+			<div>
+				<head n="2">Preliminary results</head>
+
+				<p>We record two lemmas and a theorem that we shall utilize in the sequel. Lemmas 1 and 2 are proved respectively in <ref type="bibr" target="#b0" coords="2,216.97,226.29,10.57,9.96">[1]</ref> and <ref type="bibr" target="#b3" coords="2,251.07,226.29,10.57,9.96">[4]</ref> and Theorem 1 is proved in <ref type="bibr" target="#b3" coords="2,391.69,226.29,13.33,9.96">[4]</ref>. The notation { n k } will be employed to denote the Stirling numbers of the second kind. These nonnegative integers represent the number of ways to partition n objects into k nonempty sets and arise for nonnegative integers n in the generating relation <ref type="bibr">[6, p. 262]</ref> x n =</p>
+
+				<figure>
+					<trash>n k=0 n k (−1) k (−x) k , n 0 = δ 0n , where δ 0n is the Kronecker symbol. Lemma 1. For nonnegative integers j define S j ≡ ∞ n=0 n j λ n n! , S 0 ≡ ∞ n=0 λ n n! ,</trash>
+
+
+				</figure>
+
+				<p>where the infinite sequence (λ n ) is such that S j converges for all j.</p>
+
+				<p><formula>Then S j = j k=0 j k ∞ n=0 λ n+k n! .</formula></p>
+
+				<p>Lemma 2. For nonnegative integer s let (a s ) denote a parameter sequence containing s elements, where when s = 0 the sequence is empty. Let (a s + k) denote the sequence when k is added to each element of (a s ). Let F (x) denote the generalized hypergeometric function with r numeratorial and denominatorial parameters differing by the positive integers (m r ), namely</p>
+
+				<figure>
+					<trash>F (x) ≡ r+s F r+1 (a s ), c, (f r + m r ) (f r ) x , where by (1.1</trash>
+
+
+				</figure>
+
+				<p>) convergence of the series representation for the latter occurs in an appropriate domain depending on the values of s and the elements of the parameter sequence (a s ). Then</p>
+
+				<figure>
+					<trash>F (x) = 1 A 0 m k=0 x k A k ((a s )) k (c) k s F 1 (a s + k) c + k x , where m = m 1 + · · · + m r , the coefficients A k are defined by A k ≡ m j=k j k σ m−j , A 0 = (f 1 ) m1 . . . (f r ) mr , A m = 1 (2.1) and the σ j (0 ≤ j ≤ m) are generated by the relation (f 1 + x) m1 · · · (f r + x) mr = m j=0 σ m−j x j . (2.2)</trash>
+
+					<head>Theorem 1.</head>
+
+
+				</figure>
+
+				<p>Let (m r ) be a nonempty sequence of positive integers and define m ≡ m 1 +· · ·+m r .</p>
+
+				<p>Then if b = f j (1 ≤ j ≤ r), (λ) m = 0, where λ ≡ c − b − m, we have the transformation formula</p>
+
+				<figure>
+					<trash>r+1 F r+1 b, c, (f r + m r ) (f r ) x = e x m+1 F m+1 λ, c, (ξ m + 1) (ξ m ) − x , (2.3) where |x| &lt; ∞. The (ξ m ) are the nonvanishing zeros of the associated parametric polynomial Q m (t) of degree m given by Q m (t) = m j=0 σ m−j j k=0 j k (b) k (t) k (λ − t) m−k ,</trash>
+
+
+				</figure>
+
+				<p>where the σ j (0 ≤ j ≤ m) are determined by the generating relation (2.2).</p>
+
+				<p>In the following Section 3 we shall consider the generalized hypergeometric function w(x) defined for |x| &lt; ∞ by w(x) ≡ r+1 F r+1 (f r+1 + m r+1 ) (f r+1 ) x , where (m r+1 ) is a sequence of positive integers. It is evident that w(x) is an entire function.</p>
+
+				<p>3. Properties of w(x)</p>
+
+				<p>If in Theorem 1 we set b = f r+1 + m r+1 , c = f r+1 and define m ≡ m 1 + · · · + m r , M ≡ m + m r+1 , then λ = −M , (−M ) m = 0 and we find from (</p>
+
+				<figure>
+					<trash>2.3) that w(x) = e x m+1 F m+1 −M, f r+1 , (ξ m + 1) (ξ m ) − x . The (ξ m ) are the nonvanishing zeros of the associated parametric polynomial of degree m given by Q m (t) = m j=0 σ m−j j k=0 j k (f r+1 + m r+1 ) k (t) k (−M − t) m−k , where the σ j (0 ≤ j ≤ m) are generated by (2.2).</trash>
+
+
+				</figure>
+
+				<p>Thus it is evident that w(x) is proportional to a polynomial in x of degree at most M which we define as</p>
+
+				<figure>
+					<trash>P M (x) ≡ m+1 F m+1 −M, f r+1 , (ξ m + 1) (ξ m ) − x .</trash>
+
+
+				</figure>
+
+				<p>Moreover, since e x can never vanish it follows that the entire function w(x) has at most M zeros in the complex plane. However, we shall obtain an explicit representation for P M (x) which shows that its degree is exactly M .</p>
+
+				<p>Theorem 2. Let (m r+1 ) be a sequence of positive integers such that M ≡ m 1 + · · · + m r+1 and let (f r+1 ) be a sequence of complex numbers such that (f 1 ) m1 . . . (f r+1 ) mr+1 is nonvanishing.</p>
+
+				<figure>
+					<trash>Then w(x) = e x P M (x), where P M (x) is a polynomial of degree M given by P M (x) = 1 B 0 M k=0 B k x k , B k ≡ M j=k j k ρ M-j . Here B 0 = (f 1 ) m1 . . . (f r+1 ) mr+1 , B M = 1, and the ρ j (0 ≤ j ≤ M ) are generated by the relation (f 1 + x) m1 . . . (f r+1 + x) mr+1 = M j=0 ρ M-j x j . Proof: Note that ((f r+1 + m r+1 )) n ((f r+1 )) n = (f 1 + n) m1 (f 1 ) m1 . . . (f r+1 + n) mr+1 (f r ) mr+1 ,</trash>
+
+
+				</figure>
+
+				<p>where the numeratorial expression on the right-hand side of the latter may be written as</p>
+
+				<figure>
+					<trash>(f 1 + n) m1 . . . (f r+1 + n) mr+1 = M j=0 ρ M-j n j . (3.1) Thus by (1.1) w(x) ≡ r+1 F r+1 (f r+1 + m r+1 ) (f r+1 ) x = ∞ n=0 ((f r+1 + m r+1 )) n ((f r+1 )) n x n n! = 1 (f 1 ) m1 . . . (f r+1 ) mr+1 M j=0 ρ M-j ∞ n=0 n j x n n! , where the order of the summations has been interchanged. Now employing Lemma 1 we have ∞ n=0 n j x n n! = j k=0 j k ∞ n=0 x n+k n! = e x j k=0 j k x k so that w(x) = e x (f 1 ) m1 . . . (f r+1 ) mr+1 M j=0 ρ M-j j k=0 j k x k , where M j=0 ρ M-j j k=0 j k x k = M k=0</trash>
+
+
+				</figure>
+
+				<p>  M j=k j k ρ M-j   x k .</p>
+
+				<figure>
+					<trash>Defining B k ≡ M j=k j k ρ M-j (0 ≤ k ≤ M ),</trash>
+
+
+				</figure>
+
+				<p>we note that when k = 0 the only contribution to the j-summation comes from j = 0, so that by using (3.1) we find B 0 = ρ M = (f 1 ) m1 . . . (f r+1 ) mr+1 .</p>
+
+				<p>In addition when k = M , the only contribution to the latter summation comes from j = M , so that by again using (</p>
+
+				<figure>
+					<trash>3.1) we see that B M = ρ 0 = 1. Thus w(x) = e x B 0 M k=0 B k x k (3.2) which evidently completes the proof. 2</trash>
+
+
+				</figure>
+
+				<p>Thus we also have the following.</p>
+
+				<figure>
+					<head>Corollary 1.</head>
+
+					<figDesc>The entire function w(x) has exactly M zeros in the complex plane.</figDesc>
+
+				</figure>
+
+				<p>We remark that Ki and Kim <ref type="bibr" target="#b6" coords="5,241.10,196.77,10.57,9.96">[7]</ref> only show the existence of at most M zeros for w(x), whereas from (3.2) we can in principle obtain all of the M zeros. For example,</p>
+
+				<figure>
+					<trash>2 F 2 f + 1, f, g + 1 g x = e x 1 f g x 2 + f + g + 1 f g x + 1 , and here the zeros of P 2 (x) are x 1,2 = − 1 2 (f + g + 1 ± [(f − g) 2 + 2f + 2g + 1] 1/2 ). 4. Summation formulas for r+2 F r+1 ( 1 2 ) In <ref type="bibr" target="#b3" coords="5,112.08,366.69,10.57,9.96">[4]</ref></trash>
+
+
+				</figure>
+
+				<p>we employed Lemma 2 to readily obtain a generalization of the Karlsson-Minton summation formula which is given in the following.</p>
+
+				<figure>
+					<head>Theorem 3.</head>
+
+					<figDesc>Suppose (m r ) is a sequence of positive integers such that m = m 1 + · · · +</figDesc>
+					<trash>m r . Then provided that Re (c − a − b) &gt; m we have r+2 F r+1 a, b, c, (f r + m r ) (f r ) 1 = Γ(c)Γ(c − a − b) Γ(c − a)Γ(c − b) m k=0 A k A 0 (−1) k (a) k (b) k (1 + a + b − c) k , where the A k (0 ≤ k ≤ m) are given by (2.1). However we may also utilize Lemma 2 to obtain summation formulas for r+2 F r+1 ( 1 2 ). To this end we note the following (see, for example, [8, Section 7.3.7 (3)–(6)]) summations for 2 F 1 ( 1 2 ) given by 2 F 1 a, b 1 2 a+ 1 2 b− 1 2 1 2 = √ π Γ( 1 2 a+ 1 2 b+ 1 2 ) Γ( 1 2 a+ 1 2 )Γ( 1 2 b+ 1 2 ) + 2Γ( 1 2 a+ 1 2 b− 1 2 ) Γ(a)Γ(b) , (4.1) 2 F 1 a, b 1 2 a+ 1 2 b 1 2 = √ π Γ( 1 2 a+ 1 2 b) Γ( 1 2 b)Γ( 1 2 a+ 1 2 ) + Γ( 1 2 a+ 1 2 b) Γ( 1 2 a)Γ( 1 2 b+ 1 2 ) , (4.2) 2 F 1 a, b 1 2 a+ 1 2 b+ 1 2 1 2 = √ π Γ( 1 2 a+ 1 2 b+ 1 2 ) Γ( 1 2 a+ 1 2 )Γ( 1 2 b+ 1 2 ) , (4.3) 2 F 1 a, b 1 2 a+ 1 2 b+1 1 2 = 2 √ π a − b Γ( 1 2 a+ 1 2 b+1) Γ( 1 2 a)Γ( 1 2 b+ 1 2 ) − Γ( 1 2 a+ 1 2 b+1) Γ( 1 2 b)Γ( 1 2 a+ 1 2 ) . (4.4) Setting x = 1 2 , s = 2, (a s ) = (a, b), c = 1 2</trash>
+
+
+				</figure>
+
+				<p>(a + b + n), where n = −1, 0, 1, 2, in the first two equations of Lemma 2, we see that</p>
+
+				<figure>
+					<trash>r+2 F r+1 a, b, 1 2 a+ 1 2 b+ 1 2 n, (f r + m r ) (f r ) 1 2 = m k=0 1 2 k A k A 0 (a) k (b) k ( 1 2 a+ 1 2 b+ 1 2 n) k 2 F 1 a + k, b + k 1 2 a+ 1 2 b+ 1 2 n + k 1 2 , (4.5)</trash>
+
+
+				</figure>
+
+				<p>where when r = 0, (f r ) and (f r + m r ) are empty and we define m ≡ 0. Thus the Gauss series 2 F 1 ( 1 2 ) in (4.5) with respectively n = −1, 0, 1, 2 correspond to the left-hand sides of (4.1)–(4.4) with a → a + k and b → b + k. Combining these with (4.5) we therefore deduce the following.</p>
+
+				<figure>
+					<head>Theorem 4.</head>
+
+					<figDesc>Let (m r ) be an arbitrary sequence of positive integers such that m ≡ m 1 + · · · + m r and (f r ) a sequence of complex numbers such that (f 1 ) m1 . . . (f r ) mr = 0. Then</figDesc>
+					<trash>r+2 F r+1 a, b, 1 2 a+ 1 2 b− 1 2 , (f r + m r ) (f r ) 1 2 = 2 √ π A 0 Γ( 1 2 a+ 1 2 b− 1 2 ) Γ(a)Γ(b) m k=0 1 2 k A k 1 + Γ(a+k)Γ(b+k)(a+b−1+2k) 4Γ( 1 2 a+ 1 2 + 1 2 k)Γ( 1 2 b+ 1 2 + 1 2 k) , (4.6) r+2 F r+1 a, b, 1 2 a+ 1 2 b, (f r + m r ) (f r ) 1 2 = 2 a+b−2 A 0 √ π Γ( 1 2 a+ 1 2 b) Γ(a)Γ(b) m k=0 2 k A k Γ( 1 2 a+ 1 2 k)Γ( 1 2 b+ 1 2 + 1 2 k) − Γ( 1 2 b+ 1 2 k)Γ( 1 2 a+ 1 2 + 1 2 k) , (4.7) r+2 F r+1 a, b, 1 2 a+ 1 2 b+ 1 2 , (f r + m r ) (f r ) 1 2 = 2 a+b−2 A 0 √ π Γ( 1 2 a+ 1 2 b+ 1 2 ) Γ(a)Γ(b) m k=0 2 k A k Γ( 1 2 a+ 1 2 k)Γ( 1 2 b+ 1 2 k), (4.8) r+2 F r+1 a, b, 1 2 a+ 1 2 b+1, (f r + m r ) (f r ) 1 2 = 2 a+b−2 A 0 √ π a + b a − b Γ( 1 2 a+ 1 2 b) Γ(a)Γ(b) m k=0 2 k A k Γ( 1 2 b+ 1 2 k)Γ( 1 2 a+ 1 2 k+ 1 2 ) − Γ( 1 2 a+ 1 2 k)Γ( 1 2 b+ 1 2 k+ 1 2 ) , (4.9) where the A k (0 ≤ k ≤ m) are given by (2.1). We have used the duplication formula √ π Γ(2z) = 2 2z−1 Γ(z)Γ(z + 1 2 ) (4.10) to obtain (4.7)–(4.9). Thus, when r = 0, the sequences (f r ) and (f r + m r ) are empty so that m = 0 and (4.6)–(4.9) reduce respectively to (4.1)–(4.4). Since (4.9) is not valid when a = b we may use l&apos;Hôpital&apos;s rule and (4.10) to obtain the limiting case of (4.9), namely r+2 F r+1 a, a, a + 1, (f r + m r ) (f r ) 1 2 = 2 a−1 a A 0 m k=0 A k (a) k ψ( 1 2 a+ 1 2 k+ 1 2 ) − ψ( 1 2 a+ 1 2 k) , where ψ is the digamma or psi function. When r = 0 we retrieve 2 F 1 a, a a + 1 1 2 = 2 a−1 a ψ( 1 2 a+ 1 2 ) − ψ( 1 2 a) which is found in <ref type="bibr">[8, Section 7.3.7 (16)]</ref></trash>
+
+
+				</figure>
+
+				<p>in an equivalent form.</p>
+
+				<p>In addition, if we let r = 1, m 1 = 1 and f 1 = f , so that A 0 = f , A 1 = 1, then we obtain from (4.9) and (4.10) after some straightforward algebra the result (when a = b)</p>
+
+				<figure>
+					<trash>3 F 2 a, b, 1 2 a+ 1 2 b+1, f + 1 f 1 2 = √ π a + b a − b Γ( 1 2 a+ 1 2 b) (a − f )/f Γ( 1 2 b)Γ( 1 2 a+ 1 2 ) − (b − f )/f Γ( 1 2 a)Γ( 1 2 b+ 1 2 ) , which has been obtained by Rathie and Pogány in [9]. 5. A quadratic transformation for 3 F 2 (x) In <ref type="bibr" target="#b3" coords="7,112.80,227.37,10.57,9.96">[4]</ref></trash>
+
+
+				</figure>
+
+				<p>by utilizing Lemma 2 we derived two quadratic transformations for</p>
+
+				<figure>
+					<trash>r+2 F r+1 a, a + 1 2 , c, (f r + m r ) (f r ) X , where X ≡ x 2 /(1 ± x) 2 and X ≡ 4x/(1 + x) 2 .</trash>
+
+
+				</figure>
+
+				<p>As discussed below certain parametric conditions guaranteeing the existence of a quadratic transformation for the Gauss function 2 F 1 (x) restrict the existence of more general quadratic transformations for r+2 F r+1 (x) when the decomposition Lemma 2 is employed. We illustrate this by deducing a quadratic transformation that necessarily is restricted to r = 1 thus giving the quadratic transformation for 3 F 2 (x) in the following theorem.</p>
+
+				<figure>
+					<trash>Theorem 5. Suppose a, b = 1 2 and f = a + b + 1 2 . Then 3 F 2 a, b, a + b + 1 2 , f + 1 f 4x(1 − x) = (1 − 2x) −1 4 F 3 2a − 1, 2b − 1, a + b + 1 2 , ξ 1 + 1, ξ 1 , ξ 2 + 1 ξ 2 x , (5.1) where ξ 1 , ξ 2 are given by ξ 1,2 = α + 1 2 ± [(α + 1 2 ) 2 − 2αf ] 1/2 , α = (2a − 1)(2b − 1) 2(a + b − f ) − 1 . (5.2)</trash>
+
+					<figDesc>The transformation (5.1) holds in a neighborhood of x = 0.</figDesc>
+
+				</figure>
+
+				<p>Proof: From Lemma 2 we have the expansion of r+2 F r+1 (z), with r pairs of parameters differing by the positive integers (m r ), as a finite sum of 2 F 1 (z) functions in the form</p>
+
+				<figure>
+					<trash>r+2 F r+1 a, b, c, (f r + m r ) (f r ) z = 1 A 0 m k=0 z k A k (a) k (b) k (c) k 2 F 1 a + k, b + k c + k z , (5.3)</trash>
+
+
+				</figure>
+
+				<p>where the coefficients A k are defined by (2.1). If we set r = 1, m 1 = 1 and f 1 = f in the above expansion we obtain the particular case</p>
+
+				<figure>
+					<trash>3 F 2 a, b, c, f + 1 f z = 2 F 1 a, b c z + abz cf 2 F 1 a + 1, b + 1 c + 1 z . (5.4) Now let z = X ≡ 4x(1 − x) and define F (x) ≡ 3 F 2 a, b, a + b + 1 2 , f + 1 f X . Then, from (5.4) with c = a + b + 1 2 , we find F (x) = 2 F 1 a, b a + b + 1 2 X + ab cf X 2 F 1 a + 1, b + 1 a + b + 3 2 X . (5.5)</trash>
+
+
+				</figure>
+
+				<p>We now make use of two quadratic transformation formulas for the Gauss hypergeometric function <ref type="bibr">[10,</ref></p>
+
+				<figure>
+					<trash>Section 15.3, (22) and (24)], namely 2 F 1 a, b a + b − j + 1 2 X = (1 − 2x) −j 2 F 1 2a − j, 2b − j a + b − j + 1 2 x , (5.6)</trash>
+
+
+				</figure>
+
+				<p>where j = 0, 1. Application of these transformations with j = 0 and j = 1 respectively to the first and second hypergeometric functions in (5.5) then leads to</p>
+
+				<figure>
+					<trash>F (x) = (1 − 2x) −1 (1 − 2x) 2 F 1 2a, 2b a + b + 1 2 x + 4ab cf x(1 − x) 2 F 1 2a + 1, 2b + 1 a + b + 3 2 x . (5.7) From (1.1) it can be seen that for arbitrary values of c 2 F 1 2a, 2b c x = ∞ n=0 (2a) n (2b) n (c) n x n n! = ∞ n=0 (2a − 1) n (2b − 1) n (c) n x n n! (2a − 1 + n)(2b − 1 + n) (2a − 1)(2b − 1) , x 2 F 1 2a, 2b c x = ∞ n=1 (2a) n−1 (2b) n−1 (c) n−1 x n (n − 1)! = ∞ n=0 (2a − 1) n (2b − 1) n (c) n x n n! n(c − 1 + n) (2a − 1)(2b − 1) , x 2 F 1 2a + 1, 2b + 1 c + 1 x = ∞ n=1 (2a + 1) n−1 (2b + 1) n−1 (c + 1) n−1 x n (n − 1)! = c 4ab ∞ n=0 (2a − 1) n (2b − 1) n (c) n x n n! n(2a − 1 + n)(2b − 1 + n) (2a − 1)(2b − 1) , and x 2 2 F 1 2a + 1, 2b + 1 c + 1 x = ∞ n=2 (2a + 1) n−2 (2b + 1) n−2 (c + 1) n−2 x n (n − 2)! = c 4ab ∞ n=0 (2a − 1) n (2b − 1) n (c) n x n n! n(n − 1)(c − 1 + n) (2a − 1)(2b − 1) ,</trash>
+
+
+				</figure>
+
+				<p>where obvious adjustments to the summation index n have been made. Then, upon setting c = a + b + 1 2 in the above sums, we obtain from (5.7)</p>
+
+				<figure>
+					<trash>F (x) = (1 − 2x) −1 (2a − 1)(2b − 1) ∞ n=0 (2a − 1) n (2b − 1) n (a + b + 1 2 ) n x n n! P 2 (n), where, with γ ≡ f −1 (a + b − 1 2 ) − 1, P 2 (n) = (2a − 1 + n)(2b − 1 + n) 1 + n f − n 2 + n − 1 f (a + b − 1 2 + n) = γn 2 + γ + 1 f (2a − 1)(2b − 1) n + (2a − 1)(2b − 1). (5.8) The quadratic P 2 (n) can be factored to yield P 2 (n) = γ(n + ξ 1 )(n + ξ 2 ), where, provided a, b = 1 2 and f = a + b − 1 2 , ξ 1 and ξ 2 are given by (5.2). Since γξ 1 ξ 2 = (2a − 1)(2b − 1), we therefore see that F (x) = (1 − 2x) −1 ∞ n=0 (2a − 1) n (2b − 1) n (a + b + 1 2 ) n x n n! (n + ξ 1 )(n + ξ 2 ) ξ 1 ξ 2 = (1 − 2x) −1 ∞ n=0 (2a − 1) n (2b − 1) n (a + b + 1 2 ) n (ξ 1 + 1) n (ξ 2 + 1) n (ξ 1 ) n (ξ 2 ) n x n n! ,</trash>
+
+
+				</figure>
+
+				<p>where we have made use of the fact that (λ + 1) n /(λ) n = (n + λ)/λ. This yields (5.1) and so completes the proof.</p>
+
+			</div>
+			<div>
+				<head>2</head>
+
+				<p>We remark that when f = a + b − 1 2 , the coefficient γ = 0 and the polynomial P 2 (n) becomes linear with ξ 1 = f . The formula (5.1) then reduces to the quadratic transformation (5.6) with j = 1. If we try to apply the same reasoning to the more general function with r pairs of parameters differing by the positive integers (m r )</p>
+
+				<figure>
+					<trash>r+2 F r+1 a, b, a + b + 1 2 , (f r + m r ) (f r ) X , (5.9) we obtain from (5.3) a series of m + 1 terms involving the Gauss functions F k ≡ 2 F 1 a + k, b + k a + b + k + 1 2 X (0 ≤ k ≤ m). A quadratic transformation for 2 F 1</trash>
+
+					<figDesc>(α, β; γ | x) exists if and only if any of the quantities ±(1 − γ), ±(α − β), ±(α + β − γ)</figDesc>
+
+				</figure>
+
+				<p>are such that either one of them equals 1 2 or two of them are equal <ref type="bibr">[10, p. 560]</ref>. In this case, the third condition above for the functions F k , with 0 ≤ k ≤ m, has the form α + β − γ = k − 1 2 ; that is, a quadratic transformation exists only when k = 0 and k = 1. Consequently, we are compelled to take r = 1, m = 1 in (5.9).</p>
+
+			</div>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Certain summation and transformation formulas for generalized hypergeometric series</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput . Appl. Math</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page" from="964" to="972" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A generalized Kummer-type transformation for the pFp(x) hypergeometric function</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">B</forename>
+				<surname>Paris</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Math. Bulletin</title>
+		<imprint/>
+	</monogr>
+	<note>to. appear 2011</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Euler-type transformations for the generalized hypergeometric function r+2 F r+1 (x) (submitted for publication</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">B</forename>
+				<surname>Paris</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Transformation formulas for the generalized hypergeometric function with integral parameter differences (submitted for publication</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">B</forename>
+				<surname>Paris</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Karlsson-Minton summation theorems for the generalized hypergeometric series of unit argument</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<forename type="middle">M</forename>
+				<surname>Srivastava</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integral Transforms and Special Functions</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">L</forename>
+				<surname>Graham</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">E</forename>
+				<surname>Knuth</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Patashnik</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Addison-Wesley</publisher>
+		</imprint>
+	</monogr>
+	<note>second. ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">On the zeros of some generalized hypergeometric functions</title>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Ki</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y.-O</forename>
+				<surname>Kim</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Math. Anal. Appl</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">P</forename>
+				<surname>Prudnikov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Yu</forename>
+				<forename type="middle">A</forename>
+				<surname>Brychkov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<forename type="middle">I</forename>
+				<surname>Marichev</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integrals and Series</title>
+		<imprint>
+			<publisher>Gordon and Breach</publisher>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="1990" />
+			<publisher>Gordon and Breach</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">New summation formula for 3 F 2 ( 1 2 ) and a Kummer-type II transformation of 2 F 2 (x)</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">K</forename>
+				<surname>Rathie</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">K</forename>
+				<surname>Pogány</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematical Communications</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="63" to="66" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Mathematical Functions</title>
+		<editor>M. Abramowitz and I. A. Stegun</editor>
+		<meeting><address><addrLine>Dover, New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1965" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

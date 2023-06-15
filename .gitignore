@@ -1,3 +1,4 @@
-file1.xml
-test.xml
-file2.xml
+testingarea/*
+1337.tei.xml
+file*.xml
+__pycache__/*

@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:///data/grobid/grobid-home/schemas/rng/Grobid.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Clausen&apos;s series 3 F 2 (1) with integral parameter differences and transformations of the hypergeometric function 2 F 2 (x)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">A</forename>
+								<forename type="middle">R</forename>
+								<surname>Miller</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Formerly Professor of Mathematics at George</orgName>
+								<orgName type="institution">Washington University</orgName>
+								<address>
+									<addrLine>1616 18th Street NW, No. 210</addrLine>
+									<postCode>20009-2525</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName>
+								<forename type="first">R</forename>
+								<forename type="middle">B</forename>
+								<surname>Paris</surname>
+							</persName>
+							<email>r.paris@abertay.ac.uk</email>
+							<affiliation>
+								<orgName type="department">Division of Complex Systems</orgName>
+								<orgName type="institution">University of Abertay Dundee</orgName>
+								<address>
+									<postCode>DD1 1HG</postCode>
+									<settlement>Dundee</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Clausen&apos;s series 3 F 2 (1) with integral parameter differences and transformations of the hypergeometric function 2 F 2 (x)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>, partial sums of the Gauss function at unit argument</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+<keywords>
+        <term>femininity, individual differences,</term>
+        <term>masculinity,</term>
+        <term>3</term>
+</keywords>
+			</textClass>
+            <abstract>
+				<p>We obtain summation formulas for the hypergeometric series 3F2(1) with at least one pair of numeratorial and denominatorial parameters differing by a negative integer. The results derived for the latter are used to obtain Kummer-type transformations for the generalized hypergeometric function 2F2(x) and reduction formulas for certain Kampé de Fériet functions. Certain summations for the partial sums of the Gauss hypergeometric series 2F1(1) are also obtained.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div>
+				<head n="1">Introduction</head>
+
+				<p>In this paper we consider Clausen&apos;s hypergeometric function 3 F 2 (x) evaluated at unit argument x = 1, namely</p>
+
+				<figure>
+					<trash>3 F 2 a, b, c f, g 1 = ∞ k=0 (a) k (b) k (c) k (f ) k (g) k k! , (1.1)</trash>
+
+
+				</figure>
+
+				<p>where at least one pair of numeratorial and denominatorial parameters differs by a negative integer. The Pochhammer symbol, or ascending factorial, (a) k is defined for all integers k (positive, negative and zero) and complex a by (a) k ≡ Γ(a + k) Γ(a) , where Γ(x) is the gamma function. The series 3 F 2 (1) defined by (1.1) always converges provided that either the parametric excess s ≡ f + g − a − b − c is such that Re(s) &gt; 0 or one of the numeratorial parameters is a negative integer. When a pair of numeratorial and denominatorial parameters differs by a positive integer m, Karlsson <ref type="bibr" target="#b2" coords="1,141.48,618.45,10.45,9.96">[3]</ref> has deduced the summation formula</p>
+
+				<figure>
+					<trash>3 F 2 a, b, c, f + m f 1 = Γ(c)Γ(c − a − b) Γ(c − a)Γ(c − b) m k=0 m k (−1) k (a) k (b) k (f ) k (1 + a + b − c) k , (1.2)</trash>
+
+
+				</figure>
+
+				<p>where here and in the sequel we assume that the parameters of the hypergeometric series 3 F 2 (1) are such that it converges and the summation formula for it makes sense. A generalization of (1.2) has been obtained in <ref type="bibr" target="#b8" coords="2,194.18,49.17,10.57,9.96">[9]</ref> and rederived in <ref type="bibr" target="#b9" coords="2,282.29,49.17,15.49,9.96">[10]</ref> in a somewhat simpler form, namely</p>
+
+				<figure>
+					<trash>r+2 F r+1 a, b, c, (f r + m r ) (f r ) 1 = Γ(c)Γ(c − a − b) Γ(c − a)Γ(c − b) m k=0 α k (−1) k (a) k (b) k (1 + a + b − c) k , (1.3)</trash>
+
+
+				</figure>
+
+				<p>where m ≡ m 1 + · · · + m r , (f r ) denotes the parameter sequence (f 1 , . . . , f r ) and it can be shown <ref type="bibr" target="#b10" coords="2,100.32,125.61,15.49,9.96">[11]</ref> for 0 ≤ k ≤ m that</p>
+
+				<figure>
+					<trash>α k = (−1) k k! r+1 F r −k, (f r + m r ) (f r ) 1 . (1.4)</trash>
+
+
+				</figure>
+
+				<p>In view of the summation formula (1.2) one may ask for an analogous formula for 3 F 2 (1) where at least one pair of numeratorial and denominatorial parameters differs by a negative integer. To this end we shall derive in the present investigation the following summation formulas for positive integers n and p, namely</p>
+
+				<figure>
+					<trash>3 F 2 a, b, c, n n + 1 1 = n!(1 − c) n (1 − a) n (1 − b) n − Γ(c)Γ(1 + c − a − b) Γ(c − a)Γ(1 + c − b) n k=1 (−n) k (b − c) k (b − n) k (1 − a) k , (1.5) 3 F 2 a, b, b + n, c c + 1 1 = cΓ(1 − a)(b) n (b − c) n Γ(c) Γ(1 + c − a) − Γ(b) Γ(1 + b − a) n−1 k=0 (1 − a) k (b − c) k (1 + b − a) k k! (1.6) and 3 F 2 a, b, c, n n + p 1 = (p) n p−1 k=0 (−1) k (n) k p − 1 k (1 − c) k+n (1 − a) k+n (1 − b) k+n +(n) p Γ(c)Γ(c − a − b) Γ(c − a)Γ(c − b) n−1 k=0 (−1) k (p) k n − 1 k (c − a − b) k+p (1 − a) k+p (1 − b) k+p . (1.7) Equations (1.5) [6, (B.5)] and (1.6) <ref type="bibr">[5, (11)]</ref></trash>
+
+
+				</figure>
+
+				<p>are conjectures due to Milgram who deduced them by means of experimental mathematics. We shall prove (1.5), (1.6) and an equivalent form of (1.6) in Section 3. The summation formula (1.7) will be proved in Section 4. Finally, in Section 5 we shall employ these summation theorems to deduce four Kummer-type transformations for the hypergeometric function 2 F 2 (x) and certain reduction formulas for the Kampé de Fériet function. In the next Section 2 we shall establish four preliminary lemmas and a corollary which is a consequence of (1.5)</p>
+
+			</div>
+			<div>
+				<head n="2">Preliminary results</head>
+
+				<p>We shall first prove the specialization p = 1 of (1.7).</p>
+
+				<figure>
+					<head>Lemma 1.</head>
+
+					<figDesc>For positive integers n we have the summation formula</figDesc>
+					<trash>3 F 2 a, b, c, n n + 1 1 = n!(1 − c) n (1 − a) n (1 − b) n − Γ(c)Γ(c − a − b) Γ(c − a)Γ(c − b) n k=1 (−n) k (c − a − b) k (1 − a) k (1 − b) k , (2.1) provided Re(c − a − b) &gt; −1. , c, f f + 1 x = ∞ k=0 (a) k (b) k (c) k (f ) k (f + 1) k x k k! . Since (f ) k /(f + 1) k = f /(f + k), we have x f 3 F 2 a, b, c, f f + 1 x = f ∞ k=0 (a) k (b) k (c) k (f + k) x f +k k! .</trash>
+
+
+				</figure>
+
+				<p>Then differentiation with respect to x of both sides of this equation and division of the result by f x f −1 gives</p>
+
+				<figure>
+					<trash>abx c(f + 1) 3 F 2 a + 1, b + 1, c + 1, f + 1 f + 2 x + 3 F 2 a, b, c, f f + 1 x = 2 F 1 a, b c x . Now setting x = 1 and assuming Re(c − a − b) &gt; −1, we have the recurrence relation 3 F 2 a + 1, b + 1, c + 1, f + 1 f + 2 1 = c(f + 1) ab 2 F 1 a, b c 1 − 3 F 2 a, b, c, f f + 1 1 . (2.2) We shall prove (2.1) by induction. For n = 1, (2.1) reduces to 3 F 2 a, b, c, 1 2 1 = (1 − c) (1 − a)(1 − b) 1 − Γ(c − 1)Γ(1 + c − a − b) Γ(c − a)Γ(c − b)</trash>
+
+
+				</figure>
+
+				<p>which is true and may be obtained by specializing (2.5) with p = 2, q = 1, x = 1 and an application of the Gauss summation theorem for 2 F 1 (1); see <ref type="bibr">[4, 3.13.3 (41)]</ref>. Suppose (2.1) is true for an arbitrary but fixed positive integer n. This is the induction hypothesis. Then by the recurrence relation (2.2) and the induction hypothesis we have for f = n</p>
+
+				<figure>
+					<trash>3 F 2 a, b, c, n + 1 n + 2 1 = (c − 1)(n + 1) (a − 1)(b − 1) 2 F 1 a − 1, b − 1 c − 1 1 − 3 F 2 a − 1, b − 1, c − 1, n n + 1 1 = (c − 1)(n + 1) (a − 1)(b − 1) Γ(c − 1)Γ(1 + c − a − b) Γ(c</trash>
+
+
+				</figure>
+
+				<p>− a)Γ(c − b) − n!(2 − c) n (2 − a) n (2 − b) n</p>
+
+				<figure>
+					<trash>+ Γ(c − 1)Γ(1 + c − a − b) Γ(c − a)Γ(c − b) n k=1 (−n) k (1 + c − a − b) k (2 − a) k (2 − b) k , where we have employed the Gauss summation formula to evaluate 2 F 1 (1). However n k=1 (−n) k (1 + c − a − b) k (2 − a) k (2 − b) k = − (1 − a)(1 − b) (n + 1)(c − a − b) n+1 k=2 (−n − 1) k (c − a − b) k (1 − a) k (1 − b) k = − (1 − a)(1 − b) (n + 1)(c − a − b) n+1 k=1 (−n − 1) k (c − a − b) k (1 − a) k (1 − b) k + (n + 1)(c − a − b) (1 − a)(1 − b) , which when used together with the previous result yields upon simplification 3 F 2 a, b, c, n + 1 n + 2 1 = (n + 1)!(1 − c) n+1 (1 − a) n+1 (1 − b) n+1 − Γ(c)Γ(c − a − b) Γ(c − a)Γ(c − b) n+1 k=1 (−n − 1) k (c − a − b) k (1 − a) k (1 − b) k .</trash>
+
+
+				</figure>
+
+				<p>Thus by the principle of mathematical induction this completes the proof.</p>
+
+			</div>
+			<div>
+				<head>2</head>
+
+				<p>Following Slater <ref type="bibr">[14, p. 83]</ref> we define for nonnegative integers n the partial sum to n + 1 terms of the Gauss function of unit argument</p>
+
+				<figure>
+					<trash>2 F 1 a, b c 1 n ≡ n k=0 (a) k (b) k (c) k k! and prove the following. Lemma 2. For nonnegative integers n 2 F 1 a, b c 1 n = (1 + b) n n! 3 F 2 −n, b, c − a 1 + b, c 1 . Proof : From [14, (2.6.3), p. 81] and [1, Corollary 3.3.5, p. 142] we have respectively n k=0 (a) k (b) k (c) k k! = Γ(1 + a + n)Γ(1 + b + n) Γ(n + 1)Γ(1 + a + b + n) 3 F 2 a, b, c + n 1 + a + b + n, c 1 and 3 F 2 a, b, c f, g 1 = Γ(g)Γ(s) Γ(g − a)Γ(s + a) 3 F 2 a, f − b, f − c f, s + a 1 , where s is the parametric excess. If in this last identity we replace c → c + n and then let f = c, g = 1 + a + b + n, we find 3 F 2 a, b, c + n 1 + a + b + n, c 1 = Γ(1 + a + b + n)Γ(1) Γ(1 + b + n)Γ(1 + a) 3 F 2 a, c − b, −n c, 1 + a 1 = Γ(1 + a + b + n)Γ(1) Γ(1 + a + n)Γ(1 + b) 3 F 2 b, c − a, −n c, 1 + b 1 upon interchanging the parameters a and b. Hence n k=0 (a) k (b) k (c) k k! = Γ(1 + b + n) Γ(1 + b)Γ(n + 1) 3 F 2 −n, b, c − a 1 + b, c 1 and this proves the lemma. 2 Lemma 3. For positive integers n c − a − b c − b n k=1 (−n) k (b − c) k (b − n) k (1 − a) k = n k=1 (−n) k (c − a − b) k (1 − a) k (1 − b) k . (2.3) Proof : It is evident by adjusting the summation index that n k=1 (−n) k (b − c) k (b − n) k (1 − a) k = n(c − b) (b − n)(1 − a) 3 F 2 1 − n, 1, 1 + b − c 1 + b − n, 2 − a 1 and n k=1 (−n) k (c − a − b) k (1 − a) k (1 − b) k = − n(c − a − b) (1 − a)(1 − b) 3 F 2 1 − n, 1, 1 + c − a − b 2 − a, 2 − b 1 . Thus, upon replacing n → n + 1, we see that (2.3) is equivalent to 3 F 2 −n, 1, 1 + b − c 2 − a, b − n 1 = n + 1 − b 1 − b 3 F 2 −n, 1, 1 + c − a − b 2 − a, 2 − b 1 . (2.4)</trash>
+
+
+				</figure>
+
+				<p>This result may be obtained from the transformation <ref type="bibr">[1, p. 142]</ref></p>
+
+				<figure>
+					<trash>3 F 2 −n, α, β δ, ǫ 1 = (ǫ − α) n (ǫ) n 3 F 2 −n, α, δ − β δ, 1 + α − ǫ − n 1 with α = 1, β = 1 + b − c, δ = 2 − a and ǫ = b − n. Thus (2.3) and (2.4) are equivalent and this proves the lemma. 2 We define the product of p Pochhammer symbols ((a p )) k ≡ (a 1 ) k · · · (a p ) k ,</trash>
+
+
+				</figure>
+
+				<p>where when p = 0 the product reduces to unity.</p>
+
+				<figure>
+					<trash>Lemma 4. For positive integers n p+1 F q+1 (a p ), (b q ), 1 n + 1 x = (−1) n(p−q) n! x n ((1 − b q )) n ((1 − a p )) n × p F q (a p − n) (b q − n) x − n−1 k=0 ((a p − n)) k ((b q − n)) k x k k! . (2.5) Proof : Let us denote the left-hand side of (2.5) by S. Then, since 1 (n + 1) k = n! (1) n+k , we have S = n! ∞ k=0 ((a p )) k ((b q )) k x k (1) n+k = n! ∞ k=n ((a p )) k−n ((b q )) k−n x k−n k! . Use of the identity (α) k−n = (−1) n (α − n) k (1 − α) n then yields S = (−1) n(p−q) n! x n ((1 − b q )) n ((1 − a p )) n ∞ k=n ((a p − n)) k ((b q − n)) k x k k! and the lemma follows. 2</trash>
+
+					<figDesc>We remark that (2.5) is recorded incorrectly in [13, 7.2.3 (19)], but certainly the result is well known. Although we shall prove (1.5) in Section 3 we now exploit the a ↔ b symmetry of this result to obtain the following.</figDesc>
+					<head>Corollary 1.</head>
+
+
+				</figure>
+
+				<figure>
+					<figDesc>For nonnegative integers n</figDesc>
+					<trash>2 F 1 a, b c 1 n = (1 + a) n (1 + b) n (c) n n! n k=0 (−n) k (1 + a + b − c) k (1 + a) k (1 + b) k . (2.6)</trash>
+
+
+				</figure>
+
+				<figure>
+					<figDesc>Proof : Since the right-hand side of (1.5) must remain the same when the parameters a and b are interchanged, it follows that</figDesc>
+					<trash>1 c − b n k=1 (−n) k (b − c) k (b − n) k (1 − a) k = 1 c − a n k=1 (−n) k (a − c) k (a − n) k (1 − b) k . Now replace a → 1 − a + n and c → 1 + b − c + n so that 1 c − 1 − n n k=1 (−n) k (c − 1 − n) k (b − n) k (a − n) k = 1 c − a − b n k=1 (−n) k (c − a − b) k (1 − a) k (1 − b) k .</trash>
+
+
+				</figure>
+
+				<p>By reversing the index k → n − k in the left-hand summation and employing the identity</p>
+
+				<figure>
+					<trash>(α − n) n−k = (−1) n−k (1 − α) n (1 − α) k , we have upon replacing a → 1 − a, b → 1 − b and c → 2 − c n−1 k=0 (a) k (b) k (c) k k! = 1 c − a − b (a) n (b) n (c) n−1 n! n k=1 (−n) k (a + b − c) k (a) k (b) k .</trash>
+
+
+				</figure>
+
+				<p>Finally, by adjusting the index k in the right-hand summation and then letting n → n + 1 in the resulting equation, we deduce (2.6). 2</p>
+
+			</div>
+			<div>
+				<head n="3">Proof of Milgram&apos;s conjectures</head>
+
+				<p>That Milgram&apos;s (1.5) is equivalent to (2.1) is seen by means of Lemma 3. Moreover, Milgram suggests that (1.5) can be obtained by employing the Thomae two-term relation <ref type="bibr">[1, Corollary 3.3.6, p. 143]</ref></p>
+
+				<figure>
+					<trash>3 F 2 a, b, c f, g 1 = Γ(f )Γ(g)Γ(s) Γ(b)Γ(s + a)Γ(s + c) 3 F 2 s, f − b, g − b s + a, s + c 1</trash>
+
+					<figDesc>together with the conjecture (1.6) and this does indeed yield (1.5). Next we shall give a derivation of (1.6), which we restate below.</figDesc>
+					<head>Theorem 1.</head>
+
+
+				</figure>
+
+				<figure>
+					<figDesc>For positive integers n</figDesc>
+					<trash>3 F 2 a, b, b + n, c c + 1 1 = cΓ(1 − a)(b) n (b − c) n Γ(c) Γ(1 + c − a) − Γ(b) Γ(1 + b − a) n−1 k=0 (1 − a) k (b − c) k (1 + b − a) k k! .</trash>
+
+
+				</figure>
+
+				<p>Proof : We employ one of Thomae&apos;s three-term relations for 3 F 2 (1) given by <ref type="bibr">[13, 7.4.4 (3)]</ref></p>
+
+				<figure>
+					<trash>3 F 2 a, b, c f, g 1 = Γ(f )Γ(g)Γ(c − b) Γ(c)Γ(f − b)Γ(g − b) Γ(1 − a) Γ(1 + b − a) 3 F 2 b, 1 + b − f, 1 + b − g 1 + b − a, 1 + b − c 1 + Γ(f )Γ(g)Γ(b − c) Γ(b)Γ(f − c)Γ(g − c) Γ(1 − a) Γ(1 + c − a) 3 F 2 c, 1 + c − f, 1 + c − g 1 + c − a, 1 + c − b 1 , where Re(f</trash>
+
+					<figDesc>+ g − a − b − c) &gt; 0. In this set f = b + n and g = c + 1, thus giving for positive integers n the result</figDesc>
+					<trash>3 F 2 a, b, b + n, c c + 1 1 = (b) n (b − c) n Γ(1 + c)Γ(1 − a) Γ(1 + c − a) + c(b) n (c − b)Γ(n) Γ(b)Γ(1 − a) Γ(1 + b − a) 3 F 2 1 − n, b, b − c 1 + b − a, 1 + b − c 1 . (3.1) Now in Lemma 2 let a → 1 − a, b → b − c, c → 1 + b − a and n → n − 1 thus yielding n−1 k=0 (1 − a) k (b − c) k (1 + b − a) k k! = (1 + b − c) n−1 (n − 1)! 3 F 2 1 − n, b − c, b 1 + b − c, 1 + b − a 1 = (b − c) n (b − c)Γ(n) 3 F 2 1 − n, b, b − c 1 + b − a, 1 + b − c 1</trash>
+
+
+				</figure>
+
+				<figure>
+					<figDesc>, which when used together with (3.1) completes the proof of the theorem. 2</figDesc>
+
+				</figure>
+
+				<p>It appears that Theorem 1 could also be obtained from [13, 7.2.3 (21)] by specialization, but the latter result is incorrect and, moreover, its origin is unknown.</p>
+
+				<figure>
+					<trash>4. Proof of (1.7) Employing Lemma 4, we have for positive integers p 1 p + 1 x = ξ p x −p 2 F 1 a − p, b − p c − p x − p−1 k=0 (a − p) k (b − p) k (c − p) k k! x k−p , where ξ p ≡ (−1) p p!(1 − c) p (1 − a) p (1 − b) p .</trash>
+
+
+				</figure>
+
+				<p>Now differentiation of this identity n times with respect to x yields</p>
+
+				<figure>
+					<trash>(a) n (b) n (1) n (c) n (p + 1) n 3 F 2 a + n, b + n, n + 1 c + n, n + p + 1 x = ξ p S 1 (x) − S 2 (x) , where S 1 (x) ≡ d n dx n x −p 2 F 1 a − p, b − p c − p x and S 2 (x) ≡ p−1 k=0 (a − p) k (b − p) k (c − p) k k! d n x k−p dx n . Recalling Leibniz&apos;s rule d n dx n u(x)v(x) = n k=0 n k d n−k u(x) dx n−k d k v(x) dx k and d n dx n x ν = (−1) n (−ν) n x ν−n , we may write 3 F 2 a + n, b + n, n + 1 c + n, n + p + 1 x = (c) n (p + 1) n ξ p (a) n (b) n n! S 1 (x) − S 2 (x) , (4.1) where S 1 (x) = n k=0 n k (−1) n−k x k−n−p (p) n−k (a − p) k (b − p) k (c − p) k 2 F 1 a − p + k, b − p + k c − p + k x , (4.2) S 2 (x) = (−1) n x n+p p−1 k=0 (a − p) k (b − p) k (c − p) k k! (p − k) n x k . (4.3) In (4.1) – (4.3) set x = 1 and replace a → a − n, b → b − n and c → c − n. Then by using in (4.2) the Gauss summation theorem 2 F 1 a − n − p + k, b − n − p + k c − n − p + k 1 = Γ(c − n − p + k)Γ(c − a − b + n + p − k) Γ(c − a)Γ(c − b) , we have 3 F 2 a, b, n + 1 c, n + p + 1 1 = (−1) p (n + p)! n! (c − n) n (a − n) n (b − n) n (1 − c + n) p (1 − a + n) p (1 − b + n) p × (−1) n+1 S + Γ(c − n − p) Γ(c − a)Γ(c − b) T , (4.4) where S ≡ p−1 k=0 (a − n − p) k (b − n − p) k (c − n − p) k (p − k) n k! and T ≡ n k=0 n k (−1) n−k (p</trash>
+
+
+				</figure>
+
+				<p>) n−k (a − n − p) k (b − n − p) k Γ(c − a − b + n + p − k).</p>
+
+				<p>If, in the first sum S in (4.4), we reverse the summation index k → p − k and note that</p>
+
+				<figure>
+					<trash>(a − n − p) p−k = Γ(a) Γ(a − n − p) (−1) n+k (1 − a) n+k , (k) n = Γ(n) Γ(k) (n) k , 1 (1) p−k = (−1) k (−p) k p! , we obtain S = Γ(a)Γ(b) Γ(c) Γ(c − n − p) Γ(a − n − p)Γ(b − n − p) (−1) n Γ(n) p! p k=1 (1 − c) n+k (1 − a) n+k (1 − b) n+k (−p) k (n) k Γ(k) .</trash>
+
+
+				</figure>
+
+				<p>Now adjusting the summation index so that it starts at k = 0 and using</p>
+
+				<figure>
+					<trash>(−1) k (1 − p) k k! = p − 1 k , we find S = Γ(a)Γ(b) Γ(c) Γ(c − n − p) Γ(a − n − p)Γ(b − n − p) (−1) n+1 n! (p − 1)! × p−1 k=0 (−1) k (n + 1) k p − 1 k (1 − c) n+k+1 (1 − a) n+k+1 (1 − b) n+k+1 . (4.5)</trash>
+
+					<figDesc>Proceeding in a similar manner for the second sum T in (4.4), upon redefining the summation index k → n − k and using the symmetry of the binomial coefficient, we have</figDesc>
+					<trash>T = Γ(a)Γ(b)Γ(c − a − b) Γ(a − n − p)Γ(b − n − p) n k=0 (−1) k n k (p) k (c − a − b) k+p (1 − a) k+p (1 − b) k+p . (4.6) Finally, combining (4.4) – (4.6</trash>
+
+
+				</figure>
+
+				<figure>
+					<figDesc>) followed by some routine simplification and then replacing n → n − 1, we deduce the summation formula (1.7). 2</figDesc>
+
+				</figure>
+
+			</div>
+			<div>
+				<head n="5">Transformation and reduction formulas</head>
+
+				<p>Few Kummer-type transformations (containing a finite number of terms) for the confluent hypergeometric function 2 F 2 (x) are extant in the literature. Miller <ref type="bibr" target="#b6" coords="8,355.23,446.85,10.45,9.96">[7]</ref> deduced the two-term Kummer-type transformation due to Exton <ref type="bibr" target="#b1" coords="8,228.99,458.85,10.57,9.96">[2]</ref></p>
+
+				<figure>
+					<trash>2 F 2 a, b, 1 + 1 2 a 1 2 a x = e x 2 F 2 b − a − 1, b, 2 + a − b 1 + a − b − x , (5.1)</trash>
+
+
+				</figure>
+
+				<p>which has been extended by Paris <ref type="bibr" target="#b11" coords="8,251.78,516.45,15.49,9.96">[12]</ref> who obtained</p>
+
+				<figure>
+					<trash>2 F 2 a, b, c + 1 c x = e x 2 F 2 b − a − 1, b, ξ + 1 ξ − x , (5.2) where ξ ≡ c(1 + a − b) a − c .</trash>
+
+
+				</figure>
+
+			</div>
+			<div>
+				<head>Paris [12]</head>
+
+				<p>also obtained a multiple-term Kummer-type transformation given by</p>
+
+				<p><formula>2 F 2 a, b, c + n c x = e x n k=0 n k x k (c) k 2 F 2 b − a, b, c + n c + k − x , (5.3)</formula></p>
+
+				<p>where n is a positive integer. Moreover, specialization of the result [4,</p>
+
+				<figure>
+					<trash>9.1 (34)] recorded by Luke gives 2 F 2 a, f b, c x = ∞ k=0 (a) k (c − f ) k (b) k (c) k (−x) k k! 1 F 1 a + k b + k x ,</trash>
+
+					<figDesc>whereupon letting f = c + n and employing Kummer&apos;s transformation for the confluent hypergeometric function 1 F 1 (x) we easily obtain for n a positive integer</figDesc>
+					<trash>2 F 2 a, b, c + n c x = e x n k=0 n k (a) k x k (b) k (c) k 1 F 1 b − a b + k − x . (5.4)</trash>
+
+
+				</figure>
+
+				<p>In each of the results (5.1) – (5.4) one pair of numeratorial and denominatorial parameters in the left-hand 2 F 2 (x) function differs by a positive integer. In what follows we shall employ the summation formulas (1.5) – (1.7) and (3.1) to obtain multiple-term Kummer-type transformations for 2 F 2 (x) in which at least one pair of numeratorial and denominatorial parameters differs by a negative integer. For this, we shall make use of the expansion</p>
+
+				<figure>
+					<trash>2 F 2 a, b c, f x = e x ∞ k=0 3 F 2 −k, a, b c, f 1 (−x) k k! (5.5)</trash>
+
+
+				</figure>
+
+				<p>which can be obtained by specialization from a more general result recorded in [16, p. 166].</p>
+
+				<figure>
+					<figDesc>In (1.5) – (1.7) now let a = −k thus giving for nonnegative integers k respectively</figDesc>
+					<trash>3 F 2 −k, b, c, n n + 1 1 = (1 − c) n (1) k (1 − b) n (1 + n) k − n ℓ=1 (−n) ℓ (b − c) ℓ (b − n) ℓ ℓ! (1 + c − b) k (1) k (c) k (1 + ℓ) k , (5.6) 3 F 2 −k, b, b + n, c c + 1 1 = (b) n (b − c) n (1) k (1 + c) k − c b n−1 ℓ=0 (b − c) ℓ (1 + b) ℓ (1 + ℓ) k (1 + b + ℓ) k , (5.7) 3 F 2 −k, b, c, n n + p 1 = p−1 ℓ=0 A ℓ (1 − c) n+ℓ (1 − b) n+ℓ (1) k (1 + n + ℓ) k + n−1 ℓ=0 B ℓ (c − b) p+ℓ (1 − b) p+ℓ (c − b + p + ℓ) k (1) k (1 + p + ℓ) k (c) k , (5.8) where for nonegative integers ℓ the coefficients A ℓ and B ℓ are defined by A ℓ ≡ (p) n (n − 1)! (1 − p) ℓ ℓ! 1 n + ℓ , B ℓ ≡ (n) p (p − 1)! (1 − n) ℓ ℓ! 1 p + ℓ . (5.9) Then, employing (5.5) we deduce respectively the multiple-term Kummer-type transformation formulas 2 F 2 b, c, n n + 1 x = e x (1 − c) n (1 − b) n 1 F 1 1 n + 1 − x − n ℓ=1 (−n) ℓ (b − c) ℓ (b − n) ℓ ℓ! 2 F 2 1 + c − b, c, 1 1 + ℓ − x , (5.10) 2 F 2 b, b + n, c c + 1 x = e x (b) n (b − c) n 1 F 1 1 c + 1 − x − c b n−1 ℓ=0 (b − c) ℓ (1 + b) ℓ 1 F 1 1 + ℓ 1 + b + ℓ − x , (5.11) 2 F 2 b, c, n n + p x = e x p−1 ℓ=0 A ℓ (1 − c) n+ℓ (1 − b) n+ℓ 1 F 1 1 1 + n + ℓ − x + n−1 ℓ=0 B ℓ (c − b) p+ℓ (1 − b) p+ℓ 2 F 2 c − b + p + ℓ, c, 1 1 + p + ℓ − x . (5.12) In a similar manner we obtain from (3.1) the alternative form of (5.7) given by 3 F 2 −k, b, b + n, c c + 1 1 = (b) n (b − c) n (1) k (1 + c) k − c(b − c) n (n − 1)! × n−1 ℓ=0 (1 − n) ℓ (b + ℓ)(b − c + ℓ) ℓ! (1) k (1 + b + ℓ) k . (5.13) This in turn yields the alternative form of the Kummer-type transformation (5.11), namely 2 F 2 b, b + n, c c + 1 x = e x (b) n (b − c) n 1 F 1 1 c + 1 − x − c(b − c) n (n − 1)! n−1 ℓ=0 (1 − n) ℓ (b + ℓ)(b − c + ℓ) ℓ! 1 F 1 1 1 + b + ℓ − x . (5.14)</trash>
+
+
+				</figure>
+
+				<p>We remark that Prudnikov et al. <ref type="bibr">[13, 7.12.1 (2)]</ref> records for positive integers n the identity</p>
+
+				<figure>
+					<trash>2 F 2 b, b + n, c c + 1 x = (b) n (b − c) n 1 F 1 c c + 1 x − c b n−1 ℓ=0 (b − c) ℓ (1 + b) ℓ 1 F 1 b 1 + b + ℓ x .</trash>
+
+
+				</figure>
+
+				<p>This also yields, upon use of Kummer&apos;s transformation for 1 F 1 (x), the transformation (5.11). The above transformations for 2 F 2 (x) can also be obtained as specializations of reduction formulas for certain hypergeometric functions in two variables known as the Kampé de Fériet function. The latter function in two complex variables is defined by the double infinite series (see, for example, <ref type="bibr">[15]</ref>)</p>
+
+				<figure>
+					<trash>F r:q;u s : t;v (a r ) : (b s ) : (α q ); (β t ); (γ u ) (δ v ) x, y ≡ ∞ k=0 ∞ ℓ=0 ((a r )) k+ℓ ((b s )) k+ℓ ((α q )) k ((β t )) k ((γ u )) ℓ ((δ v )) ℓ x k k! y ℓ ℓ! .</trash>
+
+
+				</figure>
+
+				<p>Thus, employing the identity <ref type="bibr" target="#b7" coords="10,229.95,404.85,10.57,9.96">[8]</ref></p>
+
+				<figure>
+					<trash>F r:2;0 s:2;0 (a r ) : (b s ) : a, b ; c, f ; x, −x = ∞ k=0 ((a r )) k ((b s )) k 3 F 2 −k, a, b c, f 1 (−x) k k! (5.15) together with (5.6) – (5.8) and (5</trash>
+
+					<figDesc>.13) four reduction formulas for the Kampé de Fériet function may be obtained. For brevity, we record only the two salient results obtained respectively from</figDesc>
+					<trash>(5.7) and (5.8), namely F r:2;0 s:2;0 (a r ) : (b s ) : b, b + n, c c + 1 ; ; x, −x = (b) n (b − c) n r+1 F s+1 (a r ), (b s ), 1 c + 1 − x − c b n−1 ℓ=0 (b − c) ℓ (1 + b) ℓ r+1 F s+1 (a r ), (b s ), 1 + ℓ 1 + b + ℓ − x (5.16) and F r:2;0 s:2;0 (a r ) : (b s ) : b, c, n n + p ; ; x, −x = p−1 ℓ=0 A ℓ (1 − c) n+ℓ (1 − b) n+ℓ r+1 F s+1 (a r ), (b s ), 1 1 + n + ℓ − x + n−1 ℓ=0 B ℓ (c − b) p+ℓ (1 − b) p+ℓ r+2 F s+2 (a r ), (b s ), c − b + p + ℓ, 1 c, 1 + p + ℓ − x , (5.17)</trash>
+
+
+				</figure>
+
+				<figure>
+					<figDesc>where a solid horizontal line indicates an empty parameter sequence, and the coefficients A ℓ and B ℓ are given by (5.9). We remark that (5.5), (5.11) and (5.12) may respectively be obtained from (5.15), (5.16) and (5.17) by specializing the latter three results with r = s = 0.</figDesc>
+
+				</figure>
+
+			</div>
+			<div>
+				<head n="6">Concluding remarks</head>
+
+				<p>Although in the present investigation we have derived several conjectured and new summation formulas for the series 3 F 2 (1) in which one pair of numeratorial and denominatorial parameters differs by a negative integer, there remains open the problem of deducing a summation formula for the series</p>
+
+				<figure>
+					<trash>3 F 2 a, b, c, f f + n 1 ,</trash>
+
+
+				</figure>
+
+				<p>where n is a positive integer and a, b, c and f are arbitrary complex numbers. We hope that the developments presented herein will stimulate further interest in this problem.</p>
+
+			</div>
+
+			<note place="foot" n="3"> F 2 a, b, c,</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Special Functions</title>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">E</forename>
+				<surname>Andrews</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Askey</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Roy</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">On the reducibility of the Kampé de Fériet function</title>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Exton</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Appl. Math</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="119" to="121" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Hypergeometric functions with integral parameter differences</title>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">W</forename>
+				<surname>Karlsson</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="270" to="271" />
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The Special Functions and their Approximations Vol. I and II</title>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Luke</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1969" />
+			<publisher>Academic Press</publisher>
+			<pubPlace>San Diego</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">On some sums of digamma and polygamma functions</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">S</forename>
+				<surname>Milgram</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">S</forename>
+				<surname>Milgram</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">On a Kummer-type transformation for the generalized hypergeometric function 2 F 2</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Appl. Math</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="507" to="509" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A summation formula for Clausen&apos;s series 3 F 2 (1) with an application to Goursat&apos;s function 2 F 2 (x)</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. A: Math. Gen</title>
+		<imprint>
+			<biblScope unit="page" from="38" to="3541" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Karlsson-Minton summation theorems for the generalized hypergeometric series of unit argument</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<forename type="middle">M</forename>
+				<surname>Srivastava</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integral Transforms and Special Functions</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="603" to="612" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Transformation formulas for the generalized hypergeometric function with integral parameter differences</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">B</forename>
+				<surname>Paris</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>to. appear in Rocky Mountain J. Math</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">On a result related to transformations and summations of generalized hypergeometric series (submitted for publication</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Miller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">B</forename>
+				<surname>Paris</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A Kummer-type transformation for a 2 F 2 hypergeometric function</title>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">B</forename>
+				<surname>Paris</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Appl. Math</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="379" to="382" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">P</forename>
+				<surname>Prudnikov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Yu</forename>
+				<forename type="middle">A</forename>
+				<surname>Brychkov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<forename type="middle">I</forename>
+				<surname>Marichev</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integrals and Series</title>
+		<imprint>
+			<publisher>Gordon and Breach</publisher>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="1990" />
+			<publisher>Gordon and Breach</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Generalized Hypergeometric Functions</title>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">J</forename>
+				<surname>Slater</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Srivastava</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">W</forename>
+				<surname>Karlsson</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Multiple Gaussian Hypergeometric Series</title>
+		<meeting><address><addrLine>Ellis Horwood, Chichester</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">A Treatise on Generating Functions</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Srivastava</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<forename type="middle">L</forename>
+				<surname>Manocha</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<pubPlace>Ellis Horwood, Chichester</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
