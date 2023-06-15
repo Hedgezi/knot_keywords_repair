@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/06/yarn/nm/usercache/lanastasiou/filecache/20/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-22T11:12+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Speed Control of Parallel Connected DSIM Fed by Six Phase Inverter with IFOC Strategy Using ANFIS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-09">September 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ankarao</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Dr</roleName><forename type="first">M</forename><surname>Vijayaku Mar</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Professor</roleName><forename type="first">N</forename><surname>Premanath Ku Mar 3 1 Assistant</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">PG Scholar</orgName>
+								<orgName type="department" key="dep2">Dept.of Electrical Engineering</orgName>
+								<orgName type="institution">JNTUA College of Engineering</orgName>
+								<address>
+									<settlement>Ananatapur, Andhra Pradesh</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Dept.of Electrical Engineering</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Speed Control of Parallel Connected DSIM Fed by Six Phase Inverter with IFOC Strategy Using ANFIS</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">International Journal of Research and Engineering</title>
+						<imprint>
+							<biblScope unit="volume">04</biblScope>
+							<biblScope unit="issue">09</biblScope>
+							<biblScope unit="page" from="244" to="250"/>
+							<date type="published" when="2017-09">September 2017</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Key terms: Double Star Induction Motor (DSIM)</term>
+					<term>Fuzzy logic controller (FLC)</term>
+					<term>Indirect Field Oriented Control (IFOC)</term>
+					<term>Adaptive Neuro Fuzzy Inference (ANFIS)</term>
+					<term>and Six Phase Inverter</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper describe the presentation of an IM for high load and high-power applications, this kind of applications the motor have a complex coupling between the field and torque. This can be achieve with assist of Indirect Field Oriented Control (IFOC) and parallel connection of two motors. The benefit is that parallel connection can provide the decoupled control of flux and torque for each motor and their concert in different operating environments. The S peed control of two Double S tar Induction Motors working in parallel configuration with IFOC using a Fuzzy Logic Controller (FLC) and Adaptive Neuro Fuzzy Inference (ANFIS) controller is investigate in different operating environments. The two motors are connected in parallel at the output of a single six-phase PWM based inverter fed from a DC source. Performance of the projected method under load disturbances is studied through simulation using a MATLAB and e valuation of speed response of two controllers is analyzed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>In the industrialized applicat ions where high reliability is demanded, multi-phase induction machine is used instead of 3-phase IM. The DSIM is being used in many applicat ions, but the main comp lexity to control this mach ine resides in the fact that complex coupling exists between the field and the torque. The field-oriented control (FOC) technique has been proposed in industry for high performance induction mach ine drive. The control aim is to produce a decoupled control of the flu x and the torque of the mach ine. This method is being applied to conventional three-phase IM, but its purpose is to encourage a multi phase machine fo r high-power applications. A DSIM drive, particularly for h igh-power applicat ions, has been increased considerably over the years <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. This kind of machine is composed of two windings with a 30-electrical degree phase shift. These windings are normally fed by a six-phase inverter supply in VSD <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. With this major advantages, the drive method with two Double Star Induction Motors working in parallel and fed by a single PWM based SPVSI can be used in some applications particularly in the field of high power electric/hybrid vehicles, rolling stock traction system such as locomotive and electric ship propulsion <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>. The major advantages of this motor are: 1. Reduction in torque ripple. 2. Reduction of rotor harmon ics as they can be filtered. 3. DC-link current harmonics can be reduced. 4. This machine works when the one or more phases in fault. <ref type="bibr">[1-4, 7, 8, and 10]</ref>.</p><p>In current years, various parallel configurations has been projected for two mult i-phase machines drive to feed them fro m a single VSI <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref>. A mong mu lti-phase mach ines; 5-phase and 6-phase machines are more co mmon. A parallel configuration to feed two 5-phase motor fro m a single VSI is reco mmended in <ref type="bibr" target="#b10">[11]</ref>, and a sliding mode control based speed control of two 6-phase motors connected in parallel to a single VSI supply is projected in <ref type="bibr" target="#b3">[4]</ref>.</p><p>These parallel configurations offer a decoupled control of flu x and torque and each machine performance is evaluated experimentally. Speed control of indirect field oriented controlled DSIMs connected in parallel to a single SPVSI supply using FLC and ANFIS is investigated. This kind system is suitable for applications using dual DSIMs with the benefit of compactness, weightlessness and economy <ref type="bibr" target="#b11">[12]</ref>.Though, the control performance of the DSIM is still influenced by the parameters variations in motor, particu larly the rotor time constant. Against this disadvantage, we presented a robust control technique based on ANFIS logic. For this reason, in order to make the control system insensitive to parameter variations, this study is to design a suitable control scheme IFOC DSIM drive where the stator voltage waveforms are generated by SPVSI. FLC and ANFIS have been effectively used for a small number of nu mbers of nonlinear and complex processes. The FLC and ANFIS are robust and their performance is insensitive to the parameter variations contrary to conventional regulators. Against this disadvantage, we suggest a robust control method based on fuzzy logic. For this, the FLC has been suggested to achieve robust performance of indirect field-oriented control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. SYS TEM CONFIGURATION</head><p>A diagram of the IFOC of dual motors connected in parallel to a SPVSI supply is shown in <ref type="figure" target="#fig_0">Fig. 1</ref>. This method has been adopt in order to avoid the over magnetizat ion of these motors. This technique is characterized by the slip angular speed calculation, the stator flu x angle calculation and the rotor angular speed calculation. Two DSIMs speeds are measured using sensors. The torque reference of each DSIM is calcu lated by the difference between reference speeds. FLC and ANFIS controllers are used in the speed control loops for the DSIMs as shown in the <ref type="figure" target="#fig_0">Fig.1</ref>. The other block in the fig can be found in the conventional field vector control technique <ref type="bibr" target="#b0">[1]</ref>. Study of the drive system in the PWM mode in the middle speed region and in the single pulse mode in the high-speed region is performed. The robustness of the projected technique is checked in terms of motor speed and load fluctuations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. DS IM MOD LEING</head><p>Equations used to model each DSIM in the Park reference frame are Stator and Rotor voltage Equations are:</p><formula xml:id="formula_0">V ds1 = Rs I ds1 + P ds1 -Ws qs1</formula><p>(1) </p><formula xml:id="formula_1">V ds2 = Rs I ds2 + P ds2 -Ws qs2 (2) V qs1 = Rs I qs1 + P qs1 + Ws ds1 (3) V</formula><formula xml:id="formula_2">[(I qs1 +I qs2 )  dr -(I ds1 +I ds2 )  qr ] (13) Mechanical equation of each DSIM is: T em-M -T L-M = J P  M + K f  M (14)</formula><p>where W s is the synchronous reference frame; L s and L r are stator and rotor inductances, respectively; L m is the mutual inductance; P M is the no. of pole pairs; J is the mo ment of inertia; k f is the viscous friction coefficient; T L−M is the load torque; W r−M is the rotor electrical angular speed;  is the rotor mechanical angular speed, and M denotes DSIM-1 or DSIM -2.All of these parameters are for each of the two DSIMs. The currents, i s1 and i s2 , flowing in each motor can be expressed by i s which flo ws equally in both motors, and i s1 and i s2 which circulates between the two motors. Currents flowing in the parallel connected DSIMs are shown in <ref type="figure" target="#fig_1">Fig.3</ref> and the association of these currents is given below:</p><formula xml:id="formula_3">i s1 = is 1 m1 + is 1 m2 , i s2 = is 2 m1 + is 2 m2 ∆Is1 = is1m2− is1m1 2 And ∆Is2 = is2m2− is2m1 2</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. DUAL DS IM'S FIELD ORIENTED CONTROL</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Reference -Frame:</head><p>By selecting the orientation of the rotor flu x lin kage, the electromagnetic torque and rotor flu x linkage will be linked direct ly to the stator current components. Assume the rotor flu x lin kages are aligned with the d-axis:</p><formula xml:id="formula_4"> dr = r ‫٭‬ ( 15 )  qr = 0 (16) Thus, r‫٭‬ = r1‫٭‬ +r2‫٭‬ 2</formula><p>Where r1 ‫٭‬ and r2 ‫٭‬ are Flu x linkages.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Control Strategy:</head><p>The reference voltages (V ds1 ‫٭‬ , V qs1 ‫٭‬ , Vds2 ‫٭‬ and V qs2 ‫٭‬ ) are derived by substituting Eqs. <ref type="formula">(15)</ref> and <ref type="formula">(16)</ref>   <ref type="figure">Fig.2</ref>.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. FUZZY CONTROLLER:</head><p>This FLC theory is based on the approach of expert data to take the decision. FLC is proposed in <ref type="figure">Fig.4</ref>. FLC is an interesting choice to the traditional controllers such as PI, P and PID etc. This may not yield fully acceptable control performance if the controlled dynamic p lant is highly non - linear, uncertain and operates over a wide range <ref type="bibr" target="#b17">[18]</ref>. FLC using the product-sum-gravity inference technique consists of four blocks: fuzzification, knowledge base, inference mechanis m and deffuzification <ref type="bibr" target="#b4">[5]</ref>. The input variables of FLC are the error, E N , and changes in error, E CN , signals.</p><p>The output variable is generated fro m fu zzy rule base and product-sum-gravity method. After the control is computed, defuzzifier is used to obtain the crisp signal. The speed error and error change signals are defined as:</p><formula xml:id="formula_5">E (k) = Ω re f (k) -Ω (k) (25) E c (k) = E (k) -E (k-1)<label>(26)</label></formula><p>Where Ω represent the rotor mechanical angular speed. The corresponding output (U f ) is the torque constituent T em−M . <ref type="figure">Fig.4</ref>. Fuzzy logic controller.</p><p>The inputs and the output are related as :</p><formula xml:id="formula_6">U fN (t) = f (e (t), ec (t))<label>(27)</label></formula><p>The association between scaling factors and the input and out-put variables of the controller are as follows E N = K e E, Ec N = K ec Ec and U f = U <ref type="bibr">fN</ref> The scaling factor (SFs) K e and K ec are used to normalize the error E (t) and error changes E c (t), correspondingly. Notice that the normalized inputs, (E, E c ), remain within the limits of −1 to +1.The product sum gravity method is shown <ref type="bibr" target="#b19">[20]</ref>  <ref type="figure">Fig.5</ref> and fu zzy ru les has the form <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref>  The MFs used for input and output fuzzy sets are shown in <ref type="figure">Fig.6</ref> and in the next stage, after computing the inputs through knowledge base and inferencing mechanis m is that of de-fuzzification. Here in this paper the deffuzification technique chosen is the center of gravity. Then, the control output U fN can be calculated as follows:</p><formula xml:id="formula_7">U fN = μ U fN K U fN (K) 4 k =1 μ 4 K =1 U fN K (28)</formula><p>Here μ (U fN (k)) is the output membership value for k th rule and U fN (k) represents the output value of FLC. The linear control surface of output (U fN ) of the FLC controller based on only four rules is shown <ref type="figure" target="#fig_2">Fig.7</ref> w.r.to product-sum- gravity (PSG) method. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. ANFIS CONTROLLER</head><p>ANFIS is an intelligent system and is proved to be efficient in problems similar to categorizat ion, modeling, and control of complex systems. ANFIS are realized by an suitable combination of neural and fu zzy systems. The premise parameters and consequent parameters are tuned with the help of back-propagation algorithm. The projected neuro fuzzy controller incorporates fuzzy logic algorith m with a five layer artificial neural network (ANN) structure as shown in <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>   </p><formula xml:id="formula_8">e = i d-q ‫٭‬ -i d-q (29) ∆e = e (k) − e (k − 1) (30) X = e (t) (31) Y=∆e (t) (32) O i 1 = μ Ai x = 1 1+[ x−c i a i ] b i i = 1,2,3 …<label>(33)</label></formula><formula xml:id="formula_9">O i+2 1 = μ Bi y = 1 1+[ y −c i+2 a i+2 ] b i+2 i = 1,2,3..<label>(34)</label></formula><p>Where, {a i , b i , c i } is the parameter set and A is the linguistic term. Bell-shaped MF's is selected for each node.</p><p>Layer 2: This layer is rule inference layer. Every node in this layer is a fixed node label as ∏ wh ich mult iplies the incoming signals and sends the product out. Each node output corresponds to the firing strength of a fuzzy rule.</p><formula xml:id="formula_10">O i 2 = w i = μ Ai x μ Bi y i = 1,2,3 …<label>(35)</label></formula><p>Layer 3: Th is is a normalization layer. Every node in this layer is a circle node labeled N. The i-th node calculates the ratio of the rule's firing strength to the sum of all rules' firing strength.</p><formula xml:id="formula_11">O i 3 = ѿ i = w i w i i i = 1,2,3 …<label>(36)</label></formula><p>Layer 4: Th is is a consequent layer. All nodes are an adaptive mode with node function: O i 4 = ѿ i f i = w i p i x + q i y + r i i = 1,2,3 … (37) Where ANFIS is a normalized firing strength from layer 3, and {p i , q i , r i } is the parameter set of this node.</p><p>Layer 5: This is output layer. The single node in this layer is a fixed and node is labeled as ∑ that computes the overall output as the summing up of all inco ming signals: O i 5 = ѿ i f i i i = 1,2,3 … The parameters of A NFIS are updated using the back propagation error term as follow</p><formula xml:id="formula_12">∂E ∂ O 5 = K 1 e + K 2 ∆e</formula><p>The error (e) and the change of error (∆e) mu ltip lied by the constants k 1 and k 2 .</p><formula xml:id="formula_13">α K+1 = α K − η ∂ E ∂ α K</formula><p>Where α is any of the parameters of ANFIS and η is learning rate. The error will be reduced next training iteration. The advantage of using ANFIS over a FLC controller is the output MF's is automatically tuned and it can provide better performance than FLC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VII SIMULATION RES ULTS AND DIS CUSS ION</head><p>In order to show the feasibility of the projected FLC and ANIFS controllers, simulat ion study of the drive system based on the DSIMs in <ref type="figure" target="#fig_0">Fig.1</ref>.were carried out using MATLAB. Here each DSIM is rated at 5.5 kW and parameters used in the simulat ion study are shown in Table2. Co mparat ive performance with FLC and ANFIS controllers for tests performed under the same conditions is studied. The response of each DSIM is observed under different operating environments such as a step change in the reference speed or sudden changes in the load. Results of a set of tests of step changes in speed reference are shown in Steady-state errors in speed and electromagnetic torque variations are interrelated due to the motors are being connected in parallel and there being coupling terms between the d-q axes of each motor. The influence of the step changes in load reference on electro magnetic torque of each motor is shown in <ref type="figure" target="#fig_0">Fig.11  and 12</ref>. lastly, the simu lation results of the DSIMs connected in parallel associated to IFOC using FLC and ANFIS controllers were also analyzed concerning a load torques and speed variations. These results confirm that the ANFIS controller demonstrate a somewhat better performance under changing operating environments and present satisfactory performance. <ref type="figure" target="#fig_5">Fig.9</ref> through 12 represents the first 0.4 s show the response to change in speed reference and after 1.0 s the response to change in load reference. <ref type="bibr">Table2</ref>. Motor parameters used in simulation.    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Parameter</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S ymbol and magnitude</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUS ION</head><p>Co mparison of the performance of t wo IFOC controlled DSIM's in parallel to a single SPVSI supply using FLC and ANFIS based speed control is presented. It is observed that in terms of speed reference tracking of the dual DSIMs, ANFIS g ives a better performance compared to the FLC controller. When the two motors speed is modified, the impact on the electromagnetic torque of the motors is important. The results presented show that the ANFIS controller with only nine ru les can provide an effective solution for devices using DSIMs in parallel such as electric/hybrid vehicles, traction locomotives, rolling stock traction system and electric propulsion ships.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig.1. Block diagram of the indirect field oriented control.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3. Current flows for parallel connected dual DSIM's.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 7 .</head><label>7</label><figDesc>Fig.7. Control surface of FLC controller.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 8 .</head><label>8</label><figDesc>ANFIS design that has two inputs e and ∆e and one output V d . Layer 1: Th is layer is fuzzificat ion layer. Degrees of MF's are calculated in this layer for each input variable. The input variables of ANFIS are chosen as the error (e) and the change of error (∆e) is given by Equation 29 and 30. Every node i in this layer is an adaptive node with node function:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 8 .</head><label>8</label><figDesc>Fig.8. ANFIS structure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 9</head><label>9</label><figDesc>and 10 for the t wo motors. Variation in the reference speeds of the motors is chosen as (t € [0 0.4] sec, Ω = 50 rad/s) and (t [0.4 3] sec, Ω= 100 rad/s). In these tests the performance of the two controllers is evaluated in terms of speed response. It can be observed that amplitude of transient oscillations of speed is lower with ANFIS wh ich also has better rejection of perturbations. The result shows that the ANFIS controller shows improvement, albeit s mall, in performance co mpared to that with the FLC controller. The predictable speeds deviate fro m the speed references when the conditions of the each DSIM are different.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>.</head><label></label><figDesc>006 N ms/rd Fro m the results, we analyzed the data statistics of DSIMs. That can be shown in table3. Fro m the table ANFIS has good performance co mpared to FLC because its mean values are near to the reference signal values.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9 .Fig. 10 .</head><label>910</label><figDesc>Fig.9. Speed response of DSIM-1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head>table 1 Table 1 .</head><label>11</label><figDesc></figDesc><table>Fuzzy rules. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head>Table 3 .</head><label>3</label><figDesc></figDesc><table>Mean values of Load and Speed. 
+
+Reff. Signal 
+FLC 
+ANFIS 
+Mean of Wr = 93.36 
+90.42 
+91.1 
+Mean of Te = 8.321 
+8.33 
+8.325 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Digital fieldoriented control for dual three-phase induction motor drives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bojoi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lazzari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Profumo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tenconi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Appl</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Double threephase induction machine modeling for internal faults simulation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Foito</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Maia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Fernao Pires</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Martins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electr.Power Compon. Syst</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Multi-phase induction machine drive research-a survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electr. Power Sys. Res</title>
+		<imprint>
+			<biblScope unit="page">61</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Sliding-mode control of a six-phase series/parallel connected two induction motors drive</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">R</forename><surname>Abjadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISA T rans</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1847" to="1856" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Six-phase voltage source inverter driven induction motor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Abbas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Christen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Christen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Jahns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Appl. IA</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1251" to="1259" />
+			<date type="published" when="1984-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A simple indirect field-oriented control scheme for multiphase induction machine</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Lim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Electron</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1177" to="1184" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Multiphase electric machines for variable-speed applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Levi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Electron</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1893" to="1909" />
+			<date type="published" when="2008-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Dual stator winding induction machine drive</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Munoz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">˜</forename><forename type="middle">T A</forename><surname>Lipo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Multiphase induction motor drives-a technology status review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Levi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bojoi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Profumo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Toliyat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Williamson</surname></persName>
+		</author>
+		<imprint/>
+		<respStmt>
+			<orgName>IET Electr</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Calculation of derating factors based on steady-state unbalanced multiphase induction machine model under open phase(s) and optimal winding currents</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Abdel-Khalik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Masoud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Massoud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electr. Power Syst. Res</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="214" to="225" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Experimental performance evaluation of a five-phase parallel-connected twomotor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">N</forename><surname>Vukosavic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Levi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Dujic</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Characteristics of speed sensorless vector controlled dual induction motor drive connected in parallel fed by a single inverter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Matsuse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Kouno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Oikawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Appl</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="153" to="161" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Review of speed-sensorless vector control of parallel connected induction motor drive fed by a single inverter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gunabalan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Subbiah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JEE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="73" to="82" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A speedsensorless vector control method of parallel-connected dual induction motor fed by a single inverter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Matsuse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Kouno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Yokomizo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Appl</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1566" to="1572" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Study of control methodology for single inverter parallel connected dual induction motors based on the dynamic model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Ruxi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Qiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Yanhui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wang</forename><surname>Zhaoan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Power Electronics Specialists Conference, 2006. PESC&apos;06. 37th IEEE</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A method of speed sensorless vector control of parallel-connected dual induction motors by a single inverter with a rotor flux control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Oka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Matsuse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding of ICEMS&apos;07</title>
+		<meeting>eeding of ICEMS&apos;07<address><addrLine>Korea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Speed-sensorless vector control of parallel connected induction motor drive with fuzzy controller</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gunabalan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Subbiah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Inter. Conference on CICR&apos;12</title>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Application of fuzzy algorithms for control of simple dynamic plant</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">H</forename><surname>Mamdani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. IEEE</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1585" to="1588" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">PID type fuzzy controller and parameters adaptive method, Fuzzy Sets Syst</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">Z</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mizumoto</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="23" to="35" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Product-sum-gravity method = fuzzy singletontype reasoning method = simplified fuzzy reasoning method</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mizumoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth IEEE International Conference on Fuzzy Systems</title>
+		<meeting>the Fifth IEEE International Conference on Fuzzy Systems</meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2098" to="2102" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Adaptive-network-based fuzzy inference systems‖</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S R</forename><surname>Jang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE T ransactions on systems</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="665" to="685" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-S</forename><forename type="middle">R</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C-T</forename><surname>Sun</surname></persName>
+		</author>
+		<title level="m">Neuro-Fuzzy Modeling and Control‖, Proceeding of the IEEE Transactions</title>
+		<imprint>
+			<date type="published" when="1995-03" />
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="378" to="406" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

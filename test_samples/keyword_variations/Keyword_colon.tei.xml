@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/07/yarn/nm/usercache/lanastasiou/filecache/11/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-05-22T17:01+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">IMPROVING READING COMPREHENSION THROUGH DIRECTED READING THINKING ACTIVITY (DRTA) STRATEGY FOR THE EIGHT GRADE STUDENTS OF SMP NEGERI 17 MEDAN IN THE ACADEMIC IMPROVING READING COMPREHENSION THROUGH DIRECTED READING THINKING ACTIVITY (DRTA) STRATEGY FOR THE EIGHT GRADE STUDENTS OF SMP NEGERI 17 MEDAN IN THE ACADEMIC</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016">YEAR OF 2016-2017 YEAR OF 2016-2017 NIP. 19530723 199203 2 001 NIP. 19680920 199503 1 002 MEDAN 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leli</forename><surname>Sari</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of English Education Faculty of Tarbiyah Science and Teachers Training State Islamic</orgName>
+								<orgName type="laboratory">DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH SCIENCE AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA</orgName>
+								<orgName type="institution">University of North Sumatera</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<region>Medan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Dr</roleName><forename type="first">Hj</forename><surname>Siti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of English Education Faculty of Tarbiyah Science and Teachers Training State Islamic</orgName>
+								<orgName type="laboratory">DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH SCIENCE AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA</orgName>
+								<orgName type="institution">University of North Sumatera</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<region>Medan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zubaidah</forename><forename type="middle">M Ag</forename><surname>Dra</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of English Education Faculty of Tarbiyah Science and Teachers Training State Islamic</orgName>
+								<orgName type="laboratory">DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH SCIENCE AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA</orgName>
+								<orgName type="institution">University of North Sumatera</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<region>Medan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Rustam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of English Education Faculty of Tarbiyah Science and Teachers Training State Islamic</orgName>
+								<orgName type="laboratory">DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH SCIENCE AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA</orgName>
+								<orgName type="institution">University of North Sumatera</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<region>Medan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Dr</roleName><forename type="first">Hj</forename><surname>Siti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of English Education Faculty of Tarbiyah Science and Teachers Training State Islamic</orgName>
+								<orgName type="laboratory">DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH SCIENCE AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA</orgName>
+								<orgName type="institution">University of North Sumatera</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<region>Medan</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zubaidah</forename><forename type="middle">M Ag</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of English Education Faculty of Tarbiyah Science and Teachers Training State Islamic</orgName>
+								<orgName type="laboratory">DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH SCIENCE AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA</orgName>
+								<orgName type="institution">University of North Sumatera</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<region>Medan</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:lang="en">IMPROVING READING COMPREHENSION THROUGH DIRECTED READING THINKING ACTIVITY (DRTA) STRATEGY FOR THE EIGHT GRADE STUDENTS OF SMP NEGERI 17 MEDAN IN THE ACADEMIC IMPROVING READING COMPREHENSION THROUGH DIRECTED READING THINKING ACTIVITY (DRTA) STRATEGY FOR THE EIGHT GRADE STUDENTS OF SMP NEGERI 17 MEDAN IN THE ACADEMIC</title>
+						<title level="a" xml:lang="en">Submitted ; to the Tarbiyah Faculty of Tarbiyah and Teachers&apos; Training UIN-SU Medan as A Partial Fulfillment of the Requirements for S-1 Degree ; Submitted ; to Faculty of Tarbiyah Science and Teachers Training UIN-SU Medan as A Partial Fulfillment of the Requirements for S-1 Degree</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016">YEAR OF 2016-2017 YEAR OF 2016-2017 NIP. 19530723 199203 2 001 NIP. 19680920 199503 1 002 MEDAN 2017</date>
+						</imprint>
+					</monogr>
+					<note>1 1 THESIS DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA MEDAN 2017 THESIS By : LELI SARI NIM : 34133186 Advisor I Advisor II ABSTRACT Name : LELI SARI NIM : 34.13.3.186 Department : English Education Faculty :Faculty of Tarbiyah and Teachers&apos; Training Place/Date of Birth : Medan Krio, 11 October 1996 Adress/E-Mail : Jl. Sei Mencirim Dusun VIII GG. Ikhlas Desa Medan Krio/ lelisari44@gmail.com. Phone Number : 0821 6616 5450 / 0815 3426 9051 Advisor I : Dr. Hj. Siti Zubaidah, M.Ag. Advisor II : Drs. Rustam, MA Tittle :Improving Reading Comprehension Through Directed Reading Thinking Activity (DRTA) Strategy for The Eight Grade Students of SMP Negeri 17 Medan in The Academic Year of 2016-2017. Thesis, Medan: Acknowledge by: Advisor I</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Keyword: Reading Comprehension</term>
+					<term>Classroom Action Research</term>
+					<term>Directed Reading Thinking Activity (DRTA) Strategy</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This research was aimed to find out the improvement of the students&apos; reading comprehension through Directed Reading Thinking Activity Strategy. The subject of this research was eight grade students of SMP Negeri 17 Medan in the academic years of 2016/2017. It consisted of one class with 36 students as respondents.This research was conducted by using classroom action research. The technique of analyzing data was applied in this research were qualitative and quantitative. The qualitative data were taken from observation sheet, interview, and documentation. The quantitative data were taken from tests. The tests were given to the students in the form of pre-test, post-test I and post-test II.The result of data analysis showed that there was an improvement on the students&apos; improvement in reading comprehension from each cycle. It was showed from the mean of pre-test which was 46.60, after Directed Reading Thinking Activity (DRTA) strategy was applied in the first cycle, there was an improvement of the result of the students&apos; mean which was 64.12 and for the second cycle after reflection on the first cycle there was an improvement of students&apos; mean which was 77.29. Moreover In the pre-test, there were 16.67% (6 of 36 students) who got score ≥ 75. In the post-test I, there were 27.77% (10 of 36 students) who got score ≥ 75. In the post-test II, there were 55.55% (20 of 36 students) who got score ≥ 75. So, the total percentage of the improvement from the pre-test to post-test II was about 55.55%.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LIST OF FIGURES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>at Department of English Education of Faculty of Tarbiyah Science and Teachers</head><p>Training State Islamic University of North Sumatera.</p><p>Finishing of writing this thesis is actually a miracle for me since it was firstly regarded as a task would be very hard to do. However, it has now been denied since this thesis has finally been written. Then, I would like to thank Allah Subhaanahu Wa</p><p>Ta'ala for The Blessing given to me so that the writing of this thesis has been finished without any meaningful problem. Additionally, the writer is grateful to the following for their supports and helps.</p><p>1. Dr. Amiruddin Siahaan, M. Pd as the dean of Faculty of Tarbiyah Science and Teachers Training State Islamic University of North Sumatera. INTRODUCTION</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. The Background of Research</head><p>Reading is one of the English skills which are essential to be mastered by the students. Reading skills are necessary for students in acquiring knowledge and new information. According to Brown that reading is the most essential skill in the educational context as it can be the assessments for students' general language ability. <ref type="bibr">1</ref> Reading comprehension is one aspect of language skills that must be mastered by the student. To be able to interpret and absorb information from reading material, students should have good understanding ability. Reading comprehension is required in each subject, because each lesson is inseparable from the act of reading. Therefore, students are required to have good understanding capabilities.</p><p>In the fact, there are still many problems in the learning process of reading comprehension. Sometimes students are only required to read the text in the heart, and then answer questions related to the content of the text. It is a way that does not involve the process of thinking students so that students are not involved in active reading process. Indeed, each lesson will not be separated from the communicative method. But if in any learning simply used by communicative method the students will be visible only be passive and just as an object of learning do not as a subject of learning so that will be difficult to develop students' thinking process.</p><p>The used of suitable strategies that will be one of the determinants in teaching learning. Even in terms of learning reading comprehension. The method or strategy used should be able to improve students' reading comprehension. The lack using of method or learning strategies become one of the bottlenecks achievement of learning goals. The selection of methods for each learning the teacher must attention to the character of the students. Methods or strategies used is not only one, but also can be varied by other methods so that students do not feel tired or bored in learning process. When students are motivated to learn well and it will facilitate in providing instruction to students so that learning becomes conducive and pleasant. Therefore, the goal of learning will be achieved.</p><p>The problems that found in SMP Negeri 17 Medan based on my experience in teaching practice, the reality in the field, learning reading comprehension in class VIII SMP is still not as expected. The strategy or method that used by the teacher still conventional, the teacher just taught conventionally. They are only asked the students to do assignments in LKS and to reading comprehension learning, teacher just asked the students to answer the question based on the text. It is known from my interview with some students in that school, beside that there are some students still difficult to answer the question based on the contents of the text. It is known from the low students' score in answering the question from the text, beside that the students still feel difficult to find the main idea in the text. It is known based on my experience when I ask the students to read the text some minutes and then I ask them orally "Who knows the main point of the text?" and almost all of the students just silent, and only one two person that brave to answer my question orally. In other than that, students low in vocabulary and it is make them still confused in understanding of the text. It is known when I ask the students to retell the story of the text with their own words, the students still afraid and at all can not do that.</p><p>According from some problems above, almost a half of students get low point in reading comprehension class. It is known from the English teacher in that school if the minimum completeness criteria for English subjects specified in the junior high school that is 75. While from 36 students in the class is almost more than half have not yet reached the criteria minimum. I think so many factors again that caused it to happened, one of each is the choice of method still conventional or the communicative method.</p><p>Therefore, to solve the problems of reading comprehension skills need to revise through learning strategies that can attract students and to make students' motivate to improve their skills. In here I suggest a strategy Direct Reading Thinking Activity (DRTA) as one of the strategies to improve students' reading comprehension skills.</p><p>Directed Reading Thinking Activity (DRTA) strategy is one of the strategies in the teaching of reading comprehension. Strategies Directed Reading Thinking Activity (DRTA) focusing student engagement with the text, because students have to predict and prove when the students read. In teaching reading comprehension, students can find the main ideas in the text. Directed Reading Thinking Activity (DRTA) strategy which is attempts to equip readers with the ability to determine the purposes of reading, the ability to extract, comprehend, and assimilate information, the ability to make predictions to examine reading materials based on the purposes of reading, the ability to pass judgments, and finally the ability to make decisions based upon information gleaned from reading. <ref type="bibr">2</ref> With the prediction of the strategy of Directed Reading Thinking Activity (DRTA) strategy students automatically questioning their own questions that are part of the process of understanding a text. Students will be carefully and will be of critical thinking in reading so that students understand the reading text.</p><p>Based on the background above, researchers focused entitled "Improving Reading Comprehension Through Directed Reading Thinking Activity (DRTA) Strategy for the Eight Grade Students of SMP Negeri 17 Medan in the Academic Year of 2017- 2018".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. The Identification of Research</head><p>Based on the background described, there are some things that can be identified for the study. Some of it is as follows. 1. Learning reading comprehension are still not achieving the desired results because of the method presented less attracted the attention of students.</p><p>2. The level of students' ability in reading comprehension is low.</p><p>3. Students have difficulty in understanding the content of the text for reading comprehension learning activities do not involve the learning process of student thinking.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. The Limitations of Research</head><p>To further focus of this research, the authors limit the problem in this research is "The improvement students' ability in reading comprehension in class VIII SMP NEGERI 17 MEDAN."</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. The Problems of Research</head><p>Based on the background outlined above, the authors formulate the problem as follows:</p><p>1. How the activity of the class VIII, during the learning process of Reading Comprehension using strategy Directed Reading Thinking Activity (DRTA) in SMP Negeri 17 Medan?</p><p>2. How the improvement that occurs after using strategy Directed Reading Thinking Activity (DRTA) on the learning reading comprehension in class VIII SMP Negeri 17 Medan?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. The Objective of Research</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">To identify the activity learning process of reading comprehension using Directed</head><p>Reading Thinking Activity (DRTA) strategy in class VIII SMP Negeri 17 Medan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">To improve the learning outcomes' reading comprehension after using strategy</head><p>Directed Reading Thinking Activity (DRTA) in class VIII SMP Negeri 17</p><p>Medan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. The Benefits of Research</head><p>1. Benefits theoretical generally, the benefits of this research is to solve the problems experienced by students in the classroom is increasing reading comprehension skills by implementing a strategy Reading Thinking Activity (DRTA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Practical Benefits</head><p>a. For students, this research may provide motivation for students to increase interest in reading and continue to improve language skills, especially reading comprehension skills.</p><p>b. For the teacher, as a guide in selecting appropriate strategies to learning, especially in learning the English language so as to eliminate the problems that arise in the learning process.</p><p>c. For researchers, is expected to add insight and knowledge of strategies to improve reading comprehension skills that can be applied in schools especially Reading Thinking Activity (DRTA) strategy.</p><p>d. For schools, this research is expected to contribute an idea, to use innovative instructional strategies, creative and provide maximum results in the learning process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER II THEORETICAL REVIEW</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Theoretical Framework</head><p>In conducting a research, theories are needed to explain some concept and term applied in the research concerned. I presented some theories related to the study in order to focus on the scope of research. The theoretical elaboration on the concepts and terms used had been presented in the following part.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Reading</head><p>Reading is the information from the text, either in the form of text or from a picture or diagram, or a combination of it all. Reading is also a skill to know, see and understand the contents of what they read. That is, after reading something, the reader already knows the information obtained from what he has read. One important point of reading is to understand the communication between writer and reader.</p><p>Reading is very important and helpful to us, not just in English class, but other subjects, such as mathematics, Indonesian, biology, economics and others also we need literacy skills to add to our knowledge of the material that we learned. Because reading, we can access a lot of information. Considering in the importance of reading to our lives as human being. Allah SWT. Says in the Qur'an surah Al-Alaq, verse 1-5 as follows: The first word of these verse is IQRA' that means Read. This has a big meaning for us Allah's creature, frstly however we are the human come to this world can not read everything, but with our ability the permit from Allah finally we can read everything what we want.</p><p>Therefore, to know the information in this world, we must to read, because by reading we will get so many informations. By reading, we do not only get the mean what we read about, but also by reading we can increase our knowledge.</p><p>From some of informations above it can be concluded that reading is an activity to obtain information from written material through an interaction between the reader with the author, represented by his writings. In the interaction of contact between the characteristics of the reader and characteristics represented by the researcher. Contact between the two characteristics that will give birth to the reader's understanding of the idea of tau idea of the author. This means that reading is not merely express written language and follow the text line by line, but trying to get the message, the mandate and the meaning conveyed by the authors through reading media completely and thoroughly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Reading Comprehension</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a. Definition of Reading Comprehension</head><p>There are so many definitions of reading. Linguists give definitions about reading in various ways. They say that reading is the process to get, to understand, to catch the content of the reading. They also add that reading is a process to understand a written text which means extracting the required information from it, as efficiently as possible. Smith defines that reading as seen as a creative and constructive activity having four distinctive and fundamental characteristics -it is purposeful, selective, anticipatory, and based on comprehension, all matters where the reader must clearly exercise control. <ref type="bibr">4</ref> Hedgcock adds that reading is a complex interaction of cognitive processes and strategies (used by the reader) and various types of information (contained in the text). <ref type="bibr">5</ref> Earlier models of reading instruction have tended to focus primarily either on bottom-up processes(for decoding and comprehending the text) or top-down skills (for activating the background knowledge and prediction strategies of the reader) and according to Brown and Yule, reading involves learning how to make-reasonable interpretations of a written text. <ref type="bibr">6</ref> Reading covers a lot of things. It does not simply know the meaning of individual words in a particular text. In other words, reading can be defined as a process of making reasonable interpretation in apprehending a text which has four characteristics; purpose, selection, anticipation, and comprehension. Talking about comprehension is one of the characteristics of reading.</p><p>Mikulecky and Jeffries state that comprehension is making sense of what someone reads and connecting the ideas in the text to what he already knows. <ref type="bibr">7</ref> According to Smith, comprehension may be regarded as relating aspects of the world around us- including what we read-to the knowledge, intentions, and expectations we already have in our head. It is clearly the purpose of reading and of learning to read. 8</p><p>Richards and Schmidt say that comprehension is the identification of the intended meaning of written or spoken communication. They also adds that contemporary theories of comprehension emphasize that it is an active process drawing both on information contained in the message (bottom-up processing) as well as background knowledge, information from the context and from the listener's and speaker's purposes or intentions (top-down processing). 9 It is also supported by Smith that readers learn the meaning by making sense of words from their context, using what is known to comprehend and learn the unfamiliar. <ref type="bibr">10</ref> Making sense of words is basically related to the vocabulary mastery as Smith also continues that vocabulary provides a permanent basis of knowledge for determining the probable meaning and pronunciation of new words. If readers know both the meaning and the pronunciation, they will have little difficulty in comprehending and saying a new word. In other words, reading comprehension is a process of relating the readers' background knowledge with the information in the text to get the message of the text. Reading comprehension is not only the matter of knowing and remembering the meaning of all words in the text, but it is more about how the students build and construct meaning of the text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b. Processes of Reading Comprehension</head><p>In the discussions about reading and comprehension, experts generally mention about the bottom-up and top-down process. Both of them are the processes of reading comprehension and according to the recent research, there is one more kind of processing reading comprehension, called interactive reading.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) Bottom-up processing</head><p>In bottom-up processing, readers must first recognize a multiplicity of linguistic signals (letters, morphemes, syllables, words, phrases, grammatical cues, discourse markers) and use their linguistic data processing mechanism to impose some sort of order on these signals. These data-driven operations obviously require knowledge of the language itself. From among all the perceived data, the reader selects the signals that make some sense to what is called -meaning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) Top-down processing</head><p>Top down, is a process in which the readers draw their own intelligence and experience to understand a text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3) Interactive reading</head><p>Interactive reading is a combination of top-down and bottom up processing. It is almost always a primary ingredient in successful teaching methodology because both processes are important.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>c. Strategies in Reading Comprehension</head><p>Reading comprehension strategy is way of accessing the meaning of texts, which are employed flexibly and selectively in the course of reading. Reading strategies are often divided into three stages; (a) before reading, (b) during reading, and (c) after reading. To be able to read texts, students should have their strategies. Process of reading is not a merely instant process that occurs without any strategy and sequence. 11</p><p>There are some strategies in reading proposed by Brown. They are 1) identifying the purpose of reading, 2) using graphonic rules and patterns to aid in bottom up decoding, 3) using efficient silent reading techniques for relatively rapid comprehension, 4) skimming, 5) scanning, 6) guessing when the reader is not understand, 7) analyzing vocabulary, 8) distinguishing between literal implied meaning, and the last 9) capitalizing on discourse markers to process relationship.</p><p>Aside Browns' strategies, Pearson (in Tovani) isolates seven strategies used by successful readers. The seven strategies are 1) using existing knowledge to make sense of new information, 2) drawing inferences from the text, 3) monitoring the reader's own comprehension, 4) using -fix-up strategies when meaning breaks down, 5) determining what is important, and 6) synthesizing information to create new thinking. Referred to Brown's and Pearson's, strategies in reading help the teacher to assist students into efficient and successful readers.</p><p>By applying strategies in reading the teacher and students are expected to be more organized in understanding a text. However, this research focus only on some strategies which are linear to the students' reading problems in identifying the purpose of reading, guessing meaning from context, analyzing vocabulary, using existing knowledge to make sense of new information, and asking questions about the text before, during, and after reading.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>d. Teaching and Learning of Reading</head><p>Brown defines learning as a process of acquiring or getting of knowledge of a subject or a skill by study, experience or instruction. He is also breaks down learning definition into smaller components; 1) learning is acquisition or getting, 2) is retention of information of skill in which retention implies storage systems, memory, and cognitive organization, 3) learning involves active, conscious focus on and acting upon events outside or inside the organism, 4) learning is relativity permanent but subject to forgetting, 6) it involves some form of practice, perhaps reinforced practice, and learning is a change of behavior. <ref type="bibr">12</ref> From the definition above, apparently, learning is an activity done by human being as an effort to get knowledge, to create attitudes, and to raise concept and skills as a result of the interaction with the environment. Learning is actually related to the process of acquisition and skill or information retention in the cognitive organization. Learning can also be carried out through some form of reinforced practice. In learning process, the dominant activity is the interaction between teacher and the students.</p><p>According to Brown similarly, teaching may be defined as showing or helping someone to learn how to do something, giving instructions, guiding in the study of something, providing with knowledge, causing to know or understand. <ref type="bibr">13</ref> Teaching is guiding and facilitating learning, enabling the learner to learn, setting the conditions for learning. In other words, teaching is a way of providing someone to get knowledge, to create attitudes, and to raise concept and skills. Teaching activity cannot be separated from learning. It is because the process of teaching should be based on how students learn and it will determine the teaching style, techniques, and strategies of teaching to meet the students' needs of learning.</p><p>Comprehension skills are strategies readers use to retrieve information and construct meaning from a particular text. They are the thinking processes, broken down into steps that are used to comprehend. These must be taught explicitly. Three types of comprehension skills are described below: pre-reading, during reading, and post- reading. <ref type="bibr">14</ref> Teaching reading comprehension is an activity in which the teacher guides and facilitates learning, gives a chance for the learners to learn and sets the condition for learning. Guidance is done by leading students to do activity in the effort of getting knowledge. The activity itself can be done by giving them tasks.</p><p>However, an important point dealing with giving tasks to the students is about the consideration of technique used. A Teacher should consider the best technique to be applied for a particular task or activity. In teaching reading comprehension, the teacher also helps students to learn micro skills and macro skills of readings, as follows: <ref type="bibr">15</ref> Micro skills 1) Discriminate among the distinctive graphemes and orthographic patterns of English.</p><p>2) Retain chunks of language of different lengths in short-term memory.</p><p>3) Process writing at an efficient rate of speed to suit the purpose.  2) Recognize the communicative functions of written texts, according to form and purpose.</p><p>3) Infer context that is not explicit by using background knowledge.</p><p>4) From described events, ideas, etc., infers links and connections between events, deduce causes and effects, and detect such relation as main idea, supporting idea, new information, given information, generalization, and exemplification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5) Distinguish between literal and implied meaning.</head><p>6) Detect culturally specific references and interpret them in a context of the appropriate cultural schemata.</p><p>7) Develop and use a battery of reading strategies, such as scanning and skimming, detecting discourse markers, guessing the meaning of words from context, and activating schemata for the interpretation of texts.</p><p>The micro and macro skills are in line with the strategies of reading comprehension. Thus, in teaching reading comprehension, a teacher should provide the students with three steps of reading comprehension; before, during, and after reading through to facilitate the students build the context and get the ideas of a text in order to achieve the macro and micro skills of reading.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>e. Principles in Teaching Reading Comprehension</head><p>There are some principles behind the teaching of reading proposed by Harmer. <ref type="bibr">16</ref> They are: 1) Principle 1: Reading is not a passive skill. Understanding the meaning of the words, understanding arguments and working out for the agreement of the statements are included as active occupation in reading.</p><p>2) Principle 2: Students need to be engaged with what they are reading. Harmer considers that students can get more benefit from reading if they are engaged and interested in reading text.</p><p>3) Principle 3: Students should be encouraged to respond to the content of a reading text, not just to the language. In this principle, the point is that students should have opportunities to respond to the message of the text and thus provoking personal engagement of the students. <ref type="bibr">16</ref> Harmer, J, (2001), How to Teach English: An Introduction to the Practice of Language Teaching, England: Longman, p. 70.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4) Principle 4: Prediction is a major factor in reading. The fourth principle is about</head><p>the students' expectations and active process of reading is ready to begin when they can get the hints of the text so they can predict what's coming in the next segment of a particular text. 5) Principle 5: Match the task to the topic.</p><p>Choosing the good tasks for students in reading is important since it can undermine boring and inappropriate questions so the reading activity can be more exciting and challenging for the students. The five principles behind teaching reading propose some important points that need to be considered by the teacher in teaching reading, such as it is important to make the students engaged with and have the abilities to respond to the texts. The principles also highlight that predicting is crucial in reading since it is related to the students' active process of reading. In addition, choosing the good tasks is one of the considerations to make the reading activity be more exciting and challenging. By referring to those principles, the teacher and students can be facilitated to attain a good-quality of reading process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>f. Assessment of Reading</head><p>Assessment is a systematic approach to collecting information and making inferences about the ability of a student or the quality or success of a teaching course on the basis of various sources of evidences. <ref type="bibr">17</ref> To collect the information of the students' improvement in reading comprehension, some assessments of reading are essential to be carried out. Unlike speaking and writing, the reading process and product cannot be seen and observed specifically. For this reason, all assessment of reading must be carried out by inference. Some considerations are needed in designing assessment of reading, such as the types of genres of written text, the components of reading ability, and specific tasks.</p><p>Furthermore, the types of reading performance will influence the assessment tasks as well. Brown lists a number of possible tasks for assessing perceptive, selective, interactive and extensive reading. Related to the specifications of reading in this study that is assessing students' interactive reading performance so there are three types of possible assessment tasks applied as follow:</p><formula xml:id="formula_0">1) Multiple-choice</formula><p>The multiple-choice in this study provides not only the vocabulary and grammatical items but also the context to assess the students' understanding of information in the text. The context is presented by putting a pair or part of a text followed by questions in which the students have to responds correctly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) Impromptu reading plus comprehension</head><p>This type of assessment involves impromptu reading and responding to questions. It is commonly used in proficiency test. In this test, students are provided a reading passage followed by questions and have to responds to the items. The set of questions in impromptu reading covers the comprehension of some features of reading: (1) main idea, (2) expressions/idioms/phrases in context, (3) inference, (4) grammatical features, (5) detail, (6) excluding facts not written (7) supporting idea(s), <ref type="formula">(8)</ref> vocabulary in context. These specifications and the questions are in line with strategies of effective reading: skimming for main idea, scanning for details, guessing word from context, inferencing, using discourse makers, etc which are assessed in this study. <ref type="bibr">18</ref> 3) Short answer task In this type of assessment, reading passage is presented, and the students read questions that must be answered in a sentence or two. The questions might cover the same specifications similar to the impromptu reading. Those three types of assessments tasks have the combination of form-focused and meaning-focused objectives. They cover the objectives of reading assessment especially in the comprehension issue and embody the evidences of students' reading comprehension.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Directed Reading Thinking Activity (DRTA) a. History of Directed Reading Thinking Activity (DRTA)</head><p>Directed Reading Thinking Activity (DRTA) is an activity that helps students' understanding that each segment of text can help them figure out the next segment. <ref type="bibr">19</ref> It is because the text is divided into smaller portions, the students can focus on the process of responding to higher -order questions.</p><p>The use of prior knowledge and prediction is clearly of great value in helping students set purposes for reading and use their own experiences as a basis for comprehending text. Prior knowledge and prediction is utilized in the Directed Reading Thinking Activity (DRTA) developed in 1969 by Russell Stauffer. According to Stauffer the DRTA is intended to develop students' ability to read critically and reflectively and is fundamentally different from the DRA used in basic. The Reading Thinking Activity (DRTA) attempts to equip readers with the ability to determine purposes for reading; the ability to extract, comprehend, and assimilate information; the ability to examine reading materials based upon purposes for reading the ability to suspend judgments and, the ability to make decisions based upon information gleaned from reading.</p><p>Based his notions upon the belief that reading is at thinking process involving the reader in using his or her own experiences to reconstruct the author's ideas. This begins with the generation of hypotheses based upon the reader's doubts and desires. It continues with the reader's acquisition of information and the generation of further hypotheses during reading. Then, there construction terminates with the resolution of the reader's doubts and desires.</p><p>Using the Reading Thinking Activity (DRTA) technique, students are guided through the process of sampling text, making predictions based upon prior knowledge and textual information, re-sampling text, and confirming or adjusting predictions in light of new information. This model has received increasing attention in recent years as teachers and researchers search for improved methods of increasing reading comprehension. This approach is frequently identified as an exemplary instructional activity for developing comprehension and critical thinking skills. The Reading Thinking Activity (DRTA) can easily be adapted for any selection and any level of difficulty and may be used for both group and individual use. When used with groups, Stauffer suggests using it with between eight and twelve students. However implemented, the Reading Thinking Activity (DRTA) offers several important advantages to students and teachers. First, it increases comprehension through its strong emphasis on student-generated prediction, speculations, and conclusions, which are based on and grow from prior knowledge and experience.</p><p>The Reading Thinking Activity (DRTA) highlights related experience and encourages the consistent use of the reader's prior knowledge during reading. Secondly, the Reading Thinking Activity (DRTA) establishes a positive instructional environment: a general sharing of background information and experience is invited as students and teachers move toward the common goal of understanding. The end results of use of the Reading Thinking Activity (DRTA) are active, engaged students, discussions with depth and texture, and students who assume responsibility for their own learning. <ref type="bibr">20</ref> Therefore, making prediction is important as Nutall states that the ability to predict is an aid to understanding and a sign of the comprehension. <ref type="bibr">21</ref> It activates schema and helps them to make sense of sentence. It calls into mind any experiences and associated knowledge that a reader already has about the topic of the text. <ref type="bibr">22</ref> Predicting prepares the reader for comprehension. Although an overall prediction may be made, teachers encourage readers to make predictions about specific portions of text and then to read the appropriate portions to confirm or alter the predictions. Students reflect aloud on those predictions before going on to read another segment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b. Advantages and Disadvantages of Directed Reading Thinking Activity</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(DRTA) Strategy</head><p>Here are a few advantages strategies Directed Reading Thinking Activity (DRTA): 1) Strategy Directed Reading Thinking Activity (DRTA) contains many types of reading strategies so that teachers can use and be able to pay attention to the differences that exist in learners, 2) Strategy Directed Reading Thinking Activity (DRTA) is an activity of understanding that foresees the story to help the students to gain an overall picture of the material that has been read, 2) Strategy Directed Reading Thinking Activity (DRTA) requires the provision of textbooks and often beyond the ability of schools and students, through direct reading comprehension, information isn't can be obtained quickly, unlike the case if the obtaining of abstraction through the presentation orally by the teacher. <ref type="bibr">23</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>c. Teaching of Reading using Directed Reading Thinking Activity (DRTA)</head><p>As this study employs directed reading-thinking activity, the teaching and learning process includes the steps of the activity for both the teacher and students. The steps employ the students to set reading purposes and make predictions, reading text, verify and revise predictions and prove set reading purposes. Therefore, the teacher assists the students by selecting the texts, dividing the text into meaningful section, facilitating discussion, and giving feedback. The elaboration of the teaching of reading using Directed Reading Thinking Activity (DRTA) is designed based on the following steps:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) Before reading: predicting</head><p>In making predictions, students observe and identify the selection by looking at the title, picture (if it is available), the vocabulary, the grammar, and other language features in the text. In response to it, students formulate questions which bridge them to next selection of the text and the whole part of it In this stage, the teacher assists the students in observing and identifying selection of text and notices the key words that help them to guess the global understanding of the text. The teacher also facilitates students to formulate questions, discuss and share their predictions of each selection of the text. 2) While reading: silent reading Students read the whole text to gather information or data related to their earlier predictions. The teacher helps students identifying any crucial vocabulary items in context. 3) After reading: confirming the predictions After reading the complete text to gather information, students are encouraged to explain what cause them to confirm or revise prior predictions. It is carried out through discussing the material read.</p><p>The aim of this discussion is to help students interpreting the material. Students discuss among their group members about their prior predictions and the data in the text whether they are compatible or not. Teacher facilitates students to discuss related concepts and to consider the content of the selection of their own experiences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Related Studies</head><p>Several studies have investigated directed reading-thinking activity on students and reported that teaching this activity is significant for enhancing reading comprehension. This section reviews a number of related studies from some researchers. the result of his study, that students' improvement in reading comprehension may be attributed to students' skills developing ability to read the material using DRTA. It is because during the activity students set purposes, make predictions, read silently, and verify predictions.</p><p>Even if it does not present about the Directed Reading Thinking Activity (DRTA) only, the previous review of related studies stresses the importance of using Directed Reading Thinking Activity (DRTA) which may help the teacher using the effective means for teaching reading comprehension. Therefore, the researcher decided Directed Reading Thinking Activity (DRTA) for teaching reading in order to enhance reading comprehension of the grade VIII students at SMP Negeri 17 Medan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Conceptual Framework</head><p>Reading is one of the language skills that students should be mastered and it involves texts of different types. It is the skill or ability of getting information from a text. Thus, the teaching and learning of reading at the school should be carefully prepared and managed. However, some problems of reading in the grade VIII students were found. The grade VIII students at SMP Negeri 17 Medan, have difficulties to retrieve information and construct meaning of a text. It can be detected from their difficulty in generating the main idea and identifying detail information while both of those problems are included as the skills of reading.</p><p>The students also seemed to have difficulties in vocabulary. They are so struggle to translate every single word in the text when they actually can try guessing the meaning from the context. Regarding to the problems found at the school, some possible ways are proposed to solve them. In the matter of students' vocabulary difficulty, predicting can facilitate the students to guess the meaning from context. Making prediction is also proposed to support the students in connecting their prior knowledge to the information of the texts. The next steps are reading and confirming the predictions. They are proposed to deal with the students' difficulty in finding the main idea and detail information of the texts.</p><p>Directed Reading Thinking Activity (DRTA) is chosen because its components promote ways to facilitate the use of reading strategies. Directed Reading Thinking Activity (DRTA) is one of the strategies in reading that has three core steps of comprehension cycle. They are sample the text, make prediction, and sample the text to confirm or correct previous predictions. These three steps are conducted as before, during and after reading steps so that they fulfill the proper steps of reading comprehension. This guides students step by step in the reading process.</p><p>Directed Reading Thinking Activity (DRTA) divides the text into smaller portion so it aids the students to focus on the process of responding to higher-order questions. Directed Reading Thinking Activity (DRTA) involves predicting activity which assists the students to use not only what they already know but also whatever they can learn from a quick preview of the material to predict what the material is going to be about. Predicting prepares the reader for comprehension.</p><p>As mentioned by Harmer earlier, by implementing prediction, the students' expectations and active process of reading is ready to begin when they can get the hints of the text so they can predict what's coming in the next segment of a particular text. It is linear to the concept of Directed Reading Thinking Activity (DRTA) which dividing a text into some segments. During the process of conducting Directed Reading Thinking Activity (DRTA) the teacher guides the students, making sure that each student is actively involved in understanding each segment before continuing to the next. It encourages the students' participation in comprehending the whole text. The students' less participation can be anticipated by creating more lively activities such as discussion and reward giving. And to overcome the lack of media, the researcher employs power point presentation which presents the material in the more interesting way. The way concept on this study is shown by the following diagram.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 2.1 Global Problems in Teaching and Learning Process of Reading</head><p>Global problems in teaching and learning process of reading in class VIII-1 SMP Negeri 7 Medan</p><p>Resolution of the problems This research, however, does not improve all of the skills (micro and macro skills) of reading at once. It merely strengthens some points considered from the students' problems in reading as mentioned earlier. Directed Reading Thinking Activity (DRTA) mainly focuses on improving the students' reading comprehension especially the students' problem to detect the main idea and detail information in the texts. It also facilitates the students to be able to connect their prior knowledge with the information of the texts through predicting, reading, and confirming the predictions.</p><p>By using Directed Reading Thinking Activity (DRTA), both the teacher and the students can be assisted in their own roles during the teaching and learning of reading. The students can be helped to improve their comprehension and the teacher can be more involved and active to guide the students during the reading. <ref type="bibr">25</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Hypothesis</head><p>Based on the theoretical and conceptual framework above, there were two hypothesis:</p><p>1. There is improvement on the students' ability in reading comprehension using Directed Reading Thinking Activity (DRTA) strategy.</p><p>2. There is no improvement on the students' ability in reading comprehension </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER III</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH METHODOLOGY</head><p>This chapter presents the method of the research, the subject of the research, the time and place of the research, the procedure of research, the technique of collecting data and the technique of data analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Method of Research</head><p>The characteristic in this research is to repairing and improving the result of students' study on the learning reading comprehension in grade VIII students by applying Directed Reading Thinking Activity (DRTA). Therefore, the characteristic this research is to repair, so the method in this research is Classroom Action Research (CAR).</p><p>Classroom Action Research (CAR) is kind or research which is conducted during the learning process. It is designed to help the teacher to find out what happened in the class and use the information to take action for the future improvement of teaching- learning process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Subject of Research</head><p>The subject of the research is the grade VIII students of SMP NEGERI 17 MEDAN. There were 36 students that consisted of 23 females and 13 males in Academic Year 2016/2017. The researcher were selected the grade VIII students in this school, because of some considerations. The first one is, firstly the research was to choose the grade VII students but, they were still in the process of adaptation toward the school and learning environment, so the English teacher in that school didn't give permission. The second one, it was not a wise idea to do research in the grade IX students, because they were in the preparation for the National Examination, so the side of school didn't give permission to do the research.</p><p>Therefore, the grade VIII students were taken as a subject of this research. The potential problems were found after the interview and observation was done. The students' low reading comprehension was one of the main problems to solve.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Location and Time of Research</head><p>The research was conducted at SMP NEGERI 17 MEDAN is located in Jl. Kapten M. Jamil Lubis No.108, Bandar Selamat Kec. Medan Tembung Kota, Medan North Sumatera, and this research will do on January to March 2017. Why the researcher select this school as a location of research because:</p><p>1. The researcher found the problem in this school is students' ability in reading comprehension still less, so need to improvement of learning. It founded when the researcher's experiences during the PPL on October-December 2016.</p><p>2. The location isn't so far from the researcher's collage and it is still can to reach by researcher.</p><p>3. There are same between the material which is learning with the basic of competence that will use in this research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Procedure of Research</head><p>In this research will conducted in two cycle, but in two cycle have not found the improvement so the research will conducted until cycle three, but if in two cycle have found the improvement so the research is enough until two cycle.</p><p>The Classroom Action Research (CAR) procedure used in this research was Kurt Lewin design. It consists of two cycles in which each cycle contains four phases; planning, acting, observing, and reflecting. <ref type="bibr">26</ref> To more clear the explanation will be seen the design as follow: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Action</head><p>The researcher was doing action based on the planning has been arrangement in the planning stage. The basic competence that was taken found the main point of the paragraph through intensive reading. The indicator of learning are, a) answer the question with making question prediction based on the picture, b) answer the questions that they make with their answers' prediction, c) make a confirmation based on the story. Based on the big line, the action that will do by the researcher is to repairing and improving learning reading comprehension.</p><p>Every lesson will do in three stages, they are; the first action, the point action and the last action. The first action is the appersepsion and then the teacher is doing simple simulation. The teacher explains the aim of learning and explains the action that will do by applying Directed Reading Thinking Activity (DRTA) strategy. The teacher gives the motivation to students to improving the study interest on the learning reading comprehension process through DRTA strategy.</p><p>On the point action, the teacher is doing learning process through Directed Reading Thinking Activity (DRTA) strategy. The actions that done are: a) The teacher share students' worksheet and guide them to ask the students to make a question related the picture.</p><p>b) The students think and make a prediction.</p><p>c) The teacher explains some information about the story.</p><p>d) The teacher share the worksheet and ask the students make predictions the contents of the story based on the picture.</p><p>e) The teacher with the students choose the best question related the picture and the students answer the questions with their prediction.</p><p>f) The students read the text until the end and then make true confirmation.</p><p>g) The teacher guide them during learning process.</p><p>On the last action, the students with the teacher make a conclusion about the material that has done. Next, students are doing the evaluation test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Observation</head><p>Observation is aimed to observe the teachers' activity and students' activity during learning process. The data is taken by using observation sheet, with giving the checklist symbol in every indicator that observed. There are some activities of observation. They are: a) Observing teachers' activity during teaching learning process. b) Observing students' activity during teaching learning process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Reflection</head><p>In this stage will knowing the advantages or the weakness of lesson in the cycle I. the reflection's result to repair learning process at the cycle I and make lesson plan on the cycle II. There are some activities that will do in this stage. They are: a) Doing evaluating with the process and the result of learning reading comprehension lesson that already done in the cycle I. b) Identifying the problems that turn up in the learning reading comprehension process in the cycle I. c) Make a repair lesson reading comprehension plan to the cycle II as continue learning action cycle I.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cycle II</head><p>Basically, the action do in the cycle II does not different with the cycle I. learning process in this stage is the result from cycle I. On this stage will do action that need to repair in the cycle I so in cycle II learning reading comprehension through DRTA strategy become more improve.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Planning</head><p>In the planning stage, the researcher preparing the things will do in the cycle II as the repair's result in the cycle I. the activities will do, they are: a) Make lesson plan as a repair cycle I b) Preparing the instrument of research to survey the result of students' study in learning reading comprehension. c) Preparing students' worksheet.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Action</head><p>The action that will do in cycle II is a repairing cycle I. in this stage, the researcher action doing based on lesson plan that arranged in prepare before basic competence that use still same in cycle I is find the main point every paraghraph through intensive reading. The indicators of lesson are a) found the verb to in the puzzle and answer the question with making question prediction based on the picture, b) answer the questions that they make with their answers' prediction, c) make a confirmation based on the story. Same like cycle I, in cycle II the action lesson will do in three steps, are the first action, the point action, and the last action. The first action is the apersepsion and then the teacher is doing simple simulation. The teacher explains the aim of lesson and explains the action that will do by applying Directed Reading Thinking Activity (DRTA) strategy. The teacher gives the motivation to students to improving the study interest on the learning reading comprehension process through Directed Reading Thinking Activity (DRTA) strategy.</p><p>On the point action, the teacher is doing learning process through Directed Reading Thinking Activity (DRTA) strategy. The actions that done are:</p><p>a) The teacher share students' worksheet and guide them to found the verb 2 in the puzzle and wrote the meaning and then ask the students to make a question related the picture as like in the last meeting.</p><p>b) The students think and make a prediction.</p><p>c) The teacher explains some information about the story.</p><p>d) The teacher shares the worksheet and ask the students make predictions the contents of the story based on the picture.</p><p>e) The teacher with the students choose the best question related the picture and the students answer the questions with their prediction.</p><p>f) The students read the text until the end and then make true confirmation.</p><p>g) The teacher guides them during learning process.</p><p>On the last action, the students with the teacher make a conclusion about the material that has done. Next, students are doing the evaluation test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Observation</head><p>Observation is aimed to observe the teacher's activity and student's activity during learning process. Especially to look the progression students' activity in the learning reading comprehension process through Directed Reading Thinking Activity (DRTA) strategy . The data is taken by using observation sheet, with giving the checklist symbol in every indicator that observed. There are some activities of observation. They are: a) Observing the teacher's activity during teaching learning process. b) Observing the students' activity during teaching learning process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Reflection</head><p>After learning process and observe in the cycle II, hopefully there is improvement the students results' study in reading comprehension. If in this cycle </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Technique of Collecting Data</head><p>The technique of collecting data in this research is the observation, interview and test. The completely explanation is as follows:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Observation</head><p>Observation is aimed to observe the teacher's activity and students' activity during learning process. Especially to look the progression students' activity in the learning reading comprehension process through Directed Reading Thinking Activity (DRTA) strategy. The data is taken by using observation sheet, with giving the checklist symbol in every indicator that observed. Observation checklist will use in this research, this mean the research doing observation directly when learning process. This used to gain information about the problem and the teaching learning process in the reading class. This method is very suitable is used to observe in learning activities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Interview</head><p>Interview was conducted to the teacher and the students because the researcher want to find directly the teachers' problems in teaching reading comprehension and from the students' problems in reading comprehension and the interview was conducted in Bahasa Indonesia to make the interview became more comfortable to share their thoughts. Interview will use to gain the information which could not be gained through observation. Interview was conducted in the end of each meeting to obtain the information about the students' response and impact of using Directed</p><p>Reading Thinking Activity (DRTA) strategy, and the whole process of teaching and learning practice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Test</head><p>In this research will use test, the kind of the test is used in this research is written tests were in the form of multiple choices and essay for each the pre-test and post- test. By used the written test the researcher more easy to measure the students' reading comprehension score through Directed Reading Thinking Activity (DRTA) strategy. The test is to getting the result students' evaluation by learning reading comprehension through Directed Reading Thinking Activity (DRTA) strategy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Technique of Data Analysis</head><p>In this research, data is getting through observation, interview and test. Technique data analysis that used in this research is quantitative and qualitative approach. Quantitative analysis was getting from the result of studies after followed learning reading comprehension through DRTA. While analysis qualitative was getting the data from the result of observation and interview toward the teacher and students.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">The Quantitative Data</head><p>This data is the result of evaluation learning reading comprehension that used descriptive analysis with establish of mean score is getting by students. The increasing of their achievement can be shown with increasing score which is gotten by students from pretest score to posttest score. The writer uses three techniques in analyzing the numerical data as follows:</p><p>a) The writer seeks the average of students grammar score within pre-action and post-action of every cycle by using the formula: <ref type="bibr">27</ref> = mean X = individual score n = number of students b) The writer seeks the class percentage which pass the KKM score (75) by using the formula: 28 P = P = the class percentage F = total percentage score N = number of students c) To know whether any improvement or not in students' score, the writer analyzes their score from pre-test up to post-test score in cycle 1 and cycle 2 by using the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">The Qualitative Data</head><p>The data was getting from interview and the result of teachers' activities and students observation as long as learning reading comprehension process by applying Directed Reading Thinking Activity (DRTA) strategy. Qualitative data is data about the information which give a description of students' expression about comprehension level toward the subject (cognitive), students' responds toward the new method (affective), and students activity toward learning a subject, their attention, their enthusiastic in learning, their response; their motivation of learning can be analyzed qualitatively.</p><p>The writer uses descriptive analysis to analyze this qualitative data, which consists of the observation of students' activities and teachers' performance during the teaching learning process, the field notes, also the interview before and after Classroom Action Research (CAR).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a) Processes in qualitative analysis</head><p>Qualitative analysts are justifiably wary of creating an unduly reductionistics or mechanistic picture of an undeniably complex, iterative set of processes. Nonetheless, evaluators have identified a few basic commonalities in the process of making sense of qualitative data. In this chapter I have adopted the framework developed by Miles and Huberman to describe the major phases of data analysis: data reduction, data display, and conclusion drawing and verification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b) Reducing data</head><p>Reducing data refers to the process of selecting, focusing, simplifying, abstracting, and transforming the data observation sheet. The data is summarized, sorted, and organized in such a way so the researcher can start to make a conclusion. c) Data display Data display is the second element or level in Miles and Hubermans' model of qualitative data analysis. Data display goes a step beyond data reduction to provide "an organized, compressed assembly of information that permits conclusion drawing." A display is an organized and compressed assembly of information. It makes the data compact and immediately accessible so that the researcher can see a large amount of data at once, begin to understand what is happening and start to draw justified conclusion. Display which describe data in initial phases of analysis may lead to displays which are more interpretive later on. The format of display will depends on what I am trying to understand, a general situation, a detailed chronology and the way of variables interact.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>d) Conclusion drawing and verification</head><p>This activity is the third element of qualitative analysis. Conclusion drawing involves stepping back to consider what the analyzed data mean and to assess their implications for the questions at hand. Verification, integrally linked to conclusion drawing, entails revisiting the data as many times as necessary to cross-check or verify these emergent conclusions. <ref type="bibr">30</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER IV FINDINGS AND ANLYSIS A. Findings</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">The Data Description</head><p>There are two kinds of this research, qualitative and quantitative. The qualitative data were taken from interview, observation sheet and documentation. The quantitative data were taken from the mean of students score in taking test. The total number of students in that class was 36 students that consisted of 23 females and 13 males. This research was accomplished in two cycles. The research was conducted in four meetings. There was pre-test before conducting the cycle in the first meeting. The cycle I included the post test I that was conducted after the researcher taught the students in two meetings. The cycle II included the post test II that was conducted after the researcher taught the students in two meeting also. The steps performed by the researcher in each cycle were based on the rule of Classroom Action Research. The each cycle consisted of four steps of action research (planning, action, observation, and reflection).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a. The Quantitative</head><p>The quantitative data was taken from the result of the test, which were carried out in two cycles. The test was given to the students in forms of pre-test, post test of cycle I and cycle II. The result of the students' score could be seen in the following: In the pre-test, the total of students' score was 1538 and the total of students who took the test was 36 students. So, mean of the students' score was: = = 46.60% In the post-test in cycle I, the total of students' score was 2116 and the total of students who took the test was 36 students. So, mean of the students' score was: = = 64.12% In the post-test in cycle II, the total of students' score was 2628 and the total of students who took the test was 36 students. So, mean of the students' score was: = = 77.29% There was improvement of students' scores in reading comprehension through DRTA strategy. It also can be seen from the mean of students' scores in pre-test, post-test I and post-test II. The mean of post-test II was the highest than the other tests.</p><p>The students' scores in these three tests were varied. In the pre-test, the lowest score was 16 and the highest score was 92. In the post-test I, the lowest score was 36 and the highest score was 96. In the post-test II, the lowest score was 56 and the highest score was 100. The comparison of students' scores can be seen in the following table. The indicator of students' ability in reading comprehension was if the students have got score ≥ 75. The students are competent and passed the test if the students got score ≥ 75. To categorize the total of students who passed at the test was calculated as follow:</p><p>The percentage of students who passed the pre-test was:</p><p>= 16.67 The percentage of students who passed in the post-test I was:</p><formula xml:id="formula_1">= 27.77</formula><p>The percentage of students who passed in the post-test II was: = 55.55 Based on the table above, the result showed the improvement of students' scores from pre-test, post-test I, and post-test II. In the pre-test II, there were 6 of 36 students who got score ≥ 75 (16.67 ). In the post-test I, there were 10 of 36 students who got score ≥ 75 <ref type="bibr">(27.77</ref> In the post-test II, there were 20 of 36 students who got score ≥ 75 (55.55</p><p>To know whether or not there was any improvement or not in students' score, I analyzed their score from pre-test up to post-test score in cycle 1 and cycle 2:</p><p>The analysis of scores improvement from pretest mean score, can be seen from the pretest mean score (46.60) to the mean score of post-test I (64.12). The calculation is: P = P = P = P = 37.59% Based on the result above, the percentage of the students' scores from the pretest to the posttest I is 37.59%. This means that the score in cycle I is improved about 37.59% from the pretest score.</p><p>Next, the analysis of scores improvement from mean score, can be seen from the pretest mean score (46.60) to the mean score of posttest II (77.29). The calculation is: P = P = P = P = % Based on the result above, the percentage of the students' scores from the pretest to the posttest II is 65.85%. This means that the score in cycle I is improved about 65.85% from the pretest score.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b. The Qualitative</head><p>The qualitative data were taken from, interview, observation, diary note and documentation.</p><p>1. Interview</p><p>There were teacher and students as the informants of interview during the study. For the teacher, the interview was conducted twice, before and after using the DRTA strategy. At the first time, the researcher asked the teacher's problem in teaching reading comprehension in teaching learning process. The summary that I got was, in the 8 th grade students, many students do not like to read the text, they feel bored in reading comprehension class, they do not know the meaning of the text, it means students' vocabulary is less. At the second time, the researcher asked the teacher's opinion about the DRTA strategy. The summary that I got was, the teacher very impressed about DRTA strategy because that never used it before and the teacher allowed me to used DRTA strategy and she wishes me, it can make improving in students' reading comprehension.</p><p>For the students, the interview was also conducted twice, before and after using DRTA strategy in the learning reading comprehension. At the first time, the researcher asked the students' problem in reading and how the teaching learning process that used by their teacher in reading comprehension class. The summary that I got was, they often feel bored because the teacher just asked them to translate and then answer the question based on the text. At the second time, the researcher asked the students' opinion about the DRTA strategy by in teaching reading comprehension. The summary that I got was, They are very enjoyed, because they can study together in their group discussion to making prediction and each other to giving opinion based on the picture.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Observation</head><p>In observation conducted by observed the situation of learning reading comprehension process. In here the observer observed the teachers' activities and the students' activities. The data that I got from the observation checklist that did by the observer was, for the students' activities was the observation sheet indicated that most of students were active and serious to make prediction based on the picture and then read the text to answer the questions. The students seriously to make questions prediction based on the picture and then they angered with the answer until they read the text to found the suitable answer with the question. . For the teachers' activities was, the teacher teaching well in the class, start from opening until closing, the teacher guides the students well to understand the material by used DRTA strategy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Documentation</head><p>The documentation included lesson plan, students' worksheet and photo. The documentation indicated that the students were serious to learn. It can be seen the following pictures:</p><p>The teacher shared Students' worksheet for Pre- Test</p><p>The students were doing pre-test silently \ Making groups discussion. My observer (Mom Delfi) help me to make a group discussion, because the students so noisy</p><p>The teacher explains the strategy that will conducted in the learning process The teacher ask the students to making prediction based on the picture in the worksheet and write in the whiteboard</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. The Implementation of the Actions</head><p>As mentioned earlier, the actions of this research consist of two cycles. The discussion of the implementation of each cycle is presented as follow.</p><p>1. The Implementation of Cycle 1 a. Planning</p><p>The teacher guide the students during learning process</p><p>The students were doing a worksheet seriously</p><p>The students doing post test seriously</p><p>The action plans of cycle 1 are presented as follows:</p><p>1) implementing DRTA strategies in teaching reading, 2) using pictures as the media to gain the students attention during the teaching and learning practice,</p><p>3) conducting group-work, 4) providing group and individual work sheet and exercise, 5) reviewing the material and media, and 6) testing the students' reading comprehension.</p><p>During the implementation, DRTA strategy was applied trough the scientific approach. Thus, in implementing the designed action plans, the researcher followed the three main stages in reading which are presented as follows:</p><formula xml:id="formula_2">a) Pre-reading</formula><p>This previewing stage of reading overcame the observing and questioning steps of the scientific approach and the predicting step of DRTA. The students were</p><p>given one or more pictures to be observed followed with some questions. After that, the students were provided with one or two question word/(s) and have to make question/(s) based on the picture using the provided word/(s) that at once functioned as prediction. Then, they answered the questions including their own questions to make the predictions which embraced the DRTA step.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b) Whilst-reading</head><p>Whilst-reading allowed the students to read the text in the form of stopping points or segments, not the complete text. In this step, the students collected information related to the previous questions. This whilst-reading stage overcomes the collecting information step of scientific approach and reading step of DRTA strategy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>c) After reading</head><p>After reading, the students had to confirm and justify whether their predictions were accurate, less accurate, or not accurate by putting a tick in the prediction verification checklist and they were allowed to correct their predictions. This stage comprised the confirming and justifying steps of DRTA and associating step of the scientific approach. It was because the stage facilitated the students to correlate the information they read with their predictions and decided whether they were accurate or not and made correction if it was necessary.</p><p>b. The Action and Observation in Cycle 1</p><p>In cycle 1, the actions were carried out in two meetings. The schedule of the cycle 1 is presented in the following table: The complete description of the implementation in the first cycle is presented as follows.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) Meeting 1</head><p>The first meeting was done on February 17 th 2017. Earlier on March 15 th , I conducted pre-test and gave some briefing about the research including grouping the students into nine groups, at the first meeting. The class was started by greeting between the teacher and the students, brief introduction, and students' attendance list checking.</p><p>Two students were absent because of was illnes.</p><p>The lesson was continued by the work and verification sheets distribution for each group and the explanation on how to work with the worksheet. A picture was presented in the slide show as well in the students' worksheet. The students were given the opportunities to observe the first picture for three minutes. The students were asked some questions to stimulate their background knowledge.</p><p>After background knowledge stimulating activity, the students were guided to look for the questions that followed the picture. Before that, the students were asked to make two questions in group using the given question words based on the picture.</p><p>Each group wrote down the questions in the white board, because most of the group had similar questions, there were two selected questions only to be answered. Then, they had to answer the provided questions and the selected questions as the predictions. They should write the predictions in the predictions column in the worksheet. The students were asked to look and observe the second picture. There were four questions to be answered as the predictions. In fact, the same problem of making sense of the questions happened again so that the students were guided by using the clues found in the questions.</p><p>While trying to answer the questions, most of the students did not understand what the sense of the questions. They said that they did not know the meaning of the words in the questions which made them got wrong interpretation. The students were invited to look at the word that they know well and looked at the picture again. Slowly, the students began to understand. Next, the students had to confirm whether their answers (their predictions) were accurate, or less accurate, or even not accurate with the teachers' helping.</p><p>They should associate their prediction and the information in the card to confirm and verify their predictions. Then, the teacher makes correction if it was necessary.</p><p>During the activities, most of the students could formulate the questions well in Bahasa Indonesia, but the teacher helped them to translate into English. Next, the students were asked to do a task that was answering open-ended task consisting of six items individually. This task was aimed to help the students understand better about the text as a whole. The text was entitled "Sick in the Middle of the Class", because the time was limited, the students were requested to do the task at home and it would be discussed in the following meeting.</p><p>Before the end of the class, the researcher asked if there were still any questions about the material or the lesson. The students were also invited to remind what have been learned at the meeting. The teacher also explained about the next activities for the second meeting on Saturday. The class was dismissed at 10.15 a.m.</p><p>2) Meeting 2</p><p>The second meeting was held on 18 th 2017. The lesson was started by greeting and students' attendance list checking.</p><p>The students responded to the greeting cheerfully and said that one was absent at this time. The students had already sat in their groups. Next, the homework was discussed together by the class. The students were asked to submit their homework on her desk after the end of the meeting.</p><p>After discussing the homework, the researcher distributed the work and verification sheets for each group. Before moving to the main activities, a new task was provided. It was about found the past form in the puzzle. This task was considered based on the problem found in the meeting that day. It was aimed to settle in the students with the past form of commonly used verbs and to make them aware to the language form used in the recount text which is past tense. The verbs in this task were taken from the recount text for this meeting as demonstrated their groups.</p><p>The students were very enthusiastic to fill the table. All the representatives of the groups were correct in found the past forms, there were found eight verbs, there were found ten verbs and another. Similar to the previous meeting, the teacher invited the students to observe the picture for about three minutes in the next section. Each representative of the groups wrote down the question in the white board. Although they had different forms of questions (the choice of word), all of those questions had the similar meaning. Finally, it was chosen a question to be answered by all of the groups beside the questions that followed the picture. The students worked in groups to discuss the answers as the predictions and write them down in the worksheet. During this questioning section, some students did not have significant difficulty in formulating the question. However, some students still got wrong interpretation of the provided questions because they did not know the meaning of some words. The students were asked to guess the word, but it seemed that the word seemed unfamiliar for them. So the students were allowed to look up the word in the dictionary and sometime they asked the teacher.</p><p>The activities continued by observing the same picture, the students should answer the questions to make the predictions. Then, the students read the second card by themselves to find whether their predictions were accurate or not, and the next, the students confirmed their predictions.</p><p>The students were asked if there was something to be asked for. Some questions related to the text were asked for the students to give them better understanding, at this meeting, the students' predictions were getting logical. They started to relate the situation in the questions and the possible answer to their daily life, as shown in the excerpt of field note below.</p><p>It remained 20 minutes before the class was over and the students were given 25 multiple choices about the recount texts that they had been read as a progress test. After that, the students were given homework in the form of true/false task consisting of ten items that should be submitted in the next meeting. Briefly, the teacher reviewed the meeting and explained about the next meeting. The class was dismissed at 08.50 a.m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b. Reflection</head><p>At the end of the meeting, the researcher and the observer discussed the meetings based on the observation during the teaching and learning reading using DRTA strategy. The researcher also had interviews with some students of the eight-1 class.</p><p>Based on the observation and interviews during the Cycle 1, there was no obstacle in introducing Directed Reading Thinking Activity (DRTA) strategy to the students. However, there were some conditions during the first cycle that need to be improved.</p><p>During the first meeting, the students' difficulties in find the past form, where as this material had been taught before by the English teacher. Since the students were learning about recount text, it was important to make them aware that the text is presented in the past form.</p><p>However, the researcher would not teach about grammar or structure of presents and past tense. It was about the verbs which were presented in the past form. The students were distracted by the past form of a verb. They said that they could not understand the text because they did not know the meaning of the verbs. Actually, they knew well those verbs if they were presented in the present form. It made the researcher determine to slightly review about the verbs in present and past form.</p><p>Besides, the students got confused in interpreting the meaning of the questions. It seemed that they lacked learning strategies, so they were guided to guess the key word and relate to the picture, after that, the students seemed better in answering the questions.</p><p>In the second meeting, there were more students who were actively participating during the class. They started to feel comfortable and accustomed to follow the activities of DRTA strategy. Their predictions were getting logical as well since they were guided in interpreting the questions. The pictures helped the students to stimulate their background knowledge and get the visualization of the text and their predictions. Moreover, students have good comments about the activity of DRTA strategy. They said that the strategy helped them in understanding the text. They were able to visualize and make sense of the recount texts by guided with some questions to make predictions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">The Implementation of Cycle 2</head><p>Similar to the first cycle, cycle two also had two meetings. The discussion of the second cycle implementation covers the planning of the action that was based on the first cycle reflection, the actions and observation during the lesson, and the reflection of cycle 2. The detail description about them is presented as in the following.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a. Planning</head><p>Considering the reflection of cycle 1, the researcher found that there were some points of actions that were still weak and had to be improved in cycle 2. The researcher and the observer paid attention not only to the weak points of the lesson but also the strong ones. The strengths were about the use of pictures and key words that can help the students to pay attention and activate background knowledge during the teaching and learning process. The weaknesses related to the students' lack of vocabulary that hindered them in understanding the questions and the students' difficulty in discovered the past form of a verb.</p><p>The first meeting of cycle two was the directed reading thinking activity with a new recount text entitled "My Horrible Experience" and a new picture. The second meeting was reviewing activity. In this meeting the researcher intended to review the whole meetings from the cycle 1 to the last meeting of the DRTA implementation. The teacher wanted to deepen and strengthen the students in improving the reading problems especially in finding the main idea and detail information that mainly related to the reading comprehension skill.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b.</head><p>The Actions and Observation in Cycle 2</p><p>In the second cycle, the actions were carried out in two meetings. The cycle two was conducted one week after the first cycle. The schedule of the cycle two is presented in the following table: The detail explanation about cycle two is presented in the following discussion:</p><formula xml:id="formula_3">1) Meeting 1</formula><p>The first meeting of cycle two was held on April, 24 th 2015. The researcher began the lesson by greeting the students, checking their attendance list and setting the students to sit on their group.</p><p>Then, the teacher continued by reviewing the actions in cycle 1 and sharing opinions with the students. The students were given the opportunities to share their opinion toward the first cycle. Most of the students had positive comment about the teaching and learning processes in cycle one. The teacher prepared the worksheet and share to each groups and distributed the puzzle for the students. Every student had to find the more than five verbs in past tense form and wrote them down in a paper.</p><p>Next, the teacher invited the students to do the next section, to make their prediction as like in the first meeting. Then, the students read the text themselves to obtain the information whether their predictions accurate, less accurate, or not accurate. After 5 minutes reading, each group could confirm and verify their predictions. They immediately corrected their less or not accurate predictions.</p><p>Afterwards, the researcher asked them whether they still have something to ask or not.</p><p>Nevertheless, there are some points that can be concluded from the first meeting. It can be seen that the students' participation was rising. They started to be confident with their answers without worrying about making mistakes. They started to be confident as well about their perception of the questions as demonstrated.</p><p>This meeting also shows that the wrong predictions did not cause a misunderstanding about the text. Instead, it made the students become more aware and anticipate about the information in the text. The class was dismissed at 10.15 a.m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) Meeting 2</head><p>The second meeting of cycle 2 was done on 25 th 2017. In the action plan, the class was started with greeting and the students' attendance list checking.</p><p>Then, the previous lesson was reviewed in the first meeting. Some questions were asked to recall the students' memories about the text.</p><p>Next, the slide show of the next activity was prepared and the students were asked to prepare the worksheet. The students were asked to observe the picture the same one as the previous activity and also observe the following questions. The students were allowed to ask. Some students asked to make sure whether they interpreted the questions correctly or not, other students asked about some new vocabulary items in the questions.</p><p>The next activity, the students confirmed their predictions. The researcher and the students discussed the answers of the questions. Then, verified whether their predictions were accurate, less accurate or not accurate. In fact, all of the groups did better in making the predictions. Although, there were still some mistakes, their predictions were logical and acceptable.</p><p>It remained about 20 minutes before the end of the class and the researcher invited the students to review the two recount text, "My Horrible Experience" by asking some questions. Then, the teacher invited the students to have brief reviews and reflections on the cycle 1 as well. The researcher tried to clear up the material, so she invited the students if they still have something to ask. The teacher reminded the students that they would have a post-test on the next meeting. The researcher dismissed the class afterwards at 08.50 a.m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>c. Reflection</head><p>The teaching and learning processes of cycle two had been done smoothly.</p><p>However, there were not any significant problems found during the meetings. The problems that occurred in the first cycle had been solved by implementing some modifications of the actions as discussed with the collaborators.</p><p>The students were already accustomed with directed thinking reading activities.</p><p>They could follow and understand the instruction given and did the task well. The students' comprehension, especially, in finding the main idea and the detail information of the text increased since DRTA strategy helped them in directing their thinking ways in reading by making predictions and confirming the predictions. As the result, most of them were actively participating during the teaching and learning practice. It was supported with the positive environment between the teacher and the students. The picture and key words during the lesson helped the students a lot in activating their background knowledge. The vocabulary guessing also helped the students to overcome their difficulties in comprehending.</p><p>The students' attentions and focuses were not disrupted by the density of the words. This was more motivating the students to read. In addition, by correcting their less accurate or not accurate predictions after the confirmation and verification made the students more confident to participate in the class. It made them feel safe to make mistakes and it was a good start as well to invite the passive students to be more active during the lesson. The further discussion of the students' improvement in reading comprehension is discussed in the general findings and discussion. The class was dismissed at 08.50 a.m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Main Finding</head><p>Based on the data analysis, the result of research was indicated that there was improvement on the students' ability in reading comprehension by using DRTA strategy. It was proved by the data; the students' score in pre-test, the lowest score was 16 and the highest score was 92; the students' score in post-test I, the lowest score was 36 and the highest score was 96; the students' score in post-test II, the lowest score was 56 and the highest 100. In the pre-test, there were 16.67% (6 of 36 students) who got score ≥ 75. In the post-test I, there were 27.77% (10 of 36 students) who got score ≥ 75. In the post-test II, there were 55.55% (20 of 36 students) who got score ≥ 75.</p><p>The data showed that the students' mean score of post-test I in cycle I was 64.12.</p><p>It proves that there are some improvements from the pre-test means score. It could be seen from the pre-test mean score 46.60 to the mean score of post test I 64.12, it improves 17.52 (64.12-46.60).</p><p>Next the percentage in cycle II was 77.29. It proves that there are some improvements from the pre-test means score. It could be seen from the pre-test mean score 46.60, to the mean score of post-test <ref type="bibr">II 77.29, it improves 30.69 (77.29-46.60)</ref> It means that in the class percentage of posttest II obviously shows some improvements from the previous test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Discussion</head><p>Direct Reading Thinking Activity (DRTA) strategy is one of the strategies in the teaching of reading comprehension. Directed Reading Thinking Activity (DRTA) strategy is focusing student engagement with the text, because students have to predict and prove when the students read. Directed Reading Thinking Activity (DRTA) strategy in the learning reading comprehension is very effective, because the students more easy to understand with the prediction that their made and it can be seen from the result of students' reading scores is better. The teacher using this strategy in every meeting and the students be seen more interest in learning process. It was based on the Stauffer was explained of Directed Reading Thinking Activity (DRTA) strategy have three steps were: predicting , reading and proving that involved the students' interaction with the teacher about the text in altogether. So, in the class students made a prediction and then proven it until the students will be thought and find out the answering that would made them understand with the text.</p><p>In another that, with there was a new innovation like using Directed Reading Thinking Activity (DRTA) strategy, students never feel bored, students more interactive and help students to more active and critical thinking. Based on it, process of learning reading comprehension students more active was during learning process, students more adventurous to ask to the teacher. In addition, using of Directed Reading Thinking Activity (DRTA) strategy gave influenced with students' achievement. Its known from the students' score improved in every test. It was supported by the fact of the mean score in every meeting increased.</p><p>It was showed from the mean of pre-test which was 46.60, it was still low because the students still faced difficulties, after Directed Reading Thinking Activity (DRTA) strategy was applied in the first cycle, there was an improvement of the result of the students' mean which was 64.12 and for the second cycle after reflection on the first cycle there was an improvement of students' mean which was 77.29.</p><p>Moreover the percentage of students who got point up to 75 also grow up. In the pre-test, there were 16.67% (6 of 36 students) who got score ≥ 75. In the post-test I, there were 27.77% (10 of 36 students) who got score ≥ 75. In the post-test II, there were 55.55% (20 of 36 students) who got score ≥ 75. So, the total percentage of the improvement from the pre-test to post-test II was about 55.55%. In another words, the students was became better in the first meeting to the next meeting.</p><p>The researcher also analyzed qualitative data to support the research finding beside the quantitative data. The qualitative data were organized from observation sheet. All of these data were indicated that the students given their good attitude and response during teaching learning process. Based on the results of the quantitative and qualitative data it were indicated that the action and the implication of Directed Reading Thinking Activity (DRTA) strategy was kept improving.</p><p>Based on the data and data analysis, it shows that the improvement of the students' score improve were better and were satisfied. Most students were not shy to ask to the teacher and more active to give their opinion in made a prediction and they more serious in learning and listening when the teacher explained the instruction and it made they more interested to learning reading comprehension. It made them interested to read the text and made their reading comprehension improved. Based on the explanation above, it can confirm that the theory about Brown that defines learning as a process of acquiring or getting of knowledge of a subject or a skill by study, experience or instruction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER V CONCLUSION AND SUGGESTION</head><p>This chapter summarizes the findings in the previous chapter. It presents the conclusion and suggestions as well. The detail explanation is presented as follows.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Conclusion</head><p>Related to the findings of this research, it could be said that this research was improved students' reading comprehension. It is proven by the test result, In the pre- test, there were 16.67% (6 of 36 students) who got score ≥ 75. In the post-test I, there were 27.77% (10 of 36 students) who got score ≥ 75. In the post-test II, there were 55.55% (20 of 36 students) who got score ≥ 75.</p><p>In conclusion, based on the result of the research and the data found, it can be said that DRTA is effective to improve the students' reading comprehension. In here, based on the hypothesis there was improvement on the students' ability in reading comprehension using Directed Reading Thinking Activity (DRTA) strategy. Therefore, Directed Reading Thinking Activity (DRTA) Strategy can acceptable with the 8 th grade students in SMP Negeri 17 Medan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Suggestion</head><p>Based on the result of the research, the conclusions of the using directed reading thinking activity (DRTA) to improve the students' reading comprehension, the researcher wants to suggest some points for the English teacher and the further researchers. The suggestions are intended to find and enhance the effective ways in teaching reading, especially for the junior high school students. The recommendations are presented as follows.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">For the English Teachers</head><p>Comprehension is one of crucial issues of reading. It can be achieved by applying some strategies in reading. Hence, the teachers should facilitate the students with the most suitable and feasible strategy of reading. DRTA can be used to help the students thinking while reading.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">For other Researchers</head><p>The using of Directed Reading Thinking Activity can improve the students' reading comprehension. It is suggested for other researchers to use Directed</p><p>Reading Thinking Activity as one the references in teaching reading.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 . 1 Global Problems in Teaching and Learning Process of Reading ...... 31 Figure 3 . 1 The Classroom Action Research (CAR) Procedure Kurt Lewin Design .................................................................................................... 35 LIST OF TABLES Table 4. 1 The Students' Score in the Three Reading Test ................................... 48 Table 4. 2 The Comparison of Students' Score in Reading Comprehension ...... 51 Table 4. 3 The Percentage of Students' Ability in Reading Comprehension through DRTA Strategy ........................................................................ 52 Table 4. 4 The Schedule of Cycle I .......................................................................... 61 Table 4. 5 The Schedule of Cycle II ......................................................................... 69 LIST</head><label>21313135148251352461569</label><figDesc>Figure 2.1 Global Problems in Teaching and Learning Process of Reading ...... 31</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>4</head><label></label><figDesc>) Recognize a core of words, and interpret word order patterns and their significance. 5) Recognize grammatical word classes (noun, verb, etc.), systems (e.g. tense, agreement, pluralization), patterns, rules, and elliptical forms. 6) Recognize that a particular meaning may be expressed in different grammatical forms. 7) Recognize cohesive devices in written discourse and their role in signaling the relationship between and among clauses. Macro skills 1) Recognize the rhetorical forms of written discourse and their significance for interpretation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>1 .</head><label>1</label><figDesc>Renn conducted a research on the effect of the directed reading thinking activity on second grade reading comprehension. In this research, she compared Directed Reading Thinking Activity (DRTA) with Directed Reading Approach (DRA). The result of her analysis shows that the mean score of the Reading Thinking Activity (DRTA) group is significantly higher than the mean score of the Directed Reading Approach (DRA). group. It seems that Directed Reading Thinking Activity (DRTA) is more effective than Directed Reading Approach (DRA) in improving reading comprehension. 24 2. Another study is conducted by Stahl. It explores the effect of three instructional methods: Picture Walks, Know-Want to Learn-Learn, and Directed Reading Thinking Activity on the reading comprehension and content acquisition. However, this report of the study tends to focus on the Directed Reading Thinking Activity (DRTA) only. Stahl states that the component of Directed Reading Thinking Activity (DRTA), scaffolded interactions, actively justifying and verifying predictions, integrating text-based information with prior knowledge and having an immediate opportunity to discuss new concepts seemed to help readers of Directed Reading Thinking Activity (DRTA) help novice readers in responding questions about the text. She also adds that the readers were able to provide more information and more sensible justifications for their answers, even if they were not completely correct. Furthermore, the results indicated that Directed Reading Thinking Activity (DRTA) result is statically significant effects on fluency as measured by a timed maze task and effects on reading comprehension and science content acquisition. 3. Odwan examined the effect of Directed Reading Thinking Activity (DRTA) through cooperative learning on English secondary stage students' reading comprehension in Jordan. Although Odwan is combined the DRTA with cooperative learning, there are some points about the Directed Reading Thinking Activity (DRTA) itself which are related to reading comprehension. He states, as</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 . 1 The Classroom Action Research (CAR)</head><label>31</label><figDesc>Figure 3.1 The Classroom Action Research (CAR) Procedure Kurt Lewin Design</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>still need repairing, so will do in the next cycle is cycle III. The action activities in this stage are: a) Doing evaluating with the process and the result of learning reading comprehension lesson that already done in the cycle II. b) Identifying the problems that turn up in the learning reading comprehension process in the cycle II. c) Make a repair lesson reading comprehension plan to the cycle II as continue learning action cycle II.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>The teacher explains the material The teacher explains the material</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head>3 ) Strategies Directed Reading Thinking Activity (DRTA) can attract students to learn, because the Directed Reading Thinking Activity (DRTA strategies using a</head><label>3</label><figDesc></figDesc><table>20 Renn, C. E, (1999), The Effect of the Directed Reading Thinking Activity on Second 
+Grade Reading Comprehension. Master Theses, Grand Valley State University.p. 15. 
+21 Nuttall, C, (1996), Teaching Reading Skills in a Foreign Language. Oxford: 
+Heinmann.p. 118. 
+22 Ibid, p. 13. 
+
+variety of methods that not only serve students in the audio-visual, but also 
+
+kinesthetic, 
+
+4) Strategy Directed Reading Thinking Activity (DRTA) shows how meaningful 
+
+learning for students, because learning is not only to learn but to prepare for the 
+
+next life, 
+
+5) Strategies Directed Reading Thinking Activity (DRTA) can be used in a number 
+
+of subjects taught in both content and procedure. 
+
+Besides having many advantages, strategies Reading Thinking Directed Activity 
+(DRTA) also has its disadvantages, namely: 
+
+1) Strategy Directed Reading Thinking Activity (DRTA) often take a lot of time if 
+
+the management class is not efficient. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head>Table 4 .</head><label>4</label><figDesc>1 The Students' Score in the Three Reading Test =</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" validated="false"><head>Table 4 .</head><label>4</label><figDesc></figDesc><table>2. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" validated="false"><head>Table 4 .</head><label>4</label><figDesc></figDesc><table>3 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" validated="true"><head>Table 4 .4</head><label>4</label><figDesc></figDesc><table>The Schedule of Cycle 1 
+
+No. Day and Date 
+Material 
+Exercise 
+
+1. 
+Friday, 
+
+February 17 th 
+
+2017 
+
+A recount text entitled 
+
+Sick in the Middle of 
+
+the Class 
+
+ Making question 
+
+prediction based 
+
+on the picture. 
+ Open-ended 
+
+questions consist 
+
+of six questions. 
+
+2. 
+Saturday, 
+
+March 
+18 th 
+
+2017 
+
+A recount text entitled 
+
+Sick in the Middle of 
+
+the Class 
+
+ Open-ended 
+
+questions consist 
+
+of six questions 
+ Found the past 
+
+form of verbs in 
+
+the puzzle. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" validated="true"><head>Table 4 .5</head><label>4</label><figDesc></figDesc><table>The Schedule of Cycle 2 
+
+No 
+
+. 
+
+Day and Date 
+Material 
+Exercise 
+
+1. Friday, 
+
+February 24 th 2017 
+
+A 
+recount 
+text 
+
+entitled My Horrible 
+
+Experience 
+
+ True/False task 
+
+consisting of 
+
+ten items 
+
+2. Saturday, 
+
+February 
+25 th 
+
+2017 
+
+Review A recount 
+
+text entitled My 
+
+Horrible 
+
+Experience then 
+
+doing a test 
+
+ Multiple 
+
+choices 
+
+consisting of 
+
+25 items 
+
+</table></figure>
+
+			<note place="foot" n="1"> Brown, H. D, (2007), Teaching by Principles, New Jersey: Prentice Hall, p. 185.</note>
+
+			<note place="foot" n="2"> Odwan, T. A. A. H, (2012), The Effect of the Directed Reading Thinking Activity through Cooperative Learning on English Secondary Stage Students&apos; Reading Comprehension in Jordan&quot;, International Journal of Humanities and Social Science, Vol.2, No. 16, p. 139.</note>
+
+			<note place="foot" n="3"> Muhammad Habib Shakir, The Quran Translation Muhammad Habib Shakir English Only (Tahrike Tarsile Qur&apos;an)</note>
+
+			<note place="foot" n="4"> Smith, F, (2004), Understanding Reading: A Psycholinguistic Analysis of Reading and Learning to Read Sixth Ed, New Jersey: Lawrence Erlbaum Associates, p. 3. 5 Hedgcock, J. S. and Ferris, D. R, (2009), Teaching Readers of English: Students, Text, and Context, Routledge: UK, p. 49. 6 Lems, K., Meller, L. D., and Soro, T. M, (2010), Teaching Reading to English Language Learner, NY: The Guilford Press, p. 171.</note>
+
+			<note place="foot" n="7"> Mickulecky, B. S., and Jeffries, L, (2004), More Reading Power: Reading for Pleasure, Comprehension Skills, Thinking Skills, Reading Faster, New York: Pearson Education, p. 74. 8 Smith, F, (2004), Understanding Reading: A Psycholinguistic Analysis of Reading and Learning to Read Sixth Ed. New Jersey: Lawrence Erlbaum Associates, p. 41. 9 Richard, J. C. &amp; Schmidt, R, (2002), Longman Dictionary of Language Teaching and Applied Linguistics, England: Pearson Education Limited, p. 99.</note>
+
+			<note place="foot" n="11"> Richard, J. C and Schmidt, Op.cit. p. 44.</note>
+
+			<note place="foot" n="12"> Brown, H. D, (2006), Principles of Language Learning and Teaching, NewYork: Pearson Education, p. 7-8.</note>
+
+			<note place="foot" n="17"> Richard, J. C and Schmidt, R, (2002), Longman Dictionary of Language Teaching and Applied Linguistics, England: Pearson Education Limited, p. 35.</note>
+
+			<note place="foot" n="18"> Brown, H. D, (2004), Language Assessment : Principles and Classroom Practices, America: Longman, p. 212. 19 Richardson, J. S., Morgan, R. S., and Fleener, C, (2009), Reading to Learn in the Content Areas, USA: Wadsworth Cengage Learning, p. 108-109.</note>
+
+			<note place="foot" n="23"> Ianatut Tolibin, (2013), Pengaruh Penggunaan Strategi Directed Reading Thinking Activity (DRTA) Terhadap Kemampuan Membaca Pemahaman Pada Siswa Kelas V Mis Sidorejo, Fakultas Ilmu Pendidikan Universitas Negeri Yogyakarta.p. 41.</note>
+
+			<note place="foot" n="24"> Renn, C. E, (1999), The Effect of the Directed Reading Thinking Activity on Second Grade Reading Comprehension. State University: Master Theses Grand Valley, p. 17.</note>
+
+			<note place="foot" n="27"> Sudjana, (2002), Metoda Statistik, Bandung: PT. Tarsito, p. 67. 28 Anas, Sudijono, (2008), Pengantar Statistis Pendidikan, Jakarta: PT. Raja Grafindo Persada, p. 43.</note>
+
+			<note place="foot" n="29"> David E. Meltzer, (2008), The Relationship Between Mathematics Preparation and Conceptual Learning Gains in Physics: A Possible Hidden Variable in Diagnostic Pretest Score, Lowa: Department of Physics and Astronomy, p. 3.</note>
+
+			<note place="foot" n="30"> Miles, M.B, and Huberman, A.M. (1994). Qualitative Data Analysis, CA: Sage, p. 10-12.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No.</head><p>Students </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Teaching by Principles. England Cliffs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">D</forename><surname>Brown</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Prentice Hall</publisher>
+			<pubPlace>New Jersey</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Principles of Language Learning and Teaching.(5 th Ed.)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Language Assessment: Principles and Classroom Practices</title>
+		<meeting><address><addrLine>America</addrLine></address></meeting>
+		<imprint>
+			<publisher>Longman</publisher>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>New York: Pearson Education</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meltzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Relationship Between Mathematics Preparation and Conceptual Learning Gains in Physics: A Possible Hidden Variable in Diagnostic Pretest Score</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">How to Teach English: An Introduction to the Practice of Language Teaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Harmer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Longman</publisher>
+			<pubPlace>Essex, England</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Teaching Readers of English: Students, Text, and Context. Routledge: UK</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Hedgcock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Ferris</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Teaching Reading and Writing: A Guide Book for Tutoring and Remediating Students</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Johnson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Rowman and Littlefield Publishing Groups, Inc</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Teaching Reading to English Language Learner</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Lems</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Meller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Soro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>The Guilford Press</publisher>
+			<pubPlace>NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">More Reading Power: Reading for Pleasure, Comprehension Skills, Thinking Skills, Reading Faster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">S</forename><surname>Mickulecky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffries</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Pearson Education, Inc</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>nd</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Qualitative Data Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Huberman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Sage</publisher>
+			<pubPlace>Newbury Park, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd Ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Improving Reading Comprehension of the Grade VIII Students at Smp N 9 Magelang through Directed Reading Thinking Activity (DRTA)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wilis</forename><surname>Ningtyas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Aurum</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+		<respStmt>
+			<orgName>English Language Department Faculty of Languages and Arts Yogyakarta State University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Teaching Reading Skills in a Foreign Language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Nuttall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Heinmann</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The Effect of the Directed Reading Thinking Activity through Cooperative Learning on English Secondary Stage Students&apos; Reading Comprehension in Jordan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A A H</forename><surname>Odwan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Humanities and Social Science</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">The Effect of the Directed Reading Thinking Activity on Second Grade Reading Comprehension</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Renn</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+		<respStmt>
+			<orgName>Grand Valley State University</orgName>
+		</respStmt>
+	</monogr>
+<note type="report_type">Master Theses</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Longman Dictionary of Language Teaching and Applied Linguistics (3 rd Ed</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Schmidt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Pearson Education Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Reading to Learn in the Content Areas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fleener</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Wadsworth Cengage Learning</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Skripsi: Increasing Students Understanding of the Simple Past Tense Using Discovery Learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Umi</forename><surname>Ruchaniyah</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>UIN Syarif Hidayatullah</publisher>
+			<pubPlace>Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Metoda Statistik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sudjana</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>PT. Tarsito</publisher>
+			<pubPlace>Bandung</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Understanding Reading: A Psycholinguistic Analysis of Reading and Learning to Read Sixth Ed</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Lawrence Erlbaum Associates, Inc., Publishers</publisher>
+			<pubPlace>New Jersey</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Pengantar Statistis Pendidikan, Jakarta: PT. Raja Grafindo Persada</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anas</forename><surname>Sudijono</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The Quran Translation Muhammad Habib Shakir English Only (Tahrike Tarsile Qur&apos;an)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Muhammad</forename><surname>Habib</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shakir</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Pengaruh Penggunaan Strategi Directed Reading Thinking Activity (DRTA) Terhadap Kemampuan Membaca Pemahaman Pada Siswa Kelas V Mis Sidorejo. Fakultas Ilmu Pendidikan Universitas Negeri Yogyakarta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lanatut</forename><surname>Tolibin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

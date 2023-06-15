@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/01/yarn/nm/usercache/lanastasiou/filecache/11/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-22T09:42+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analysis of check pointing protocols for mobile distributed systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Online</publisher>
+				<availability status="unknown"><p>Copyright Online</p>
+				</availability>
+				<date type="published" when="2016-10">October 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Dr</roleName><forename type="first">Maridul</forename><surname>Kothari</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution">NIMS University</orgName>
+								<address>
+									<settlement>Jaipur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Parveen</forename><surname>Kumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution">NIMS University</orgName>
+								<address>
+									<settlement>Jaipur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Assoc</forename><surname>Prof</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution">NIMS University</orgName>
+								<address>
+									<settlement>Jaipur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Analysis of check pointing protocols for mobile distributed systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>Online</publisher>
+							<biblScope unit="volume">03</biblScope>
+							<biblScope unit="issue">10</biblScope>
+							<date type="published" when="2016-10">October 2016</date>
+						</imprint>
+					</monogr>
+					<note>13</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Keyword-Fault Tolerance</term>
+					<term>Mobile Computing Systems</term>
+					<term>Coordinated Checkpointing</term>
+					<term>Rollback Recovery</term>
+					<term>Distributed Systems</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Mobile Distributed Systems (MDS) are susceptible to faults. It is not easy to predict whether the system will prolong to perform throughout or till approved time. Checkpointing based Fault tolerance enables a system to continue properly, in the event of failure. Checkpoint is defined as a nominated place in a program at which normal process is broken up distinctively to conserve the status information, needed to allow recommencement of processing at a later time in case of a failure. Checkpointing algorithms for mobile distributed systems come across new issues such as mobility, low bandwidth of wireless channels, disconnections, limited battery power and lack of reliable stable storage on mobile nodes. This paper gives a summary of checkpointing strategies for mobile networks which are categories on the basis of QOS of wireless networks, based on mobile agents, considering the mobility of MHs and transmission of checkpoints.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>A distributed system is an assortment of autonomous entities that collaborate to solve a problem that cannot be independently solved. A distributed system can be characterized as a compilation of generally self-sufficient processors communicating over a communication network. Due to the nonexistence of global time and shared memory, it is complex to reason about the temporal order of events in a distributed system. Hence, protocols for a distributed system are trickier to design and debug compared to algorithms for centralized systems. In addition, the nonattendance of a global clock makes it difficult to accumulate up to-date information on the state of the entire system. It achieves fault tolerance by sporadically saving the state of a process during failure-free execution, enabling it to restart from a saved state upon a failure to reduce the amount of lost work. The saved state is called a checkpoint, and the modus operandi of restarting from a previously checkpointed state is called rollback recovery. A checkpoint can be saved on either the stable storage or the volatile storage depending on the failure scenarios to be tolerated <ref type="bibr" target="#b7">[8]</ref>.</p><p>In a distributed system, if each participating process takes its checkpoints autonomously, then the system is vulnerable to cascaded rollbacks that may lead to the initial state due to domino-effect. This approach is called independent or uncoordinated checkpointing. It is obviously desirable to avoid the domino effect and therefore several techniques have been developed to prevent it <ref type="bibr" target="#b2">[3]</ref>. One such technique is coordinated checkpointing. In this approach, processes record checkpoints in such a manner that the consequential global state is consistent. Mostly, it adopts two-stage commit structure. In the first stage, processes obtain tentative checkpoints and in the second stage, these are made permanent. The main improvement is that only one permanent checkpoint and at most one tentative checkpoint is necessary to be stored. In case of a fault, processes rollback to last recovery line. A permanent checkpoint cannot be undone. It ensures that the computation needed to reach the last recovery line will not be repeated. A tentative checkpoint, however, can be useless or converted to permanent checkpoint. The coordinated checkpointing protocols can be classified into two types: intrusive and non- intrusive. In intrusive algorithms, some intrusion of processes occurs during checkpointing to ensure consistency. In non-intrusive algorithms, no intrusion of processes takes place during checkpointing. The coordinated checkpointing algorithms can also be classified into following two categories: minimum-process and all process algorithms. In all-process algorithms, every process is forced to record its checkpoint in a commencement. In minimum-process algorithms, only interacting processes are required to capture their checkpoints in an initiation <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10]</ref>.</p><p>Communication-induced checkpointing protocols evade the domino-effect without any synchronization. In these protocols, processes capture two types of checkpoints, local and forced. Local checkpoints can be captured autonomously, while forced checkpoints are captured to assure the eventual progress of the recovery line and to decrease useless checkpoints. As divergent to coordinated checkpointing, these protocols do no swap any special synchronization messages to conclude when forced checkpoints should be obtained. But, they attach protocol specific information [generally checkpoint sequence numbers] on each application message; the receiver uses this information to make a conclusion whether it should take a forced checkpoint. This resolution is based on the receiver determining if past communication and checkpoint patterns can lead to the formation of ineffective checkpoints; a forced checkpoint is taken to smash these patterns <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b7">8]</ref>.</p><p>Log-based rollback recovery combines checkpointing with logging of nondeterministic events. Log-based rollback recovery relies on the piecewise deterministic (PWD) postulation, which states that all non-deterministic events that a process executes can be identified and that the information necessary to replay each event during recovery can be logged in the event's determinant. By logging and replaying the non-deterministic events in their exact original order, a process can deterministically recreate its pre-failure state, even if, this state has not been checkpointed. Log- based rollback recovery in general enables a system to recover beyond the most recent set of consistent checkpoints. It is therefore particularly attractive for applications that frequently interact with the outside world, which consists of input and output devices that cannot roll back <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">CHECKPOINTING ALGORITHMS FOR MOBILE COMPUTING SYSTEMS</head><p>The existence of mobile nodes in a distributed system introduces new issues that need proper treatment while ijre.org designing a checkpointing algorithm for such systems. These issues are mobility, disconnections, limited power source, susceptible to physical damage, lack of stable storage etc. The location of an MH within the network, as represented by its current local MSS, changes with time. Checkpointing schemes that send control messages to MHs, will require to first position the MH within the network, and thereby invite a search overhead <ref type="bibr" target="#b6">[7]</ref>.</p><p>The intention of the research is to design minimum- process checkpointing schemes for MDS with the following characteristics. The checkpointing scheme should be able to handle recurrent aborts. The loss of checkpointing effort, when any process fails to capture its checkpoint in synchronization with others, should be low. The synchronization message overhead should be low. The checkpointing scheme should be pertinent to deterministic as well as non-deterministic systems. If the scheme is intrusive, then the intrusion-time should be small. Otherwise, if the scheme is non-intrusive, then, the number of ineffective checkpoints should be low. The proposed scheme should be distributed i.e. any process should be capable to initiate checkpointing procedure. Concurrent initiations may weaken the restricted battery life and obstruct the wireless channels. Therefore, the concurrent executions of the checkpointing protocol should be avoided in spite of concurrent initiations <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b11">12]</ref>. Now, we discuss some checkpointing algorithms designed for MDS in literature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">P. Kumar Hybrid Checkpointing Algorithms [11]</head><p>To balance the checkpointing overhead and the loss of computation on recovery, P.Kumar designed a hybrid checkpointing scheme for MDS, where an all-process checkpoint is imposed after the implementation of minimum-process snapshot algorithm for certain number of times. In coordinated checkpointing, an ever-increasing integer csn (checkpoint sequence number) is usually attached onto normal communications. An approach is projected to optimize the size of the csn. In order to address diverse checkpointing intervals, integer csn is replaced with k-bit CI. The minimum-process checkpointing algorithm is based on keeping track of direct dependencies of processes. Similar to <ref type="bibr" target="#b9">[10]</ref>, initiator process captures the direct dependency vectors of all processes, computes minimum set, and sends the checkpoint request along with the minimum set to all processes. In this way, blocking time has been significantly reduced as compared to <ref type="bibr" target="#b1">[2]</ref>. During the period, when a process sends its dependency set to the initiator and receives the minimum set, may obtain some communications, which may modify its dependency set, and may append new members to the already computed minimum set. In order to keep the computed minimum set integral and to evade useless checkpoints as in <ref type="bibr" target="#b5">[6]</ref>, it is proposed to buffer the selective processes for this period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Kumar and Kumar Probabilistic Checkpointing Algorithm [5]</head><p>Kumar and Kumar proposed a minimum-process coordinated checkpointing algorithm for MDS; an effort has been made to optimize the number of ineffective checkpoints and intrusion of processes using probabilistic approach and by computing an interacting set of processes at commencement. A process captures its checkpoint only if it is compulsory to take its checkpoint or there is a good likelihood that it will receive a checkpoint request in the present initiation Processing of selective messages is delayed at the receiver end for a very short duration. By doing so, during the intrusion period, processes are permitted to do their regular computations and send communications. A modified methodology is projected to maintain correct dependencies among processes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Cao-Singhal Non-intrusive Checkpointing Algorithm [6]</head><p>To design efficient checkpointing algorithms for MDS, the idea of "Mutable Checkpoint" is introduced; which is neither a tentative checkpoint nor a permanent checkpoint. Mutable Checkpoint can be saved anywhere e.g. the main memory or local disk of MHs. Taking a mutable checkpoint diminishes the overhead of transferring huge amount of data to stable storage at MSSs over the wireless network. This algorithm is non-intrusive, avoids the avalanche effect, and forces only a minimum number of processes to capture their checkpoints on the stable storage. Some useless mutable checkpoints may be taken in this protocol; which are discarded on commit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">Koo-Toueg's Minimum-process Blocking Scheme [2]</head><p>Koo and Toueg have revealed that if the nodes take their local snapshots in an uncoordinated way; it may not be feasible to assemble a consistent global state from such snapshots. The rollback may lead to domino effect. If the nodes maintain information about casual dependencies, a minimal number of nodes have to take their local snapshots in response to such requests. They had presented such an algorithm which involves suspending the underlying computation during snapshot compilation .The nodes resume the underlying when the snapshot collection terminates. They handle concurrent snapshot collection in following manner: Once a node takes a local snapshot it is unwilling to take a snapshot in response to another initiator. The node sends a negative response to all subsequent requests until the snapshot request is made permanent or until the snapshot collection is aborted. Their algorithm makes the following assumption about distributed system: processes communicate by exchanging messages through communication channels. Communication channels are FIFO. Communication failure does not partition the network. In case of a failure, processes rollback only to their permanent checkpoints. The algorithm assumes that no process fails during the execution of algorithm .The algorithm consists of two phases.In the first phase, initiating process P i takes a tentative checkpoint and requests all other processes to take tentative checkpoints. Each process informs P i whether it succeeded in taking a tentative checkpoint. A process says "no" to a request if it fails to take tentative checkpoint which would be due to several reasons depending on underlying application. If P i learns that all the processes have successfully taken tentative checkpoints P i decides that all tentative checkpoints should be made permanent; otherwise P i decides that all the tentative checkpoints should be discarded. In the second phase,P i informs all the processes that their decision had been reach at the end of first phase .A process on receiving the message from P i will act accordingly Therefore either all or none of processes advance their recovery line by taking permanent checkpoints. The algorithm requires that after a process has taken a tentative checkpoint it cannot send messages related to underlying computation until it informed of P i 's decision.</p><p>ijre.org 6. CONCLUSION We have given an introduction to distributed systems, checkpointing algorithms and mobile distributed systems. Characteristics of an efficient checkpointing algorithm for mobile distributed systems are elaborated. We have also provided a review of some checkpointing algorithms for mobile computing systems.</p></div>
+			<note place="foot">ISSN 2348-7852 (Print) | ISSN 2348-7860 (Online) ijre.org</note>
+
+			<note place="foot">ISSN 2348-7852 (Print) | ISSN 2348-7860 (Online)</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Distributed snapshots : Determining Global State of Distribited Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Chandy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Lamport</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transaction on Computing Systems</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="75" />
+			<date type="published" when="1985-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Checkpointing and Rollback recovery for Distributed Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tueg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. On Software Engineering</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="31" />
+			<date type="published" when="1987-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A survey of Rollback-Recovery protocols in Message-Passing Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">N</forename><surname>Elonzahy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Alvisi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Computing surveys</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="375" to="408" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Understanding the Message Logging Paradigm for Masking Process Crashes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Alvisi</surname></persName>
+		</author>
+		<idno>TR-96- 1577</idno>
+		<imprint>
+			<date type="published" when="1996-01" />
+		</imprint>
+		<respStmt>
+			<orgName>Cornell Univ., Dept. of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+<note type="report_type">Available as Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A synchronous ckeckpointing protocol for mobile distributed systems: probabilistic approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lalit</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Journal of information and computer security</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Mutable Checkpoints: A New Checkpointing Approach for Mobile Computing Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Singhal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Parallel and Distributed system</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1045" to="9219" />
+			<date type="published" when="2001-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Checkpointing Distributed Applications on Mobile Computers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Acharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">R</forename><surname>Badrinath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3 rd International Conference on Parallel and Distributed Information Systems</title>
+		<meeting>the 3 rd International Conference on Parallel and Distributed Information Systems</meeting>
+		<imprint>
+			<date type="published" when="1994-09" />
+			<biblScope unit="page" from="73" to="80" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Advanced Concepts in Operating Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Singhal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Shivaratri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>McGraw Hill</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On coordinated checkpointing in Distributed Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Singhal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Parallel and Distributed Systems</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1213" to="1225" />
+			<date type="published" when="1998-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">On the Impossibility of Min-process Non-blocking Checkpointing and an Efficient Checkpointing Algorithm for Mobile Computing Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Singhal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of International Conference on Parallel Processing</title>
+		<meeting>International Conference on Parallel Processing</meeting>
+		<imprint>
+			<date type="published" when="1998-08" />
+			<biblScope unit="page" from="37" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A Low-Cost Hybrid Coordinated Checkpointing Protocol for Mobile Distributed Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mobile Information Systems pp</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="13" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Low-Cost Checkpointing and Failure Recovery in Mobile Computing Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Prakash</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Singhal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transaction On Parallel and Distributed Systems</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1035" to="1048" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

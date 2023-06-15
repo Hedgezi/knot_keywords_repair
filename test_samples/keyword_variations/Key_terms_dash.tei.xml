@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/11/yarn/nm/usercache/lanastasiou/filecache/40/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-22T10:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Two Phase Interleaved Boost Single Stage PFC Converter using Flying Capacitor</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-07">July 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">Jameel</forename><surname>Ahamed</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept of EEE</orgName>
+								<orgName type="institution">MITS Angallu</orgName>
+								<address>
+									<region>AP</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sreenivasa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept of EEE</orgName>
+								<orgName type="institution">MITS Angallu</orgName>
+								<address>
+									<region>AP</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raju</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept of EEE</orgName>
+								<orgName type="institution">MITS Angallu</orgName>
+								<address>
+									<region>AP</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kishore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept of EEE</orgName>
+								<orgName type="institution">MITS Angallu</orgName>
+								<address>
+									<region>AP</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Two Phase Interleaved Boost Single Stage PFC Converter using Flying Capacitor</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">03</biblScope>
+							<biblScope unit="issue">07</biblScope>
+							<date type="published" when="2016-07">July 2016</date>
+						</imprint>
+					</monogr>
+					<note>Affiliation: 1 PG Scholar, 2 Assistant Professor, 3 Assistant Professor,</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Key terms-power factor</term>
+					<term>power factor correction</term>
+					<term>total harmonic distortion</term>
+					<term>interleaved boost converter</term>
+					<term>single stage converter</term>
+					<term>pulse width modulation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The equipment connected to an electricity distribution network customarily needs rectification. In order to decrease DC voltage ripple, a Single phase diode rectifier utilizes a large electrolytic capacitor which yields a non-sinusoidal line current. So power factor correction (PFC) techniques are required. The boost topology is utmostwidespread than others in PFC applications. Thus a two phase interleaved boost single-stage PFC converter using flying capacitor is proposed in this paper. Due to its interleaved structure, the proposed converter can operate with reduced input current ripple and peak switch currents.The proposed system is simulated in MATLAB/SIMULINK and the performance parameters such as power factor (PF) and total harmonic distortion (THD) are computed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Most of the electronic equipment is supplied by 50 Hz utility power. More than 50% of this power is handled through some kind of power converter. In order to convert AC voltage to DC voltage, certain power converters utilizes a diode rectifier monitored by a bulk capacitor. When the line voltage is higher than the DC bus voltage, then the input line current contains rich harmonics. Due to the presence of harmonics the power factor can be lowered. By adding a passive filter the power factor can be improved <ref type="bibr" target="#b0">[1]</ref>. One major disadvantage by adding this passive filter is that itis bulky and inefficient. So to achieve a good power factor a power factor correction (PFC) stage has to be introduced to the existing equipment. The advantage of using this PFC technique is that it reduces current harmonics in an utility systemwhich was produced by nonlinear loads <ref type="bibr" target="#b1">[2]</ref>.</p><p>The operation of Single phase diode rectifiers is to rectify the input ac line voltage and filter it with large capacitor. By utilizing the filter capacitor, the ripple present in the output voltage was reduced but it introduces distortion in the input current then the power factor gets reduced. So PFC techniques are used. Generally there are two types of PFC techniques. One is passive PFC technique and another one is active PFC technique. By utilizingpassive PFC techniquethe improvements are limited. In order to get a good result active PFC technique <ref type="bibr" target="#b2">[3]</ref> can be used. Boost converter is considered as the utmost widespread topology for active PFC as it draws continuous input current. But due to rise and fall of the inductor current in the boost converter there will be an presence of ripple in the input current. This problem can be overcome by using two phase interleaved boost converter <ref type="bibr" target="#b3">[4]</ref>, <ref type="bibr" target="#b4">[5]</ref>, <ref type="bibr" target="#b5">[6]</ref>. The operation of interleaved boost converter is that the two boost converters are in 180 0 out of phase. As the input current is the summation of two inductor currents then the inductor's ripple currents cancel out each other as it operates in 180 0 out of phase and also the reduction in the input ripple current is obtained.While considering active PFC the switching converters are used to shape the input current in phase with the input voltage waveform then the power factor becomes nearer to unity and it behaves like a pure resistive load. When comparing with the passive PFC, the active PFC has more advantages such as high power factor, reduction in total harmonic distortion. The active PFC can be classified into two-stage and single-stage power factor corrected converters. This paper introduces a two phase interleaved boost single stage PFC ac-dc converter using flying capacitor with standard pulse width modulation (PWM) which provides higher power factor, reduction of total harmonic distortion and also provides better control. The proposed converter operation is explained. However, the single-stage PFC converter can achieve high PF and voltage regulation at the same time <ref type="bibr" target="#b7">[7]</ref>, <ref type="bibr" target="#b8">[8]</ref>. The proposed single stage PFC converter is shown in <ref type="figure">fig. 6</ref>. The typical waveform for the proposed converter is shown in <ref type="figure" target="#fig_3">fig. 7</ref>.</p><p>II. SINGLE PHASE DIODE RECTIFIER To convert ac-dc single phase diode rectifiers are commonly used. But a fair amount of ripple will be present in the rectified dc voltage. An easy way to reduce this ripple is to use a filter capacitor. A single phase diode rectifier with a filter capacitor is shown in <ref type="figure" target="#fig_0">fig.1</ref>. By utilizing this filter capacitor it reduces the ripple from the output voltage, but it introduces distortion in the input current and also draws discontinuous current from the supply, in short pulses. When the input ac voltage is greater than the capacitor voltage then only the capacitor draws pulsating current which occurs at the line voltage peaks. So due to the utilization of this filter capacitor the power factor becomes poor.</p><p>III. BOOST CONVERTER In order to overcome the above problem of pulsating input current PFC techniques are used. Best result can be gained by using active PFC techniques based on switch mode power converters. Boost converter is considered as the utmost widespread topology for active PFC as it draws continuous input current.The circuit diagram of boost converter is shown in <ref type="figure" target="#fig_1">fig.2</ref>. </p><formula xml:id="formula_0">dI L dt = V in L (1) Again when switch is OFF: dI L dt = V o −V in L (2)</formula><p>Here V in is the rectified input voltage and V o is the output voltage.</p><p>IV. INTERLEAVED BOOST CONVERTER Due to the rise and fall of the inductor current in the boost converter a ripple will be present in the input current. This problem can be eliminated by using interleaved boost converter. The interleaved boost converter is shown in <ref type="figure">fig.3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig.3. Interleaved Boost Converter</head><p>The two boost converters operate in 180 0 out of phase in interleaved boost converter. The input current is the summation of two inductor currents I L1 and I L2 then the inductor's ripple currents cancel out each other as it operates in 180 0 out of phase. When switch S1 is ON and switch S2 is OFF</p><formula xml:id="formula_1">dI L 1 dt = V in L1 (3) dI L 2 dt = V o −V in L2 (4)</formula><p>When switch S1 is OFF and switch S2 is ON:</p><formula xml:id="formula_2">dI L 1 dt = V o −V in L1 (5) dI L 2 dt = V in L2 (6)</formula><p>The two inductor currents will be out of phase and cancel out the ripple of each other if:</p><formula xml:id="formula_3">V in L1 = V o −V in L2 (7) V o −V in L1 = V in L2 (8)</formula><p>The above two equations i.e. equation <ref type="formula">(7)</ref> and equation <ref type="formula">(8)</ref> will be satisfied if and only if L1=L2 and V 0 = 2V in .</p><p>V. DESIGN CONSIDERATION OF INTERLEAVED BOOST CONVERTER While designing an interleaved boost converter the following steps are to be included: 1. Choice of Duty Ratio: As the number of phases considered in this paper is two, 50% of the duty cycle will be the best choice. When D=0.5 it result in less ripple when compared to other duty ratios. Thus the duty ratio is calculated as,</p><formula xml:id="formula_4">D = V o −V in V 0 (9)</formula><p>Where, V 0 indicates the output voltage in volts, V in indicates the input voltage in volts and D indicates the duty ratio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Optimal Number of Phases:</head><p>As the number of phases is increased the ripples will be minimum. But increasing the number of phases will definitely result in the increase in cost and it becomes difficult to the entire circuit. So the number of phases is considered as two in this paper. 3. Design of Inductance and Capacitance: The inductor and capacitor values can be established using the formula given below <ref type="bibr" target="#b10">[10]</ref>- <ref type="bibr" target="#b12">[12]</ref>. Selection of coupled inductors for the IBC is found by using the following equation <ref type="bibr" target="#b13">[13]</ref>.</p><formula xml:id="formula_5">C = V o DT í µí± ΔV 0<label>(10)</label></formula><formula xml:id="formula_6">L í µí±í µí± = V in DT ΔI phase (12)</formula><p>Where, V in indicates the input voltage in volts, D indicates the duty ratio, Tindicates the switching period, ΔI phase indicates the phase ripple current in ampere. The phase current ripple is decided by L í µí±í µí± and it is given by,</p><formula xml:id="formula_7">ΔI phase = V in DT L . 1+í µí»¼ +2í µí»¼ D 1−D 1+α−2í µí»¼ 2 (13)</formula><p>Where, V in indicates the input voltage in volts, D indicates the duty ratio, T indicates the switching period, L indicates the self-inductance in mH and α indicates the coupling coefficient. Self-inductance of the coupled inductor is given by,</p><formula xml:id="formula_8">L = 1+α D 1−D 1+α−2í µí»¼ 2 L í µí±í µí±<label>(14)</label></formula><p>To find the values of L í µí± and L í µí± , the input current is calculated as the ratio of power to that of voltage. The mutual inductance L í µí± can be found by the following equation.</p><formula xml:id="formula_9">L m = α. L (15) The leakage inductance L k can be calculated as L k = 1 − α . L<label>(16)</label></formula><p>VI. ACTIVE PFC For high quality rectifiers active power factor correction techniques are used. Active PFC circuits form the input current waveform into a sinusoidal form in phase with the supply voltage wave form. On the other side it offers a regulated dc output voltage. Active PFC circuits behave like a resistor at the side of the converter. Generally power factor of active PFC circuits is nearer to unity with lower THD less than 5%. Active PFC techniques can be divided into two approaches:</p><p>1. Two stage approach 2. Single stage approach Active Two-stage approach: <ref type="figure">Fig.4</ref>. Two-stage Converter A two-stage front end converter comprises of a PFC pre- regulator circuit and then followed by a DC/DC converter which was utilized to regulate the DC output voltage. In this approach, the bus capacitor is employed between the two front-end converters. The advantage of using this active two- stage PFC converter is that it has good input power factor and can be used in wide ranges of input voltage and output power but it needs two separate switches, converters and controllers so that the cost, size and complexity has been increased which becomes an disadvantage of this approach. Active Single-stage approach:  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>. Typical waveforms for the proposed converter</head><p>The converter has the different modes of operation during a half switching cycle. Mode 1 (t 0 ≤ t ≤ t 1 ):During this mode of interval, the ON switches are S 1 and S 2 . It should be well-known that both the dc bus capacitors and the flying capacitor are going to be charged to half of the dc bus voltage. In this mode, energy flows from dc bus capacitor C 1 to the output load. As a result of magnetic coupling, a voltage being appeared across Auxiliary Winding 1 that can beequivalent to the dc bus voltage, but having with opposite polarity. Finally this voltage cancels out the total dc bus capacitor voltage then the voltage at the diode bridge output becomes zero, and there is a rise in input currents in bothL í µí±1 and L b1 . Mode 2 t 1 ≤ t ≤ t 2 ): During this mode of interval, S 1 is OFF, and S 2 still remains ON. The energy which has been stored in the input inductor during the previous mode starts is going tobe transferred into the dc bus capacitors. The end of this mode occurs when switch S 4 is ON.</p><p>(a)</p><p>ijre.org </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mode3</head><p>(t 2 ≤ t ≤ t 3 ) :During this mode of interval,switchS 1 is OFF and switch S 2 still remains ON. The energy which has been stored in the input inductor during the previous mode starts is also been transferred into the dc bus capacitors then the voltage appearing across Auxiliary Winding 1 is zero. The primary current of the main transformer flows through diodeD 1 and switchS 2 . In regard to converter's output section, the load inductor current freewheels in the secondary of the transformer, which describes a voltage across the load filter inductor that is equivalent to −V L . Mode 4 (t 3 ≤ t ≤ t 4 ):During this mode of interval, both the switches S 1 and S 2 are OFF. The energy that has stored in L 1 continues to be transferred into the dc bus capacitor. If the energy in the leakage inductance is enough then the current will flow through the body diode of switchS 3 . Finally this current also charges C 2 through the body diodes of S 3 and S 4 .The end of this mode occurs when switch S 3 is ON. Mode 5 (t 4 ≤ t ≤ t 5 ):During this mode of interval, both the switches S 3 and S 4 are ON and thus the energy flows from capacitor C 2 to the load then the voltage appears across Auxiliary Winding 2 equivalent to the dc bus voltage, but having with opposite polarity to cancel out the dc bus voltage. Finally the voltage across the boost inductor L 2 is only the rectified supply voltage of each phase, and there is an increase in the current flowing through each inductor. The end of this mode occurs when the energy stored in L 1 is entirely transferred into the dc bus capacitor. For the remaining of the switching cycle, the converter drives through Modes 6-10, which is similar to Modes 1-5 except that the switchesS 3 and S 4 are ON instead of S 1 and S 2 and the bridge diode DB 2 conducts current instead of DB 1 .</p><p>Finally the input current is the summation of both the currents of I L1 and I L2 with each inductor having a discontinuous current. On the selection of proper values for L a1 = L b1 and L a2 = L b2 the two inductor currents can be made to overlap each other to make the input current continuous. As the operation of interleaved boost converter is that it is 180 0 out of phase then the two inductor ripple currents cancel out each other and lastly getting the reduction in input ripple current.</p><p>It should be noticed that a standard phase-shift PWM can be employed in the converter. The usage of a standard phase-shift PWM IC is to produce the gating signal. The switches S 2 and S 3 are not permitted to be ON at the same time, and also the switches S 1 and S 4 are not permitted to be ON instantaneously as well. Whenever the switches S 1 and S 2 are ON or S 3 and S 4 are ON then the converter is said to be an energy-transfer mode. In the same way whenever the switches S 1 and S 3 or S 2 and S 4 are ON then the converter is said to be in a freewheeling mode of operation. The occurrence of alternating energy transfer and freewheeling modes during a switching cycle resembles to the same arrangement of modes that happens in a standard two-level phase-shift PWM full-bridge converter. VIII. FLYING CAPACITOR VERSUS DIODE-CLAMPED MULTILEVEL THREE-PHASE SINGLE-STAGE CONVERTER The proposed interleaved boost converter topology using flying capacitor can guarantee a ZVS turn-on for its very top and the bottom switches in such a way that the converter presented in <ref type="bibr" target="#b14">[14]</ref> cannot. For understanding an easy purpose, first consideration standard two-level ZVS_PWM dc-dc full- bridge converter which operates with a phase-shift PWM. For this type of converter, the leading leg switches (the switches that are turned ON when the converter enters a freewheeling mode of operation) of the converter can be switched ON with ZVS. This is because the transformer primary current is lead by reflected output inductor current during this shift then ijre.org there is adequate energy available to switch ON the leading leg switches with ZVS. In the lagging leg switches (the switches that are turned ON when the converter is leaving a freewheeling mode) that may lose their capability to switch ON with ZVS under light-load conditions as the leakage inductance energyis only at the transformer primary that is presented for the purpose of discharging and charging the proper switch output capacitances. At this instant when switch S 1 is turned OFF then the converter is said to be entering into the freewheeling mode of operation. The leaving of this freewheeling mode of operation is by turning OFF of switch S 1 and the immediate turning ON of S 3 and S 4 . The only leakage inductance energy that is available during this shift is used to turn S 3 and S 4 ON with ZVS. In the similar fashion the switchesS 1 and S 2 are turned ON when the converter is leaving the other freewheeling mode of the switching cycle, again, with the leakage inductance energy that available only to discharge the output capacitances. In regard to the proposed converter, it can be noticed that when the switchesS 1 (or S 4 ) are going to be turned OFF and also when the converter is entering into a freewheeling mode of operation, the energy that is available to charge and discharge the output capacitances of S 1 and S 4 is the energy stored in leakage inductance and the energy in output filter inductor that is reflected to the primary. When the converter is leaving a freewheeling mode of operation, the ZVS turn-on for switches S 1 and S 4 cannot occur for the converter proposed in <ref type="bibr" target="#b14">[14]</ref>. The reason for this is there is no flying capacitor in the converter which provides a path for the current to flow through when the converter enters into a freewheeling mode of operation. If there is enough transformer leakage inductance energy to discharge the output capacitance of these devices when the converter is leaving a freewheeling mode of operation then only the switches can turn ON with ZVS. When considering the rare case for the converter is under the operation of light load condition then these switches will not turn ON with ZVS. Finally by comparing the proposed converter using flying capacitor with the converter proposed in <ref type="bibr" target="#b14">[14]</ref> the proposed one has a better light-load efficiency because the two of its switches can always be turned ON with ZVS, irrespective of the load.   the operation of the converter was explained and. It is seen that best power factor is obtained in case of interleaved boost converter. It is found that the proposed interleaved boost single stage PFC reduced the harmonicsin supply current thereby improved the power factor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IX. RESULTS</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig.1.Single phase diode rectifier with filter capacitor By utilizing this filter capacitor it reduces the ripple from the output voltage, but it introduces distortion in the input current and also draws discontinuous current from the supply, in short pulses. When the input ac voltage is greater than the capacitor voltage then only the capacitor draws pulsating current which occurs at the line voltage peaks. So due to the utilization of this filter capacitor the power factor becomes poor. III. BOOST CONVERTER In order to overcome the above problem of pulsating input current PFC techniques are used. Best result can be gained by using active PFC techniques based on switch mode power converters. Boost converter is considered as the utmost widespread topology for active PFC as it draws continuous input current.The circuit diagram of boost converter is shown in fig.2.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig.2. Boost Converter The current I L raises when the switch S is ON and this current flow through inductor L. The current</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5 .</head><label>5</label><figDesc>Fig.5. Single-stage Converter Single-stage PFC converters connects both PFC front-end converters and DC/DC converters into a single converter stage. The advantage of using this approach is that the cost, size and complexity can be reduced because of the reduced number of switches and controllers needed to shape the input current and to regulate the DC output voltage. VII. OPERATION OF PROPOSED CONVERTER:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 7</head><label>7</label><figDesc>Fig.7. Typical waveforms for the proposed converter</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>.</head><label></label><figDesc>Modes of operation(a) Mode 1(t 0 ≤ t ≤ t 1 ). (b) Mode 2 t 1 ≤ t ≤ t 2 ). (c) Mode 3 (t 2 ≤ t ≤ t 3 ). (d) Mode 4 (t 3 ≤ t ≤ t 4 ). (e) Mode 5 (t 4 ≤ t ≤ t 5 )</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 9 .</head><label>9</label><figDesc>Fig.9. Input voltage and current Fig.9. shows that the input current waveform is in phase with the input voltage waveform. The PFC function is achieved.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 11 .</head><label>11</label><figDesc>Fig.11. Simulation result of output current</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 12 .</head><label>12</label><figDesc>Fig.12. Simulation result of output voltage</figDesc></figure>
+
+			<note place="foot">ISSN 2348-7852 (Print) | ISSN 2348-7860 (Online)</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">S</forename><surname>Bimbhra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Power Electronics</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">On semiconductor, power factor correction (PFC) handbook</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rashid</surname></persName>
+		</author>
+		<title level="m">power Electronics handbook</title>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A Dual-Mode controller for the Boost PFC converter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jian-Min</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sen-Tung</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yanfeng</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huang-Jen</forename><surname>Chiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Industrial Electronics</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2011-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Steady-State Analysis of an Interleaved Boost Converter with Coupled Inductors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Po-Wa</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yim-Shu</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">W</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiu-Cheng</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Industrial Electronics</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2000-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Vijayaprasuna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">V G</forename><surname>Rama Rao</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Improvement in Power Factor &amp; THD Using Dual Boost Converter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakshmi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Engineering Research and Applications</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="2368" to="2376" />
+			<date type="published" when="2012-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A family of PFC voltage regulator configurations with reduced redundant power processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>Tse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H L</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K H</forename><surname>Cheung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="794" to="802" />
+			<date type="published" when="2001-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A method of reducing the peak-to-average ratio of LED current for electrolytic capacitor-less ac-dc drivers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="592" to="601" />
+			<date type="published" when="2010-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Limits for Harmonic Current Emission (Equipment Input Current&gt;16A per Phase</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="1000" to="1003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Characterizing the effects of inductor coupling on the performance of an interleaved boost converter, in</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. CARTS</title>
+		<meeting>CARTS<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="237" to="251" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A single-stage AC/DC converter with high power factor, regulated bus voltage, and output voltage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">D</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.-C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">H.-C</forename><surname>Iu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Pjevalica</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="218" to="228" />
+			<date type="published" when="2008-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">New power factor correction AC-DC converter with reduced storage capacitor voltage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lazaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Barrado</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sanz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Salas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Olias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="384" to="397" />
+			<date type="published" when="2007-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">High step-up converter with coupled-inductor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Wai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Y</forename><surname>Duan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electronics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1025" to="1035" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A novel single-stage multilevel type full-bridge converter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Narimani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Moschopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Ind. Electron</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="42" />
+			<date type="published" when="2013-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

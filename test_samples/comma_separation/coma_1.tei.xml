@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/12/yarn/nm/usercache/lanastasiou/filecache/32/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-05-22T17:07+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in Improving Profesionalism Teacher (Case Study at Religious Traning Center Medan)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IOSR Journals</publisher>
+				<availability status="unknown"><p>Copyright IOSR Journals</p>
+				</availability>
+				<date type="published" when="2017-05">May. 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dja’far</forename><surname>Siddik</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Syafaruddin</forename><surname>Syafaruddin</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hadi</forename><surname>Widodo</surname></persName>
+						</author>
+						<title level="a" type="main">The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in Improving Profesionalism Teacher (Case Study at Religious Traning Center Medan)</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">IOSR Journal of Humanities and Social Science</title>
+						<title level="j" type="abbrev">IOSR JHSS</title>
+						<idno type="ISSN">2279-0845</idno>
+						<idno type="eISSN">2279-0837</idno>
+						<imprint>
+							<publisher>IOSR Journals</publisher>
+							<biblScope unit="volume">22</biblScope>
+							<biblScope unit="issue">05</biblScope>
+							<biblScope unit="page" from="01" to="09"/>
+							<date type="published" when="2017-05">May. 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.9790/0837-2205080109</idno>
+					<note>e-ISSN: 2279-0837, p-ISSN: 2279-0845. www.iosrjournals.org www.iosrjournals.org 1 | Page</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>educational programs and training, professionalism of teachers</keywords>
+			</textClass>
+			<abstract>
+				<p>This article examines on the formulation, implementation, the role of the facilitator and evaluation of education and training programmes (training and education) teacher of Islam Madrasa on the porch of the religious Training (CF) Field. The results include the formulation of a program of education and training (training and education) Teacher Training Hall at Madrasah PIE Religious Terrain following a curriculum created by the technical Personnel Pusdiklat education and religious affairs in Jakarta, the implementation of education and training (training and education) Teacher Training Hall at Madrasah PIE Religious Terrain is divided in two categories, namely training and persiapa stages phases of implementation training, facilitator (Widyaiswara)Education and training (training and education) Teacher of Islam Madrasa on the porch of the religious Training (CF) Field roles and his duties as widyaiswara, and an evaluation of the implementation of education and training (training and education) Teacher of Islam Madrasa on the porch of the religious Training (CF) Field is divided into three phases, namely the evaluation prior to training, evaluation for training and evaluation of post training.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Keywords: educational programs and training, professionalism of teachers</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I Background</head><p>Human resources is as important as the other two sources, only leaders often underestimate the human resources with the consideration that humans can not reflect the profits of an organization as well as liquid assets. One measure that should be considered by the leaders of human resources is how the cost of education and training of employees who deftly as well as recruitment, supervise and moving (rotation), from the education and training, in addition to the knowledge, skills and attitudes competency members of the organization. Thus, the trained personnel have high skills, and knowledge is something that is very valuable to an organization.</p><p>Humans are one of the most important resource in an organization's business success in addition to other resources. Besides human function in management is very important, because understanding the management itself is to realize certain results through the activities of others. No matter how perfect the system, technology and economy, without a human aspect, it is difficult for organization's goals can be achieved. Human Resources (HR) is one of the important elements that can move the other elements, such as materials, capital, machinery and technology as well as systems that exist within the organization through process management (planning, organizing, implementation and monitoring) to produce an output (output) in the form goods and services in an effort to achieve organizational goals <ref type="bibr">(Shamsuddin, 2007: 1)</ref>.</p><p>In this context, the formulation of programs and education and training to meet the availability of qualified human resources is needed by every organization, no exception in the organization, or educational institutions in all countries. One of the human resources in educational organizations are professional educators or teachers. By doing so, the presence of the teachers are professional educators with the primary task of educating, teaching, guiding, directing, train, assess and evaluate students on early childhood education, formal education, primary education and secondary education. According to the Law on Teachers and Lecturers, is a professional occupation or activity carried out by a person's life and a source of income that requires skill, expertise or skills that meet certain quality standards or norms and require professional education.</p><p>Professional teacher is a teacher's ability to perform an action in accordance with its intended purpose, which includes aspects of teaching and learning program planning, implementation of the learning process, the creation and maintenance of optimal class, controlling the optimum learning, and assessment of learning outcomes. Professional teachers is very important in determining the quality of their teaching, so that professional teachers are expected to be able to produce students who are qualified scientific knowledge and able to put up a noble character so as to answer the challenges of the times.</p><p>In order to improve the knowledge and skills of teachers in the implementation of the learning process, the government has made little effort either by the teacher certification program as well as education programs and in-service training. Teacher certification as improving the quality of teachers coupled with an increase in the welfare of teachers, which is expected to improve the quality of learning and the quality of education in Indonesia in a sustainable manner. Form of increased welfare in the form of teachers' professional allowance for one wage for teachers who have a teaching certificate. The allowance applies both for teachers with the status of civil servants (PNS) as well as for non-teachers with the status of civil servants (private).</p><p>In some countries, the certification has been strictly enforced, for example in the USA, UK and Australia. Meanwhile, in Denmark recently initiated in earnest since 2003. In addition, there are some countries that are not certified teachers, but do quality control to strictly control the educational process and passing on the institution and the teacher, for example in South Korea and Singapore. But all that lead to the same goal, which is sought in order to produce qualified teachers.</p><p>In addition to teacher certification, many things to do in coaching teachers towards a professional, one of them with a fixed given education and training programs that is planned, structured and sustainable. On Education and Training Employee Position held to develop the knowledge, skills, and attitudes of civil servants in order to carry out the tasks of government and development as well as possible.</p><p>Along the journey, Religious Training Center, Medan in implementing education and training for teachers of Madrasah Religious Education felt not only need a basic level of training but need advanced training, to improve the professionalism of teachers. Training ground level and implemented by the Religious Training Center (BDK) in the twelve Provincial spread in Indonesia, while the Advanced Training conducted by the Centre for education and training (Training Center) in Jakarta. Long education and training at all levels take up to ten days with the same implementation of PLPG teacher certification path.</p><p>In such conditions, whether the implementation of education and training can be enjoyed by all employees and teachers of religion equally and fairly in North Sumatra and Aceh? It could be a teacher until retiring in a region remote never got the chance to follow the education and training, but on the other hand there were also teachers have the opportunity many times for education or training, it is because the system of recruiting participants do not meet the standard criteria.</p><p>In quality, implementation of education and training are still many obstacles, among others; there are trainers (facilitators) who have focused on the materials presented, more use of the lecture method rather than practice. It is also felt that not yet completed the training participants during the opening so as to be inserted held to find a replacement for the inadequate budget. This can impact to a teacher who has completed the education and training of both basic and advanced level. Would they become professional teachers? How to implement PAI madrassa teacher training at BDK Medan? Whether in carrying out his duties at the school, PAI Madrasah teachers can implement them in accordance expectations and reality once completed the training? Do PAI Madrasah teachers who have completed the training, can become professional teachers?</p><p>Another issue that once completed the PAI Madrasah teacher training rarely even to say never evaluated its performance by Religious Training Center, or by the headmaster. So it can be said that teachers who have been carrying out training there was no difference in performing their duties or influence learning in school.The research objective was to study the formulation, implementation, and evaluation of the role of facilitator of education and training programs teachers of Islamic Madrasah on Religious Training Center (BDK) Medan..</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II Theoretical review</head><p>The term of education, training and development are related to each other and sometimes complementary, education (education) is learning that is prepared to increase a person to be able to accept responsibility and / or new tasks, Here the concept of education is more limited in scope, namely education in the organization of work <ref type="bibr">(Admodiworio, 2002: 35)</ref>. Education was prepared for someone to receive / hold a job in the future for the promotion. There are two possible meaning of the concept of education, namely: First: A certain jobs to be filled at a definite time period. Second: A certain jobs to be filled within an uncertain time (future).</p><p>While the meaning of training and development according to <ref type="bibr">Scott in Sedarmayanti (2007: 163)</ref> as follows: "Training in the behavioral sciences is an activity of line and staff the which he has its goal executive development to Achieve greater individual job effectiveness, improved interpersonal relationships in the organization , and enhanced executive adjustment to the context of his total environment ". Some understanding of training can be seen below: a) "Training is the intentional act of providing means for leanging to take place" (John H. Proctor and William M. Thornton) b) Training is a process of helping employees gain effectiveness in your current job or future through the development of habits, thoughts and actions, knowledge skills and attitudes (Edwin B. Flippo). Training is a short-term educational process utilizing a systematic and organized procedure by the which non-managerial personnel learn technical knowledge and skills for definite purpose(Andrew E. Sikula). d) Training prepares people to do Reviews their present job and development prepares employees needed knowledge, skills and attitude" (Keith Davis and William B. Werther, Jr.) e) The training is part of the education process involves learning to memperobleh and improve skills outside the education system that prevails, in a relatively short time and with methods that prioritize practice rather than theory <ref type="bibr">(Presidential Instruction, No. 15 of 1974)</ref>. f) Training is a learning process that is more emphasis on practice rather than theory that a person or group using the approach of training for adults and aims to improve in one or more specific kinds of skills (</p><formula xml:id="formula_0">SK Menpan No. 01 / Kep / M.PAN / 2001).</formula><p>Training is a series of activities designed to improve the skills, knowledge, experience, or a change in the attitude of an individual. Training with respect to the acquisition of skills or knowledge. The training program seeks to teach the trainees as well as carrying out specific activities or jobs <ref type="bibr">(Simamora, 1995: 287)</ref>. Training impressed not only to improve the skills of individuals / employees to increase his career. Performance is defined as an increase in production / performance to a more efficient and effective for themselves and the organization. Basically, education and training is an important part of human resource management (HRM) in any organization. Management of human resources is part of a management study that focuses on how to provide, train, motivate and maintain employee <ref type="bibr">(Decenzo, 2010: 4)</ref>.</p><p>Management of human resources is associated with more effective use of the people to achieve individual and organizational goals <ref type="bibr">(Mahapatra, 2010: 4)</ref>. Based on the above opinion can be concluded that human resource management is the process of utilization of personnel to achieve organizational goals, the process includes planning, selection, placement and human resource development. In this context, education and training is the process of development of Human Resources Development, which includes the assessment of performance, potential assessment, planning and career development, feedback and counseling, training, development of data and decisions about the development.</p><p>Improve human resource capacity management is seeking to facilitate the experience of working in an organized, carried out within a certain time, to increase the likelihood that enhance employee performance and develop within the organization. Improvement of human resources covers all activities referred to the variety of terms such as training, refresher, courses, educational development, or a variety of other designations are often used without actually being aware of differences in purpose and scope of each activity (Training Centre, 2003: 1-2 ).</p><p>These three aspects of human resource management tasks it certainly does not stand alone, all three must be integrated into a single pattern of productive human resource management. As seen in the above demonstration, that there are points of contact among the three activities that require coordination efforts. For example, there must be linkage of career development planning (HR utilization activities) with the training of human resources in order that career development. Another example, though a good training program will not be of much use if the work environment does not optimize the utilization of human resources training results and so on..</p><p>In an effort to enhancing the human potential members of a particular organization employee / employees in a company or government, known as the education, training and development. Thirdly it is an attempt to reduce or wash off the gap between the ability of employees to the desired organization. The effort conducted through increased workability that employees have by increasing knowledge and skills and changing attitudes. Employees are the most valuable wealth of the organization, because with all its potential, employees can continue to be trained and developed, so that it can be more efficient, achievements became more optimal to achieve organizational goals.</p><p>In the perspective of Islam, all the problems that weakened condition of human resources education organization must be hacked through a strategic effort to strengthen the resources of teachers and Islamic education personnel. One of the strategic efforts toward improving the quality of the people is to fix the education system and the training of teachers and Islamic education personnel which is directly related to the development of quality human resources as necessary to local, national, regional and global. Availability of human resources or superior human resources capable of responding to competition and work together to realize the good of all. In this process, all forms of improvement by improving the quality of human resources is an effort to build a competitive spirit both between individuals and institutionwhere individuals are located. The competitive spirit is something that must be fought by vying to get good. This is in accordance with the Word of Allah in surah Al-Baqarah 148: "And every one has a direction to which he should turn, therefore hasten to (do) good works; wherever you are, Allah will bring you all together; surely Allah has power over all things".</p><p>The spirit of competition is an attempt to reach the good in every respect. Thus, in practice, so that each organization is able to contribute actively to spread the goodness of the efforts to improve the ability of personnel becomes a necessity. The increase in personnel potential wrapped in human resource development programs should be regarded as a good that will have a major impact on the progress of the organization. The word profession etymologically derived from the Greek "pbropbaino" meaning stated publicly and in Latin is called "profession" is used to refer to public statements made by a person who intends to occupy a public office. Practitioners the Romans polotikus must do "Professio" in public is meant to establish that the candidate meets the necessary requirements for public office <ref type="bibr">(Sagala, 2009: 2)</ref>. For example, until the doctors who will perform his profession represents a public promise to devote himself properly. One connotation profession refers to a job on the basis of a public promise and swearing. They will be performing their duties as they should and will raise themselves to the task.. Profession is a lot of terminology has the meaning, only if simplified profession that can be interpreted as a "work based education expertise (skills, honesty, and so on). Traditionally profession implies prestige, honor, social status, and greater autonomy given community to her. This is manifested in the authority of the members of the profession to regulate themselves, determine their own standards, regulate how and on what terms to merge into it, and set the standards of behavior of its members. The provisions of this standard was standardized in a professional code of conduct created by the association or professional organization. In addition profession based on the expertise, competence and specialist knowledge, so as to become a professional person must undergo a relatively long education, such as the medical profession and lawyers, teachers and others..</p><p>In the view of Islam, behavior and personality that should be implemented and replicated is the personality of the Prophet, the general personality of the Prophet., Is shidq (honest), trust (trustworthy), sermons (of revelation) and fathnah (smart), whereas a special personality owned al-amin prophet is to be believed). Even when Aisha was asked about his personality, he replied that his personality is the Koran. So the figure of Muhammad is the Qur'an walk.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III Method</head><p>This study uses qualitative research approach, chosen qualitative research method for this study addresses the problems that are holistic, complex, dynamic and full of meaning so it enables data on the situation of the implementation of the education and training of teachers PAI Madrasah field of study Qur'an Hadith and Aqidah Morals are seen by qualitative research methods with instruments such as observation, collecting documents, observation, tests, questionnaires and interviews to obtain data that is valid and reliable. In addition, researchers intend to understand the situation in depth, discover patterns, hypotheses and theories. This type of research is characterized, among others, the actual setting, the researcher is a key instrument, the data are descriptive, emphasizing the process, the data analysis is inductive, and the meaning of each event is an essential concern in qualitative research <ref type="bibr">(Bogdan, 1998: 4-7)</ref>. Researchers directly involved (participants) in the education and training of Tsanawiyah PAI teachers, the subject is Quran and Hadith and Aqidah Akhlak subject of Elementary School level (Madrasah Ibtidaiyah). This study took place in the Religious Training Center (BDK) Medan, Jalan T.B. Simatupang No. 122 Pinang Baris Medan. The experiment was conducted in 2013 through 2016. The object of this study is 30 participants of education and training of PAI teachers of Aqidah Akhlak subjects.</p><p>Data was collected in four ways, namely: a) observation, b) interviews and questionnaires, c) documents and d) a combination / triangulation <ref type="bibr">(Sugiyono, 2009: 308-309</ref>). In qualitative research, data collection is done in a natural setting, the primary data source, and data collection techniques more done on participant observation and in-depth interviews.</p><p>The process of data analysis is done continuously, along with data collection and then resumed after data collection is completed. In doing data analysis, researchers refer to the steps described Miles and Huberman, which consists of three stages, namely; data reduction, the data display and conclusion drawing / verivication, commonly known as an interactive model <ref type="bibr">(Miles, 1987: 22)</ref>. To strengthen the validity of the data on the findings, the researchers refer to the use of standards validity of the data comprising; credibility, trensferability, defendability, and comfirmability <ref type="bibr">(Lincoln, 1985: 35)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>The first finding, the formulation of educational programs and teacher training of PAI Madrasah teachers on Religious Training Center Medan follow the curriculum created by the Training Center for Technical Education and Religious Workers in Jakarta. BDK field training program that contains training materials and curriculum. But technically BDK tasked to map the training participants with frequent reference to whether or not the PAI Madrasah teachers follow the training..</p><p>Increased competence of teachers, including Islamic Education Teachers (PAI Teachers) is a necessity. This is in accordance with the mandate of Act No. 20 of 2003 on National Education System, noted that the national education goals is for the development of students' potentials to become a man of faith and fear of God Of course, in education and training has a specific learning format. Learning format is a method of determining the design of the training run. In this training format adapted to the needs of the training which is short means that the time required to deliver the materials to the participants of the relatively short as 5 Presidential Decree of 1974 which states that the training is part of education involves learning process to acquire and improve skills outside the system education prevailing in a relatively short time with the method that is more about practice than theory <ref type="bibr">(Presidential Instruction No. 5 of 1974)</ref>.</p><p>Based on the theory issued by Soebagio Atmodiwirio (2002: 12), the Management Training that: There are three important elements in any design a training program that need to be considered to increase training activities by any individual, these three elements are the purpose (what must be achieved); methods (how to achieve the goal) and format (in what circumstances the determination of the design to be achieved).</p><p>So based on this theory of education and training undertaken must be programmed with either within the framework of an integrated curriculum. Furthermore, in the implementation of training and there are three main elements, namely the participants, lecturers / instructors and executive committee. During the execution of the training takes place, these three elements are expected to carry out their respective duties are coordinated. So, put together a program is relatively final step which must be preceded by the preparation of evaluation instruments and training strategies. Therefore, the program drafted notice common characteristics trainee, teacher competence and ability of teachers in the implementation of learning.</p><p>Preparation of the training program and training curriculum is fully implemented by the Training Center. So practically Religious Training Center Medan only the extension of the Religious Center Training Agency based in Jakarta.</p><p>In general, the broad outlines lesson course training is 1) the basic group is a group of subjects to inculcate, strengthen and improve the professionalism, loyalty and obedience to the participants as a basis for carrying out his respective duties as servants of the State and public servant who covers education policy field madrasah and technical education and training policies; 2) The core group is the group of subjects that aims to equip participants with a wide range of knowledge and skills in the field of basic tasks in question include presentations with power point, the percentage with a slide master, editor of the slide and the Internet as a medium of learning; 3) support group program namely steering group, program evaluation and group gymnastics physical health.</p><p>Formulation and purpose of this training program adapted to the type of training and the participants. So expect no conformity implementing education and training programs with the implementation of training conditions in accordance with the formulation, objectives and targets. There were some steps taken BDK Medan in improving the formulation, implementation and achievement of the desired objectives namely to establish or improve the SOP (standard operating procedure) and clarify the criteria for training participants. In determining teachers as participants of the training there own criteria namely PNS / non-civil servants, ever, or do not follow the training during the last 4 years. Second finding, implementation of education and training of Madrasah PAI teachers on Religious Training Center Medan is divided in two categories namely stage of preparation training and implementation phase of training. The preparatory stage of the registration process begins training training participants on the application BDK simdiklat in Medan. Simdiklat applications already integrated in the information system with Training Center, and a system of regional Training Center in the county / city of North Sumatra province. Through information received through the application of this Simdiklat then BDK can monitor and determine the candidates training participants. Furthermore, during the implementation phase training approach with emphasis on teaching methods Andragogy classical, classical media, discussions, presentations and make study discution forum.</p><p>During the implementation of the education and training program is divided into two phases namely a period of preparation and implementation of the training period. During the preparation of the preparations that need to be designed include; the formation of the committee, the establishment of facilitators, training materials, calling the training participants, as well as the tools and training materials.</p><p>On the implementation of education and training, not separated from presentation strategies training program. Adapted from a presentation strategy training measures and systematic learning. In detail Walter Dick, Lou Carey and James O. <ref type="bibr">Carey (2005: 145)</ref> has identified the components of the system approach model (components of the systems approach model) in learning. <ref type="bibr">Second, Wentling (1992: 64)</ref> has developed a training curriculum development process. Eddie <ref type="bibr">Davis (2005: 76)</ref> has identified managerial measures in managing the training. Its application in the design of a systematic training program development and training teachers to improve their religious madrassa teacher competence is done strategy with the following steps. In the process of researching the purpose of identification documents competency development objectives on education and training programs both from the documents in the international or national scale. Analysis of learning and learners' needs through interviews, observation, and questionnaires. After that set performance targets, preparation of assessment instruments, the development of training strategies, selecting the material through experts focused group discussion and questionnaire to prospective participants. With the move set of processing steps of training, training management, resource persons and trainers, as well as methods and techniques of training. The detailed steps described below in <ref type="figure" target="#fig_0">Figure 18</ref>: The advantage of systematic training strategy above can change the insights, understanding and framework of the nature penerafan professionalism of teachers in teaching the Islamic religion. It came from the trainers and participants can not distinguish between learning "Professional" with "apply professionalism in learning". Another advantage is the training time. Usually at the beginning of the training, the trainers focused on the needs of the mastery of the application, so the training is technical and is not associated with the purpose, principles, and methods of learning. This training model takes longer. The system is able to cut the training time because the objective conditions and the real needs of participants have been drawn from a preliminary study. These benefits accelerate the preparation and implementation of the program. Things are already controlled are not repeated, materials needed and declared important by the participants are given adequate training time. Such procedures describe an effective and efficient training, wasted no time and has centered on the real needs of teachers.</p><p>The disadvantage is that the complete procedure requires experts from several disciplines at the time of the preliminary study and preparation of the program. Among other educational technology experts, an Islamic education, informatics engineering experts. More specifically, in the learning of Islam if developed to the field of study contained in madrasah, Islamic education experts consisting of experts in Quran and al-Hadith, expert in knowledge of the Quran and al-Hadith sciences. Field of Study Aqeedah Morals require expert in the study of Tawheed, Morals, and following Sufism learning. And so on for Fiqh and Islamic Cultural History. Surely there is a supporting factor that makes this training program can be run with either namely good cooperation between the organizers, participants and organizers of training. Some perceived as the superior quality of implementation of the training was good the condition of facilities and infrastructure, classrooms are comfortable and have a space laboratory and a comprehensive library. So far the training participants are generally satisfied with the implementation of the training program in BDK Medan.</p><p>The third findings, the facilitator (Widyaiswara) Education and Teacher Training of Islamic Religious teachers at Training Center (BDK) Medan, perform their role and their duties properly starting analyzing training needs; preparing training curriculum; prepare training materials appropriate specialization; carry out face to face in front of the classroom training appropriate specialization; check the appropriate specialization exam Training; Training Training guide participants on appropriate structural specialization; manage the training program at the institution; and evaluate the training program..</p><p>Improving the competence of training participants on the aspects of knowledge, attitude and skills will be realized when the implementation of training activities, especially in the learning process to run effectively and efficiently. Because through this learning process and transform knowledge transfer has implications for behavioral change. <ref type="bibr">Suparman (2001: 14)</ref> cites the opinion of Gagne said, "Learning is a system where the components contained therein interact with each other, correlate and work together in achieving the goals set". Widyaiswara as educators have a role and a function that determines the quality of each activity for Education and Training (Training). Widyaiswara not only serves to teach, educate and train in the narrow sense, but it also serves as a facilitator, moderator, consultant, motivator, inspiration, researchers and even to be able to be leaders and guidance as well as the waitress. In other words trainers have a very important role in realizing the quality of learning at a training. While the quality of learning is as a determinant of the quality of education. Lecturer is a functional position that has the scope, duties, responsibilities, and authority to educate, instruct and / or train civil servants in the Government Training Institute; Based on PERMENPAN number 14 in 2009 one of the trainers are conducting activities and the implementation of development training that includes: a). analyzing training needs; b). Training curriculum development; c). preparation of training materials appropriate specialization; d). implementation of face to face in front of the classroom training appropriate specialization; e). Training exam examination appropriate specialization; f). Training participants guidance on the appropriate Structural Training specialization; g). management training program at the institution; and h). evaluating training programs.</p><p>Surely this will further strengthen the role of training centers and trainers as an extension of the Training Center only. This is because all system requirements have been prepared by the Training Center. Although such BDK has very vital role as the spearhead of the Training Center in managing the education and training of teachers for the knowledge and develop the skills, knowledge, professionalism and competence of the teachers who had the opportunity to be educated the hall.</p><p>Face to face in front of the class is the core in the learning process because the successful transfer and transform knowledge, skill and attitude at training participants is determined by the to-face activities. By other terms it can be said that the quality of face-to-face is a reflection of the quality of learning.</p><p>The findings of the fourth, the evaluation of the implementation of the Education Evaluation is an activity that is carried out systematically in order to obtain information about the conformity of the program with the implementation, compliance objectives with the results achieved based on indicators and parameters have been used. The results of this evaluation can be used as an instrument to assess the degree of success of the program / activities based on predetermined criteria.</p><p>Education and training is a learning process that emphasizes the practice and theory. Education and training is provided to all level and classes so that it can be seen that with the implementation of the training, it can maintain, update, and develop science which has been owned. As minister SK No.01 / Kep / M.PAN / 2001 that the training is a learning process that is more emphasis on practice rather than theory that a person or group of people by using the approach of training for adults and aims to improve in one or more skills so with implementation of this training, it can improve the ability of participants in ahirnya will also be lowered to male and female students who are taught at each institution. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>. The implementation of the education and training of PAI Madrasah teachers on Religious Training Center</head><p>Medan is divided in two stage namely stage of preparation training and implementation stage. The preparatory stage of the registration process begins with registration of participants on the application of simdiklat in BKD Medan. Simdiklat applications already integrated in the information system with a system of regional Training Center in the county/ city of North Sumatra province. Through information received the application of this Simdiklat, BDK Medan can monitor and determine the candidates training participants. Furthermore, during the implementation phase training approach with emphasis on Andragogy approach, classical media, discussions, presentations and make discussion forum.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The facilitator (Widyaiswara) of Education and Training of Islamic Madrasah Teacher on Religious</head><p>Training Center (BDK) Medan have run its fuction well that starts from analyzing training needs; preparing training curriculum; prepare training materials appropriate with their specialization; carry out face to face in front of the classroom training appropriate their specialization; check the appropriate specialization on exam Training; Training guide participants on appropriate structural specialization; manage the training program at the institution; and evaluate the training program. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI Recommendations</head><p>1. It is advisable for the Ministry of Religious Affairs Training Center especially to keep doing the education and training of teachers PAI. Religious Training Center should be given the autonomy to develop curricula according to local content refers to the wisdom of local culture 2. Religious Training Center suggested to the field to carry out the monitoring / follow-up surveillance for Islamic teachers who have completed the training, in order to optimally implement the training results in their respective working environments, for example in the form of education and training in the implementation of the activity report each school respectively, or set up an effective monitoring in cooperation with the supervisory school district / city. 3. To the Principals in order to optimize the ability of teachers through the use of technology and information so as to improve the ability of teachers. 4. For PAI teacher to keep improving and maintaining the motivation to learn so as to provide a good example for students. 5. For further research to be able to conduct research on the application of technology and information in an effort to improve and produce students who are able to practice the lessons of Islam in society.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Flow chart of systematic strategies to improve the ability of teachers to improve the professionalism and competence of teachers The step respectively are: 1. Identify the purpose. 2. Analyzing the ability of participants in the use of information and communication technologies and management of teaching and learning process. 3. Analyzing the context of learning the Professional Teacher Education Program and the madrasah general situation. 4. Conduct analysis of training and learning 5. Formulate training objectives and performance targets. 6. Develop evaluation instruments. 7. Developing strategies, methods, and techniques training. 8. Develop and selecting training materials. 9. Develop and implement an evaluation. 10. Revise</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>4 .</head><label>4</label><figDesc>Evaluation of the implementation of the Education and Teacher Training of Islamic Madrasah teachers on Religious Training Center (BDK) Medan is divided into three stages, namely the evaluation before training that evaluation carried out after training planning activities carried out by a team of evaluators consisting of Training and Development Agency of Religion and Religious Training and Religious Training Center and Regional Office of the Ministry of Religion Medan. This evaluation is intended to determine the effectiveness of the plan in achieving training objectives to be achieved. Further evaluation of the training and education is an evaluation of the implementation of the training program in Medan Religious Training Center in order to measure the success of the implementation of training and training achievement. In this evaluation conducted by the Widyaiswara, organizers and participants of the training and evaluation after the training conducted by a team from BDK to measure improvements and the ability of teachers of Islamic Madrasah after following the training.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head>The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in DOI</head><label>Implementation</label><figDesc></figDesc><table>: 10.9790/0837-2205080109 
+www.iosrjournals.org 
+3 | Page 
+
+c) </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head>The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in DOI</head><label>Implementation</label><figDesc></figDesc><table>: 10.9790/0837-2205080109 
+www.iosrjournals.org 
+4 | Page 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false"><head>The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in DOInoble, healthy, knowledgeable, skilled, creative, independent, and become citizens of a democratic and responsible (Education No. 20 of 2003). Correspondingly, born of Government Regulation No. 55 of 2007 on Religious Education and Religious Education. In the Government Regulation (PP) explained that the religious education aims to develop the capacity of students to understand, appreciate and practice the values that harmonize religion mastery in</head><label>Implementation</label><figDesc>science, technology and art. In addition, to accelerate the ability of learners in integrating the values of religion with science, technology and art, it takes a series of processes in a planned and systematic compelled the management of religious education. Furthermore, in the Minister of Religious Affairs No. 16 of 2010, stated that the Master of Religious Education minimum academic qualification under graduate / Diploma IV, of the study program Religious education program and / or religious studies from an accredited university and have a certificate of professional religious education teachers , Further, it is mentioned that the PAI teachers must have pedagogical mastery, personality, social, professional and leadership (Minister of Religious Affairs Regulation No. 16 of 2010, article, 13). Thus, PAI teachers must have academic qualifications, professional certificates and competence, it is necessary to do activities through various institutions engaged in education or training to improve the competence of PAI teachers through the improvement and development of attitudes, knowledge and skills in accordance with the development strategy of curriculum 2013 PAI , Through the Teacher Competency Enhancement program (PKG) PAI teachers are expected to increasingly capable of mastering its competence and provide PAI learning effective and fun to their students. In the decision of the Minister of Religion No. 1 Year 2003 on guidelines for the education and training of civil servants in the ministry of religion that the Training Centre of Religious is implementing unit training administration of the Ministry of Religious domiciled in the area and has the tasks of training of administrative and training personnel Technical Religious for employees in each region based on the policy of the Agency's head of R &amp; D and training ministry of religion.</figDesc><table>: 10.9790/0837-2205080109 
+www.iosrjournals.org 
+5 | Page 
+
+Almighty, </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head>The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in DOI</head><label>Implementation</label><figDesc></figDesc><table>: 10.9790/0837-2205080109 
+www.iosrjournals.org 
+6 | Page 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" validated="false"><head>This evaluation is The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in DOIdetermine the effectiveness of the plan in achieving training objectives to be achieved. Further evaluation of the training and education is an evaluation of the implementation of the training program in Medan Religious Training Center in order to measure the success of the implementation of training and training achievement. In this evaluation conducted by the lecturers, organizers and participants of the training and evaluation after the training conducted by a team from BDK to measure improvements in the ability of</head><label></label><figDesc>and Teacher of Islamic Madrasah teachers at the Training Centre of Religious (BDK) Medan is divided into three stages, namely the evaluation of prior education and training is an evaluation conducted after planning exercise training conducted by a team of evaluators training which consists of a Research Agency Religion and Training Religious. Medan Religious Training Center and Regional Office of the Ministry of Religion.</figDesc><table>: 10.9790/0837-2205080109 
+www.iosrjournals.org 
+8 | Page 
+
+intended to teachers 
+of Islamic Madrasah after following the training.. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" validated="false"><head>The Implementation of Education and Training Program of Madrasah Islamic Religion Teacher in DOI</head><label>Implementation</label><figDesc></figDesc><table>: 10.9790/0837-2205080109 
+www.iosrjournals.org 
+9 | Page 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soebagio</forename><surname>Atmodiwirio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Ardadizya Jaya</publisher>
+			<pubPlace>Manajemen Pelatihan, Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Fundamentalis of Human Resources Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>David A Decenzo Dan Stephen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Robbins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Jhon Wiley &amp; Sons. Inc</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The Art of Training and Development, The Training, Manager&apos;s a Hanbook</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eddie</forename><surname>Davis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Gramedia</publisher>
+			<pubPlace>Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The Systematic Design Of Instruction, 6ed</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Walter</forename><surname>Dick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lou</forename><surname>Carey Dan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James O</forename><surname>Carey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Pearson</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Syamsuddin</forename></persName>
+		</author>
+		<editor>Manajemen Sumber Daya Manusia dan Pemberdayaan Pegawai (Jakarta: Modul 2 Balitbang Agama dan Diklat Keagamaan Pusdiklat Administarasi Depag</editor>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henry</forename><surname>Simamora</surname></persName>
+		</author>
+		<title level="m">Manajemen Sumber Daya Manusia. Jogyakarta: Bagian Penerbitan STIE-YKPN</title>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Nomor 15 tahun</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Intruksi Presiden</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Intruksi Prsiden No. 5 tahun</title>
+		<imprint>
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Bandung: UPI</title>
+		<editor>Jurnal Penelitian Pendidikan Prodi Administrasi Pendidikan S3 Pascasarjana</editor>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="85" to="96" />
+			<date type="published" when="2010-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Qualitative Data Analisysis A Sourcebook of New Method</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Huberman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>Baverly Hills</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Human Resource Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">B</forename><surname>Mahapatra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>New age International Publishers</publisher>
+			<pubPlace>New Delhi</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Peraturan Menteri Agama Nomor 10 tahun 2010 pasal 755</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Peraturan Menteri Agama RI Nomor 16 Tahun</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page">13</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peraturan</forename><surname>Pemerintah</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Nomor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>Pasal 8 ayat 1 dan 2</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Prinsip-prinsip Manajemen Pelatihan, analisis, Desain Pengembangan Pelaksanaan Evaluasi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Depdiknas</forename><surname>Pusdiklat Pegawai</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Depdiknas</publisher>
+			<pubPlace>Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Bogdan Dan Biklen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Qualitative Research</title>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Kemampuan Profesional Guru Dan Tenaga Kependidikan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Syaiful</forename><surname>Sagala</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Alfabeta</publisher>
+			<pubPlace>Bandung</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Manajemen Sumber daya Manusia Reformasi Birokrasi dan Manajemen Pegawai Negeri Sipil</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sedarmayanti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Refika Aditama</publisher>
+			<pubPlace>Bandung</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Sk Menpan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Metode Penelitian Pendidikan Pendekatan Kuantitatif</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sugiono</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kualitatif dan R&amp;D</title>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Alfabeta</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Atwi</forename><surname>Suparman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Desain Instruksional</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Pengembangan Aktivitas Instruksional</publisher>
+		</imprint>
+	</monogr>
+	<note>Dirjendkti Depdiknas</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Undang-Undang Ri</forename><surname>Nomor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>Tentang Guru dan Dosen, Bab I pasal 1 ayat 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Sistem Pendidikan Nasional No 20 tahun</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Undang-Undang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uuspn</forename><forename type="middle">Ri</forename><surname>No</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Planning for Effective Training A Guide to Curriculum Development, Rome : FAO of the United Nations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tim</forename><forename type="middle">L</forename><surname>Wenling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lincoln</forename><surname>Vonna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">. S Dan</forename><surname>Guba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Naturalistic Inquiry</title>
+		<meeting><address><addrLine>New Delhi</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage Publication</publisher>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

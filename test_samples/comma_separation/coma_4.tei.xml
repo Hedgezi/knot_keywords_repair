@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/05/yarn/nm/usercache/lanastasiou/filecache/41/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-05-22T16:50+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effects of Islamic general senior secondary school principals&apos; leadership ability on the effectiveness of madrasah-based management in Indonesia</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2014">2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mesiono</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">(State Institute for Islamic Studies of IAIN Sumatra Utara</orgName>
+								<address>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effects of Islamic general senior secondary school principals&apos; leadership ability on the effectiveness of madrasah-based management in Indonesia</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Quest Journals Journal of Research in Humanities and Social Science</title>
+						<meeting> <address><addrLine>Online</addrLine></address>
+						</meeting>
+						<imprint>
+							<biblScope unit="volume">2</biblScope>
+							<biblScope unit="issue">9</biblScope>
+							<biblScope unit="page" from="2321" to="9467"/>
+							<date type="published" when="2014">2014</date>
+						</imprint>
+					</monogr>
+					<note type="submission">Received 01 August, 2014; Accepted 27 September, 2014</note>
+					<note>*Corresponding Author:Mesiono 41 | Page State Institute for Islamic Studies of IAIN Sumatra Utara, Indonesia Research Paper</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Islamic general senior secondary schools,school (madrasah)-based management</keywords>
+			</textClass>
+			<abstract>
+				<p>The purpose of this survey study was to examine the effects of Islamic general senior secondary school (Madrasah Aliyah) principals&apos; leadership ability on the effectiveness of school (madrasah)-based management. A proportional cluster random sample of 205 Principals from 33 districts / cities in North Sumatra, Indonesia was involved in the study. A questionnaire was used as a research instrument to collect the data. The data were analyzed by using descriptive statistics and path analysis. The results of the study revealed that there was a significantly direct effect of Islamic general senior secondary school principals&apos; leadership ability on the effectiveness of school (madrasah)-based management in Islamic general senior secondary schools-equivalent to general senior secondary school managed and run by the Ministry of the national education and culture-in North Sumatra, Indonesia. This study provides information for policy makers, principals, parents, and teacher educators to understand how the policy of school (madrasah)-based management is implemented at the school level. Implications for practice and further research are also discussed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>A national, centralized, and bureaucratic approach as introduced by the Dutch as the colonial power had characterized the Indonesian education system. According to <ref type="bibr" target="#b0">Lauglo (1996)</ref>, after independence, many developing countries used bureaucratic centralism in their educational system due to their local and regional governments' weaknesses. However, since the fall of Suharto's regime in 1998, there has been a substantial change in the Indonesian education policy from centralization to decentralization -which is popularly known as school-based management (SBM). The change was marked by the introduction of the Law No. <ref type="bibr">22/1999</ref><ref type="bibr">(later reviewed by the Law No. 32/2004</ref>) about "Local Government", which was officially executed in January 2001. The arrival of the law has had political consequences on the educational administration, management, and leadership as there should be an adaptation to the soul and the spirit of autonomy. In the words of <ref type="bibr" target="#b3">Caldwell (2005)</ref>, SBM is the decentralization of authority or power from the central authority to the school level. Also, <ref type="bibr" target="#b0">Lauglo (1996)</ref> argued that decentralization means to stay away from a central authority. Similarly, other scholars proposed that SBM was conceptually as a formal alteration of governance structures from central bureaucracy to school level <ref type="bibr" target="#b4">(Beck, &amp; Murphy, 1998;</ref><ref type="bibr" target="#b5">David, 1996;</ref><ref type="bibr" target="#b6">Chapman, 1996;</ref><ref type="bibr" target="#b7">Eliason, 1996;</ref><ref type="bibr" target="#b8">Murphy &amp; Beck, 1995;</ref><ref type="bibr">Mohrman, Wohlstetter, &amp; Associates, 1994;</ref><ref type="bibr">Bradley &amp; Miller, 1991;</ref><ref type="bibr" target="#b11">Caldwell &amp; Spinks, 1992)</ref>.</p><p>Relating to the change of educational governance from central bureaucracy to school level in Indonesia, the arrival of the law not only describes the key relationship between the central government, the state or provincial government, and the school in their powers and authority in relation to education but also gives local/provincial governments autonomy or wider authorities to develop, control, and monitor as well as supervise their respective education. More specifically, the decentralization in the Indonesian educational context is that central government delegates the authorities and gives autonomy to provincial governments to take care their education and from provincial government to city or regency government then to schools. In other words, the change from central-based educational management (centralization) to local and school-based management (decentralization) in the terms of the decision making authority and school policy to the school level in Indonesian educational context as the consequences of the emergence of the law shows the need of a new policy framework and strategy for implementation, reflecting new sets and patterns of decision-making related to goals, budgets, personnel, curriculum, and structure), relationship and interactions and the need of The effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of… *Corresponding Author:Mesiono 42 | Page improving schools to be more effective in Indonesia, which finally will improve the quality of education in the term of student achievement. However, although SBM has been applied in every level of education in Indonesia for almost fourteen years and although some research <ref type="bibr" target="#b12">(Idrus, 2013;</ref><ref type="bibr" target="#b13">Sumintono, 2006</ref>; <ref type="bibr" target="#b14">Sitepu, 2005</ref>) has been done, not much research has been devoted to examine how policymakers and educators at school level have applied school- based management as an effective strategy for improving schools, especially the effectiveness of school-based management in Islamic general senior secondary school called madarasah Aliyah -equivalent to general senior secondary school managed and run by the ministry of religious affairs. In response to the inadequate studies on the effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school-based management, the findings of the current study might be the sort of evidence for policymakers, school leaders, communities, and teachers with more understanding on the implementation of SBM at school level. Hence, this study was an attempt to fill the lack of literature and information on the effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school-based management. The purpose of this survey study was to examine the effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school (madrasah)-based management. The following single research question was developed in this study in an attempt to achieve the purpose of the study: Are there any direct effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school (madrasah)-based management in North Sumatra, Indonesia? Additionally, this study tested the following hypothesis to address the research question: There is a direct effect of Islamic general senior secondary school principals' leadership ability on the effectiveness of school (madrasah)-based management in Islamic general senior secondary schools in North Sumatra, Indonesia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Research site and participants</head><p>This survey study was conducted at 205 public and private Islamic general senior secondary schools from 33 districts / cities in North Sumatra, Indonesia. The participants of this study were 205 principals from public and private Islamic general senior secondary schools in 33 districts / cities in North Sumatra, Indonesia. The 205 principals were recruited through a variety of networking sources and permission from the authorities was also acquired.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Data collection and analysis</head><p>The data for this survey study were collected through a questionnaire developed by the researcher to examine the effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school-based management. The questionnaire consisted of 78 statements (questions) of the effectiveness of school (madrasah)-based management and 41 statements of leadership ability. The survey questionnaires were personally administered to each principal at 205 public and private Islamic general senior secondary schools from 33 districts / cities in North Sumatra, Indonesia. All the returned and collected questionnaires went through a screening process to check the completeness of the responses and to guarantee that every set of the returned questionnaire contained acceptable information for data analyses. Data were analyzed by using descriptive statistics and path analysis. Specifically, the adoption of the path analysis in this study is based on the fact that it has the necessary features required to successfully address the quantitative research. Path analysis was used as a method for decomposing correlations into different pieces for interpretation of effects while a path coefficient will show the direct effect of a variable assumed to be a cause on another variable assumed to be an effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Reliability and validity</head><p>As the measurement instrument necessitates validity and reliability and needs responses that fit the purpose of this study and the result should be meaningful, an initial analysis of the questionnaire was conducted and tried out to non 50 participants to seek the validity and reliability of the questionnaire. Out of 78 statements, 64 items were valid and out of 41 statements, 31 were valid. For the reliability, the result of the path analysis indicated that the significant level was 0, 05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">The effects of Islamic general senior secondary school principals' leadership ability on the Effectiveness of school (madrasah)-based management</head><p>The purpose of this survey study was to examine the effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school (madrasah)-based management. In the following table is the summary of the descriptive statistics analysis on the effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school (madrasah)-based management. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">The effectiveness of school (madrasah)-based management</head><p>Based on the data analysis, after the decomposed score, in the variable of the effectiveness of school (madrasah)-based management, the lowest score was 151, the highest score was 326, the median score was 243 with the upper quartile of 2 67, 5 and the lower quartile of 219,50. Additionally, the interquartile range was 175 and none of the data were outliers as presented in the following figure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1. The boxplot of the effectiveness of school (madrasah)-based management</head><p>The boxplot indicates that the median line located in the middle of the box and the upper and lower Whiskers have the same length. Therefore, the data distribution of latent variable of the effectiveness of school (madrasah)-based management in North Sumatra, Indonesia is symmetrical. Additionally, to seek the effectiveness of school (madrasah)-based management, the mean and empirical standard deviation were compared to the score of the ideal standard deviation and the ideal mean score in this study. In this study the ideal mean score of the variable could be calculated through the normal curve in which the minimum score of The first quartile(Q1)</p><p>The third quartile (Q3) (267) According to the table above, it indicates that the frequency level of the effectiveness of school (madrasah)-based management were between 64 and 160 means "insufficient," between 160 and 256 means "low" and between 256 and 352 means medium, and between 352and 448 means "high". The result of the comparison between theempirical mean score of 256 and the ideal mean score of 241 with the four categories indicated that the level of the effectiveness of school (madrasah)-based management was in the low category. Specifically, the frequency level of the effectiveness of Islamic general senior secondary school (madrasah)- based management variable in North Sumatra, Indonesia was not included in the high category. However, there were 98 principals (47, 80%) who were included in the medium category,106 principals (51,71%) were included in the low category, and one principal (0,49%) was in the insufficient category. In summary, Islamic general senior secondary school principalsin North Sumatra tended to be in the low category related to the effectiveness of school (madrasah)-based management.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">The Islamic general senior secondary school principals' leadership ability</head><p>Based on the data analysis, after the decomposed score, the variable of the Islamic general senior secondary school principals' leadership ability, the lowest score was 122, the highest score was 189, the median score was 155 with the upper quartile value of 165 and the lower quartile value of 147. Additionally, the interquartile range was 18 and none of the data were outliers as presented in the following figure. The first quartile(Q1) <ref type="formula">( 147)</ref> The effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of…</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>*Corresponding Author:Mesiono 45 | Page</head><p>The boxplot indicates that the median line located in the middle of the box and the upper and lower Whiskers have the same length. Therefore, the data distribution of latent variable of the Islamic general senior secondary school principals' leadership ability in North Sumatra, Indonesia is symmetrical. Moreover, to seek the Islamic general senior secondary school principals' leadership ability, the mean and empirical standard deviation were compared to the score of the ideal standard deviation and the ideal mean score in this study. In this study the ideal mean score of the variable could be calculated through the normal curve in which the minimum score of theoretical data was 34 and the maximum score was 238. The ideal mean score was 1/5 (34 + 238) while the ideal standard deviation was 1/6 (238-34) = 34. Based on this calculation, the ideal mean score of the Islamic general senior secondary school principals' leadership ability variable was 136. Next, the ideal score can be classified into four categories as follows: According to the table above, it indicates that the frequency level of the Islamic general senior secondary school principals' leadership ability were between 34 and 85 means "insufficient," between 85 and 136 means "low" and between 136 and 187 means medium, and the score of between 187and 238 means "high". The result of the comparison between the empirical mean score of 136 and the ideal mean score of 154 with the four categories indicated that the level of the Islamic general senior secondary school principals' leadership ability was in the medium category. Specifically, the frequency level of the Islamic general senior secondary school principals' leadership ability variable in North Sumatra, Indonesia was not included in the high category. However, there were 161 principals (78, 53%) who were included in the medium category,44 principals (21, 07%) were included in the low category, and no principal was included in the insufficient category. In summary, Islamic general senior secondary school principalsin North Sumatra tended to be in the medium category related to the leadership ability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Research hypothesis</head><p>In this study, the result of path analysis related to the research hypothesis, "There is a direct effect of Islamic general senior secondary school principals' leadership ability (X3) on the effectiveness of school (madrasah)-based management (X4) in Islamic general senior secondary schools in North Sumatra, Indonesia" indicated that there was a direct effect of a variable assumed to be a cause on another variable assumed to be an effect. In other words, there was a direct effect of Islamic general senior secondary school principals' leadership ability (X3) on the effectiveness of school (madrasah)-based management (X4) in Islamic general senior secondary schools in North Sumatra, Indonesia. The result of the path analysis was 0,164 with the t calculate =2,418. Since the coefficient value of the t calculate is bigger that the value of the t table foran Alpha (α) of (0,05:202) = 1,652, the hypothesis(H 1 ) was accepted. The finding of this study indicated that the leadership ability of the principals had a direct effect on the effective implementation of school-based management in Islamic general senior secondary schools. In other words, the more Islamic general senior secondary school principals have leadership ability, the better the effectiveness of school (madrasah)-based management will be.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. CONCLUSION, LIMITATIONS, AND FURTHER RESEARCH</head><p>The purpose of this survey study was to examine the effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of school (madrasah)-based management. While this study may potentially provide the sort of evidence that there was a direct effect of Islamic general senior secondary school principals' leadership ability on the effectiveness of school (madrasah)-based management, the finding should be considered in light of several potential limitations. First, the principals in this study may not be representative of all Indonesian Islamic general senior secondary schools from different areas in Indonesia. Future research should be conducted with a larger sample of principals across Indonesia that may provide diverse principals' feeling, thoughts, and experience on school-based management policy. Moreover, in terms of methodological research, a survey was used in this study; future research could use qualitative methods to obtain principals' in-depth perspectives, feelings, and thoughts on leadership ability on the effectiveness of school (madrasah)-based management. Another limitation of the study was that this study focused only on Islamic general senior secondary school principals' input on their perspectives, feelings, and thoughts of the The effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of… *Corresponding Author:Mesiono 46 | Page implementation on school-based management policy at their own schools, future research could examine the perspectives, feelings, and thoughts of teachers, parents, community members, students, staff, or other administrators.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. The boxplot of the Islamic general senior secondary school principals' leadership ability Whisker Length the highest value ( 189)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head>Table 1 .</head><label>1</label><figDesc></figDesc><table>Islamic general senior secondary school principals' leadership ability on the effectiveness of 
+school (madrasah)-based management 
+Islamic general senior secondary 
+school principals' leadership ability 
+(X3) 
+
+the effectiveness of school 
+(madrasah)-based management 
+(X4) 
+
+N 
+
+Valid 
+205 
+205 
+Missing 
+0 
+0 
+Mean 
+154,49 
+241,49 
+Median 
+155,00 
+243,00 
+Variance 
+166,594 
+1274,04 
+Std. Deviation 
+12,907 
+35,69 
+Minimum 
+122 
+151 
+Maximum 
+189 
+326 
+Range 
+67 
+175 
+ideal Mean 
+136,00 
+256.00 
+ideal Std. Deviation 
+34 
+64 
+Minimum ideal 
+34 
+64 
+Maximum ideal 
+238 
+448 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head>The effects of Islamic general senior secondary school principals' leadership ability on the effectiveness of… *Corresponding Author:Mesiono 44 | Page theoretical data was 64 and the maximum score was 448. The ideal mean score was 1/5 (64 + 448) = 256 while the ideal standard deviation was 1/6 (448-64) = 64. Based on this calculation, the ideal mean score of the effectiveness of school (madrasah)-based management variable was 256. Next, the ideal score can be classified into four categories as follows:</head><label>effects</label><figDesc></figDesc><table>Tabel 2. The frequency level of the effectiveness of school (madrasah)-based management (X4) 
+Interval 
+F.Observation 
+F.Relative 
+Catergory 
+≥ 352 
+-
+-
+High 
+256-352 
+98 
+47,80% 
+medium 
+160-256 
+106 
+51,71% 
+Low 
+≤ 160 
+1 
+0,49% 
+insufficient 
+Sum 
+205 
+100% 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The reconstruction of education, quality, equality, and control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lauglo</surname></persName>
+		</author>
+		<editor>Chapman, J. D., Boyd, W. L., Lander, R., and Reynolds</editor>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Redwood Books Limited</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Forms of decentralization and their implications for education</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ministry Of Home</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Ministry of Home</publisher>
+			<pubPlace>Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+				<title level="m">Ministry of Home</title>
+		<meeting><address><addrLine>Jakarta</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">School-based management: Education policy series (Paris: The International Institute for Educational Planning and the International Academy of Education</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Caldwell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Site-based management and school success: Untangling the variables</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Murphy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">School Effectiveness and School Improvement</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="358" to="385" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The who, what, and why of site-based management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EducationalLeadership</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="4" to="9" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">InInternational handbook of educational leadership and administration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Kluwer</publisher>
+			<biblScope unit="page" from="419" to="445" />
+			<pubPlace>Dordrecht, the Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+	<note>A new agenda for a new society</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Educational decentralization as a policy strategy in an era of fiscal stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Eliason</surname></persName>
+		</author>
+		<editor>Chapman, J. D., Boyd, W. L., Lander, R., and Reynolds</editor>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Redwood Books Limited</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The reconstruction of education, quality, equality, and control</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">School-based management as school reform, taking stock</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G</forename><surname>Beck</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Corwin Press</publisher>
+			<pubPlace>Thousand Oaks</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">School-based management: Organizing for high performance</title>
+		<editor>S. A. Mohrman, Wohlstetter, and Associates</editor>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Jossey-Bass</publisher>
+			<biblScope unit="page" from="25" to="52" />
+			<pubPlace>San Francisco, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">School-based management-pointing directionsfor twenty-first century elementary and middle school principals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Millar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SchoolOrganization</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="347" to="359" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Leading the Self-managing school</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Spinks</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>FalmerPress</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The implementation of school-based management policy in Indonesia: A survey on public junior high school principals&apos; perceptions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Idrus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Education and Practice</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="49" to="54" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Decentralized centralism: School based management policies and practices at state secondary schools in Mataram</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sumintono</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<pubPlace>Lombok, Indonesia; New Zealand</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Victoria University of Wellington</orgName>
+		</respStmt>
+	</monogr>
+	<note>doctoral diss., the</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Headmas&apos;ter readiness to increase the quality of education through school based on management: A qualitative study at SMPN 5 Bandar Lampung, master&apos;s thesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Sitepu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Indonesia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universitas Lampung</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

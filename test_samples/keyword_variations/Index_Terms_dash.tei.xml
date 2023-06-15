@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/07/yarn/nm/usercache/lanastasiou/filecache/11/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-22T11:31+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lean Implementation on Indian manufacturing firm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-12">December 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pulkeshian</forename><surname>Daruka</surname></persName>
+							<email>Pulkeshiandaruka@gmail.com,</email>
+							<affiliation key="aff0">
+								<orgName type="institution">The LNM Institute of Information Technology</orgName>
+								<address>
+									<region>Jaipur</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tushar</forename><surname>Agarwal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The LNM Institute of Information Technology</orgName>
+								<address>
+									<region>Jaipur</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Dr</roleName><forename type="first">Vikram</forename><surname>Sharma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">The LNM Institute of Information Technology</orgName>
+								<address>
+									<region>Jaipur</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lean Implementation on Indian manufacturing firm</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">International Journal of Research and Engineering</title>
+						<imprint>
+							<biblScope unit="volume">03</biblScope>
+							<biblScope unit="issue">12</biblScope>
+							<biblScope unit="page" from="21" to="26"/>
+							<date type="published" when="2016-12">December 2016</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Index Terms-Value Stream Mapping (VSM)</term>
+					<term>Lean Production</term>
+					<term>Takt time</term>
+					<term>Production-Lead Time</term>
+					<term>Current State Map</term>
+					<term>Future State Map</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In today&apos;s market every manufacturing industry is trying to implement &apos;Lean&apos; in its operations. This emergent need of reducing waste and getting efficient production had created a boom for the Lean Production (LP). Many people from corporate firms and management associates want a productive tool for achieving this task. Value Stream Mapping (VSM) is the solution to such emerging need, it identifies the source of waste practices and tries to scale down them analytically. VSM in this way measures all the value and non-value added processes, to evaluate the origin of wastes, their effect on different operation of industry and the processes in between. In this paper we have implemented VSM technique on a small scale industry to showcase its effect on cost of production, production lead time and the developing some procedure for reduction of root cause of this loss. Considering the current processes of the industries operations Current State map is developed to show how actual production is taking place at the industry before implementing any lean procedure. A Future State Map is finally developed considering the lean behaviours to reduce the waste production and to increase its productivity. This is inspected along with its takt time calculation. Thus, by curbing these wasteful practices we will show how manufacturing performance of the company can be upgraded by employment of VSM.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>In this revolutionized era of emerging lean, industries are working towards achieving goal of implementing lean to get off a boost in production processes over other industries. Statistically it has been validated that industry having "Lean Manufacturing" access different advantages over industries believing in mass production <ref type="bibr" target="#b5">(Fleischer and Liker, 1997)</ref>. Value Stream Mapping (VSM) is one of the lean practices which removes waste and optimize the production process depending on the operations and process involved in the production. <ref type="bibr">Monden and Womack et al. (1999)</ref> had given the concept of this value stream mapping where both inter and intra-related company's value added streams need to be mapped together. <ref type="bibr" target="#b16">Mohanty et al (2007)</ref> noted that even though companies implement lean among their different processes, but then also they are not able to get significant improvement. This is due to insufficient knowledge of where to implement lean. For efficiently implementing lean, preparing a flowchart of different processes and analysing them according to their waste production is a must.</p><p>Value Stream Mapping consist of mapping of flow of material in an industry and documenting it in a form of production and information flow. The immediate objective is to diagnose entire waste flow from the chart and eliminate those wastes <ref type="bibr" target="#b19">(Rother and Shook, 1999</ref>). Value Stream Mapping was conventionally developed for researchers to get an overview of discharged wastes in respective value streams, and then finally finding an escape route for cautiously removing this waste. And now it became a most demanding tool for achieving such practices for industries.</p><p>Many improvisations have been executed in the industries by the adoption of VSM. A tabulated charts using simulation software have been developed by <ref type="bibr">Anand and Kodali (2009)</ref> to study the processes in Indian Automotive industry and improving their production time accordingly. Seth et al (2008) studied various origins of waste production in supply chain of cottonseed oil industry. <ref type="bibr" target="#b22">Snyder et al. (2005)</ref> carried out the VSM implementation at a health care centre. Thus it has wide spectrum which helps to improve the quality of the product and productivity of the industries. Here we are devising the ways for implementing the Value Stream Mapping on Indian Manufacturing Industry, to increase its production capability by minimization of waste materials.</p><p>Process starts off with managing the workflow. It comprises of documenting the entire process, collecting the data and customer delivery. Betting on the complexity of the processes additional data can be acquired. All this data need to be comprised on a single map i.e. Value Stream. It contain various information of the processes like Cycle Time, change over time, Takt time, work in process time, equipment performance level etc. considering the scale of the industry and complexity of production processes, crucial relationship is developed among the manufacturing process and control measures are used to manage these process.</p><p>II. LITERATURE REVIEW VSM concept was introduced in mid 1990s, during the time when <ref type="bibr">Hines and Riches (1997)</ref> objectified the waste in the form of individual value streams and tried finding new ways for removing them. <ref type="bibr">Huang and Luis (2005)</ref> tried to decrease Work In Process (WIP) time and Logistics cost using VSM. Similarly, <ref type="bibr" target="#b14">Kumar et al (2006)</ref> used the concept of VSM to collaborate it with Six Sigma Technology to achieve improvement in process capability and overall effectiveness. <ref type="bibr" target="#b2">Chen and Meng (2010)</ref> used this concept for Chinese firm to restrict waste to a certain level of achieving lean. Dentz et al (2009) achieved labour efficiency, quality and efficient communication between workers with the help of VSM.</p><p>Considering their work many authors have started working in the field of "Lean Manufacturing" introducing other tools for productively setting up the industries. VSM has been accepted worldwide for improving productivity and quality of the industry with minimum wastes of time and its resources. Our main aim is to remove this waste and to decrease the production time of our processes. <ref type="bibr" target="#b18">Nicholas (1998)</ref> explained that the waste can be of any form and can exist at any particular production unit at any time. This waste not only consumes the resources of our production unit but also harms in long run. <ref type="bibr" target="#b12">Jones and Womack (2000)</ref> explained VSM as the visual map for the flow of information and material, and then developing ways for better production process. According to <ref type="bibr" target="#b23">Tapping and Shuker, 2003</ref> VSM portraits all the value added and non-value added activities of a production unit, and provides us a pictorial representation of work for which the customer is willing to pay. These all are an attempt for having a lean approach for a better supply chain management. Current state map and future state maps showcase the changes we make to highlight lean production in an industry. These current state map and future state maps are an integral part of VSM and are used by many researchers and practitioners for displaying their work towards achieving lean production. <ref type="bibr">Yang and Lu (2010)</ref> used the concept of VSM in the liquid crystal display firm to improve their cycle time and inventory cost. We and Wu (2009) used VSM in their Taiwanese automotive industry to decrease cost of production and lead time with the help of lean tools in corporation with the PDCA cycle. <ref type="bibr" target="#b13">Kalsaas (2002)</ref> used the same in Norway based Automotive Industry. VSM has also been used in small cycle manufacturing unit to identify and remove the waste <ref type="bibr" target="#b7">(Grewal, 2008)</ref>.This VSM can be used in any manufacturing, automobile, oil refinery sector, and is very efficient in its process. Like VSM, many tools are emerging to be used in business firms, social firms also for their improved output. Several researchers like <ref type="bibr" target="#b6">Forza et al (1993)</ref>, <ref type="bibr" target="#b11">Jessop and Jones (1995)</ref>, <ref type="bibr" target="#b3">Cusumano and Nobeoka, 1998</ref><ref type="bibr" target="#b1">, Barker, 1994</ref><ref type="bibr" target="#b15">and Lamming, 1993</ref> had also used this VSM in different sectors and got a great response in their work. That's why the need of new tools and their applications in different sectors is increasing and will always remain in a good demand in market.  Demand come from the customer to the managerial department of the company. Then managerial department sends the requirement to different suppliers for raw material. Generally inventory is sustained for 7 days, then it is moved from raw material shop to finished good shop through various process on shop floor like mixing, ploddering and packaging. Then production lead time and total cycle time is carefully marked on the current state map. Inventory storage points in between the stages are shown in triangles. The timeline at the base of the current state map has two components. The fundamental of analysis is the production lead time and second component is processing time. Total cycle time is calculated by adding the processing time for all the process in the value stream</p><p>Analysis of current state We have made relevant assumptions for the proper analysis of the workflow. Day to day order dispatching to the customer take place, while receiving of raw materials is done for every 7 days. The process timing of every operation is mentioned in the map, additionally the change over time of die used in ploddering machine are also demonstrate the steep or elevated work in process inventory is shown by a triangle between mixer and plodder. For every batch of production i.e. 300 Kg, definite processing time or value added time is 105 min and production lead time is 200 min. It displays a significant scope of improvement, as a particular batch stays for around 200 min in an inventory while value added time for the identical batch is just 105 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. FUTURE STATE MAP &amp; PROPOSED CHANGES</head><p>By analysing the current state map we are capable of finding the loopholes in production units and their respective operations. It requires a high precision analysis of time related to several shifts and hourly demand. Considering it future state map is developed in which the foremost revision was to supply the raw material on per batch basis instead of shift wise. An immense level management and coordination of information flow is needed to fulfil the task. To tackle hourly demand Kanban system is proposed. It helps for faster and efficient flow of information. Kanban system in production helps from flowing dispatch to raw material flow. It was observed that one week inventory is required to be kept because of poor communication with supplier. This leads to put on a hold to other operations which establishes resources wastefulness. An electronic information flow can help us to reduce it to daily supply of material.</p><p>We can setup up plodder and packaging machine together to reduce the delay between these two processes. "Single Minute exchange of Die -SMED" can be implemented in plodder machine to reduce the time taken to change the die between different products. For effectively managing the production a "5S" concept can be incorporated in the industry. It consist of 5 steps which need to be followed: 1. Sort -withhold only crucial items in the workplace. 2. Set in Order -Arrange items to promote efficient work flow. 3. Shine -keep the shop floor clean.</p><p>4. Standardize -fixed standards for a persistently organised workplace. 5. Systematize -Maintain and review standards. In order to counter the variation in takt time a buffer system for the material is implemented. A safety inventory system i.e. availability of additional inventory is available in case of disruptions occur in production line.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of Future State Map</head><p>Depending upon the data analysis of current state map, changes are adopted and put forward in the form of Future State Map shown in <ref type="figure">Figure 2</ref>.</p><p>Specific calculations are done and correlating it with current state map we can see the production lead time has reduced to 14.5 min from 20 Min. Also the total cycle time has reduced to 95 min from 105 min. Significant reduction in work in progress inventory can help the industry to save costs. This will lead to reduction of unwanted waste to be indulged in production processes and decreasing its overall time of manufacturing the finished products. Now industry will be able to deliver hourly rate and high quality product within significant time frame. The most important criteria i.e. lean have been achieved.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. CONCLUSION</head><p>The goal of this paper from the start was to incorporate lean in the industry for having a better production output by reducing its takt time and waste production. It is demonstrated that by the use of VSM as a tool we can improve their production capability and take them a step forward towards achieving Lean Manufacturing. The paper shows a clear relationship between processes, customer requirements and their work flow. Handling of processing units inappropriately and unsystematic networks was the key cause of inefficient supply chain. The comparison of current state model and Future State Model clearly shows us the 27.5% percent decrease in the lead time and 9.5% percent decrease in our processing time, which is huge aspect towards achieving lean. This shows the robustness of VSM technique to identify production lag and to implement lean among its processes. It also sets a benchmark for future researchers and practitioners to how to boost their machining operations and flow management by incorporating this technique.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. REFERENCES</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Current State Map</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head>TABLE 1 .</head><label>1</label><figDesc></figDesc><table>Terminology used in VSM 
+
+III. OVERVIEW OF MANUFACTURING FIRM 
+
+The firm taken for our case study is situated at the suburb of 
+Jaipur, Rajasthan. It deals with manufacturing of household 
+consumable goods to cater the need of the people of rural and 
+urban areas of Rajasthan. This firm was established in 2003 at 
+the outskirts of Jaitpura area, Jaipur covering an area of 10,000 
+sq. m. with annual turnover of around 25 crores. The company 
+employees 200 personnel including all the staff i.e. worker to 
+top management. 
+
+IV. MAPPING PROCEDURE 
+
+Our present work deals with collection of data of various 
+processes incorporated in the firm. This data comprises of takt 
+time involved in different processes and cycle time through 
+each process. The data is then mapped in a paper showing the 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Performance measurement system for lean manufacturing-a perspective from SMEs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">And</forename><surname>Anand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kodali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Globalization and Small Businesses</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="371" to="410" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">the design of lean manufacturing systems using time based analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Operations &amp; Production Management</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="86" to="96" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The application of value stream mapping based lean production System</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Meng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Business and Management</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Cusumano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nobeoka</surname></persName>
+		</author>
+		<title level="m">Thinking Beyond Lean</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Free Press</publisher>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Applying lean production in factory home Building</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dentz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Nahmens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mullens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">City Space: A Journal of Policy Development and Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="81" to="104" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fleischer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Liker</surname></persName>
+		</author>
+		<title level="m">Concurrent Engineering Electiveness</title>
+		<meeting><address><addrLine>Gardner, Cincinnati,OH</addrLine></address></meeting>
+		<imprint>
+			<publisher>Hanser</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Telecommunication services for quick response in the textile-apparel industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Forza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vinelli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Filippini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st International Symposium on Logistics</title>
+		<meeting>the 1st International Symposium on Logistics</meeting>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="119" to="145" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Nottingham</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">An initiative to implement lean manufacturing using value stream mapping in a small 26</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Grewal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Manufacturing Technology and Management</title>
+		<imprint>
+			<biblScope unit="volume">03</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="404" to="417" />
+			<date type="published" when="2016-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The seven value stream mapping tools</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Hines</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rich</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal Of Operations and Production Management</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="46" to="64" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A novel approach to lean control for Taiwan-Funded enterprised in mainland China</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Production Research</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2553" to="2575" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Value Stream process modelling: a methodology for creating competitive Advantage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">And</forename><surname>Jessop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of 4th Annual IPSERA Conference</title>
+		<meeting>4th Annual IPSERA Conference</meeting>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Birmingham</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Seeing the Whole: Mapping the Extended Value Stream</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">And</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Womack</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Lean Enterprise Institute</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Value steam mapping: an adequate method for going lean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Kalsaas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The 14th International Conference Trondheim</title>
+		<imprint>
+			<date type="published" when="2002-06" />
+			<biblScope unit="page" from="13" to="14" />
+		</imprint>
+	</monogr>
+	<note>NOFOMA 2002</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Implementing the lean Sigma framework in an Indian SME: a case study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Antony</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Perry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Production Planning &amp; Control</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="407" to="423" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Beyond Partnership: Strategies for Innovation and Lean Supply</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lamming</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Prentice-Hall</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Implementation of lean manufacturing principles in auto industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">P</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Jain</surname></persName>
+		</author>
+		<ptr target="www.ximb.ac.in/ximb_journal/Publications/Article-01.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Vilakshan-XIMB Journal of Management</title>
+		<imprint>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2007-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Toyota Production System: An Integrated Approach to JustInTime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Monden</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Industrial Engineering and Management Press</publisher>
+			<pubPlace>Norcross, GA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Competitive Manufacturing Management: Continuous Improvement, Lean Production, Customer-Focused Quality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Nicholas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Irwin/McGraw-Hill</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Learning to See: Value Stream Mapping to Create Value and Eliminate Muda</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">And</forename><surname>Rother</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Shook</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<pubPlace>Lean Enterprise Institute, Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Application of Value Stream Mapping (VSM) for lean operations and cycle time reduction: an Indian case study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Seth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Production Planning and Control</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="59" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Application of Value Stream Mapping (VSM) for minimization of wastes in the processing side of supply chain of cottonseed oil industry in Indian context</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Seth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">And</forename><surname>Seth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Goel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Technology Management</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="529" to="50" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Improving processes in a small health-care network. A value-mapping case study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Paulson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mcgrath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Business Process Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="87" to="99" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Value Stream Management for the Lean Office</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">And</forename><surname>Tapping</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Shuker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Productivity Press</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Lean supply chain and its effect on product cost and quality: a case Study on Ford Motor Company</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">An International Journal</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="335" to="341" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>Supply Chain Management</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">The Machine that Changed the World</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Womack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Roos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<pubPlace>Macmillan, New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The use of a multiple attribute decision-making method and value Stream mapping in solving the pacemaker location problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Production Research</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2793" to="2817" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

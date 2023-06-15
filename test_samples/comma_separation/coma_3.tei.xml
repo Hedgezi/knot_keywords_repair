@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/07/yarn/nm/usercache/lanastasiou/filecache/11/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-05-22T16:19+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SKRIPSI THE EFFECT OF IMAGE STREAMING METHOD ON STUDENTS&apos; ABILITY IN WRITING NARRATIVE PARAGRAPH AT THE TENTH GRADE OF MAS PAB 2 HELVETIA MEDAN RIZKA KHAIRINI. THE EFFECT OF IMAGE STREAMING METHOD ON STUDENTS&apos; ABILITY IN WRITING NARRATIVE PARAGRAPH AT THE TENTH GRADE OF MAS PAB 2 HELVETIA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016">IN 2016/2017 ACADEMIC YEAR NIP. 19750622 200312 2 002 NIP. 19820227 200801 2 009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rizka</forename><surname>Khairini</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Medan: Department of English Education</orgName>
+								<orgName type="department" key="dep2">Faculty of Tarbiyah Science and Teachers Training</orgName>
+								<orgName type="department" key="dep3">Department of English Education</orgName>
+								<orgName type="department" key="dep4">Faculty of Tarbiyah and Teachers Training</orgName>
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<settlement>Skripsi, Medan</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Dr</roleName><forename type="first">Hamidah</forename><surname>Sholihatul</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Daulay</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ag</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Utami</forename><surname>Hum</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dewi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pd</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hum</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">State Islamic University of North Sumatera</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:lang="en">SKRIPSI THE EFFECT OF IMAGE STREAMING METHOD ON STUDENTS&apos; ABILITY IN WRITING NARRATIVE PARAGRAPH AT THE TENTH GRADE OF MAS PAB 2 HELVETIA MEDAN RIZKA KHAIRINI. THE EFFECT OF IMAGE STREAMING METHOD ON STUDENTS&apos; ABILITY IN WRITING NARRATIVE PARAGRAPH AT THE TENTH GRADE OF MAS PAB 2 HELVETIA</title>
+						<title level="a" xml:lang="en">Submitted ; to the Faculty of Tarbiyah and Teachers Training, State Islamic University of North Sumatera Medan as a Partial Fulfillment of the Requirements for Sarjana Pendidikan</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016">IN 2016/2017 ACADEMIC YEAR NIP. 19750622 200312 2 002 NIP. 19820227 200801 2 009</date>
+						</imprint>
+					</monogr>
+					<note>Advisor I Advisor II DEPARTMENT OF ENGLISH EDUCATION FACULTY OF TARBIYAH SCIENCE AND TEACHERS TRAINING STATE ISLAMIC UNIVERSITY OF NORTH SUMATERA MEDAN 2017 ABSTRACT MEDAN IN 2016/2017 ACADEMIC YEAR.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Image Streaming method, Students&apos; Ability in Writing Descriptive Text</keywords>
+			</textClass>
+			<abstract>
+				<p>This research was intended to find out the empirical evidence of the students&apos; achievement in writing narrative paragraph by using Image Streaming Method at the tenth grade of MAS PAB 2 Helvetia Medan. This research was experimental research. The population of this research was all students of class X of MAS PAB 2 Helvetia Medan. The samples of this research were taken from 30 students of experimental group (class X-1) and 30 students of control group (class X-2). The instrument for collecting data was a test. After analyzing the data, the writer got; (1) The students&apos; ability in writing narrative paragraph by Image Streaming method got the mean 77.26 and standard deviation was 6.61; (2) The students&apos; ability in writing narrative paragraph by using conventional strategy got the mean 66.86 and standard deviation was 6.94. The value of t observed was 5.754 and that of t table was 2.009. So the value of t observed was higher than that of t table. It means that there was significant effect of using Image Streaming method on students&apos; ability in writing narrative paragraph. ACKNOWLEDGMENT In the name of Allah, the Beneficent, the Merciful. Praise and Gratitude be to Allah for giving the strength and guidance to the writer, so that this skripsi can be finished accordingly. Peace and blessing be upon the Prophet Muhammad Shallallaahu &apos;alaihi wa salaam, his family, his relatives, and all his followers. The writing of this skripsi entitled &quot;The Effect of Image Streaming method on Students&apos; Ability in Writing Narrative paragraph at the Tenth Grade of MAS PAB 2 Helvetia Medan in 2016/2017 Academic Year&quot;. This skripsiis written to fulfill one of the requirements to obtain theSarjana Pendidikan degree at the</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The advantages of Image Streaming method are asfollows: Increase Brain</head><p>Power, help improve learning, improving and building the foundation of understanding, to create more meaningful learning, train students to think creatively, and improving the ability of observation.</p><p>The writer as a researcher has observed the fact that the students of Senior</p><p>High School find it difficult to write a narrative paragraph because they have little knowledge of the step to produce the composition. The writer expects that through the application of the Image Streaming technique, the student will have a greater ability to produce a story based on their life experiences.</p><p>Based on the issues above researcher intend to conduct research on "The</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of Image Streaming Method on Student Ability in Writing Narrative</head><p>Paragraph at The Tenth Grade of MAS PAB 2 Helvetia Medan". 1. The students have difficulties in writing, especially in writing narrative paragraph 2. The teachers do not have sufficient and suitable taching method in writing classes. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Limitation of the Study</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Formulation of the Study</head><p>In the relation to the background of the study, the research addresses the problem as the following:Is there any significant effect of image streaming method on student ability in writing narrative paragraph?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Objective of the Study</head><p>Based on the problem above the objective of study is: to find out whether applying Image Streaming method significantly affects the students' ability in writing narrative paragraph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Significant of the Study</head><p>The result or findings of the study will be significant to those who want to masters the procedures of writing a narrative. They also provide information about the difficulties or even errors in producing the texts. Teacher and lecturers can learn something valuable about the students' problems in writing a narrative. The problems identified in the study can be used as a reference to design a syllabus or curriculum for writing skills.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER II</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>THEORITICAL FREMEWORK</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Theoritical Freamework</head><p>Terms are used clarify the concepts in a research. The following are explained and elaborated to avoid confusion in the discussion of the research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Method</head><p>Method is a word that refers to the means to be used to achieve a goal that is expected. If it is associated with the learning process, the learning method definition can be interpreted as a way chosen by educators to optimize the learning process that aims to achieve the expected learning goals. <ref type="bibr">3</ref> Each class may be the possibility of using different learning methods with other classes. For that a teacher should be able to apply various methods of From the verse above, Allah asked the human to give the lesson by wisdom, wisdom means the way by the right method. It can help the teacher to make teaching learning process run well.</p><p>There are varieties of strategy that can be used to support cooperative learning in the classroom. Such strategies include Jigsaw in reading skill, Think- Pair-Share to develop speaking skill and Round Robin Writing for writing skill.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Image Streaming</head><p>Image streaming is a mental exercise for the purpose of visualizing an event which has been stored in the memory. The subconscious memory contains information which can be used to solve the problems encountered in life. Image streaming is believed to rises the level of intelligence because of the stored information. It can also create a vision in the mind which leads to the ability to make plans. <ref type="bibr">6</ref> In other words, the process of Image Streaming is like flow of pictures created in the mind. The activity can draw the subconscious powers of the mind to solve problems of any kind in life such as the problems of writing narrative paragraph. A narrative consists of some elements which should be well understood in order to produce a coherent story.</p><p>The important thing from this method is to describe the experience upon experience and observe it, so we simply do not know and aware that the experience was there. Actually, we do not only stay awake and alert for our perception, but also broaden and deepen our perception by the feedback from our own description. The entire process is interesting perception deeper into the conscious focus. <ref type="bibr">7</ref> With the technique of describe or explained the goal of our learning answers become part of what is specified quickly and easily, and part of what has been pulled into the full focus of our conscious thinking. <ref type="bibr">Let</ref>  Basically, to drain the shadows is seen, and then find any shadow chance to play in the "Mind's Eye" at the time described clearly or with a tape recorder. It is very different to determine consciously chosen shade. <ref type="bibr">9</ref> This method is a bland of theory Socrates and Einstein's theory. Where</p><p>Socrates theory known as pervasive understanding the principles of the theory ofSocrates is to describe the perception of thing to the listener or tape recorder with a view to be able to perceive more. <ref type="bibr">10</ref> Socrates developed a system which is able to simulate the audience to speak. Socrates encourage students find the world a much broader and deeper by investigating perceptions of their exterior and interior and describe what they found. One of the systems Socrates was asking detailed questions that provoke students to investigate and describe their perceptions on the answer. <ref type="bibr">11</ref> The teacher is not aware that the active constituent of the Socratic methods is not a "question" but rather as a result of the questions that simulate people to think and work. While Einstein's theory is derived from the basics of visual thinking, vision contain more information and more information through hearing.</p><p>Kinesthetic feeling proved to be also very important in relation to our mental experiences. According to the EEG (Electro-Encepha-Lographic), eight percent of our brain areas involved in visual response more than other senses. <ref type="bibr">12</ref> Nearly all visual responses created in eighty percent of the area of the brain turned out to coincide with our unconscious brain area. Data stored there or other factors that precluded can appear (bring yourself) on the visual response. It looks like the emergence of a variety of factors unconscious on one's mind in a test of ink blobs Roarsach though involve external vision. <ref type="bibr">13</ref> That is why large discoveries in science and technology usually produced by the help of visualization.</p><p>Brain activity is the simulation of brain activity by means of stimulation of brain waves. Brain activity aims to stimulate the whole brain to the fullest and to balance the functions of the right brain or left brain. Left and right brain each have a different potential, although crossing between the two parts of it were still there.</p><p>The left brain function in matters related to logic, reason, the ability to write and read as well as a center of mathematic. Some expert said thatthe left brain is a center Intelegent Quotient (IQ), while the right brain function in development of the Emotional Quotient (EQ). For example, socialization, communication interaction, and emotional control.</p><p>There are two type of sensory memory thathas been widely studied by psycholinguistics namely the iconic and echoic memory. An iconic memory recording system senses to visual information (picture and concrete object) through the eyes of example the latter 'A'. A person is expected to see between 9- 10 objects or items of 12 possibilities, iconic memories fade so quckly and dissappear whitin half and second later.</p><p>Echoic memory is a recording system that operates whitin the human hearing. Stimulus processed form of the sound coming in through the sense of the 13 Ibid, p. 296 ear. There are two kinds of recording senses of hearing, namely Short-term storage, the storage simplest soon dissapear in less and a seconds latters after the stimulus hear abolished. Long-term storage, the information that was heard disappeared a few seconds letter after hearing stimulus abolished. 14 Broadly speaking, given the power or memory capacity of each person can be improved at least use can be optimized through exercises and specific strategies.</p><p>The advantages of image streaming method are asfollows:</p><p>1. Increase visual thinking skills and help direct visualization.</p><p>2. Increase neural connections with what is being studied by visualization in context so that more distant from the abstract.</p><p>3. Repair or build a foundation of understanding.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Generate immediate inspiration and always . 15</head><p>The disadvantages of Image Streaming methodasfollows: a. Requires a relatively long time in the applicability b. Not all teachers can employ this method, teachers are in demand can bringing the atmosphere of students into the realm of deeper, so the teacher less able to master class this method is less effective at doing.</p><p>c. This method must be done in a conducive and quiet, not effectively done in a hectic because it requires tranquility. The image streaming method can be performed in the following ways:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Ask yourself a question:</head><p>A question is asked to provoke a kind of image in the mind. A question elicits some information which can be later described.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Start the image stream:</head><p>A live listener is provided with a tape recorder. Students will sit back, relax, close his eyes, and describe aloud whatever images that appears in the mind.</p><p>Students than goes with the first, immediate impression and describe them aloud in a rapid flow and sensory details. More free image will than emerge.</p><p>Students will notice when the scene change or other image merge, and describe these as well.</p><p>It is important to describe aloud and bring the mind images into conscious awareness, no matter how unrelated the images which first appeared. This process helps bridge the separate regions of the brain. There can be surprising images. More pictures surprising that students see in their mind's eye, it will get better.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Feature -Questioning:</head><p>Pick out some one feature-a wall, a tree or bush, whatever's there. Imagine laying a hand on that feature and studying its feel (and describe that feel), to strengthen your contact with the experience. Ask that rock or bush or wall,  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">What's the Same?</head><p>Examine whatever's the same among the several sets of images when all else is different. These themes or elements-in-common are your core answer or message.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Relate</head><p>Go back to your original question and determine in what way or ways these core elements are the answer to your question.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Debrief</head><p>Summarize this whole experience either to another person (directly or by telephone) or to notebook or computer. This change of medium, and change of feedbacks, should add further to your understanding. <ref type="bibr">16</ref> It can be concluded that the method of image streaming is the unification between Socrates and Einstein's theory. Namely Einstein's theory combines the visualization of mind by allowing the images to the brain with the free following With the application of such methods is expected knowledge, students can improve their understanding of critical thinking in the classroom and more established and strong belief in the teachings of Islam and practice it.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Writing</head><p>Generally, writing is needed as a medium through which people share what they have in mind. According to McDonald and McDonald, writing is usefully described as a process; something which shows continuous change in time that should be developed and trained continuously. <ref type="bibr">17</ref> Meanwhile, Langan said that writing is a process of discovery that involves a series of step, without practice, people can think the writing is difficult. <ref type="bibr">18</ref> Based on the explanation above, it shows that learning writing is assumed to be difficult and the students should develop a full understanding of the writing process so they are able to express themselves more confidently, effectively, and efficiency in order to create a piece of writing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>17</head><p>Cristina </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Genre of Writing</head><p>Genre is a kind of text or writing work itself. It views that the language (writing form) must be related to social function. Social function of the text then implies a certain social environment and place where and when the text is used. <ref type="bibr">19</ref> There are various genres of text: Narrative, Descriptive, Procedure, Recount, Explanation, Analytical Exposition, Hortatory Exposition, Report, Anecdote, Spoof, Review, and News.</p><p>From the variety of genres above, the writer choose the genre of narrative to be applied in writing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Narrative Paragraph</head><p>A narrative paragraph tells the story of an event, providing the relevant details of when and where the event occurred as well as who has included and what transpired. The paragraph describes either an actual event or a fictional one that the writer creates. Narrative paragraph usually follow in chronological order, taking the reader from the beginning of the event to the end. Transitional words, such as "later" or "then", give the reader a clue about how the events progressed.</p><p>Narrative paragraph usually communicate some sort of moral or ideal so that readers come away feeling that they have learned a lesson. <ref type="bibr">20</ref> Generic structure: Example of narrative paragraph:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A Bad Camping</head><p>On July 1 st I went camping. I brought my own preparation such as food, tent, etc. I arrived at 07 o'clock in the evening. It was dark. I quickly set up my tent for it began raining. I set off to explore the jungle and I brought some food, matches, ropes, and a flashlight on my knapsack. Next, I looked my tent and after I had walked for about 2 km, I was tired. Then, I found a steep slope. There was no other way so I climbed the slope. Suddenly, one of my ropes was broken and was hooked at a casuarinas tree. I screamed for a help but no one heard me. After a few minutes, I turned on my flashlight. A ranger saw the light and he saved me.</p><p>He did the first aid and he asked me, "Are you injured?" I answered, "Yes, my back is in pain." "I will handle it." He bandaged my back. After that, he went to When the nurse asked, I only smiled. I knew that I was not recovered yet but I led my life cheerfully. Two weeks later, I went back to Jogjakarta. <ref type="bibr">23</ref> The generic structure analysis:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Orientation</head><p>On July 1 st I went camping. I brought my own preparation such as food, tent, etc. I arrived at 07 o'clock in the evening. It was dark.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Evaluation</head><p>I quickly set up my tent for it began raining. I set off to explore the jungle and I brought some food, matches, ropes, and a flashlight on my knapsack.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Complication</head><p>Next, I looked my tent and after I had walked for about 2 km, I was tired.</p><p>Then, I found a steep slope. There was no other way so I climbed the slope.</p><p>Suddenly, one of my ropes was broken and was hooked at a casuarinas tree.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resolution</head><p>I screamed for a help but no one heard me. After a few minutes, I turned on my flashlight. A ranger saw the light and he saved me. He did the first aid and he asked me, "Are you injured?" I answered, "Yes, my back is in pain." "I will handle it." He bandaged my back. After that, he went to the base camp to</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>23</head><p>Ibid, p. 74 search for a help. Not taking a long time, he got back with his friend and they carried a litter and put me on.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Reorientation</head><p>When the morning came, they took me to the nearest hospital. I thanked them.</p><p>It was a bad experience. I only slept and I thought of my injured back. The nurse asked me, "Are you okay?" "I am a bit unwell", I replied. I kept on sleeping and I sometimes listened to the music. When the nurse asked, I only smiled. I knew that I was not recovered yet but I led my life cheerfully. Two weeks later, I went back to Jogjakarta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Paragraph</head><p>A paragraph is a group of related sentence that presents a unit of thought.</p><p>Paragraphs provide organization and focus to a piece of writing, breaking up information into manageable chunks for readers. <ref type="bibr">24</ref> Paragraph is also a unit of text that develops one idea or topic in spesific detail. <ref type="bibr">25</ref> According to Bob Brannan, paragraph is collection of related sentence that are clearly connected to one other and that make some point. Paragraphs come in several varieties: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.1.The Topic Sentence</head><p>A paragraph should have only one central idea. A topic sentence (also known as a focus sentence) encasulates or organises an entire paragraph, and students should be carefur to include one in most of students major paragraph.</p><p>Although topic sentence may appear anywhere in a paragraph, in academic essay student often appear at the begining. <ref type="bibr">27</ref> In the other words topic sentence is the main idea of a paragraph.</p><p>A good topic sentence is the sentence which can be well developed by some supports. Commonly it is not about a general truth that is common to everybody. It must be an opinion which needs to be proved. It is not too long write in a short text containing about five to ten sentence. It is not also too short to write. A good topic sentence must be interesting to attract the readers' attention. <ref type="bibr">28</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.2.The Supporting Sentence</head><p>A paragraph's topic sentence should be accompanied by a series of sentence that develop, explain, or illustrate. These other sentences are called supporting sentence. <ref type="bibr">29</ref> Supporting sentence are the development of the main idea.</p><p>A paragraph is well-developed when it contains specific details that help explain and illustrate the controling idea when readers have all the information they need to make sense of the paragraph. <ref type="bibr">30</ref> The supporting sentence which directly develops the topic sentence is called the major supporting sentence. The one which indirectly develops it but directly develops the major supporting sentence is called the minor supporting sentence. All the supporting sentence of a paragraphs are about the topic sentence. <ref type="bibr">31</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.3.The Concluding Sentence</head><p>A primary purpose of concluding sentence is to get readers out of students' paper. A concluding sentence leave the main point in the end of the paragraph. 32 It usually uses a conclusion transition signal in the end of the essay such as: in conclusion, in summary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.4.Unity</head><p>Every idea discussed in the paragraph should be adequately explained and supported through evidence and details that work together to explain the paragraph's controlling idea. If you have a sentence that is not directly related to your main topic, your paragraph is concidered to "lack unity" or the sentence is "off topic" and should be removed from the paragraph. <ref type="bibr">33</ref> Unity only discuss one idea in one paragraph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.5.Coherence</head><p>Paragraph should aslo be coherent. Coherence means estabilishing a relationship between the ideas the ideaspresented in a paragraph. <ref type="bibr">34</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.6.Transitions</head><p>The use of transitions (also called "connectors" in the text) is the most common technique for creating coherence in writing. Transitional words and phrases guide a reader through our writing like street sign helps us to find our way in the city. <ref type="bibr">35</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Writing Narrative Paragraph</head><p>Writing narrative paragraph guide the students step by step through the process of writing a paragraph about an experience they have had. There are some steps to write a narrative paragraph as follows:</p><p>1. Prewriting: activities help students think about experiences they have had and the people, events, actions, and conversations that took place during those experiences.</p><p>2. Writing: activities help students write a topic sentence that gets the reader's attention, body sentences that narrate the event, and an ending sentence that draws the paragraph to a close.</p><p>3. Revising: activities help students check the time-order in their paragraphs and use a checklist to make improvements.</p><p>4. Editing: activities help students use the right word and check for other errors.</p><p>5. Publishing: activities help students create a clean final copy of their paragraphs and reflect on what they have learned.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>35</head><p>Bob Brannan, Op.Cit, p. 53</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Assessment of Writing</head><p>In scoring the written test, the cumulative score ranging from 0-100. To know the students achievement in writing ability, there are some criteria that is considered. According to Brown there are five scoring components scale name: content, organization, vocabulary, language use and mechanics. <ref type="bibr">36</ref> Those specific criteria are described in detail in the following stages:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Components</head><p>Criteria Score Level</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Content</head><p>The score of content depend of the students' ability to write ideas, information in the form of logical sentence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Excellent to very good</head><p>(Knowledge substantive, development of topic sentence, is relevant to and assigned topic.)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="30">-27</head><p>Good to average (Some knowledge of subject-adequate range-etc)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fair to poor</head><p>(Limited knowledge of subject -little substance-etc)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="21">-17</head><p>Very poor    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Framework Thinking</head><p>Writing is one of the language skills that should be acquired when learning language. Learning about writing is not only about how to put words in written but also how to pact the idea, massage, and information correctly in a text, in a certain criteria. A narrative is a story that is created in a constructive format (as a work of speech, writing, song, film, television, video games, photography or theatre) that describe a sequence of fictional or non-fictional human event.</p><p>Narrative often contains a chronological sequence of event, but some narratives contain only a single event or skips around in time.</p><p>The teacher can use some strategies in teaching writing narrative. One of them is by using Image Streaming method. In using this method, students are asked to imagine the sequence of the story that they want to write and will be easily to write the story step by step. For the achievements, they will be able to produce a good narrative text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Hypothesis</head><p>The research hypothesis is formulated as follows: Helvetia Medan. The reason to choose this school based on the researcher's experience during doing teaching at that school, research finds the students have difficulties in writing, especially in writing narrative paragraph.</p><formula xml:id="formula_0">H 0 = "</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Research Design</head><p>This study was conducted by using experimental research. In this research, the sample was divided into two groups, namely experimental group and control group. The experimental group wasused Image Streaming method while the control group will be used the conventional method. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Population</head><p>Population is generalization region consisting of object or subject that has a certain quantity and characteristics defined by the researcher to learn and then make the conclusion. <ref type="bibr">37</ref> The population of this research was taken from the students of MAS PAB 2Helvetia in academic year 2016/2017.The population of this research can be seen as follows: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Sample</head><p>According to Indra Jaya, A sample is the part of the number and characteristicpossessed by this population. <ref type="bibr">38</ref> Researcher take the population as the sample that are 60 students, of those two classes (X-1,and X-2), this research applied total sampling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Instrument of Collecting Data</head><p>For collecting the data, a writing test was given to the students. The tests was administered to the students in both experimental and control group. They are pre-test and post-test. The design of the test is in essay form. The students was instructed to write a narrative paragraph based on the topic given by the researcher. The tests wasgiven to both groups; experimental and control group. The student's ability in learning narrative paragraph was analyzed by the collecting data in the tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Technique of Collecting Data</head><p>Technique of collectingdatais the technique or methods that can be used by researcher for collecting the data. Data collection can be interpreted as research activities in order to gather a number of field data needed to answer the research or test hypotheses. <ref type="bibr">39</ref> In this research it will be used pre-test, treatment, and post- test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Pre-Test</head><p>The pre-test wasadministered before treatment. The same pre-test was given to both experimental and control group in order to investigate the students' writing ability. Both experimental and control group wereasked to write a narrative paragraph based on the topic given.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Treatment</head><p>The treatment will be conducted after pre-test in the experimental group, the students were taught by applying Image Streaming writing method whilecontrol group, the students weretaught by using conventional method. Both experimental and control group weretaught with the same material. Post-test was given after the treatment has been completed. It is aimed to get the mean scores of experimental group and control group. It is applied to know the effect of teaching presentation in both groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Scoring The Test</head><p>There are five scoring scales in scoring writing, namely content, organization, vocabulary, language use and mechanics. <ref type="bibr">40</ref> The specific criteria are described as follows:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Content</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="30">-27</head><p>Excellent to very good</p><p>Knowledge substantive, development of topic sentence, is relevant to and assigned topic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="26">-22 Good to average</head><p>Some knowledge of subject-adequate range-etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="21">-17 Fair to poor</head><p>Limited knowledge of subject -little substance-etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="16">-13 Very poor</head><p>Does not show knowledge of subject-non-substantive-etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Organization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="20">-18</head><p>Excellent to very good </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fair to poor</head><p>Non fluent -ideas confused or disconnected -etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9">-7 Very poor</head><p>Does not communicate -no organization -etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Vocabulary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="20">-18 Excellent to very good</head><p>Sophisticated range -effective word/ idiom choice and usage -etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="17">-14 Good to average</head><p>Adequate range-occasional errors of word/ idiom form, choice, usage but meaning not obscured.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="13">-10 Fair to poor</head><p>Limited range-frequent errors of word/ idiom, form, choice, usage -etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9">-7 Very poor</head><p>Essentially translation -little knowledge of English vocabulary</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Language use</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="25">-22 Excellent to very good</head><p>Effective complex construction -etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="21">-19 Good to average</head><p>Effective but simple constructions -etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="17">-11 Fair to poor</head><p>Major problems in simple/ complex constructions -etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="10">-5 Very poor</head><p>Virtually no mastery of sentence construction rules -etc  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Mechanics</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>G. The Technique for Analyzing Data</head><p>In order to find the different effect between Experimental and Control Group, the t-test formula was applied. The formula was stated as the following: Based on the explanation above, it shows that thestudent's score in experimental group was higher than student's score in control group, where in pre-test (53.46) and the score in post-test <ref type="bibr">(77.26)</ref>. The total score of the mean score in experimental and control group showed that there was significant effect in improvement of student's score between pre-test and post-test.</p><formula xml:id="formula_1">T-test = </formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Analyzing the Data by Using T-test Formula</head><p>The result of calculation from t-test is made to find out whether the use of Image Streaming method significantly effects the writing ability. From the calculation above, the total of decrease from the pre-test and post-test in experimental group is 714. Meanwhile the mean of pre-test and post- test in experimental group is 23.8. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Hypothesis Testing</head><p>The basis for testing hypothesis is as following:</p><p>The testing hypothesis is conducted in order to find out whether that hypothesis is accepted or rejected. Image Streaming method affect student's ability in writing narrative paragraph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Research Finding</head><p>There was a significant difference on students' ability in writing narrative paragraph by using Image Streaming method. The students that were taught by Image Streaming method have higher score than were taught by conventional strategy.</p><p>From the calculation above it found that t observed = 5.754whereas the t table =</p><p>2.009. It shows that students' ability in writing narrative paragraph by using</p><p>Image Streaming method was significant at 0.05. From the result, the researcher found that there was significant of the students' abilityin writing narrative paragraph that were taught by Image Streaming method. This means that the students' abilityin writing narrative paragraph that were taught by Image Streaming method was better than taught by conventional strategy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER V CONCLUSION AND SUGGESTION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Conclusion</head><p>From the data obtained it is seen that the result of the students' abilityin writing narrative paragraph by using Image Streaming method is higher than that by using conventional strategy at the tenth grade of MAS PAB 2 Helvetia Medan.</p><p>Image Streaming method is significant to be used in improving the students' abilityin writing narrative paragraph. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Suggestion</head><p>Based on the conclusion above, the researcher gives some suggestions as follows:</p><p>1. To the principal of MAS PAB 2 Helvetia Medan to motivate the teachers, especially English teacher to teach the students by using Image Streaming method, because the method is effectively increase the students' ability in writing narrative paragraph.</p><p>2. To the English teacher to use Image Streaming method or one of the alternative method or strategy to increase the student's ability in writing narrative paragraph in English learning.</p><p>3. To other researchers, it can be the alternative method to conduct the reseach related to the improvement of student's ability in writing narrative paragraph.</p><p>Finally, the resarcher considers that this study still need validity from the next researcher that has the similar topic with this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instructions:</head><p>Make a narrative paragraph with theme "My Parents"! Answer:</p><p>My Lovely Parents My Dad, the first best guide I could ever get. He is like a coach to me who would push me through extreme conditions while still being gentle with me at all </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. Standard Competence</head><p>Students are able to write narrative paragraph in daily life.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. Basic Competence</head><p>Students are expected to be able to write a narrative paragraph based on their experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III.Indicator</head><p>1. Students are able to define writing 2. Students are able to define narrative paragraph 3. Students are able to write their experience in a form of narrative paragraph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. Material</head><p>Narrative paragraph</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social function</head><p>The social function of writing narrative paragraph is to tell the story and experience. When the nurse asked, I only smiled. I knew that I was not recovered yet but I led my life cheerfully. Two weeks later, I went back to Jogjakarta.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generic</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. Teaching Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VIII. Assessment</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instruction</head><p>Make a narrative paragraph with theme"My Parents"!</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IX. Scoring of the test Excellent to very good</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="26">-22</head><p>Good to average</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="21">-17</head><p>Fair to poor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="16">-13</head><p>Very poor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Organization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="20">-18</head><p>Excellent to very good</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="17">-14</head><p>Good to average</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="13">-10</head><p>Fair to poor </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X. Standard Competence</head><p>Students are able to write narrative paragraph in daily life.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XI. Basic Competence</head><p>Students are expected to be able to write a narrative paragraph based on their experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XII. Indicator</head><p>4. Students are able to define writing 5. Students are able to define narrative paragraph 6. Students are able to write their experience in a form of narrative paragraph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XIII. Material</head><p>Narrative paragraph</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social function</head><p>The social function of writing narrative paragraph is to tell the story and experience. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generic</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XVI. Teaching and Learning Activities</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Teacher Activities Students Activities Time</head><p>Opening:</p><p>3. Greets the students </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XVII. Assessment</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instruction</head><p>Make a narrative paragraph with theme "Village"!</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XVIII. Scoring of the test Content</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="30">-27</head><p>Excellent to very good</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="26">-22</head><p>Good to average</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="21">-17</head><p>Fair to poor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="16">-13</head><p>Very poor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Organization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="20">-18</head><p>Excellent to very good</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="13">-10</head><p>Fair to poor 9 -7 Very poor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vocabulary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="20">-18</head><p>Excellent to very good</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="17">-14</head><p>Good to average</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="13">-10</head><p>Fair to poor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9">-7 Very poor</head><p>Language use</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="25">-22</head><p>Excellent to very good</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="21">-19</head><p>Good to average</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="17">-11</head><p>Fair to poor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="10">-5 Very poor</head><p>Mechanics </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. Standard Competence</head><p>Students are able to write narrative paragraph in daily life</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. Basic Competence</head><p>Students are expected to be able to write a narrative paragraph based on their experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III.Indicator</head><p>1. Students are able to define writing 2. Students are able to define narrative paragraph 3. Students are able to write their experience in a form of narrative paragraph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. Material</head><p>Narrative paragraph</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social function</head><p>The social function of writing narrative paragraph is to tell the story and experience. I had walked for about 2 km, I was tired. Then, I found a steep slope. There was no other way so I climbed the slope. Suddenly, one of my ropes was broken and was hooked at a casuarinas tree. I screamed for a help but no one heard me. After a few minutes, I turned on my flashlight. A ranger saw the light and he saved me.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generic Structure</head><p>He did the first aid and he asked me, "Are you injured?" I answered, "Yes, my back is in pain." "I will handle it." He bandaged my back. After that, he went to the base camp to search for a help. Not taking a long time, he got back with his friend and they carried a litter and put me on. When the morning came, they took me to the nearest hospital. I thanked them. It was a bad experience. I only slept and I thought of my injured back. The nurse asked me, "Are you okay?" "I am a bit unwell", I replied. I kept on sleeping and I sometimes listened to the music.</p><p>When the nurse asked, I only smiled. I knew that I was not recovered yet but I led my life cheerfully. Two weeks later, I went back to Jogjakarta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. Teaching Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a. Conventional method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. Media</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a. White board</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VII. Teaching and Learning Activities</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Teacher Activities Students Activities Time</head><p>Opening:</p><p>1. Greets the students 2. Check the attendance list </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VIII. Assessment</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instruction</head><p>Make a narrative paragraph with theme "My Parents"!</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IX. Scoring of the test Content</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="30">-27</head><p>Excellent to very good</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="26">-22</head><p>Good to average </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="21">-17</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X. Standard Competence</head><p>Students are able to write narrative paragraph in daily life</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XI. Basic Competence</head><p>Students are expected to be able to write a narrative paragraph based on their experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XII. Indicator</head><p>4. Students are able to define writing 5. Students are able to define narrative paragraph 6. Students are able to write their experience in a form of narrative paragraph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XIII. Material</head><p>Narrative paragraph</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social function</head><p>The social function of writing narrative paragraph is to tell the story and experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generic Structure</head><p>6. Orientation: Set the scene an introduced the participants Based on the data above, the result of F i X i 2 is 88424 and F i X i is 1604.</p><p>Then the following is the calculation of mean, variant and standard deviation. After getting the calculation of mean, variant and deviation standard, then the next step is to found out the normality of the test. It means that the test was given to the students is observed by Liliefors test. The calculation of normality writing descriptive text can be seen in the following table:   Based on the data above, the result of F i X i 2 is 180372 and F i X i is 2318.</p><p>Then the following is the calculation of mean, variant and standard deviation. After getting the calculation of mean, variant and deviation standard, then the next step is to found out the normality of the test. It means that the test was given to the students is observed by Liliefors test. The calculation of normality writing descriptive text can be seen in the following table:   Then the following is the calculation of mean, variant and standard deviation. After getting the calculation of mean, variant and deviation standard, then the next step is to found out the normality of the test. It means that the test was given to the students is observed by Liliefors test. The calculation of normality writing descriptive text can be seen in the following table:   Based on the data above, the result of F i X i 2 is 146828 and F i X i is 2086.</p><p>Then the following is the calculation of mean, variant and standard deviation. After getting the calculation of mean, variant and deviation standard, then the next step is to found out the normality of the test. It means that the test was given to the students is observed by Liliefors test. The calculation of normality writing descriptive text can be seen in the following table:   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>OF CONTENTS ABSTRACT........................................................................................ i ACKNOWLEDGMENT ................................................................... ii TABLE OF CONTENTS .................................................................. v LIST OF TABLES ............................................................................. viii LIST OF APPENDICES ................................................................... x CHAPTER I: INTRODUCTION ..................................................... 1 A</head><label>1</label><figDesc>. Background of Study ............................................................... 1 B. Identification of the Problems ................................................. 3 C. Formulation of the Problem .................................................... 3</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>1</head><label></label><figDesc>Utami Dewi, (2011), How To Write, Medan: La-Tansa Press, p. 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>2</head><label></label><figDesc>Win Wenger, (2011), Beyond Teaching and Learning (Memadukan Quantum Teaching &amp; Learning), Bandung: NuansaCet 3, p. 287</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Based in the identification of the problem, the limitation of this study focuse on identifying in the effects of Image Streaming MethodonStudent Ability in Writing Narrativeat The Tenth Grade of MAS PAB 2Helvetia Medan in academic year 2016/2017.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>4 Belajarspikologi.com, 2017 ,</head><label>42017</label><figDesc>Macam-macam Metode Pembelajaran,http://belajarpsikologi.com/macam-macammetodepembelajaran/, Accessed on 20 th February 2017.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>9</head><label></label><figDesc>Ibid, p. 300-301 10 Ibid, p. 290 11 Ibid, p. 209-291 12 Ibid, p. 293</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>14 Suharnan, (2005), PsikologyKognitif, Surabaya: Srikandi, p. 23 15 Win Wenger, Op. Cit, p. 307</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>"</head><label></label><figDesc>Why are you here as part of my answer?" See if the imagery changes when you ask that question. Describe the changes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>Once you have run a set of images, thank your Image-Streaming faculties for showing you this answer. Ask their help in understanding the messages in your images. They are often symbolic. Repeat the process by starting a new Image-Stream, with entirely different images which nonetheless somehow are still giving you the same answer to the same question. After 2 to 3 minutes of this new imagery, repeat this step to get a third set of images, each different, yet each showing you the same answer a different way.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>16 Win Wenger, 2004 ,</head><label>162004</label><figDesc>Project Renaissance: Image Streaming in brief, http://www.winwenger.com/imagestr.htm, Accessed on 22 th November 2016 imagination involving the unconscious brain. Then, Socrates theory describes the impregnation of understanding with those perceptions with the words aloud to someone else or to a recording. This method prioritizes the cognitive power of the brain as the source of the learning process.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head></head><label></label><figDesc>21 SanggamSiahaan, (2008), Generic Text Structure, Yogyakarta: GrahaIlmu, p. 73 22 Ibid, p. 74 the base camp to search for a help. Not taking a long time, he got back with his friend and they carried a litter and put me on. When the morning came, they took me to the nearest hospital. I thanked them. It was a bad experience. I only slept and I thought of my injured back. The nurse asked me, "Are you okay?" "I am a bit unwell", I replied. I kept on sleeping and I sometimes listened to the music.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>sentences are clearly stated.</head><label></label><figDesc>Fair to poor (Non fluent -ideas) 13 -10 Fair to poor (Non fluent -ideas confused or disconnected -etc) 13 -10 Very poor (Does not communicate -no organization -etc) 9 -7 3. Vocabulary Vocabulary refers to the students' ability in using word or idiom to express idea logically. It also refers to use synonym, antonym, prefix, and suffix exactly.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head></head><label></label><figDesc>Excellent to very good (Sophisticated range -effective word/ idiom choice and usage -etc) 20 -18 Good to average (Adequate range-occasional errors of word/ idiom form, choice, usage but meaning not obscured).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>17 - 14 Fair</head><label>14</label><figDesc>to poor (Limited range-frequent errors of word/ idiom, form, choice, usage -etc) 13 -10 Fair to poor (Limited range-frequent errors of word/ idiom, form, choice, usage -etc) 13 -10 Very poor Essentially translation -little knowledge of English vocabulary 9 -7 4. Language Use Language use refers to the students' ability in writing the sentence, simple, complex, and compound sentence correctly and logically it also refers to the ability to use arragement in Excellent to very good (Effective complex construction -etc) 25 -22 Good to average (Effective but simple constructions -etc) 21 -19 Fair to poor (Major problems in simple/ complex constructions -etc) the sentence and some other words such as nouns, verbs and time signal. Very poor (Virtually no mastery of sentence construction rules -etc) 10 -5 5.Mechanism Mechanism refers to the students' ability to use words appropriately and function correctly, such as punctuationand spelling. Paragraph and text can be read correctly. Excellent to very good (Demonstrated mastery of conventions - etc) 5 Good to average (Occasional errors of spelling, punctuation -etc) 4 Fair to poor (Frequent errors of spelling, punctuation, capitalization -etc) 3 Very poor (No mastery of conventions -dominated by errors of spelling, punctuation, capitalization, paragraphing -etc) 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head></head><label></label><figDesc>There is no significant effect of Image Streaming Methodon the students' ability in writing narrative paragraph." H a = "There is a significant effect of Image Streaming Method on thestudents' ability in writing narrative paragraph." CHAPTER III RESEARCH METHODOLOGY A. Location of Research This research was conducted at the tenth grade of MAS PAB 2Helvetia Medan in the academic year 2016/2017. It is located on Jalan Veteran Pasar 4</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head></head><label></label><figDesc>37 Indrajaya, (2013), PenerapanStatistikUntukPendidikan, Medan: CiptaPustaka Medan Perintis, p. 20 38 Indra Jaya, Ibid, p. 32</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>39 Hendryadi, 2016 ,</head><label>392016</label><figDesc>Metode Pengumpulan Data,http://tepenr06.wordpress.com, Accessed on 15 th January 2017 3. Post-Test</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head></head><label></label><figDesc>Fluent expression -ideas clearly stated-etc 17 -14 Good to average Somewhat choppy -loosely organized but main ideas stand out, etc 40 Arthur Hughes, Op. Cit, p. 104.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head></head><label></label><figDesc> Where: T-test = The effect x 1 = Mean of Post-test -Pre-test in experimental group x 2 = Mean of Post-test -Pre-test in control group S 1 2 = Variant of Pre-test -Post-test in experimental group S 2 2 = Variant of Pre-test -Post-test in control group n 1 = Sample in experimental group n 2 = Sample in control group CHAPTER IV DATA ANALYSIS AND RESEARCH FINDINGS A. The Data This study was conducted by applying an experimental research. There were two groups in this research, namely experimental and control group. This research applied a writing test which the total score is 100. The pre test was given before the treatment and the post test was given after the treatment. The researcher gave the treatment to students in the experimental group by applying Image Streaming method while control group without applying Image Streaming method. From the data were collected the lowest score of pre-test was 40, and the highest score of pre-test was 66 and the mean of pre-test was 53.46. On the other hand the lowest score of post-test was 66, and the highest score of post-test was 88 and the mean of post-test was77.26. Whereas in control group, showed the lowest score of pre-test was 40, and the highest score of pre-test was 60 and the mean of pre-test was47.66. On the other hand the lowest score of post-test was 56, and the highest score of post-test was 80 and the mean of post-test was 69.53 (See Appendix I, J).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Structure 6 .</head><label>6</label><figDesc>Orientation: Set the scene an introduced the participants 7. Evaluation: A stepping back evaluate the plight 8. Complication: A crisis arises 9. Resolution: The crisis is resolved, for better or worse 10. Reorientation: Optional Language Feature 6. Focus on specific and usually individualized participants 7. Use of material process (and in this text, behavioral, and verbal process) 8. Use of relational process and Mental process 9. Use of temporal conjunctions and temporal circumstances 10. Using past tense Example A Bad Camping On July 1 st , I went camping. I brought my own preparation such as food, tent, etc. I arrived at 07 o'clock in the evening. It was dark. I quickly set up my tent for it began raining. I set off to explore the jungle and I brought some food, matches, ropes, and a flashlight on my knapsack. Next, I looked my tent and after I had walked for about 2 km, I was tired. Then, I found a steep slope. There was no other way so I climbed the slope. Suddenly, one of my ropes was broken and was hooked at a casuarinas tree. I screamed for a help but no one heard me. After a few minutes, I turned on my flashlight. A ranger saw the light and he saved me. He did the first aid and he asked me, "Are you injured?" I answered, "Yes, my back is in pain." "I will handle it." He bandaged my back. After that, he went to the base camp to search for a help. Not taking a long time, he got back with his friend and they carried a litter and put me on. When the morning came, they took me to the nearest hospital. I thanked them. It was a bad experience. I only slept and I thought of my injured back. The nurse asked me, "Are you okay?" "I am a bit unwell", I replied. I kept on sleeping and I sometimes listened to the music.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>6 .</head><label>6</label><figDesc>Teacher gives one topic to the students 7. Teacher guide the students to apply Image Streaming method to write the paragraph -Ask yourself question: The students were asked a question there are in their mind -Start the Image Streaming: The students were asked to say and recorded all their imagination in their tape recorder. Each students alternately record what they see in their imagination. So, they had recording consist of their idea. -Feature - questioning:every groups were asked to pick up their idea and choose what they 4. Students listen to the teacher's explanation 5. Students receive the topic 6. Students did individually 10 minutes 5 minutes 30 minutes need and do not need to write. -Inductive inference: The students were asked to relate their idea with the topic. -What's the same? every groups were asked to recheck the same and the different set idea in their recording. -Relate: every groups were asked to relate all the words and sentences with the topic. -Debrief: every groups were asked to write all their ideas in the paper to make a narrative paragraph. Closing Activities: 1. Teacher gives conclusion about narrative paragraph 2. Teacher closes the lesson 1. Students listen to the teacher's conclusion 15 minutes</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head></head><label></label><figDesc>Teacher gives the pre-test 10. Teacher collects the student's writing 11. Teachers explains about narrative paragraph; generic structure, characteristics, the examples and introduce the image streaming method 12. Teacher divide the students into a groups. Each groups consit of 7 students. 13. Teacher gives one topic to 7. Students listen to the teacher's explanation 8. Students do the pre-test 9. Students collect the writing 10. Students listen to the teacher's explanation 11. Students receive the topic 10 minutes 10 minutes 5 minutes 10 minutes the students 14. Teacher guide the students to apply Image Streaming method to write the paragraph -Ask yourself question: The students were asked a question there are in their mind -Start the Image Streaming: The students were asked to say and recorded all their imagination in their tape recorder. Each students alternately record what they see in their imagination. So, they had recording consist of their idea. -Feature - questioning:every groups were asked to pick up their idea and choose what they need and do not need to write. -Inductive inference: The students were asked to relate their idea with the topic. -What's the same? every groups were asked to recheck the same and the 12. Students did individually 5 minutes different set idea in their recording. -Relate: every groups were asked to relate all the words and sentences with the topic. -Debrief: every groups were asked to write all their ideas in the paper to make a narrative paragraph. Closing Activities: 3. Teacher gives conclusion about narrative paragraph 4. Teacher closes the lesson 2. Students listen to the teacher's conclusion 15 minutes</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>1 .</head><label>1</label><figDesc>Orientation: Set the scene an introduced the participants 2. Evaluation: A stepping back evaluate the plight 3. Complication: A crisis arises 4. Resolution: The crisis is resolved, for better or worse 5. Reorientation: Optional Language Feature 1. Focus on specific and usually individualized participants 2. Use of material process (and in this text, behavioral, and verbal process) 3. Use of relational process and Mental process 4. Use of temporal conjunctions and temporal circumstances 5. Using past tense Example A Bad Camping On July 1 st , I went camping. I brought my own preparation such as food, tent, etc. I arrived at 07 o'clock in the evening. It was dark. I quickly set up my tent for it began raining. I set off to explore the jungle and I brought some food, matches, ropes, and a flashlight on my knapsack. Next, I looked my tent and after</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>From</head><label></label><figDesc>the table above, it can be seen that Liliefors observation or L o = - 0.042 with n = 30 and at real level = 0.05 from the list of critical value of Liliefors table L t = 0.029. It is known that the coefficient of L o (-0.042)  L t (0.029). So it can be concluded that the data distribution of the student's ability in writing descriptive text is normal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>From</head><label></label><figDesc>the table above, it can be seen that Liliefors observation or L o = - 0.052 with n = 30 and at real level = 0.05 from the list of critical value of Liliefors</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><head>From</head><label></label><figDesc>the table above, it can be seen that Liliefors observation or L o = -- 0.020 with n = 30 and at real level = 0.05 from the list of critical value of Liliefors table L t = 0.029. It is known that the coefficient of L o (-0.020)  L t (0.029). So it can be concluded that the data distribution of the student's ability in writing descriptive text is normal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_31"><head>From</head><label></label><figDesc>the table above, it can be seen that Liliefors observation or L o = -- 0.041 with n = 30 and at real level = 0.05 from the list of critical value of Liliefors</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head>TABLE</head><label></label><figDesc></figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head>Table Title I</head><label>Title</label><figDesc></figDesc><table>Research Design 
+
+II 
+Population 
+
+III 
+The Rubric Scoring Scale of Students' Writing Test 
+
+VI The Score of Pre Test and Post Test of Experimental 
+
+Group 
+
+V 
+The Score of Pre Test and Post Test of Control 
+
+Group 
+
+VI Frequency Distribution of Pre Test in Experimental 
+
+Group 
+
+VII 
+Normality Testing of Pre Test in Experimental Group 
+
+VII 
+Frequency Distribution of Post Test in Experimental 
+
+Group 
+
+IX Normality Testing of Post Test in Experimental Group 
+
+X 
+Frequency Distribution of Pre Test in Control Group 
+
+XI 
+Normality Testing of Pre Test in Control Group 
+
+XII 
+Frequency Distribution of Post Test in Control Group 
+
+XIII 
+Normality Testing of Pre Test in Control Group 
+
+XIV 
+Mean of Post Test -Pre Test in Experimental Group 
+
+XV 
+Mean of Post Test -Pre Test in Control Group H 
+Students' Name of Control Group 
+
+I 
+The Score of Pre-test and Post-test of 
+
+Experimental Group 
+
+J 
+The Score of Pre-test and Post-test of Control 
+
+Group 
+
+K 
+Normality Testing of Experimentaland control 
+
+Group 
+
+L 
+Homogeneity Testing of Pre-test and Post-test 
+
+M 
+The Critical Value Liliefors Test 
+
+N 
+Table of F Distribution 
+
+O 
+Percentage Pointsof T Distribution 
+
+P 
+Documentation INTRODUCTION 
+
+A. Backround of the Study 
+
+Writing is the expression of language in the form of letters, symbols, or 
+
+words. 1 Writing is important way in communication for human life because it is 
+
+one of language skills. As one skill of English, writing can help students to learn 
+
+and develop their English by expressing their knowledge, experience and so on. It 
+
+can be expressed in form of essay, a paragraph, a letter, a short story and etc. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head>learning .Image Streaming Method 4 Allah said in the Holy Qur'an in surah An-Nahl in the 125 th verse. It says:</head><label>learning</label><figDesc></figDesc><table>The following are some kinds of learning methods: 
+
+a. Methods Study Tour (Travel Work) 
+
+b. Team Teaching Methods 
+
+c. Project Method 
+
+d. Global Method 
+
+e. Peer Teaching Method 
+
+f. Problem solving Method g. Meaning: "Invite to the way of your Lord with wisdom and good 
+
+instruction, and argue with them in a way that is best. Indeed, your Lord is 
+
+most knowing of who has strayed from His way, and He is most knowing of 
+
+who is [rightly] guided." 5 (Q.S. An-Nahl: 125) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false"><head>p.287 7 Ibid, p. 298 8 Ibid, p. 300</head><label></label><figDesc>yourself to imagine and describe these images freely, without the user aware of shadows like what a process called shadows image streaming or stream provides an opportunity to</figDesc><table>demonstrate understandings that are important and meaningful. 8 
+
+6 
+
+Win Wenger, (2011), Op. Cit, </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" validated="false"><head>1 .</head><label>1</label><figDesc></figDesc><table>Orientation: Set the scene an introduced the participants 
+
+2. Evaluation: A stepping back evaluate the plight 
+
+19 
+
+Dirgeyasa, (2014), College Academic Writing: A Genre-Based Perspective, Medan: 
+Unimed Press, p. xvii. 
+
+20 
+
+Charles, (2016), Grammar,https://www.reference.com&gt;sducation, Accessed on 25 th 
+November 2016 4. Resolution: The crisis is resolved, for better or worse 
+
+5. Reorientation: Optional 21 
+
+Dominant language features: 
+
+1. Focus on specific and usually individualized participants 
+
+2. Use of material process (and in this text, behavioral, and verbal process) 
+
+3. Use of relational process and Mental process 
+
+4. Use of temporal conjunctions and temporal circumstances 
+
+5. Using past tense 22 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" validated="false"><head>Grammar Communication in Action, United States: Prentice-Hall, p. 32 25 Utami Dewi, (2011), How To Write, Medan: La-Tansa Press, p. 29</head><label></label><figDesc></figDesc><table>1. Introductory 
+
+2. Body 
+
+3. Concluding 
+
+4. Transitional 26 
+
+24 
+
+Upper Saddle River, New Jersey Glenview, Illinois Needdam, Massachutetts, (2001), 
+writing and </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" validated="false"><head>65</head><label></label><figDesc>Coherence also means sticking and holding together. Paragraph coherence refers to the way that ideas hold together in a paragraph. Paragraph coherence begins with clear, precise, focused topic sentence because the topic sentence sets up the expectations the reader has about appropriate related fact, example, details that the writer could use to develop central idea.</figDesc><table>31 
+
+SanggamSiahaan, Op.Cit, p. 33 
+
+32 
+
+Utami Dewi, Op. Cit, p. 46 
+
+33 
+
+Utami Dewi, Op. Cit, p. 33 
+
+34 
+
+Ibid,p. </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" validated="false"><head>Table I .</head><label>I</label><figDesc></figDesc><table>Research Design 
+
+Groups 
+Pre-test 
+Treatment 
+Post-test 
+
+Experimental 
+ 
+By using Image streaming 
+
+method 
+
+ 
+
+Control 
+ 
+By using Conventional 
+
+method 
+
+ 
+
+C. Population and Sample 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11" validated="false"><head>Table II . Population</head><label>II</label><figDesc></figDesc><table>No. 
+Grade 
+Total Students 
+
+1. 
+X-1 
+30 students 
+
+2. 
+X-2 
+30 students 
+
+Total of Population 
+60 Students 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13" validated="false"><head>Table III .</head><label>III</label><figDesc></figDesc><table>The Rubric to score the students 
+
+NO 
+Students' Name 
+
+Component 
+
+Content 
+Organi 
+zation 
+
+Vocab 
+ulary 
+
+Language 
+use 
+
+Mecha 
+nics 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14" validated="false"><head>Table XIV .</head><label>XIV</label><figDesc></figDesc><table>Mean of Post-Test -Pre-Test in Experimental Group 
+
+No 
+Score Post-Test 
+Score Pre-Test 
+Decrease 
+
+1 
+78 
+66 
+12 
+
+2 
+80 
+50 
+30 
+
+3 
+78 
+50 
+28 
+
+4 
+78 
+50 
+28 
+
+5 
+78 
+46 
+32 
+
+6 
+78 
+46 
+32 
+
+7 
+66 
+46 
+20 
+
+8 
+78 
+66 
+12 
+
+9 
+78 
+46 
+32 
+
+10 
+80 
+66 
+14 
+
+11 
+66 
+50 
+16 
+
+12 
+78 
+66 
+12 
+
+13 
+78 
+66 
+12 
+
+14 
+88 
+66 
+22 
+
+15 
+80 
+50 
+30 
+
+16 
+78 
+50 
+28 
+
+17 
+88 
+50 
+38 
+
+18 
+78 
+40 
+38 
+
+19 
+66 
+40 
+26 
+
+20 
+78 
+66 
+12 
+
+21 
+66 
+40 
+26 
+
+22 
+66 
+50 
+16 
+
+23 
+78 
+50 
+28 
+
+24 
+80 
+50 
+30 
+
+25 
+78 
+66 
+12 66 
+40 
+26 
+
+27 
+88 
+50 
+38 
+
+28 
+80 
+66 
+14 
+
+29 
+78 
+50 
+28 
+
+30 
+88 
+66 
+22 
+
+ 
+714 
+
+Mean 
+23.8 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15" validated="false"><head>Table XV .</head><label>XV</label><figDesc></figDesc><table>Mean of Post-Test -Pre-Test in Control Group 
+
+No 
+Score Post-Test 
+Score Pre-Test 
+Decrease 
+1 
+68 
+50 
+18 
+
+2 
+60 
+44 
+16 
+
+3 
+66 
+48 
+18 
+
+4 
+66 
+50 
+16 
+
+5 
+60 
+56 
+4 
+
+6 
+76 
+56 
+20 
+
+7 
+76 
+60 
+16 
+
+8 
+66 
+48 
+18 
+
+9 
+56 
+44 
+12 
+
+10 
+60 
+44 
+16 
+
+11 
+60 
+50 
+10 
+
+12 
+60 
+50 
+10 
+
+13 
+66 
+56 
+10 
+
+14 
+76 
+50 
+26 
+
+15 
+76 
+60 
+16 
+
+16 
+66 
+50 
+16 
+
+17 
+56 
+44 
+12 
+
+18 
+66 
+44 
+22 
+
+19 
+56 
+44 
+12 
+
+20 
+60 
+50 
+10 
+
+21 
+66 
+50 
+16 
+
+22 
+76 
+60 
+16 66 
+60 
+6 
+
+24 
+66 
+50 
+16 
+
+25 
+76 
+66 
+10 
+
+26 
+76 
+66 
+10 
+
+27 
+66 
+56 
+10 
+
+28 
+66 
+56 
+10 
+
+29 
+76 
+66 
+10 
+
+30 
+76 
+66 
+10 
+
+  
+
+412 
+Mean 
+13.73 
+
+From the calculation above, the total of decrease from the pre-test and 
+
+post-test in control group is 412. Meanwhile the mean of pre-test and post-test in 
+
+control group is 12.73. 
+
+So, the hypothesis testing in this research, it is used two average similarity 
+
+test by using statistic, as follow: 
+
+T-test = 
+
+ 
+ 
+
+Where: 
+
+x 1 = 23.80 
+
+x 2 = 13.73 
+
+S 1 
+2 = 48.13 
+
+S 2 
+2 = 4.69 
+
+n 1 = 30 
+
+n 2 = 30 
+
+t = 
+
+ 
+ 
+
+= 
+
+. 
+. 
+
+. 
+. 
+
+= 
+
+. 
+
+. 
+
+= 5.754 
+
+From the calculation above, it can be seen that t observed = 5.754.The 
+
+testing hypothesis is conducted in order to find out whether that hypothesis is 
+
+accepted or rejected. The basis of testing hypothesis is that the H a is accepted if 
+
+the t observed &gt;t table . In this study the calculation of the scores uses t-test for the 
+
+degree of freedom 58 (df = N + N -2) at the level of significant 0.05 that the 
+
+critical value is 2.009. So it can be seen that t table = 2.009. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16" validated="false"><head>above, it shows that the alternative hypothesis (H a ) is accepted and the null hypothesis(H 0 )is rejected. It means that writing by using</head><label></label><figDesc></figDesc><table>The basis of testing hypothesis is that the H a is 
+
+accepted if the t observed &gt;t table . In this study the calculation of the scores uses t-test 
+
+for the degree of freedom 58 (df = N + N -2) at the level of significant 0.05 that 
+
+the critical value is 2.009. So it can be seen that t table = 2.009. (See AppendixP) 
+
+After the scores were calculated, it was found that in this study the 
+
+t observed is higher than the t table . It can be seen as follow: 
+
+t observed &gt;t table ( = 0.05) with df 58 
+
+5.754&gt;2.009 
+
+From the result </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_18" validated="false"><head></head><label></label><figDesc>times. My dad is a hard working man and he does not give up easily. He worked from 7 a.m to 6 p.m. He doing the work that various kinds such asa teaching in one of the Madrasas in our village and he also teach the Qur'an in MAN Panyabungan and SMPN 2 Panyabungan. He taught me to follow the path of honesty and integrity and not to be afraid of anything that comes into my way.</figDesc><table>The words that I will never forget is that you do not forget doing prayer and 
+
+always read the Qur'an because it will help you wherever you are. He's a very 
+
+tough guy from outside but he's always there when his beloved ones need help. 
+
+My mom. She's a very kind women. She would stay awake all night when 
+
+i'm sick, would scold me real bad when i make mistakes. She is a multi-talented 
+
+woman who is my mother, cook, doctor, therapist, economist, Counselor priest, 
+
+and an inspiration. I have no idea what else she can do, but somehow I feel like 
+
+she can understand what and how I feel about things in my life even if i don't tell 
+
+her anything. I feel like she can read my mind. She just needs to peek into my 
+
+eyes and everything becomes clear to her. Even now she can do that quite easily. 
+
+My silence speaks to her in a lot of ways i can't even explain.. her actions and 
+
+gestures always direct me and indicate me if i'm wrong at some place. My mom is 
+
+like a "Goddess of sacrifice" because he would sacrifice everything for us. I love 
+
+my parents and I'm thankful to be their child. To be honest, all I have now 
+
+is because of my parents and their blessings. 
+
+APPENDIX D 
+
+KEY ANSWER OF POST TEST 
+
+Instructions: 
+
+Make a narrative paragraph with theme "Holiday"! 
+
+Answer: 
+
+My Holiday 
+
+In the semester holidays odd years ago, I was not off to nowhere. I just 
+
+gathered-together family premises only. There, we exchanged joking laughter. I 
+
+am quite happy with this holiday. Although, just hang out with family only.Time 
+
+was running as the holiday is almost depleted and at that time, in my house there's 
+
+activities to nothing. Certainly it was very boring holiday, but in moments of 
+
+boredom that comes, I am comforted by my elder brother. He is very cute and 
+
+adorable. He is very funny comedian exceeded in television.At holiday time is 
+
+almost finished, my mother told me to go to Hutabaringin, my aunt's house there 
+
+assistive aids. Besides, I also help my aunt in the fields. Although sent to the 
+
+fields, but this time it was quite exciting holiday. 
+
+APPENDIX E 
+
+LESSON PLAN I 
+
+(Experimental Group) 
+
+School 
+: MAS PAB 2 Helvetia 
+
+Class 
+: X-1 
+
+Skill 
+: Writing 
+
+Topic 
+: Narrative Paragraph 
+
+Allocated time 
+: 2 x 45 minutes 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_25" validated="false"><head>Table VII</head><label>VII</label><figDesc></figDesc><table>Normality Testing of Pre Test in Experimental Group 
+
+No 
+Score 
+Zi 
+F(Zi) 
+S(Zi) 
+F(Zi) -S(Zi) 
+
+1 
+40 
+-1.41 
+0.080 
+0.13 
+-0.050 
+
+2 
+40 
+-1.41 
+0.080 
+0.13 
+-0.050 
+
+3 
+40 
+-1.41 
+0.080 
+0.13 
+-0.050 -1.41 
+0.080 
+0.13 
+-0.050 
+
+5 
+46 
+-0.78 
+0.218 
+0.26 
+-0.042 
+
+6 
+46 
+-0.78 
+0.218 
+0.26 
+-0.042 
+
+7 
+46 
+-0.78 
+0.218 
+0.26 
+-0.042 
+
+8 
+46 
+-0.78 
+0.218 
+0.26 
+-0.042 
+
+9 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+10 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+11 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+12 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+13 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+14 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+15 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+16 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+17 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+18 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+19 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 
+
+20 
+50 
+-0.36 
+0.359 
+0.66 
+-0.301 a. Finding Z score 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_26" validated="false"><head>Table VIII</head><label>VIII</label><figDesc></figDesc><table>Frequency Distribution of Post Test in Experimental Group 
+
+NO 
+Xi 
+Fi 
+FiXi 
+Xi 2 
+FiXi 2 
+
+1 
+66 
+6 
+396 
+4356 
+26136 
+
+2 
+78 
+15 
+1170 
+6084 
+91260 
+
+3 
+80 
+5 
+400 
+6400 
+32000 
+
+4 
+88 
+4 
+352 
+7744 
+30976 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_27" validated="false"><head>Table IX</head><label>IX</label><figDesc></figDesc><table>Normality Testing of Post Test in Experimental Group 
+
+No 
+Score 
+Zi 
+F(Zi) 
+S(Zi) 
+F(Zi) -S(Zi) 
+
+1 
+66 
+-1.70 
+0.044 
+0.20 
+-0.156 
+
+2 
+66 
+-1.70 
+0.044 
+0.20 
+-0.156 
+
+3 
+66 
+-1.70 
+0.044 
+0.20 
+-0.156 
+
+4 
+66 
+-1.70 
+0.044 
+0.20 
+-0.156 
+
+5 
+66 
+-1.70 
+0.044 
+0.20 
+-0.156 
+
+6 
+66 
+-1.70 
+0.044 
+0.20 
+-0.156 
+
+7 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+8 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+9 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+10 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+11 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+12 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+13 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+14 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+15 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+16 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 0.11 
+0.544 
+0.70 
+-0.156 
+
+18 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+19 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+20 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+21 
+78 
+0.11 
+0.544 
+0.70 
+-0.156 
+
+22 
+80 
+0.41 
+0.660 
+0.86 
+-0.200 
+
+23 
+80 
+0.41 
+0.660 
+0.86 
+-0.200 
+
+24 
+80 
+0.41 
+0.660 
+0.86 
+-0.200 
+
+25 
+80 
+0.41 
+0.660 
+0.86 
+-0.200 
+
+26 
+80 
+0.41 
+0.660 
+0.86 
+-0.200 
+
+27 
+88 
+1.62 
+0.948 
+1.00 
+-0.052 
+
+28 
+88 
+1.62 
+0.948 
+1.00 
+-0.052 
+
+29 
+88 
+1.62 
+0.948 
+1.00 
+-0.052 
+
+30 
+88 
+1.62 
+0.948 
+1.00 
+-0.052 
+
+Total 
+2318 
+Lo = -0.052 
+
+Mean 
+77.27 
+
+Lt = 0.029 
+
+a. Finding Z score 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_29" validated="false"><head>Table XI</head><label>XI</label><figDesc></figDesc><table>Normality Testing of Pre Test in Control Group 
+
+No 
+Score 
+Zi 
+F(Zi) 
+S(Zi) 
+F(Zi) -S(Zi) 
+
+1 
+44 
+-1.26 
+0.105 
+0.20 
+-0.095 
+
+2 
+44 
+-1.26 
+0.105 
+0.20 
+-0.095 
+
+3 
+44 
+-1.26 
+0.105 
+0.20 
+-0.095 
+
+4 
+44 
+-1.26 
+0.105 
+0.20 
+-0.095 
+
+5 
+44 
+-1.26 
+0.105 
+0.20 
+-0.095 
+
+6 
+44 
+-1.26 
+0.105 
+0.20 
+-0.095 
+
+7 
+48 
+-0.71 
+0.240 
+0.26 
+-0.020 
+
+8 
+48 
+-0.71 
+0.240 
+0.26 
+-0.020 
+
+9 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+10 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+11 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+12 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+13 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+14 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+15 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+16 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+17 
+50 
+-0.43 
+0.333 
+0.56 
+-0.227 
+
+18 
+56 
+0.39 
+0.653 
+0.73 
+-0.077 
+
+19 
+56 
+0.39 
+0.653 
+0.73 
+-0.077 
+
+20 
+56 
+0.39 
+0.653 
+0.73 
+-0.077 
+
+21 
+56 
+0.39 
+0.653 
+0.73 
+-0.077 
+
+22 
+56 
+0.39 
+0.653 
+0.73 
+-0.077 0.94 
+0.828 
+0.86 
+-0.032 
+
+24 
+60 
+0.94 
+0.829 
+0.86 
+-0.032 
+
+25 
+60 
+0.94 
+0.829 
+0.86 
+-0.032 
+
+26 
+60 
+0.94 
+0.829 
+0.86 
+-0.032 
+
+27 
+66 
+1.77 
+0.962 
+1.00 
+-0.038 
+
+28 
+66 
+1.77 
+0.962 
+1.00 
+-0.038 
+
+29 
+66 
+1.77 
+0.962 
+1.00 
+-0.038 
+
+30 
+66 
+1.77 
+0.962 
+1.00 
+-0.038 
+
+Total 
+1594 
+Lo = -0.020 
+
+Mean 
+53.13 
+
+Lt = 0.029 
+
+a. Finding Z score 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_30" validated="false"><head>Table XII</head><label>XII</label><figDesc></figDesc><table>Frequency Distribution of Post Test in Control Group 
+
+NO 
+Xi 
+Fi 
+FiXi 
+Xi2 
+FiXi2 
+
+1 
+56 
+3 
+168 
+3136 
+9408 
+
+2 
+60 
+6 
+360 
+3600 
+21600 
+
+3 
+66 
+11 
+726 
+4356 
+47916 
+
+4 
+68 
+1 
+68 
+4624 
+4624 
+
+5 
+76 
+9 
+684 
+5776 
+51984 
+
+30 
+2006 
+21492 
+135532 
+
+</table></figure>
+
+			<note place="foot" n="3"> Word Press, 2017, Pengertian A-Z: Pengertian Metode Pembelajaran, http://artikel az.com/pengertian-metode-pembelajaran/, Accessed on 19 th February 2017</note>
+
+			<note place="foot" n="5"> Muhammad HabibShakir, The Quran Translation Muhammad HabibShakir English Only, New York: Tahrike Quran, p.127</note>
+
+			<note place="foot" n="26"> Bob Brannan, (2003), A Writer Workshop (Crafting Paragraphs, Building Essay), New York: McGraw Hill, p. 35</note>
+
+			<note place="foot">Pict 1. The students of experimental group are doing pre test</note>
+
+			<note place="foot">Pict 2. The researcher gives pre test paper to the students of control group Pict 3. The researcher is giving explanation about descriptive text to the students of control group</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX G THE STUDENTS' INITIAL AND REAL NAME</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OF EXPERIMENTAL GROUP (X-1)</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>Initial </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Belajarpsikologi</surname></persName>
+		</author>
+		<ptr target="http://belajarpsikologi.com/macam-macam-metode-pembelajaran/" />
+		<title level="m">Macam-macam Metode Pembelajaran</title>
+		<imprint>
+			<date type="published" when="2017-02-20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bob</forename><surname>Brannan</surname></persName>
+		</author>
+		<title level="m">A Writer Workshop (Crafting Paragraphs, Building Essay)</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw Hill</publisher>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Language Assessment Principle and Classroom Practices</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Douglas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<pubPlace>San Francisco State Univercity Logman</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename></persName>
+		</author>
+		<ptr target="https://www.reference.com&gt;sducation" />
+		<title level="m">Grammar</title>
+		<imprint>
+			<date type="published" when="2016-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">How To Write</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Utami</forename><surname>Dewi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>La-Tansa Press</publisher>
+			<pubPlace>Medan</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">College Academic Writing: A Genre-Based Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dirgeyasa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Unimed Press</publisher>
+			<pubPlace>Medan</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><surname>Ary</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Lucy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><forename type="middle">S</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Wadsworth Cengage Learning</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Introduction to Research in Education. Eighth Edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hendryadi</surname></persName>
+		</author>
+		<ptr target="http://tepenr06.wordpress.com" />
+		<title level="m">metode Pengumpulan Data</title>
+		<imprint>
+			<date type="published" when="2016-01" />
+		</imprint>
+	</monogr>
+	<note>Accessed on 15 th</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Testing for Language Teachers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Hughes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Second Edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Indra</forename><surname>Jaya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>CiptaPustaka Media Perintis</publisher>
+			<pubPlace>PenerapanStatistikUntukPendidikan, Medan</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Writing and Grammar Communication in Action</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Upper</forename><surname>Saddle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">66</biblScope>
+			<pubPlace>United</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
