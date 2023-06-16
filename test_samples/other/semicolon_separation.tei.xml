@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/09/yarn/nm/usercache/lanastasiou/filecache/11/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-20T23:05+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A World of Lies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>SAGE Publications</publisher>
+				<availability status="unknown"><p>Copyright SAGE Publications</p>
+				</availability>
+				<date type="published" when="2006-01">2006-01</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">A World of Lies</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Cross-Cultural Psychology</title>
+						<title level="j" type="abbrev">Journal of Cross-Cultural Psychology</title>
+						<idno type="ISSN">0022-0221</idno>
+						<idno type="eISSN">1552-5422</idno>
+						<imprint>
+							<publisher>SAGE Publications</publisher>
+							<biblScope unit="volume">37</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="60" to="74"/>
+							<date type="published" when="2006-01" />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1177/0022022105282295</idno>
+					<note>10.1177/0022022105282295 JOURNAL OF CROSS-CULTURAL PSYCHOLOGY The Global Deception Research T eam / A WORLD OF LIES</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>deception; stereotypes</keywords>
+			</textClass>
+			<abstract>
+				<p>THE GLOBAL DECEPTION RESEARCH TEAM This article reports two worldwide studies of stereotypes about liars. These studies are carried out in 75 different countries and 43 different languages. In Study 1, participants respond to the open-ended question &quot;How can you tell when people are lying?&quot; In Study 2, participants complete a questionnaire about lying. These two studies reveal a dominant pan-cultural stereotype: that liars avert gaze. The authors identify other common beliefs and offer a social control interpretation. He does not answer questions, or gives evasive answers; he speaks nonsense, rubs the great toe along the ground; and shivers; his face is discolored; he rubs the roots of his hair with his fingers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>THE CURRENT PROJECT</head><p>Although we can draw some conclusions from the accumulated research on deception stereotypes, we are left with some questions. How widely dispersed are Western stereotypes about liars? Are these stereotypes held worldwide? How do stereotypes about liars come into being? What functions do they serve?</p><p>These questions have never been addressed. In fact, there has been only study to date on non-Westerners' stereotypes of liars. In response to a questionnaire administered by <ref type="bibr">AlSimadi (2000)</ref>, Jordanians associated a number of behaviors with lying. They expected deception to increase self-touching, hand gestures, blushing, stuttering, speech hesitations, negative statements, and self-references. According to Al-Simadi, these findings illustrate differences between Jordanian and Western beliefs.</p><p>Let us sketch two hypotheses about deception stereotypes. One posits the existence a pan- cultural prototype; the other proposes that stereotypes of the liar reflect culture-specific norms.</p><p>According to the first hypothesis, there is a worldwide stereotype of the liar. People in all cultures believe that liars experience fear, shame, or cognitive difficulties <ref type="bibr" target="#b10">(Bond &amp; Robinson, 1988;</ref><ref type="bibr" target="#b12">Ekman, 2001)</ref>. Associating these psychological states with the same nonverbal cues <ref type="bibr" target="#b21">(Keltner, Ekman, Gonzaga, &amp; Beer, 2003)</ref>, people worldwide are led to a common ste- reotype of the liar's behaviors. Although this hypothesis does not identify a priori the actions that would be attributed to the liar in every culture, research that revealed those behaviors might suggest the liar's presumed psychological state.</p><p>An alternative hypothesis is that stereotypes of the liar are culture specific. Cultures are known to differ in their norms for interpersonal communication-in levels of nonverbal involvement, in constraints imposed by social roles, in the explicitness of the communicative code <ref type="bibr" target="#b5">(Anderson, Hecht, Hoobler, &amp; Smallwood, 2002</ref>). Thus, they may also differ in beliefs about deception. Every culture, we suspect, associates lying with actions that deviate from the local norm. However, norms for behavior vary so radically across cultures that behaviors stereotypical of deception vary too. Language differences may contribute to this cross- cultural variability, each language embodying a distinct folk model of those who use the lan- guage falsely <ref type="bibr" target="#b32">(Sweetser, 1987)</ref>. Local beliefs about liars find their way into cultural sayings and lore <ref type="bibr" target="#b17">(Hendry &amp; Watson, 2001</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Global Deception Research Team / A WORLD OF LIES 61</head><p>In the current project, we assess these hypotheses by studying stereotypes about liars worldwide. Our goal is to sketch the patterning of beliefs across the world, with a view to understanding international similarities and differences in stereotypes. We pursued this goal with two studies. In an initial study, we invited people in a large number of countries to respond to an open-ended question about lying. In a second study, we solicited beliefs about deception with a close-ended survey.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY 1</head><p>In response to an open-ended question, participants in each of 58 countries explained how they could tell when someone was lying. Answers to this question were coded so that the worldwide distribution of beliefs about deception could be examined. In some highly devel- oped Western countries, people attribute the stereotypic liar with gaze aversion and a number of other particular behaviors. Perhaps similar beliefs are held worldwide.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD</head><p>Collaborator recruitment. Charles Bond (a native resident of the United States) conceived of this project and recruited an international research team. Most of the research team mem- bers were academic psychologists, and most correspondence occurred via English-language e-mail. See <ref type="table" target="#tab_0">Table 1</ref> for a list of participating countries, their languages, and the studies in which they participated.</p><p>Participants. Study 1 results were obtained from 20 male and 20 female native, lifelong residents of each of 58 countries indicated in <ref type="table" target="#tab_0">Table 1</ref>. All participants were literate and older than 16 years old. Most of them were university students.</p><p>Procedure. Collaborators were asked to translate a question from English into the domi- nant language of their country. The question was as follows: "How can you tell when people are lying?"</p><p>Lying was defined as an "intentional false statement." Collaborators were asked to choose a translation of the word lying consistent with that definition and one that would connote both small and big lies (e.g., lies about murder as well as lies about a friend's clothes). Some of the collaborators had difficulty understanding the colloquial wording of the question How can you tell when people are lying? For them, the question was paraphrased as "What signs (or indications or clues) do you use to determine (or judge or decide) that people are lying?"</p><p>Translation of responses. Team members translated this question into the dominant lan- guage of their country and solicited written responses in that language. Participants were invited to answer the question "How can you tell when people are lying?" in any way they wished-by giving a single response or many responses. After securing 20 male and 20 female participants' written responses to our question, collaborators translated non-English responses into English.</p><p>Coding. The English-language protocols required coding before they could be assimi- lated in any quantitative form. There were two coders: a female and a male. The female coder  examined all participants' protocols, scoring the 40 protocols from a given country in suc- cession while unaware of the country's identity and each participant's sex. From her reading of these responses, the female developed a scheme of 103 belief categories. The male coder then used that 103-category scheme in an independent scoring of each protocol. He too was unaware of participants' nationality and sex. We quantified composite intercoder reliability country by country with Cohen's kappa statistic (κ). Across the 58 countries, the two coders achieved a mean of 67.98% agreement in applying the 103 belief categories. This yielded a mean Cohen's κ = .66, 95% confidence interval = .65 to .67.</p><p>All analyses of the Study 1 data were conducted on the average of the two coders' scorings. Below, we report results at the level of belief category. Effective reliability for these data is much higher than for the coding of a single belief. For example, the female coder's relative use of the 103 belief categories was consistent with the male's; for consistency in the number of times a category was used, r = .92.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>In Study 1, 2,320 lifelong residents of 58 countries were asked the question "How can you tell when people are lying?" To that question, they gave 11,157 responses. Some of the par- ticipants offered only one response to the question, whereas the most prolific participant offered 20 responses. When asked "How can you tell when people are lying?" females offered more responses than males (Ms = 5.00 and 4.62 beliefs, respectively), F(1, 2004) = 64 JOURNAL OF CROSS-CULTURAL PSYCHOLOGY Belief prevalence. We tabulated beliefs by their prevalence. As one measure of the preva- lence of a belief, we noted the percentage of participants who offered that belief as one of their responses to the question "How can you tell when people are lying?" <ref type="figure">Figure 1</ref> lists each belief that was expressed by more than 15% of the participants. As the figure displays, the most common belief about deception worldwide is that liars avoid eye contact. Indeed, 63.66% of our participants mentioned gaze aversion as a way to tell when people are lying, far more than expressed any other belief. Roughly one fourth of our respondents believed each of the following: that liars are nervous (28.15%), that deceptive remarks are incoherent (25.30%), and that lying can be detected from movements of the liar's body (25.04%). Also common are the beliefs that one can tell when a person is lying from the liar's facial expres- sion, from verbal inconsistencies, from speech fillers ("uh"s), from facial color, and from pauses while the liar is speaking. Altogether, the nine beliefs in <ref type="figure">Figure 1</ref> garnered 37.55% of our participants' 11,157 responses.</p><p>Next most common were 10 other beliefs: (a) Liars can be detected from arm, hand, and finger movements; (b) liars can be detected from changes in their speech rate; (c) liars can be detected because they make noises (like sighs); (d) one needs to know a person to tell whether the person is lying; (e) lies can be detected from tone of voice; (f) they can be detected from cues in the eyes other than direction of gaze; (g) liars sweat; (h) liars play with their hair, clothes, or objects; (i) lies can be detected from unspecified changes in the liar's behavior; and (j) lies can be detected from weak arguments and logic. Each of these beliefs was mentioned by 10% to 15% of participants worldwide. Together, the latter 10 beliefs accounted for 18.33% of our participants' 11,471 responses.</p><p>The results we have been reporting assess the prevalence of a belief by the percentage of participants who offer it as one of their responses to our question "How can you tell when people are lying?" For a second measure of belief prevalence, we noted the number of responses a given participant had offered to our question and assessed belief prevalence as a percentage of this participant total. Thus, if a given participant gave four responses and one of those responses was that liars sweat, sweating would constitute 25% of that participant's responses. By this second measure, the most common belief in the world is that liars avoid eye con- tact. It constitutes 13.87% of a typical participant's responses. The second most common belief is that liars are nervous (4.53% of a typical participant's responses).</p><p>Cross-cultural consensus. For a cross-cultural comparison of beliefs about lying, we con- ducted a statistical analysis. For each of the 58 countries, we noted the percentage of respon- dents who mentioned each of the 19 beliefs about deception volunteered by 10% or more of the global sample as whole. We then correlated that country's percentage mention of these 19 beliefs with a world profile that omitted the country in question. The resulting 58 Pearson product-moment correlation coefficients show that there is substantial cross-cultural agree- ment in the relative prevalence of beliefs about lying. In fact, a country's belief profile shows a median correlation of .80 with the corrected world profile. For a cross-country reliability analysis, we arranged the country-by-country percentage generation of these beliefs into a 19 × 58 matrix. By standard psychometric criteria, these 58 countries show very strong agreement in relative generation of beliefs (Cronbach's α = .98).</p><p>Alongside this worldwide consensus in beliefs about lying, there are some cross-cultural differences. Gaze aversion, the most common belief about lying worldwide, constitutes a significantly higher proportion of the responses to our open-ended question in some coun- tries than others; for the country main effect, F(57, 2262) = 6.36, p &lt; .01. Even so, country explains only 13.81% of the variance in this belief. In 51 of the 58 countries we studied, gaze aversion is more prevalent than any other belief about lying. Gaze aversion shows the lowest prevalence in the United Arab Emirates (UAE). Still, 20% of the participants in our UAE sample mentioned gaze aversion as a cue to deception, making this the eighth most prevalent UAE belief of the 103 in our coding system.</p><p>Accessibility. Inspired by work in cognitive psychology, we examined the order in which participants generated responses to our open-ended question. Theoretically, the strongest, most accessible beliefs should be mentioned first in response to a question. Operating on this theoretical assumption, we noted the number of times a belief was offered as the first response to our open-ended question, as a percentage of the number of protocols on which that belief appeared.</p><p>Of the 38 beliefs mentioned by more than 5% of respondents, the most accessible is that liars avoid eye contact. Among participants who mention gaze aversion as a way to tell when people are lying, 43.90% mentioned it first. Also highly accessible are other references to the liar's eyes, the belief that deception can be detected from the liar's facial expressions, and the belief that one needs to know a person to detect that person's lies. These three beliefs are mentioned first by 43.06%, 38.30%, and 35.49% (respectively) of the participants who mentioned them.</p><p>Nonbeliefs. Poring more than 11,471 beliefs about lying, we were struck by the infre- quency with which certain factors were mentioned. Because our sample included residents of several collectivist cultures, we had imagined that group membership might be mentioned as a cue to deception. Averaging across 58 countries, a mere 0.26% of participants'responses made any reference to group membership. Also conspicuously missing were beliefs about situational cues to lying, incentives, and other motivational factors. These constituted only 0.33% of responses in 58 countries. Confessions of deceit accounted for only 0.10% of responses. By contrast, when asked to recount the discovery of a particular lie, Americans frequently mention confessions ( <ref type="bibr" target="#b26">Park et al., 2002)</ref>. Perhaps this reflects a difference in method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Study 1 is the first worldwide investigation of beliefs about lying. The study reveals sev- eral pan-cultural stereotypes, most notably that liars avoid eye contact. Global stereotypes also include references to the liar's nervousness, speech disturbances, and torso movements.</p><p>Study 1 drew conclusions about deception stereotypes from responses to the open-ended question "How can you tell when people are lying?" Although this study yielded a striking finding, people may have beliefs that do not occur to them when they are asked an open- ended question. It is also possible that the wording of our Study 1 question somehow cued the responses obtained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY 2</head><p>To complement our open-ended exploration of deception stereotypes, we developed a questionnaire. It asks whether lying is related to a number of behaviors, including the ones most often mentioned in Study 1.</p><p>Responses to an open-ended question suggest a worldwide stereotype: that liars avert gaze. In Study 2, we probe for that belief with a direct question. More generally, we assess whether responses to a survey will corroborate behavioral stereo- types that seem to emerge from open-ended descriptions of deception.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD</head><p>Participants. Completed Study 2 results were obtained from 20 male and 20 female native, lifelong residents of each of the 63 countries noted in <ref type="table" target="#tab_0">Table 1</ref>. Forty-six of these coun- tries had participated in Study 1.</p><p>Questionnaire construction. After examining preliminary results from Study 1, Bond drafted an English-language questionnaire. He circulated the draft to collaborators and invited their comments. With the aid of these suggestions, Bond developed the 10 English- language items that appear in <ref type="bibr">Appendix B. 1</ref> Questionnaire translation. Collaborators were sent the English text in Appendix B. They were asked to translate and back translate this questionnaire using two independent bilinguals, altering the original translation in any way necessary so that the questionnaire would back translate correctly. The English-language questionnaire was translated into 32 other languages. The most widely used translations were Spanish, Arabic, and French.</p><p>Participant recruitment and questionnaire administration. Each collaborator adminis- tered the questionnaire to 20 male and 20 female native, lifelong residents of the collabora-tor's country in the dominant language of that country. No Study 2 respondent had partici- pated in Study 1, and most were students. Each respondent was literate and older than 16 years old. Each responded to the questionnaire in writing and worked independently of others. <ref type="figure">Figure 2</ref> displays worldwide results on some beliefs about deceptive behavior. As shown in the figure, 71.5% of respondents worldwide believe that liars avoid eye contact, 65.2% believe that liars shift their posture more than usual, 64.8% believe that liars touch and scratch themselves, and 62.2% believe that liars tell longer stories than usual. No other behavioral sign of deception was endorsed by more than 60% of the respondents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head><p>For a comparison of beliefs across cultures, we began by noting the modal response worldwide to each of the 10 items in Appendix B. We then noted the percentage of respon- dents from a given country who gave each of these 10 responses and correlated that country's percentage endorsement of the 10 beliefs with a world profile that omitted the focal country. Results show that there is substantial cross-country consensus in percentage endorsement of the modal responses to these questionnaire items. As indicated, the median of 63 rs, the typi- cal country's profile of beliefs, correlates .58 with the corrected world profile. Cronbach's α = .96 for this 10 × 63 matrix.</p><p>These close-ended responses complement the Study 1 open-ended descriptions of liars. As in our earlier investigation, the strongest belief is that liars avoid eye contact. In 61 of the 63 countries we surveyed, respondents were likelier to believe that liars decrease eye contact than believe that they increase eye contact. In Study 1, natives of the UAE were least likely to mention gaze aversion as a way to tell when people are lying. Thus, it is noteworthy that among UAE respondents to our Study 2 questionnaire, 65% indicate that people make less eye contact when lying.</p><p>Although verifying that gaze aversion is the most common worldwide belief about lying, Study 2 yielded other interesting results. In Study 1, the second most frequently mentioned belief about deception was that liars are nervous. Although 54.9% of the Study 2 respondents agree that liars are nervous, 27.0% believe that liars are calm. Open-ended descriptions do not portray the liar as calm. <ref type="bibr">2</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GENERAL DISCUSSION</head><p>In two worldwide investigations, we uncovered a pan-cultural stereotype: that liars avoid eye contact. This belief was expressed in every one of the 75 countries we studied. It appears in both open-ended descriptions and in questionnaire responses. It is apparent when stereo- types are expressed in the English language. It is also apparent in translations between English and 42 other languages. University students believe that liars avert gaze, as do older people. This is not only the most prevalent stereotype about lying in the world, but it is also the most accessible. When describing liars, people mention gaze aversion before mentioning anything else.</p><p>There are other common stereotypes about the liar, and these should not be ignored. Liars shift their posture, they touch and scratch themselves, liars are nervous, and their speech is flawed. These beliefs are common across the globe. Yet in prevalence, these stereotypes are dwarfed by the most common belief about liars: "they can't look you in the eye."</p><p>As psychologists, we have wondered about the global stereotype of liars. Why does the stereotypical liar avoid eye contact? Why does this belief so dominate the stereotype? Why does the global stereotype of liars also include allusions to speech disturbances, nervous- ness, postural shifts, and self-touching? How do these beliefs come into being? What func- tions do they serve?</p><p>The worldwide stereotype of liars would be less puzzling if we had more reason to imag- ine that it was true. Then, we would infer that people abstracted their beliefs about liars from observations of deceptive behavior. However, a large Western research literature shows that people are nearly as likely to avert gaze when telling the truth as when lying and (more gener- ally) that stereotypic behaviors bear negligible relationships to deception <ref type="bibr" target="#b11">(DePaulo et al., 2003)</ref>. Another large research literature indicates that judgments of deception are frequently wrong <ref type="bibr">(Bond &amp; DePaulo, in press</ref>). This leads us to suspect that the judges' beliefs are invalid.</p><p>If stereotypes about lying do not reflect observations of deceptive behavior, how do they arise? Let us propose an answer to this question. Stereotypes about lying are designed to dis- courage lies. They are not intended to be descriptive; rather, they embody a worldwide norm. Children should be ashamed when they lie to their parents, and liars should feel bad. Lying should not pay, and liars should be caught. Stereotypes of the liar capture and promote these prescriptions. As vehicles for social control, these stereotypes are transmitted from one gen- eration to the next. Worldwide, socialization agents face a common challenge. They cannot always be present and must control misbehavior that occurs in their absence. If the ultimate goal of socialization is to inculcate a wide set of norms, children must first learn to report their misdeeds. Thus, caregivers have an incentive to pass along the usual lore: that lying will make the child feel bad, that the child's lies will be transparent, and that deceit will be more severely punished than any acknowledged transgression. The hope is that lying will be deterred or (at least) that the caregiver's prophesies of shame will be self-fulfilling. By vilify- ing deception, stereotypes of the liar are designed to extend the reach of societal norms to actions that go unwitnessed.</p><p>Consistent with this hypothesis, there are moral strictures against lying worldwide. As part of a World Values Survey (Inglehart, <ref type="bibr" target="#b18">Basañez, &amp; Moreno, 1998)</ref>, adults in 43 different societies answered the question "Is lying in your own interest ever justified?" Of 43,000 respondents, 48% said that self-interested lying is never justified. Dishonesty is seen as one of the gravest ethical lapses. Indeed, American research participants rate the word liar as the least likeable of 555 personality trait terms <ref type="bibr" target="#b4">(Anderson, 1968)</ref>.</p><p>According to our normative hypothesis, behavioral stereotypes of the liar have a moral underpinning. Because liars should feel ashamed, they should show signs of hiding, with- drawal, and submission. No doubt, gaze direction is subject to a variety of culture-specific interpretations, but our results reveal a pan-cultural construal. People throughout the world associate gaze aversion with shame <ref type="bibr" target="#b15">(Fessler, 1999;</ref><ref type="bibr" target="#b22">Keltner &amp; Harker, 1998)</ref>, and even non- human primates signal submission by looking away <ref type="bibr" target="#b6">(Argyle &amp; Cook, 1976;</ref><ref type="bibr" target="#b13">Emery, 2000)</ref>.</p><p>Although the developmental trajectory of stereotypes about lying remains to be charted, a few milestones can be identified. With neural structures that are specialized for perceiving eye contact ( <ref type="bibr" target="#b19">Kawashima et al., 1999</ref>), humans are sensitive to gaze direction from birth <ref type="bibr" target="#b14">(Farroni, Csibra, Simion, &amp; Johnson, 2002</ref>). Eye contact functions as an early vehicle for mother-infant interaction <ref type="bibr">(Keller, Schoelmerich, &amp; Eibl-Eibesfeldt, 1988)</ref>, and the mother's breaking of mutual regard may be the first signal of disapproval infants encounter <ref type="bibr" target="#b29">(Schore, 1994)</ref>. By the age of 3, most children know that adults react negatively to intentional false- hoods <ref type="bibr" target="#b30">(Siegal &amp; Peterson, 1998)</ref>, and soon thereafter, they are inferring deceit from gaze aversion <ref type="bibr" target="#b28">(Rotenberg &amp; Sullivan, 2003)</ref>. Although they often disbelieve fishy-looking truth tellers, perceivers rarely learn from their mistakes. Sensing that they are falsely suspected, truth tellers show signs of discomfort that function to reinforce the perceiver's stereotypes <ref type="bibr" target="#b9">(Bond &amp; Fahey, 1987)</ref>. Meanwhile, incoming behavioral data are assimilated to pre-existing beliefs-liars being attributed with less eye contact than they display <ref type="bibr" target="#b25">(Levine, Asada, &amp; Park, 2004</ref>).</p><p>Some may view stereotypes about lying as idle curiosities (of no more than academic interest), but we take a different view. If designed to discourage deception, these stereotypes in fact promote deceit. In sketching the liar as conscience stricken, they ignore deceivers' abilities to self-rationalize <ref type="bibr" target="#b7">(Bok, 1999)</ref>. In predisposing perceivers to miss lies, stereotypes reduce the likelihood of deceit being punished. These beliefs embody noble sentiments but are counterproductive.</p><p>Although our ideas about lying stereotypes may be speculative, we hope that scholars will consider societal prescriptions as they study deception around the globe. Perhaps cross-cultural differences in beliefs about lying reflect differing socialization requirements. A universal of experience, deception captures human imagination.</p><p>Yaounde, Cameroon), Sonia Tifner (National University of San Luis, Argentina), Colin Tredoux (Uni- versity of Capetown, South Africa), Martin Voracek (University of Vienna, Austria), Aldert Vrij (Portsmouth University, UK), Kip Williams (Macquarie University, Australia), Rex Wright (Univer- sity of Alabama), and Yuching Zhang (Institute of Science, China).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX B Questionnaire: Study 2 Beliefs About Deception</head><p>Instructions. We are interested in your beliefs about deception. Consider each statement and mark one of three alternatives listed below the statement. Mark the alternative that best expresses your belief.</p><p>1. When people are lying, they act ______ calm ______ nervous ______ neither calm nor nervous 2. When people are lying, they act ______ silly ______ serious ______ neither silly nor serious 3. When people are lying, their stories are ______ more consistent than usual ______ less consistent than usual ______ neither more nor less consistent than usual 4. When people are lying, their stories are _____ longer than usual _____ shorter than usual _____ neither longer nor shorter than usual 5. Before answering questions, people who are lying pause _____ longer than usual ____ shorter than usual _____ neither longer nor shorter than usual 6. When people are lying, they stutter ____ more than usual ____ less than usual ____ neither more nor less than usual 7. When people are lying, they shift their posture ____ more than usual ____ less than usual ____ neither more nor less than usual 8. When people are lying, they look at the other person's eyes ____ more than usual ____ less than usual ____ neither more nor less than usual 9. When people are lying, they touch and scratch themselves ____ more than usual ____ less than usual ____ neither more nor less than usual 10. When people are lying, they use hand gestures ____ more than usual ____ less than usual ____ neither more nor less than usual</p><p>The Global Deception Research Team consists of the 90 individuals whose names appear in Appendix A. Recruited via e-mail by Charles F. Bond, Jr., most team members are aca- demic psychologists who have English as a second (or third) language. Having studied deception as coequals in a worldwide collaboration, we encourage others to pursue similar research partnerships.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>The</head><label></label><figDesc>Global Deception Research Team / A WORLD OF LIES 63</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 : Most Common Beliefs About Lying: Study 1</head><label>11</label><figDesc>Figure 1: Most Common Beliefs About Lying: Study 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 : Beliefs About Lying: Study 2</head><label>22</label><figDesc>Figure 2: Beliefs About Lying: Study 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>The</head><label></label><figDesc>Global Deception Research Team / A WORLD OF LIES 69</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="true"><head>TABLE 1</head><label>1</label><figDesc></figDesc><table>Participating Countries 
+
+Country 
+Participation in Study 
+Participant Language(s) 
+
+Algeria 
+2 
+Arabic 
+Argentina 
+1 and 2 
+Spanish 
+Armenia 
+2 
+Armenian 
+Australia 
+1 and 2 
+English 
+Austria 
+1 and 2 
+German 
+Belgium 
+2 
+Dutch, French 
+Bolivia 
+2 
+Spanish 
+Botswana 
+2 
+English 
+Brazil 
+1 and 2 
+Portuguese 
+Burkina faso 
+1 and 2 
+French 
+Cameroon 
+1 
+English 
+Canada 
+1 and 2 
+English 
+Chile 
+1 and 2 
+Spanish 
+China 
+1 and 2 
+Mandarin Chinese 
+Colombia 
+1 and 2 
+Spanish 
+Croatia 
+1 and 2 
+Croatian 
+Cyprus 
+1 
+Greek 
+Czech Republic 
+1 and 2 
+Czech 
+Dominican Republic 
+1 and 2 
+Spanish 
+Egypt 
+2 
+Arabic 
+Estonia 
+2 
+Estonian 
+Finland 
+2 
+Finnish 
+France 
+1 and 2 
+French 
+Georgia 
+1 and 2 
+Georgian 
+Germany 
+1 and 2 
+German 
+Ghana 
+1 and 2 
+English 
+Greece 
+1 and 2 
+Greek 
+India 
+2 
+English 
+Indonesia 
+1 and 2 
+Indonesian 
+Iran 
+1 
+Farsi 
+Ireland 
+1 and 2 
+English 
+Israel 
+1 and 2 
+Hebrew 
+Italy 
+1 and 2 
+Italian 
+Japan 
+1 and 2 
+Japanese 
+Jordan 
+1 and 2 
+Arabic 
+Kenya 
+1 and 2 
+English 
+Korea 
+2 
+Korean 
+Kuwait 
+2 
+Arabic 
+Lithuania 
+1 and 2 
+Lithuanian 
+Malaysia 
+1 
+Malaysian 
+Malta 
+1 and 2 
+Maltese 
+Mauritius 
+1 
+English 
+Mexico 
+1 and 2 
+Spanish 
+Micronesia 
+1 
+Chuukese, Kosraean, Pohnpeian, Yapese 
+Moldova 
+1 and 2 
+Romanian 
+Morocco 
+2 
+English 
+Nepal 
+1 and 2 
+Nepali 
+Netherlands 
+1 and 2 
+Dutch 
+New Zealand 
+1 and 2 
+English 
+Norway 
+1 and 2 
+Norwegian 
+Pakistan 
+1 and 2 
+Urdu 
+Paraguay 
+2 
+Spanish 
+
+(continued) </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="true"><head>TABLE 1 (continued)</head><label>1</label><figDesc></figDesc><table>Country 
+Participation in Study 
+Participant Language(s) 
+
+Peru 
+2 
+Spanish 
+Philippines 
+1 and 2 
+English, Pilipino 
+Poland 
+1 and 2 
+Polish 
+Portugal 
+1 and 2 
+Portuguese 
+Romania 
+1 
+Romanian 
+Russia 
+1 
+Russian 
+Samoa 
+1 
+English 
+Serbia 
+1 and 2 
+Serbian 
+Slovakia 
+1 
+Slovak 
+Slovenia 
+1 
+Slovenian 
+South Africa 
+1 and 2 
+English 
+Spain 
+1 and 2 
+Spanish 
+Sri Lanka 
+1 and 2 
+English, Sinhalese, Tamil 
+Swaziland 
+2 
+English 
+Sweden 
+1 and 2 
+Swedish 
+Switzerland 
+2 
+French 
+Taiwan 
+1 and 2 
+Mandarin Chinese 
+Togo 
+2 
+French 
+Trinidad and Tobago 
+1 
+English 
+Turkey 
+1 and 2 
+Turkish 
+UAE 
+1 and 2 
+Arabic 
+United Kingdom 
+1 and 2 
+English 
+United States 
+1 and 2 
+English 
+
+NOTE: UAE = United Arab Emirates. </table></figure>
+
+			<note place="foot">at United States International University on June 24, 2015 jcc.sagepub.com Downloaded from</note>
+
+			<note place="foot" n="70"> JOURNAL OF CROSS-CULTURAL PSYCHOLOGY at United States International University on June 24, 2015 jcc.sagepub.com Downloaded from</note>
+
+			<note place="foot" n="74"> JOURNAL OF CROSS-CULTURAL PSYCHOLOGY at United States International University on June 24, 2015 jcc.sagepub.com Downloaded from</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX A The Global Deception Research Team</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NOTES</head><p>1. The survey also included questions about deception abilities, deception frequency, and the demography of lying. These will not be discussed.</p><p>2. The belief that liars avoid eye contact is not unique to English-language users nor to young people. In Study 2, 69.95% of non-English-language participants and 66.5% of participants who were at least 30 years old indicated that people make less eye contact than usual when lying. In Study 1, gaze aversion was mentioned as a cue to lying by 63.04% of non-English-language participants and 64.90% of participants who were at least 30 years old.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Bond</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">. ; Derek Chadee ; Guido Gendolla ; John Horgan ; Lucy</forename><surname>Johnston</surname></persName>
+		</author>
+		<title level="m">Robert Churney (College of Micronesia, Micronesia), Marjorie Courtoy</title>
+		<editor>Vijai N. Giri</editor>
+		<meeting><address><addrLine>Mauritius; Rome, Italy; Louvain-laNeuve, Belgium; Burkina Faso), Cecilia Gastardo-Conaco; Geneva, Switzerland; Slippery Rock, PA; Kharagpur, India; Sri Lanka; Sweden; Indonesia), Dora Herrera (University of Lima, Peru; Austria), Roberta Holland; University College of Cork, Ireland; NCCU, Taiwan; Georgia; University of Canterbury, New Zealand; Samoa; Anna Khaltourina; Russia; Russia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academy of Sciences</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Toivo Aavik (University of Tartu, Estonia), Maher Abu-Hilal (United Arabs Emirates [UAE] University), Farrukh Z. Ahmad (Institute of Professional Psychology, Pakistan), Ramadan A. Ahmed (Kuwait University, Kuwait), Barbara Alarco (University of Lima, Peru), Benjamin Amponsah (University of Ghana, Ghana), Adnan Atoum (Yarmouk University, Jordan), Hadi Bahrami (Tehran University, Iran), Peter Banton (University of Aix-Marseille, France), Veronica Barca (State University of Moldova, Moldova), M. Basualdo (University Columbia of the Paraguay ; National Institute of Psychiatry, Mexico), Uma Bhowon (University of Mauritius ; Texas Christian University), Trevor I. Case (Macquarie University, Australia), Letizia Caso (University of ; University of West Indies, Trinidad and Tobago ; Université Catholique de Louvain ; Yerevan State Linguistic University, Armenia), Dahourou Donatien (University of Ouagadougou ; University of Philippines, Phillippines ; University of ; Slippery Rock State University ; Indian Institute of Technology ; University of Colombo ; Chonnam National University, Korea), Maria Hartwig (Goteborg University ; Gadjah Mada University ; University of Vienna Medical School ; University of Malta, Malta ; Universiti Malaysia Sabah, Malaysia), Tina Javahishvili (Academy of Sciences ; Andreas Kapardis (University of Cyprus, Cyprus), Mujde KerDincer (Ege University, Turkey), Maria Kerslake (National University of Samoa</orgName>
+		</respStmt>
+	</monogr>
+	<note>Darya Khaltourina</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Marika Niemi (Institute of Occupational Health, Finland), Shanta Niraula (Padma Kanya Multiple Campus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margaret</forename><forename type="middle">M</forename><surname>Munyae ; Takashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><forename type="middle">D E M</forename><surname>Oka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>O&amp;apos;sullivan ; Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Shu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Patricia Thuli Mngadi</title>
+		<meeting><address><addrLine>San Diego, California; Algeria; Lynden Miles; Bot; Nepal), George Nizharadze (Academy of Sciences, Georgia; Tokyo, Japan; University College of Cork, Ireland; Moldova; Bernard Rime; Louvain-la-Neuve, Belgium), Olga Rodriguez; Kenya; Slovenia; Bolivia; Monica Silva; Czech Republic; Croatia</addrLine></address></meeting>
+		<imprint/>
+		<respStmt>
+			<orgName>Jennifer Ah Kion (University of Mauritius, Mauritius), Guenter Koehnken (University of Kiel, Germany), Flora Kokkinaki (Athens University of Economics and Business, Greece), Mladen Koljatic (Pontifica Catholic University of Chile, Chile), Aleksandra Kostik (University of Nis, Serbia and Montenegro), Jenny Kurman (University of Haifa, Israel), Kang Lee (University of California San Diego ; Elena Levintsa (State University of Moldova, Moldova), Ladislas Lovas (University of P.J. Safarik, Slovakia), Jaume Masip (University of Salamanca, Spain), Carlos Ruiz Matuk (University of Santo Domingo, Dominican Republic), Annika Melinder (University of Oslo, Norway), Harald Merckelbach (University of Maastricht, Netherlands), Rachi Messili (University of Algiers ; University of Canterbury, New Zealand ; University of Swaziland, Swaziland ; University of Botswana ; Jasmina Nedeljkovic (University of Nis, Serbia and Montenegro ; Felix Neto (University of Porto, Portugal ; Tribhuwan University ; University of ; Boguslaw Pawlowski (University of Wroclaw, Poland), Marcos E. Pereira (Federal University of Bahia, Brazil), Carolina Platon (State University of Moldova ; Texas Christian University ; Institute of Behavioral Research ; Université Catholique de Louvain ; National University of Colombia, Colombia), Ruthie Rono (U.S. International University ; Incze Roxana (BabesBolyai University, Romania), Velko S. Rus (University of Ljubljana ; Marion Schulmeyer (University Privada de Santa Cruz ; Institute of Science, China ; Pontifica Catholic University of Chile, Chile), Roma Simulioniene (Klaipeda University, Lithuania), Iva Stuchlikova (University of South Bohemia ; Victoria Talwar (McGill University ; University of REFERENCES</orgName>
+		</respStmt>
+	</monogr>
+	<note>Therese M. Tchombe</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Jordanian students&apos; beliefs about nonverbal behaviors associated with deception in Jordan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">A</forename><surname>Al-Simadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Behavior and Personality</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="437" to="442" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Lay persons&apos;and police officers&apos;beliefs regarding deceptive behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Akehurst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Koehnken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vrij</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="461" to="471" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Likableness ratings of 555 personality-trait words</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="272" to="279" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Nonverbal communication across cultures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Hecht</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Hoobler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Smallwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of international and intercultural communication</title>
+		<editor>W. G. Gudykunst &amp; B. Mody</editor>
+		<meeting><address><addrLine>Thousand Oaks, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="89" to="106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Gaze and mutual gaze</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Argyle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cook</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Lying: Moral choice in public and private life (rev</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bok</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Random House</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Accuracy of deception judgments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Depaulo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Review</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">False suspicion and the misperception of deceit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">E</forename><surname>Fahey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="41" to="46" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The evolution of deception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nonverbal Behavior</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="295" to="308" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cues to deception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Depaulo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Lindsay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muhlenbruck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Charlton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="74" to="118" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Telling lies: Clues to deceit in the marketplace, politics, and marriage (rev</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ekman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<pubPlace>New York; Norton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The eyes have it: The neuroethology, function and evolution of social gaze</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Emery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience and Biobehavioral Reviews</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="581" to="604" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Eye contact detection in humans from birth. Proceedings of the National Academy of Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Farroni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Csibra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Simion</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Johnson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="9602" to="9605" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Toward an understanding of the universality of second-order emotions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M T</forename><surname>Fessler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Beyond nature or nurture: Biocultural approaches to the emotions</title>
+		<editor>A. Hinton</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="75" to="116" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Criminologists&apos;beliefs about indicators of deception and truthfulness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Garrido</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Masip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Paper presented at the 10th European Conference of Psychology and Law</title>
+		<meeting><address><addrLine>Limassol, Cyprus</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">An anthropology of indirect communication</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hendry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Watson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Routledge</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Human values and beliefs: A cross-cultural sourcebook</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Inglehart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Basañez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moreno</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>University of Michigan Press</publisher>
+			<pubPlace>Ann Arbor</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The human amygdala plays an important role in gaze monitoring: A PET study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sugiura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hatano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="779" to="783" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Communication patterns in adult-infant interactions in Western and non-Western cultures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schölmerich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Eibesfeldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cross-Cultural Psychology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="427" to="445" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Facial expression of emotion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Keltner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ekman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C</forename><surname>Gonzaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Beer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of affective sciences</title>
+		<editor>R. J. Davidson, K. R. Scherer, &amp; H. H. Goldsmith</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="415" to="432" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The form and functions of nonverbal signals of shame</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Keltner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Harker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Shame: Interpersonal behavior, psychopathology, and culture</title>
+		<editor>P. Gilbert &amp; B. Andrews</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="78" to="98" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Glaubwürdigkeit: Untersuchungen zu einem psychologischen Konstrukt</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Köhnken</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note>Credibility: Investigations of a psychological construct</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Germany</forename><surname>München</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Psychologie Verlag Union</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">The lying chicken and the gaze avoidant egg: Eye contact, deception, and causal order</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J K</forename><surname>Asada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>Unpublished manuscript</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">How people really detect lies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Mccornack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ferrara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communication Monographs</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="144" to="157" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">The Global Deception Research Team / A WORLD OF LIES 73</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Children&apos;s use of gaze and limb movement cues to infer deception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Rotenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sullivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Genetic Psychology</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="175" to="187" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Affect regulation and the origin of the self: The neurobiology of emotional development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">N</forename><surname>Schore</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Lawrence Erlbaum</publisher>
+			<pubPlace>Hillsdale, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Preschoolers&apos; understanding of lies and innocent and negligent mistakes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Siegal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Peterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="332" to="341" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">How to detect deception? Arresting the beliefs of police officers, prosecutors, and judges</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Strömwall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Granhag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychology, Crime &amp; Law</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="19" to="36" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The definition of lie: An examination of folk models underlying a semantic prototype</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Sweetser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cultural models in language and thought</title>
+		<editor>D. Holland &amp; N. Quinn</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="43" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Detecting lies and deceit: The psychology of lying and the implications for professional practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vrij</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Wiley</publisher>
+			<pubPlace>Chichester, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Lie experts&apos; beliefs about nonverbal indicators of deception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vrij</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R</forename><surname>Semin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nonverbal Behavior</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="65" to="80" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Beliefs about cues associated with deception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zuckerman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koestner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Driver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nonverbal Behavior</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="105" to="114" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

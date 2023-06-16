@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/11/yarn/nm/usercache/lanastasiou/filecache/40/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-04T14:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GREAT BARRIER REEF MARINE PARK AUTHORITY TECHNICAL MEMORANDUM GBRMPA-TM-14 SEDIMENTARY FRAMEWORK OF lMAINLAND FRINGING REEF DEVELOPMENT, CAPE TRIBULATION AREA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="1987-11">DATE November, 1987</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Johnson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">James Cook University of North Queensland Townsville</orgName>
+								<address>
+									<postCode>4811</postCode>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Carter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">James Cook University of North Queensland Townsville</orgName>
+								<address>
+									<postCode>4811</postCode>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">GREAT BARRIER REEF MARINE PARK AUTHORITY TECHNICAL MEMORANDUM GBRMPA-TM-14 SEDIMENTARY FRAMEWORK OF lMAINLAND FRINGING REEF DEVELOPMENT, CAPE TRIBULATION AREA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="1987-11">DATE November, 1987</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>KJWVORDS: Cape Tribulation</term>
+					<term>fringing reef</term>
+					<term>siltation</term>
+					<term>sea-level high</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Mainland fringing reefs with a diverse coral fauna have developed in the Cape Tribulation area primarily upon coastal sediment bodies such as beach shoals and creek mouth bars. Growth on steep rocky headlands is minor. The reefs have extensive sandy beaches to landward, and an irregular outer margin. Typically there is a raised platform of dead nef along the outer edge of the reef, and dead coral columns lie buried under the reef flat. Live coral growth is restricted to the outer reef slope. Seaward of the reefs is a narrow wedge of muddy, terrigenous sediment, which thins offshore. Beach, reef and inner shelf sediments all contain 50% terrigenous material, indicating the reefs have always grown under conditions of heavy terrigenous influx. The relatively shallow lower limit of coral growth (ca 6m below ADD) is typical of reef growth in turbid waters, where decreased light levels inhibit coral growth. Radiocarbon dating of material from surveyed sites confirms the age of the fossil coral columns as 33304110 ybp, indicating that they grew during the late postglacial sea-level high (ca 5500-6500 ybp). The former thriving reef-flat was killed by a post-5500 ybp sea-level fall of ca 1 m. Although this study has not assessed the community structure of the fringing reefs, nor whether changes are presently occurring , it is clear the corals present today on the fore-reef slope have always lived under heavy terrigenous influence, and that the fossil reef-flat can be explained as due to the mid-Holocene fall in sea-level. A medium term programme is required to record sediment loading and coral community structure, and to establish the environmental vulnerability of these reefs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">METHODS</head><p>The study is based on both offshore and onshore data. A three-day cruise in May 1985 recovered 133 line km of shallow seismic (ORE 3.5Khz profiler) and sidescan sonar records, and nine vibracores <ref type="figure">(Fig.;?)</ref>. All depths noted on seismic profiles assume a sound velocity in seawater of 15OOm/s. A four day land trip allowed mapping of the coastal region, recovery of surface sediment samples and the drilling of six auger holes using a trailer-mounted Jacro drilling rig hired from the Australian Institute of Marine Science. Auger samples were recovered by spiralling the bit into the substrate, and then withdrawing the drill string, so that the sample was not disturbed by travelling up the auger flights. We are confident sample depths are accurate to within 0.5m. All heights are referred to Australian Height Datum (AHD), which approximates mean sea level.</p><p>Textural analysis of sediments consisted of wet-sieving through 2mm and 63 micron sieves to separate gravel, sand and mud fractions. The gravel and sand fractions were examined under binocular microsope, and the mud fraction was split. One split was dissolved in 10% HCl to deter-, mine acid soluble (i.e. approximate carbonate) content, and the other used for X-ray diffraction analysis to determine clay mineralogy. - The clay fractions were suction-filtered onto Whatman GF/C glass fibre filters which were dried and glued to glass slides. X-ray diffraction analyses were done on a Rigaku D-Max 500 diffractometer using the following settings : Cu Ka target at 4OKv and 20ma with curved crystal graphite monochromator; scan at 0.5 degree/mm over 45.0-1.3 degrees 2 8, count rate 100/s, time constant 5s, chart speed Smm/min. Two runs were performed for each sample : air dried and after saturation for 48 hours with ethylene glycol.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">DESCRIPTION OF THE AREA</head><p>Fringing reefs occur intermittently along the mainland coast north of Cairns, but are best developed north of Mossmau. This study concentrates on the area from the mouth of the Daintree River to Donovan Point (F&amp;.2,3) where the coastline consists of a series of rocky headlands separating sandy beaches. There are two main bays : Trinity Bay which is bordered by an extensive coastal plain constructed by the Daintree and Mossman Rivers, and further north, Alexandra Bay which has only a narrow coastal plain deposited by local creeks. Rocky headlands extend eastwards for 1 km from the trend of the coast, and represent high energy situations compared to the bays.</p><p>The coastal hinterland is composed of deformed Silurian-Devonian lithic sandstones intruded by Permian granites, and the coastal ranges rise up to l374m in height (Bureau of Mineral Resour- ces,1%2). The land is covered with dense tropical rainforest which extends down to high tide level. Apart from cleared farmland on the Daintree floodplain, and minor cleared holdings inland of Alexandra Bay, the region is in a natural state.</p><p>The offshore area can be divided into an inner shelf (to 24lm water depth), a flatter middle shelf (20- 40m water depth) and a mid-shelf reef tract some 15km offshore. There are two small bedrock is- lauds in the southern part of the area, Snapper Island and the Low Islets.</p><p>The climate is wet tropical. The following data are taken from the summary by the Bureau of <ref type="bibr">Meteorology (1971)</ref>. Average annual rainfall exceeds 3750 mm at Cape Tribulation, and decreases to the north and south, being only 2000 mm at Port Douglas. Average annual raiufall of 2000-3750 mm is typical for the Daintree River catchment, and rainfall is well distributed throughout the year. Average annual evaporation is of the order of 1250 mm. The mean annual temperature is 24' C, the average maximum 28' C and the average minimum 21' C.</p><p>Regional oceanographic conditions are described by <ref type="bibr">Pickard and others (1977)</ref>. Prevailing winds along the coast are northeasterly to southeasterly. "In autumn the freqrrency and constancy of the southeasterlies gradually increase until by May; they blow on more than 80% of days with an average speed of 12 to 15 knots" (Bureau of <ref type="bibr">Meteorology, 1971, ~57)</ref>. Despite a relatively continuous tract of midshelf reefs, the prevailing SE weather blows obliquely up the inner-mid shelf, causing the com- mon formation of waves l-2m high. Consequently the coastline is subjected to relatively high-energy conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fringing Reefs</head><p>Mainland fringing reefs in the area occur in three different situations : steep, rocky shores, dis- tributary mouth bars and beach shoals <ref type="figure">(Fig.3)</ref>. The reefs along rocky shores are narrow and of limited extent. However, reefs developed on coastal sediment bodies such as distributary mouth bars and beaches are up to 300m wide and extend for l-3km along the shoreline. Typically these shorelines comprise an inner sandy beach and an outer reefal area <ref type="figure" target="#fig_4">(Fig.4)</ref>. The inner beach is a swash zone backed by a beach ridge supporting thick rainforest. To seaward is a sandflat, commonly with mobile intertidal bars up to 0.5m high which extend several tens of metres along the shore. Scattered dead coral microatolls and heads are common on the sandflat, either exposed or shallowly buried.</p><p>At Myall Beach the fringing reef lies seaward of the sandflat and consists of three parts: 1) a dead, emergent reef top, 2) a living reef crest and upper slope, and 3) a sediment covered lower slope which passes onto the inner shelf <ref type="figure" target="#fig_4">(Fig.4)</ref>. The emergent reef forms an irregular, raised, wave resis- tant pavement at approximately -0.5 to -l.Om (AHD), incised by gutters up to lm deep. This subfos- sil reef consists of branching and head corals heavily encrusted and cemented together by coralline  algae, barnacles and oysters. Living corals only occur seaward and below the dead reef top, along a steep, indented outer margin approximately 3m high, with deep gutters between patch reefs and in- dividual coral columns. The upper limit of live coral growth has been levelled at ca -1.4Om (AHD). SCUBA observations (N.M.Mockett, pers. comm.) show the lower slope, seaward of this cliff, con- sists of sandy substrate with scattered coral heads up to OSm high, coral rubble, seagrasses and taller columns close to the reef margin. Coral growth extends about 50m seaward of the reef edge, down to ca 6m below AHD .at Cape Tribulation, and up to ca 10m elsewhere along the coast. This depth range is shallow compared to the mid-shelf reefs only 15km offshore, where coral growth ex- tends down to 30-4Om (J.E.N. Veron,pers.comnz.). Sediments of the lower slope become increasing- ly muddy seawards where they merge with those of the inner shelf.</p><p>The waters over the reef and seaward of the reef margin are commonly very brown due to suspended muddy sediment. Even following the prevailing light to moderate winds, SCUBA divers report difficulty seeing more than 10m underwater in depths less than 1Om. These observations, and the shallow depth limit of coral growth (ca 6m), indicate that corals are growing in perennially tur- bid water on both the reef flat and reef slope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inner Shelf</head><p>The inner shelf can be considered in two parts <ref type="figure">(Fig.5)</ref>. South of Noah Head, there is a wide sandy platform with its outer edge at 8-10m water depth. The platform widens southward and, except where it is incised by the Penguin channel, merges with the shallow fill of Trinity Bay. North of Noah Head the inner shelf slope is steeper, the sand platform is narrow and forms the toe of the fringing reefs. Side-scan sonar surveys show the substrate is even, without obvious bedforms and with promontories of the irregular reef edge jutting seawards. Seaward of the inner shelf lies the mid- shelf, a relatively flat plain surfaced by relict sediments. 16'00 <ref type="figure">Figure 5</ref>. Offshore physiographJr and sedimentary facies.</p><formula xml:id="formula_0">C.Tribulation --_-_-_ __--_-_ -----_ ---_---</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">SEDIMENTARY UNITS Seismic Stratigraphy</head><p>The thickness of post-glacial deposits was determined from shallow seismic profiles, supported by vibracore data <ref type="figure" target="#fig_6">(Fig.6</ref>). The deposits are 10m thick near the coast and thin seawards. In northern Trinity Bay off the Daintree River mouth this wedge extends at least llkm offshore where it sur- rounds the Low Islets. The wedge narrows to the north, and is only 2-3km wide north of Cape Kim- berley. Thus the major locus of modern terrigenous deposition in the region is in Trinity and Alexandra Bays. There is also a wide system of small z channels emanating from the Table-Bailay drainage area.</p><p>Three seismic sequences (P,T,R) separated by two persistent reflectors (A, B) can be recognised on the 3.5kI-I~ profiles <ref type="figure">(Fig.7)</ref>. The lower reflector is very uneven, outlines channels up to 18m deep and several hundred metres across, appears as a dark, shaded zone on the profiles, and generally forms acoustic basement <ref type="figure">(Fig. 7A</ref>,B,C.). We correlate this reflector with Reflector A of <ref type="bibr">Orme and others (1978)</ref> and <ref type="bibr">Johnson and Searle (1984)</ref>. We interpret Reflector A as the eroded Pleistocene land sur- face which developed during the last sea-level low. The upper reflector, B, is planar and dips gently seaward <ref type="figure">(Fig. 7B,C,D</ref>).</p><p>Seismic sequence P is acoustically opaque to the 3.5kHz system <ref type="figure">(Fig. 7A</ref>,B,C), and its upper surface is marked by Reflector A. Sequence P lies at or just below the seabed on the mid-shelf, and is also exposed in the Penguin Channel west of Snapper Island, where strong tidal currents cause scour be- tween the mainland and the Island. In general, sequence P appears to represent the incised Pleis- tocene alluvium. However on line 854C D there is a prominent peak of sequence P, which lies directly off Cape Kimberley and is probably bedrock. Further work deploying a boomer seismic profiler and vibracorer is needed to confirm the nature of sequence P.</p><p>Seismic sequence T is of very irregular distribution and thickness, bounded at the base by Reflector A and at the top by Reflector B. Internal reflections vary from finely layered and laterally con- tinuous ( <ref type="figure">Fig. 7A)</ref> to irregular <ref type="figure">(Fig. 7C</ref>). These internal reflections commonly lap out beneath or are truncated by Reflector B. Sequence T tends to fill channels and depressions, and is interpreted as fluvial and estuarine sediment backf'iied in landscape depressions during the post-glacial transgres- sion.</p><p>Seismic sequence R is a laterally extensive, lenticular to wedge-shaped body, with a maximum thick- ness of lOm, occurring 0.5-2.0km offshore, thinning landwards, onto the mid-shelf, and also to the north (compare Figs. 7B,C,D with 7E and F). Sequence R is bounded at the base by Reflector B and at the top by the sea-bed <ref type="figure">(Fig. 7C</ref>,D,E,F). Typically the sequence comprises a shoreward part which has seaward dipping reflectors, and a seaward part which is transparent. These two parts cor- respond to the sublittoral sand platform, and the inner shelf mud-belt, the two major zones of modern terrigenous deposition.</p><p>Hard bottom evidenced by dark seabed reflectors in the northern seismic profiles <ref type="figure">(Fig. 7E</ref>,F) may represent remnant highs in the Pleistocene landscape (i.e. sequence P), or they may be carbonate reefs developed at slightly lower sea level, perhaps the -9m shoreline of <ref type="bibr" target="#b8">Carter and Johnson (1986)</ref>. All profiles stopped just seaward of the shallow water fringing reefs which would constitute a cap on sequence R. Thus sequence R is interpreted as deposition, at essentially stable sea level, of both ter- rigenous influx and subsidiary carbonates derived from the fringing reefs. The modern alluvium is poorly-sorted, red-brown, commonly mottled, muddy sand with up to 50% gravel. The gravel fraction is granule to pebble sized lithoclasts of schist or Fe-oxide cemented tine sediment, probably reworked laterite. The sand fraction is consistently fine to medium sand-size, mainly clear/grey angular quartz, with minor Fe oxide cemented grains. Felspars are rare.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sedimentary Units and Age Structure</head><p>The beach-beach ridge sands are grey, well sorted, fine to medium, quartzose (80%) sand. Skeletal carbonate composes 515% of the samples and is mainly cornminuted bivalve and coral debris. Gravel and mud fractions total less than 25% of the sample. Mica forms up to 5% of the sample in some layers, especially towards the base of the unit. An organic rich soil layer up to 0.5m thick with common pumice clasts is generally developed landward of high tide levels.</p><p>The reef top unit contains massive head corals and columns, surrounded by poorly sorted matrix. Drillhole 4 penetrated a Porites column 5m thick, and similar columns were encountered in other drilling in nearby reefs (B. Partain, pen. comet.). The matrix is composed of poorly sorted gravelly sands and sandy gravels, generally with less than 15% mud (one sample has 40% mud). The gravel fraction is composed of abraded coral fragments up to 50mm in size, with finer bivalve, gastropod, bryozoan and coral debris. Rare lithoc!asts and plant material also occur. The sand fraction contains 50-90%, poorly sorted, angular, grey, very fine to coarse grained quartz. The skeletal carbonate com- prises broken, but commonly fresh grams of foraminifera, bivalves, gastropods and echmoid spines.</p><p>The inner shelf unit is composed of muddy sand and sandy mud with less than 8% gravel. Two units are recognised in the cores, an upper unit (A), and a lower unit (B). Unit A contains 25-71% mud, and generally forms the seabed. The gravel is skeletal debris, mainly fresh bivalve, echinoid and crustacean material with minor plant detritus. The sand fraction is dominantly (85-95%) clear, an- gular, fine quartz with minor micromolluscs, benthic foraminifera, echinoid fragments. Unit B con- tains 52-87% mud. The gravel is a variable mixture of skeletal debris (molluscs, echinoids, corals, bryozoans) and yellow quartz grains. The sand fraction contains 50-95% clear, angular quartz, with minor mica and plant detritus. The skeletal grains are foraminifera, echinoids and bryozoans. Towards the base, unit B has medium to coarse quartz and Fe-oxide cemented grains, which have been reworked from the underlying Pleistocene alluvium.</p><p>The Pleistocene alluvium is composed of gravelly and sandy mud with 85% mud. The sediment is generally mottled red brown/ochre/grey with gravel sized discoloured quartz clasts and Fe-oxide cemented tine sediments (?laterite). Poorly sorted, very fine to coarse quartz grains, Fe-oxide grains and minor mica are present, but no skeletal carbonate. The onshore driig shows the reef top unit is overlain to landward by the beach-beach ridge sands, which are in turn overlain by a wedge of modern alluvium (Figs). This sequence unconformably overlies Pleistocene alluvium. Unfortunately the layers immediately overlying the unconformity were sandy and water-saturated, and could not be recovered, so the nature of this stratigraphic level is not known as well onshore as it is offshore.</p><p>The offshore vibracores show that the inner shelf unit thins seawards, and that it consists of unit A developed mainly nearshore, and unit B developed further seaward. Unit B is generally muddier, as would be expected of the more seaward deposit, but it also contains sandy sediment admixed from a basal transgressive sand sheet, itself derived from reworking of Pleistocene alluvium.</p><p>Radiocarbon dating of samples from the inner part of the fringing reef section <ref type="bibr">(Figs, Appendix III)</ref> shows the reef top unit commenced accumulating at least 6000 yr BP, and that the coral column in drillhole 4 grew upward and was later encased in the matrix sediment. The top of the column and several surrounding microatolls at the same level on the sandflat have planar tops at -0.6m (AHD). This level is approximately 0.8m higher than modern coral growth, and coincides with data of Chap- pell and others <ref type="bibr">(1983)</ref> from further south in the central Great Barrier Reef which showed a late post-glacial sea-level high of + lm around 6000 yr BP. The raised, dead coral platform at the outer margin of the fringing reef is also higher than modern coral growth, indicating growth at a slightly higher sea-level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nature of the Clay Fraction</head><p>The high terrigenous content of all the sedimentary units indicates that the Cape Tribulation fringing reefs have developed in an environment of consistent terrigenous influx. Fine to medium quartz sand constitutes 50% of the sand fraction in all units.</p><p>The mud is also dominantly non-carbonate <ref type="figure" target="#fig_0">(Fig.10</ref>, Appendix IV). Most samples contain % acid- soluble material, and those with 2O-50% come from the reef top unit and the beach-beach ridge sand. X-ray diffraction analyses show the clay-size carbonate is a mixture of calcite, magnesian cal- cite and probably aragonite. The calcite may be derived from bioerosion of oysters, reworking of soil carbonate from Pleistocene alluvium, or contemporary input.</p><p>The mineralogy of the terrigenous clays was investigated by X-Ray diffraction to test whether such a technique could be used to trace modern inputs (Appendix V). The terrigenous clays are a mixed as- semblage.</p><p>Preliminary sampling of the contemporary input indicates two assemblages. The first is composed of abundant kaolinite and illite/illite-smectite mixed layer clays, and rare smectite. The second is characterized by abundant hydromica/vermiculite and vermiculite-mixed layer clays, with common kaolinite and illite, and lacking smectite. In summary, contemporary input appears to be dominated by kaolinite, hydromica/vermiculite, subsidiary mixed layer I-S clays, and only rare smectite.</p><p>Modern marine beach/beach-ridge, nearshore and inner shelf clays are characterized by common to abundant smectite, smectite/illite mixed layer clays and large d-spacing material. Kaolinite is com- mon to abundant and illite common. This marine clay mineral assemblage contains minimal amounts of smectite, and is distinctly different to that being discharged to the sea by coastal creeks in the area, and by the Daintree River. However, in the beach/beach-ridge sediments onshore there is also a mixed-layer smectite/vermiculite, from which develops a discrete vermiculite phase down the hole. The mottled muddy sediment underlying the inner shelf unit is dominated by kaolinite and iIlite, with hydromica and beidellite-kaolinite mixed layer clays. Smectite and smectite-mixed layer clays are rare. This assemblage is also typical of the Pleistocene unit recovered by auger drilling under the shoreward edge of the present coastal plain. However, onshore, kaolin&amp;e is even more dominant over illite. This clay mineral assemblage is more like the contemporary input and its composition suggests formation in a weathered kaolinite-rich soil horizon. Thus it seems clay minerals cannot be used to trace the discharge of individual drainage systems in this area.</p><p>In summary both the modern terrigenous inputs and the mottled muds are dominated by kaolinite/il- lite assemblages, while the modern marine sediments are dominated by smectite and illite-smectite mixed layer clays. It is unlikely the modern clays are being selectively transported away from the im- mediate offshore area. The different assemblages are probably due to rapid diagenesis of the clays when they are immersed in the marine environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">DEVELOPMENT OF THE CAPE TRIBULATION AREA FRINGING REEFS</head><p>The Cape Tribulation area fringing reefs are developed mainly on coastal sediment bodies. The reef appears to grow as an irregular, indented wall which builds seawards, and is later encased in detrital material. The present reef margin has a deeply-incised spur and groove morphology with isolated coral colonies growing seaward of the reef edge. The drillhole data show the subfossil reef-flat also contains coral columns surrounded by detrital sediment, supporting this interpretation.</p><p>Modern coral growth is generally in water depths shallower than ca 6m below AI-ID. Such a limited depth range of coral growth is consistent with other data from the literature amd with the turbid waters commonly observed during fieldwork. Thus the reef-top unit has a potential thickness of ca 7m and is prograding seawards over muddy deposits of the inner shelf unit.</p><p>Reef accumulation is very similar to other fringing reefs from the Great Barrier Reef region described previously by <ref type="bibr">Hopley and others (1983)</ref> and <ref type="bibr">Johnson and Risk (1986)</ref>. Carbonate-rich reefal deposits are prograding seawards over finer grained, terrigenous sediments which are ac- cumulating on the inner shelf seaward of the fringing reef. Sandy beach and beach ridge sediments are being deposited to landward by shoreward transport of skeletal carbonate across the reef flat, and by longshore transport of terrigenous sediment from river and creek mouths.</p><p>The reefs have grown throughout their history in an environment of heavy terrigenous in&amp;x. Sedi- ments of all units have terrigenous contents greater than 50%, and in many cases greater than 80%. Data from continuous cores through the inner shelf unit show the carbonate content of the mud is highest (17-267) o in the surficial sediments at the deeper water edge of the inner shelf unit. The carbonate content of the mud is generally constant, in the range l-11% throughout most of the unit, indicating there has been little change in terrigenous influx during accumulation.</p><p>We interpret the dead columns and microatolls on the reef-flat, and the dead raised reef-margin, as representing corals stranded by the mid-Holocene fall in sea-level. Similar emergent, subfossil reefs also occur further south ( <ref type="bibr">Chappell and others,1983;</ref><ref type="bibr">Johnson and Risk,1986)</ref>. The Cape Tribulation "fringing reefs" in fact lack live coral on the reef-flat and crest, and contemporary coral growth is restricted to the fore-reef slope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">CONCLUSIONS</head><p>1. The mainland fringing reefs of the Cape Tribulation area are primarily developed on coastal sedi- ment bodies, not against steep rocky headlands.</p><p>2. The reefs consist of a fossil, coral-rich, reef-flat with a seaward fringe of living coral. Further seawards, the reef abuts, and probably overlies, a muddy inner shelf unit. To landward, beach-beach ridge sands overlie the fossil reef-flat unit.</p><p>3. All sediments associated with the reef have high terrigenous contents (&gt;SO%), indicating the reefs have always grown under heavy terrigenous infhx. However, the rapid diagenesis of clays in the marine environment in this area precludes their use as tracers of discharge from individual drainage systems.</p><p>4. Radiocarbon dating of levelled dead microatolls and coral columns shows that they grew at a higher sea-level, indicating that the fossil reef-flat was produced by the mid-late Holocene sea-level fall.</p><p>5. There are virtually no data on the turbidity tolerances of Great Barrier Reef fringing reef corals and coral communities, nor on the variations experienced by these communities. Thus management authorities cannot assess accurately whether corals such as those at Cape Tribulation are growing well within their turbidity tolerances, or whether their existence would be threatened by even a small increase in turbidity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">ACKNOWLEDGEMENTS</head><p>We thank particularly Neil Mockett and Michael Gagan for their help with fieldwork. Neil Mockett and Chrii Cuff undertook and interpreted the X-ray diffraction analyses. Dr Charlie Veron of the Australian Institute of Marine Science kindly provided his species list for the Cape Tribulation area reefs. Elizabeth Barnett drafted the maps. The project was supported by funds from the Great Bar- rier Reef Marine Park Authority and a Special Research Grant from James Cook University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ERRATUM</head><p>The two following references were inadvertently omitted from the main reference list :</p><p>Orme, G.R, Webb, J.P., <ref type="bibr">Kelland</ref> ____________________------------------------------------------------------------------------------------------------------------   <ref type="bibr">Johannes (1975)</ref> has pointed out that selective mortality of corals results in the migration or death of other fauna. In other words, the environmental tolerances of the reef community cannot exceed those of the component corals. This is not to say that other or- ganisms may not have narrower tolerances or are not integral parts of the community. However the corals are so important ecologically and visually that their needs at least must be met.</p><p>Coral reef ecosystems are very sensitive to ecological change for three reasons <ref type="bibr">(Pastorok and Bilyard, 1985)</ref>: This review concentrates on the effects of particulate materials, rather than nutrient or toxic pollu- tion. Firstly the effects on individual species are surnmarised, secondly the consequent changes in coral communities are noted, and finally a qualitative summary of the effects of siltation is given with observations on the research which needs to be done.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deleterious Effects of Siltation on Reefs</head><p>Although healthy coral communities have been observed growing in generally turbid waters (e.g. <ref type="bibr">Marshall and Orr,1931;</ref><ref type="bibr">Roy and Smith,l971)</ref>, it is also clear that many reefs have been extensively damaged or destroyed by excessive siltation. <ref type="bibr">Johannes (1975)</ref> summarised several studies, particular- ly those which ocurred in response to man's activities, such as increased sediment yields due to poor land management, dredging spoil, mill waste and sewage pollution. <ref type="bibr">Pastorok and Bilyard (1985)</ref> have reviewed the effects of sewage pollution, including the detrimental effects of increased levels of nutrients, sediments and toxic substances. <ref type="bibr">Dodge and Vaisnys (1977)</ref> compared both living and dead corals from two areas in Bermuda : 1) undisturbed reefs and 2) reefs in a harbour where dredging had occurred 35 years previously. The dredged area showed a lower density of living specimens, a lower proportion of live/dead corals, and altered relative species abundances. Two species of brain coral, DipZotia strikosa and DJabyrinthifor- mis are equally represented on undisturbed reefs and in dead coral populations from the dredged harbour. However D. labyrinthifomtis, a species demonstrably more capable of sediment rejection, is the dominant living form inside the harbour. Analysis of the growth patterns of the dead harbour corals showed an abrupt decrease in growth rate, lasting up to nine years before death. In summary, the dredging and subsequent sedimentation in the harbour produced mass coral mortality, although the effects varied from species to species, and it appears the effects of the dredging lasted several years after the event. Unfortunately there are no data on the amount of turbidity induced at the time, nor the pattern over time of its dispersal.</p><p>The immediate effects of suspended sediment were recorded by <ref type="bibr" target="#b2">Bak (1978)</ref> during the dredging of a bay channel in Curacao. For two days the suspended sediment cloud reduced light levels at 12-13m water depth from the normal 30% to less than 1% of surface illumination. For two more days light levels were less than 6% surface levels. The dredge continued working for a further 14 days during which light levels were less drastically depressed due to currents sweeping the sediment in other directions. On the fifth day of dredging, the reef was covered by 1Omm of sediment, apart from the corals which had removed the sediment from their colonies. One coral, platey Porites mtreoides, ap- peared unable to dislodge the sediment, became covered and wholly or partly died. All measured corals showed an abrupt decrease in coral calcification rates (up to 33%), and rates remained depressed for more than one month.</p><p>A fringing reef near Cahuita, Costa Rica is under siltation stress due to increased sediment influx following regional deforestation of the catchment ( <ref type="bibr">Cortes and Risk, 1985)</ref>. Suspended particulate matter analyses for waters over the reef were in the range 0.2-54-O ppm. Sediment resuspension rates were much higher than reported for other Caribbean reefs. The study showed that the depths at which corals occurred were shallower in these turbid waters than for the same species in clear waters in the Caribbean, and that coral growth rates were inversely proportional to sediment resuspension rates.</p><p>Not all major sediment influxes have disastrous effects. For instance, <ref type="bibr" target="#b13">Dollar and Grigg (1981)</ref> reported minimal damage to a reef 14 days after a major spill of kaolin from a grounded freighter. The minimal effects could be due to the fine grained and inert nature of the kaolin, but is probably mainly due to the off-reef transport of the material (see their <ref type="figure">Figure 5</ref>).</p><p>In situations where suspended sediment is due to terrestrial influx, the deleterious effect of the sedi- ment is compounded and in some cases outweighed by the osmotic problems resulting from immer- sion of the corals in low salinity waters (e.g. <ref type="bibr">Rainford, 1925;</ref><ref type="bibr" target="#b16">Goreau, 1964;</ref><ref type="bibr">Banner, 1968)</ref>. Following Hurricane Flora in 1964, <ref type="bibr" target="#b16">Goreau (1964)</ref> reported immense influxes of sediment and fresh water to the sea off Jamaica. Two days of heavy rain resulted in offshore river plumes which lowered near- shore salinities to 3 ppt for two days and to 30 ppt for five weeks. Massive bleaching and expulsion of zooxanthellae from the reef corals occurred. That these effects were due primarily to the fresh water is indicated by three facts : 1) the bleaching and expulsion was confined to a horizontal zone about 3m deep cutting across the topography, 2) the depth of bleaching was greater closer to the source of freshwater influx, and 3) the restriction of bleaching to the surface layers whereas sedi- ment shading should affect deeper zones more than shallow ones.</p><p>Laboratory studies to quantify the effects of suspended sediment on corals have been conducted by <ref type="bibr" target="#b2">Bak and</ref><ref type="bibr" target="#b3">Elgershuizen (1976), and</ref><ref type="bibr" target="#b11">Dodge (1982)</ref>. <ref type="bibr">Bak and Elgerhuizen (1976)</ref> compared the rejec- tion behaviours of 19 Caribbean hermatypic corals to sand, oil-sand mixtures and Carborundum pow- der. Rejection of oil-sand particles and of clean sand show similar patterns, with some species show- ing greater efficiency for Carborundum compared to sand, and some species the reverse. Rejection times are generally less than 10 hours and commonly less than 4 hours. The rejection times were longer for larger sand placements on the coral, being typically less than four hours for 0.75g sand but 5-15 hours for 3.Og of sand.</p><p>In contrast to the direct addition of sediment to the corals by <ref type="bibr">Bak and Elgerhuizen (1976)</ref>, a study by <ref type="bibr" target="#b11">Dodge (1982)</ref> evaluated the effects on a coral of chronic (6 weeks) exposure to suspended (100 ppm) commercial drilling mud. The coral studied was the common and ecologically important Caribbean species Montastrea annularis. Upward, linear growth rate was significantly depressed and there was increased mortality. <ref type="bibr">Szmant-Froelich et al. (1981)</ref> working on the same corals, found cal- cification rates were only 47% after four weeks and 16% after six weeks. Corals exposed to 1 and 10 ppm suspended sediment levels showed none of these adverse effects.</p><p>These studies have established the deleterious effect of substantial siltation on corals. It is clear that species vary in their tolerance of siltation, and particularly that intermittent siltation can be tolerated where chronic sedimentation cannot. However, there are very few data on how frequently siltation episodes can be tolerated, or what are the critical levels of suspended sediment before corals are ad- versely affected. The following points can be made : 1) Corals can thrive in ambient light levels 30% of surface illumination and grow in zones of c 5% surface illumination.</p><p>Data of <ref type="bibr">Motoda (1939)</ref> show light levels in clear water are 5% of surface at 20m depth.</p><p>2) Suspended sediments attenuate the light levels and therefore can be expected to affect increasing- ly the corals growing in deeper waters. In areas of chronic turbidity this may imbose a shallower than normal limit for coral growth.</p><p>3) Laboratory experiments indicate severe effects on coral in shallow water due to 100ppm suspended sediment, but no effects due to 10ppm. Field data of <ref type="bibr">Motoda (1939)</ref> confirm vigorous coral growth at 10m water depth with 25ppm suspended material. Field data of <ref type="bibr">Cortes and Risk (1985)</ref> indicate 5ppm suspended particulate matter can inhibit coral growth where there are high rates of sediment resuspension. The sensitivity of some common coral species to sedimentation has been summarised by <ref type="bibr">Pastorok and Bilyard (1985)</ref>. However most of these data are for Atlantic corals.</p><p>4) Despite the known dependence of calcification rates on light levels <ref type="bibr" target="#b15">(Goreau, 1959)</ref>, the relation- ship is not simple. For instance, not all coral species show a direct correlation between calcification and sun hours <ref type="bibr">(Bak,1974)</ref>, some coral species calcify more slowly in shallower rather than deeper water ( <ref type="bibr">Barnes and Taylor, 1973;</ref><ref type="bibr" target="#b3">Bak, 1976)</ref>, and decreased calcification rates continue well after light levels have returned to normal following dre.dging operations, presumably due to metabolic shock ( <ref type="bibr">Dodge and Vaisnys, 1977;</ref><ref type="bibr" target="#b2">Bak, 1978)</ref>.</p><p>5) The deleterious effects of a major influx of suspended sediment may outlast the immediate en- vironmental problem by a period of months to years. This long term damage may be due to con- tinued resuspension of introduced sediment or to poorly known effects of metabolic shock. 6) Fringing coral reefs do grow in areas of chronic sediment resuspension (e.g. <ref type="bibr">Marshall and Orr (1931)</ref>, where the amount of suspended sediment is controlled by local winds and perhaps tidal con- ditions. Continued coral growth requires constant water flushing to prevent sediment blanketing the corals. Data on the daily and weekly variations in turbidity, and the relation to coral communities have not been published.</p><p>7) The deleterious consequences of suspended sediments on corals could be due to six effects <ref type="bibr" target="#b2">(Bak, 1978;</ref><ref type="bibr">Lasker, 1980;</ref><ref type="bibr">Cortes and Risk, 1985)</ref>: In cases where the suspended sediment is due to terrestrial runoff, the associated fresh waters may cause major osmotic problems for the polyps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanisms of Sediment Rejection by Corals</head><p>Most hermatypic corals are efficient sediment rejectors compared to other benthic organisms, con- sidering the observation of <ref type="bibr" target="#b2">Bak (1978)</ref> that only the corals were clean following sediment influx, while the rest of the reef had a 1Omm coating of sediment. Corals employ four mechanims of sedi- ment rejection <ref type="bibr">(Hubbard and Pocock, 1972</ref>) :</p><p>Distension of the body mass by water intake to cause sediment to slough off. Since there appears to be no coordinated effort across the colony, larger corals would be particularly disadvantaged. Mucus secretion and the entangling of sediment followed by removal of the mass by ciliary action. Removal of particles by tentacles. Ciliary beat producing currents to sweep particles off the polyp.</p><p>The different strategies vary between species ( <ref type="bibr">Hubbard and Pocock,1972)</ref>, and seemingly under dif- ferent conditions for the same species, since the same species performed differently in the studies of <ref type="bibr">Hubbard and Pocock (1972)</ref> and of <ref type="bibr">Bak and Elgerhuizen (1976)</ref>. <ref type="bibr" target="#b3">Bak and Elgershuizen (1976)</ref> note that the inital polyp response to sediment rain is contraction fol- lowed by expansion, and the clearing of the surface by ciliary currents and movement of tentacles. Mucus trapping tends to delay clearing of detritus from the polyp surface. Even the one coral may use different strategies to cope with different sediment sizes. For instance, Montastrea cavemosa was observed to remove large oil-sand aggregates (30mm) by tentacular action and polyp distension, but smaller particles by ciliary action. However silt-size (to 63 micron) sediment is the coarsest material normally removed easily by corals ( <ref type="bibr">Hubbard and PocockJ972)</ref>. ,</p><p>In general it seems individual polyp behaviour is more important than other features such as colony form and calyx density for efficient sediment rejection. However, <ref type="bibr">Lasker (1980)</ref> argues that both colony form and species behaviour are important, contributing to separate passive and active phases of sediment removal. Passive removal is promoted by convex colonies and tall polyps, while active removal involves action by the polyp. The success of continued sediment removal and continued coral growth will depend on the coral morphology and habitat. It has been observed that a single species has separate morphologies (displays different ecomorphs) in clear versus turbid waters <ref type="bibr">(Laborel, 1969;</ref><ref type="bibr">Loya, 1972)</ref>. Branched corals through which suspended .mud can easily pass are clearly more adapted to turbid situations than platey forms. For instance <ref type="bibr">Rogers (1979)</ref> found <ref type="bibr">Rogers (1979)</ref> found Acroporu cervicomis colonies were not affected by applied sediments even though they were killed by shading. Vigorous water movement can help remove particles so that an individual coral is not blanketed for extensive periods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Responses of Coral Communities to Shading and Turbid Waters</head><p>Coral communities growing in turbid waters differ from those in clear waters, in three main ways : lesser coral cover, lower growth rates, lower diversity and 'different species composition. Dying coral and prolific algal growth are a common response especially where nutrient and sediment influx ' occur together (e.g. Weiss and Goddard,l977).</p><p>The deleterious effects of high sedimentation rates <ref type="figure">(Fig.Al)</ref> on coral communities has been docu- mented in Guam by <ref type="bibr">Randall and Birkeland (1978)</ref>. <ref type="bibr">Pastorok and Bilyard (1985)</ref> summarised the study .'Based on their data, <ref type="bibr">Randall and Birkeland (1978)</ref> would qect a 'depauperate coral com- munity of less than 10 species covering less than 2% of the substrate' where the average sediment loads are about I60 to 220 mglsq.cm/day. A 'rich coral community of over 100 species covering over 12% of the solid substrate' is expected where average sedimentation rates are about 5 to 32 mgisq.cntfday.'"   <ref type="bibr">torak &amp; Bilyarcl, 1985)</ref>.</p><p>Similarly coral cover in clear waters averages 6080% and extends to depths exceeding 15m, but averages only 30% in turbid areas where it is present only to 9m water depth (e.g. in the Fanning Lagoon; Roy and SmithJ979). Lower coral growth rates in turbid areas have also been documented by <ref type="bibr">Aller and Dodge (1974)</ref> and <ref type="bibr">Cortes and Risk (1985)</ref>. Lower species diversity is found in areas of higher sediment resuspension (Aller and DodgeJ974) and sediment settling <ref type="bibr">(Loya,1972</ref><ref type="bibr">(Loya, ,1976</ref>. Similarly, <ref type="bibr" target="#b6">Bull (1982)</ref> found coral growth on a fringing reef in the Great Barrier Reef, where there was higher deposition of finer sediment, displayed lower species diversity, lower coral cover and a shallower limit to coral growth.</p><p>It is well established that reefs with high rates of sedimentation and resuspension have characteristic faunas, and that corals which dominate such reefs are subordinate or absent on clear water reefs <ref type="bibr">(Lewis, 1960;</ref><ref type="bibr">Roy and Smith, 1971;</ref><ref type="bibr">Loya, 1976;</ref><ref type="bibr" target="#b6">Bull, 1982;</ref><ref type="bibr" target="#b14">Done, 1982)</ref>. Some of these dominant species have been demonstrated to be efficient sediment rejectors in laboratory experiments <ref type="bibr" target="#b3">(Bak and Elgershuizen, 1976)</ref>.</p><p>A corollary to these observations is that increased sedimentation and resuspension rates should alter the community structure of a reef. Several studies con&amp;m this expectation. For instance <ref type="bibr">Dodge and Vaisnys (1977)</ref> demonstrated the change in community structure which followed siltation due to har- bour dredging.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head><p>The response of a coral reef to increased siltation, either greater influx of turbid waters or greater resuspension, will vary according to the species present and the degree, type and duration of the sil- tation. Quantification of the threshold levels for individual species or communities is almost impos- sible with present data. <ref type="bibr">Pastorok and Bilyard (1985)</ref> summarised the available data as a qualitative impact scale <ref type="table">(Table 1</ref>). Most present data on coral and coral community responses to siltation have been derived from Atlantic species. In general it seems that sewage and other toxic substances have little impact in well flushed environments, such as exist in coastal and offshore situations in the Great Barrier Reef, particularly where there is so little pollution. However, increased sedimentation is a more likely problem, especially in near coastal situations, yet there are virtually no data on the effects of increased sedimentation in Indo-Pacific corals. Medium to long term studies are needed on Great Barrier Reef coral community responses to increased sedimentation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wk</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX IV</head><p>TEXTURAL AND ACID-SOLUBLE DATA ----------------___-____________________---------------------------------------------------------------------------------------- Laboratory analyses performed by Neil Mockett, Geology Department, James Cook University.   <ref type="table">TABLE 1  CLAYMINERALS  INSTRF.</ref>AMSA.MPLFS --------------------__c_________________------------------------ DAINTREE RIVER *** *** * ----------------------------------------------------------- ----- <ref type="table">TABLE 2  CLAYWINERAIS</ref> INNEARSHORE SURFACE SAMPLES ----------------------------------------------------------------  ---------------------------------------------------------------- ** *** * (Mica/illite) ---------------------------------------------------------- ------</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TABLE 4 CLAY MINERALS IN V28</head><p>----------------__---------------------------------------------- *** * *** -----------------_---------------------------------------------- Note : abundant *** common ** rare * absent</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Location map of the Cape Tribulation area.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Map of Cape Tribulation area showing localities mentioned in text, bathymeby and profile trmks.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Schematic profile across a typical jiinging reef.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 also</head><label>6</label><figDesc>Figure 6 also shows the location of buried channels incised into the Pleistocene surface and now overlain by post-glacial deposits. The palaeo-Daintree River trends onto the shelf from the present river mouth and there is a smaller tributary west of the Low Islets. Thalweg elevations suggest that west of Low Islets a smaller channel flowed northward, probably marking the course of the palaeoMossman River rather than a branch of the palaeo-Daintree. There is also a wide system of small z channels emanating from the Table-Bailay drainage area.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .Figure 7 .</head><label>67</label><figDesc>Figure 6. Isopach map of post-glacial sediment overlying Reflector A, and location of buriedpalaeo-channels.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Five</head><label></label><figDesc>stratigraphic units were intersected by the drilling (Figs.8,9) : l Modern alluvium l Beach-beach ridge sand l Reef top unit l Inner shelf unit 0 Pleistocene unit Textural data for the sediments are shown in Figure 10. Apart from the alluvial units, the major units are lithologically distinct. Both modern and Pleistocene alluvium samples are designated by the same symbol and show a wide range of compositions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 .Figure 9 .</head><label>89</label><figDesc>Figure 8. Stratigraphy of coastal fringe as determined by augur drilling. Drillhole locations are shown in Figure 3.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 10 .Figure 11 .</head><label>1011</label><figDesc>Figure 10. Temaly diagram showing gravel, sand and mud contents of sediments from auger and vibracore samples. Shading delimits samples from tlte same environments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head></head><label></label><figDesc>rare Pocilloporadamicomis ......................................................... ..commo n Podobaciacmstacea ............................................................ ..commo n Polyphyllia talpina ............................................................... common Poritesannae .................................................................. ..commo n Porites lichen ............................................... common, lacks distinct coloration Porites lutea .................................................... very common; large colonies Porites mayeri ........................................... common; colonies become columnar Psammocora contigua .............................................................. patchy Psammocora profundacella ...................................................... uncommon Psammocora superficialis ..................................... patchy; unusually large colonies Psammocora sp. ......................................... common; upright flattened branches Psuedosiderastrea tayamai ............................................. uncommon, distinctive Sandalolitha robusta ............................................................ uncommon Seriatopora hystrix ............................................... .common in isolated patches Stylocoeniella guentheri .................................................. uncommon, cryptic Stylophora pistillata ................................... common; forms unusually fine branches Symphyllia agaticia ................................................................... rare Turbinaria.bifrons .............................................................. uncommon Turbinariaconspicua ..................................................................... Turbinaria mesenterina ........................................... the most common Turbinaria Turbinaria patula .................................................................... rare Turbinatiapeltata ................................................................ ..patch y Turbinariareniformis ........................................................... ..commo n Effects of Siltation on Corals and Coral Communities D.P. Johnson James Cook University of North Queensland Introduction Any analysis of the effects of siltation on coral reefs necessarily revolves around the siltation toleran- ces of corals. Corals are the basic constructional organisms of the reef, and are central to the in- tegrity of the reef community. Changes in coral reef communities depend on the responses to silta- tion of the individual component species.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head></head><label></label><figDesc>l corals have narrOw physiological tolerances, l key species interactions are susceptible to pollutant stresses, and l effects of toxic materials may be greater at highwater temperatures.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>0</head><label></label><figDesc>Suspended sediment causes lower light levels which depress calcification rates. 0 Sediment blankets the coral causing suffocation. 0 Energy used in removing the sediment saps the vitality of the polyp. 0 Suspended sediment has unfavourable effects on the plankton food sources for the corals. 0 Suspended sediment and soft sediment cover on the substrate may prevent successful settlement of planulae.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure</head><label></label><figDesc>Figure Al. Coral species richness, percent cover, and colony size as a function of sedimentation rate,</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false"><head></head><label></label><figDesc>141 species of scleractinian corals, belonging to more than 50 genera, were recorded from the Daintree reefs during a 3 day study in November, 1985. Of these species, Alveopora gigas, A.marionen- sis and Psammocora sp. have not previously been recorded from the Great Barrier Reef. The absence of any previous record ofAZveopora gigas from any eastern Australian community except the Daintree reefs is extraordinary since the species forms conspicuous colonies with large and very distinctive polyps.</figDesc><table>SOURCE : Veron, J.E.N., 1986. Checklist of corals from the Daintree ReebFringing 
+Reef Workshop -
+Science, Industry and Management. Great Barrier Reef Marine Park Authority, Workshop Series No. 
+9, p.99-103. Checklist of corals from the Daintree Reefs 
+
+J.E.N. Veron 
+
+Australian Institute of Marine Science 
+
+Summary 
+
+Species List 
+
+Acanthastreaechinata 
+....................................... 
+rare, recorded from Ayling alone 
+Acroporaacuteus 
+.................................................................. 
+..rar e 
+Acropora an thocercis .............................................. 
+rare, difficult to recognize 
+Acropora brueggemanni ......................................... 
+very common and widespread 
+Acropora cerealis ............................................................. 
+..uncommo n 
+Acroporacytherea 
+................................................................ 
+..patch y 
+Acropora danai 
+........................................................... 
+in one area only 
+Acropora divaricata ........................................... 
+common, most colonies purple 
+Acropora donei ...... Y ............................................................. 
+patchy 
+Acropora elseyi ................................................. 
+.patchy, abundant at one site 
+Acroporaformosa 
+............................................................... 
+..patch y 
+Acropora grandis ........................................................ 
+rare or very patchy 
+Acropora humiiis 
+........ 
+...................................................... 
+uncommon 
+Acropora hyacinthus ............................................................ 
+uncommon 
+Acropora kirstyae .................................................................... 
+rare 
+Acropora latistella .................................................................. 
+patchy 
+Acropora microclados 
+.......................................................... 
+uncommon 
+Acropora microphythalma 
+......................................... 
+.very common in some area 
+Acropora millepora ........ 
+................................... 
+uncommon; distinct salmon pink 
+Acroporanasuta 
+................................................................. 
+..patch y 
+Acropora palifera ............................................................ 
+very common 
+Acropora paniculata ................................................................ 
+..rar e 
+Acroporasamoensis 
+............................................................. 
+..commo n 
+Acropora selago ....................................................... 
+patchy or uncommon 
+Acropora subulata ............................................................ 
+very common 
+Acropora tenuis ...................................................... 
+.common, very distinct 
+Acropora sp. ...... ............................................... 
+very common, widespread 
+Acropora valida ................................................ 
+very common in shallow water 
+Acropora vaughani ... .............................................................. 
+................................................... 
+
+patchy 
+Acropora willisae 
+.common in shallow water 
+Alveropora gigas .......................... 
+.common, not previously recorded ineastern Australia 
+Alveopora man'onensis ............................... 
+common, not previously known from GBR Astreopora myriophythalma 
+............................................................ 
+rare 
+Barabattoia amicomm 
+........................................... 
+.uncommon, similar to Favia 
+Blastomussa wellsi ................................................................... 
+rare 
+Caulastreafurcata 
+.................................................................... 
+rare 
+Coeloseris mayeri ....................................................... 
+idetiti fied by Ayliig 
+Coscinareae columna .............................................. 
+very common, widespread 
+Cyphastrea microphthalma 
+...................................... 
+common, big knobby colonies 
+Cyphastrea serailia ............................................................... 
+common 
+Duncanopssamiaarifuga 
+...................................................... 
+..uncommo n 
+Echinophyltia aspera .............................................. 
+very common, widespread 
+Echinophora gemmacea ........................................................... 
+common 
+Echinopora horrida ................................................. 
+rare, identified by Ayling 
+Echinopora lamellosa .............................................. 
+very common, widespread 
+Euphyllia ancora ................................................. 
+uncommon, very distinctive 
+Euphylria alabrescens ............................................. 
+uncommon, very distinctive 
+Faviafavus 
+.................................................................... 
+..~~o 
+n 
+Favia lizardensis .................................................. 
+uncommon, large colonies 
+Favia pallida ..................................................................... 
+common 
+Faviaspeciosa 
+....................................................................... 
+rare 
+Favia veroni ......................................................... 
+uncommon, distinctive 
+Favites abdita .................................................................. 
+uncommon 
+Favites complanata .................................................... 
+uncommon or patchy 
+Favitesflexuosa 
+.................................................................... 
+..rar e 
+Favites halicora ................................................................ 
+uncommon 
+Favites pen tagona ............................................................ 
+very common 
+Favites russelli ..................................................................... 
+..r~ e 
+Fungia fungites 
+............ 
+.................................................. 
+very common 
+Fungiapaumotensis 
+............................................................I 22 
+Memlina ampliata ............................................................ 
+
+very common 
+
+Montastreacurta 
+
+............................................................. 
+..uncommo n 
+
+Montastreamagnistellata 
+
+............................................................ 
+..rar e 
+
+Montipora aequituberculata 
+
+........................................... 
+common, small colonies 
+
+Montipora crassituberculata 
+
+.................................................... 
+..uncOmmo n 
+Montipora foliosa ................................................. 
+uncommon, small colonies 
+
+Montiporagnsea 
+
+........................................................... 
+..probablyrar e 
+
+Montiporahispida 
+
+.......................................................... 
+..verycommo n 
+
+Montipora hoffmeisteti 
+................................................... 
+
+uncommon, cryptic 
+
+Montiporainformis 
+
+................................................................. 
+..rar e 
+
+Montiporanodosa 
+
+.............................................................. 
+..commo n 
+
+Montipora spumosa 
+............................................................ 
+
+uncommon 
+
+Montipora stellata ................................................. 
+
+very common, widespread 
+Montipora undata ............................................................ 
+..uncommo n 
+Montipora vermcosa .......................................................... 
+..uncommo n 
+
+Moseleyalatistellata 
+....................................................................... 
+Mycedium elephantotus 
+
+................................................. 
+.identified by Ayling 
+Oulophyllia crispa ....................................................... 
+identified by Ayling 
+
+Oxyporalacera 
+
+............................................................. 
+..verycommo n 
+
+Pachyseris mgosa ................................................... 
+
+common at one site only 
+
+Pachyseris speciosa ........................................................... 
+
+very common 
+Pavona cactus ....................................................... 
+.rare, Ayling identified 
+
+Pavoniavarians 
+
+.............................................................. 
+..uncommo n 
+
+Pavonavenosa 
+
+............................................................ 
+..verycommo n 
+Pectinia lactuca ................................................... 
+very common, widespread 
+
+Platygyra daedalea ............................................................... 
+
+common 
+Platygyra lamellina ........................................................... 
+..uncommo n 
+
+Platygvrapini 
+
+.................................................................. 
+..commo n 
+
+Platygyrasinensis 
+
+............................................................... 
+..commo n 
+
+Platygyravenveyi 
+................................................ 
+
+uncertain identification; rare 
+
+Plerogyra sinuosa 
+........ 
+............................................................ 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" validated="false"><head>TABLE 3 CLAY MINERALS IN V20</head><label>3</label><figDesc></figDesc><table></table></figure>
+		</body>
+		<back>
+			<div type="annex">
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Animal-sediment relations in a tropical lagoon, Discovery Bay</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Alier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Dodge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jamaica. J. Mar Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="209" to="232" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mud : a danger to the reef</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Anon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Seth</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">245</biblScope>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Lethal and sublethal effects of dredging on reef corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rp</forename><forename type="middle">M</forename><surname>Bak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mm. Poll. BuU</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1416</biblScope>
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Patterns of oil-sediment rejection in .corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rp</forename><forename type="middle">M</forename><surname>Bak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H B W</forename><surname>Elgershuizen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Bio1</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="105" to="113" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">A freshwater &quot;kill&quot; on the coral reefs of Hawaii. Hawaii Inst. Mar Bioi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Banner</surname></persName>
+		</author>
+		<idno>No. 15. 2%~</idno>
+		<imprint/>
+	</monogr>
+<note type="report_type">Tech. Rep.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">In situ studies of calcification and photosynthetic fmtion in the coral Montastrea annularis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Barw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">HelgoIander wiss. Meeresuntets</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="284" to="291" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Scleractinian coral communities of two inshore high island fringing reefs at Magnetic Island, North Queensland</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bureau of Meteorology,l971. Climatic Summary Northern region 16-Queensland</title>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="page">65</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Mossman 1:250,000 Geological Series Map SE 55-l</title>
+		<imprint>
+			<date type="published" when="1962" />
+		</imprint>
+	</monogr>
+	<note>Bureau of Mineral Resources</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Sea-level controls on the post-glacial development&apos; of the Great Barrier Reef</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Geol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="137" to="164" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Holocene palaeoenvironmental changes, central to north Great Barrier Reef inner zone</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Chappellj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Chivas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Wabensky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Polach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aharon</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMR J. Aust. Geol. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="223" to="235" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A reef under siltation stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cortesj</forename><surname>Bisk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="339" to="356" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effects of drilling mud on the reef-building coral Montastrea annularis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Dodge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="141" to="147" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Coral polulations and growth patterns : responses to sedimentation and turbidity with dredging</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Dodge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vaisnysj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mar. res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="715" to="730" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Impact of a kaolin clay spill on a coral reef in Hawaii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Dollar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Grigg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Bio1</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="269" to="276" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Patterns in the distribution of coral communities across the central Great Barrier Reef</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Done</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="95" to="107" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The ecology of Jamaican coral reefs: I. Species composition and zonation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">F</forename><surname>Goreau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="67" to="90" />
+			<date type="published" when="1959" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">F</forename><surname>Goreau</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">n Fungia repanda .............................................................. very common Fungiasimplex .............................................................. ..uncommo n Fungiavalida .................................................................... common Galaxeaastreata ................................................................. common Galaxea fascicularis .............................................................. common Goniastrea australensis .. .................................... very common, very large colonies Goniastrea favuhts ........................................................... ..unco~lllllo n Goniastrea palauensis ............................................................ common Goniastrea pectinata ............................................................ uncommon Goniastrea rekformis ............................................................. common Goniopora cohtmna ............................................... common; large oral cones Goniopora djiboutensis ................................................. .cotimon; flat sheets Goniopora lobata ................................................................ common Goniopora minor .................................................................. patchy Goniopora stokesi .................................................. rare, identified by Ayling Goniopora stutchburyi .......................................................... uncommon Goniopora tenuidens .............................................. common as large colonies Heliofaugia actinifonnis ............................................................... rare Herpolitha limas ..................................................... common in some areas Hydnophora exesa .......................................................... ..verycomrno n Hydnophora pilosa ................................................................... r~ e Leptastreapnrinosa .............................................................. ..c~mmo n Leptastreapurpurea .............................................................. common Leptoriaphrygia ..................................................................... rare Leptoseris mycetoseoides ...................... ......................................</orgName>
+			</affiliation>
+		</author>
+		<title level="m">Mass expulsion of zooxanthellae from Jamaican reef communities after Cyclone Plora. Science</title>
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="383" to="386" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>Lobophyllia Hemptichii Patchy</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">....................</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">.................... common or patchy RADIOCARBON AGE DATA</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

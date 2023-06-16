@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/11/yarn/nm/usercache/lanastasiou/filecache/40/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-16T03:55+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S P</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Natalia</forename><surname>Bautista Muñoz</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Pereira S.A E.S.P</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luz</forename><surname>Stella</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Pereira S.A E.S.P</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ramírez</forename><surname>Aristizabal</surname></persName>
+							<affiliation key="aff2">
+								<address>
+									<settlement>Pereira</settlement>
+									<country key="CO">Colombia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oscar</forename><surname>Andrés</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pabón</forename><surname>Rincón</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Escuela de Química</orgName>
+								<orgName type="institution">Universidad Tecnológica de Pereira</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Key word-Accuracy</term>
+					<term>linearity</term>
+					<term>potentiometric titration</term>
+					<term>stability</term>
+					<term>total alkalinity</term>
+					<term>water</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Implementación y estandarización del método 2320B SM Ed.22/2012 para la determinación de alcalinidad total en agua en el laboratorio de control de calidad del agua de la empresa de acueducto y alcantarillado de Pereira S.A E.S.P Implementation and standardization of the method 2320B SM Ed.22/2012 for the determination of total alkalinity in water in the water quality control laboratory of the aqueduct and sewer company of Pereira Resumen-Se realizó la implementación y estandarización del método 2320B del standard methods for the examination of wáter and wastewater Ed. 22 de 2012 para la determinación de alcalinidad total por titulación potenciométrica en un titulador automático en diferentes matrices de agua (Cruda superficial, superficial tratada, cruda de pozo, tratada de pozo, residual domestica y residual industrial). Se demostró que el método presenta exactitud y es lineal tanto en rango bajo como en rango alto. Además, se definió la estabilidad para cada matriz después de 4 y 24 horas de su ingreso al laboratorio. Palabras clave-Agua, alcalinidad total, estabilidad, exactitud, linealidad, titulación potenciométrica. Abstract-It was carried out the implementation and standardization of the method 2320B from standard methods for the examination of water and wastewater Ed. 22 of 2012 for the determination of total alkalinity by potentiometric titration in an automatic titrator in different water matrices (untreated surface water, treated surface water, untreated well water, treated well water, domestic wastewater and industrial wastewater). It was shown that the method has accurate and is linear both low range and high range. Furthermore, the stability was defined for each matrix after 4 and 24 hours from the admission of the sample in the laboratory.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCCIÓN</head><p>El agua es un recurso limitado, insustituible e imprescindible para la supervivencia de todas las formas de vida, y resulta fundamental en el desarrollo socio-económico de toda población. Además, la experiencia indica que el acceso a éste recurso y a medios adecuados de saneamiento está ligado directamente a la salud humana y al bienestar, ya que es un elemento esencial para reducir la carga de enfermedades y epidemias de origen hídrico <ref type="bibr" target="#b0">[1]</ref>. Debido a que el hombre ha modificado el ciclo hidrológico natural con el fin de utilizar el agua para su provecho, se han originado diferentes ciclos artificiales que conllevan a una modificación de sus características y, por tanto, se ve alterada la calidad del agua, lo cual se ha convertido en un tema crítico debido a que el agua dulce puede llegar a ser un recurso escaso en un futuro cercano, lo que conllevo a que se construyeran índices de calidad, que corresponde a un número único que asigna un valor de calidad a un conjunto de parámetros medidos <ref type="bibr" target="#b1">[2]</ref>.</p><p>En el Artículo 27 del Decreto número 1575 de 2007 de Colombia se fijan los requisitos mínimos para la autorización de los laboratorios que realizan análisis de agua para consumo humano; Sin ser inconsecuente con los demás requisitos exigidos por otras autoridades competentes, el Ministerio de la Protección Social autoriza anualmente a los laboratorios que realizan análisis físicos, químicos o microbiológicos al agua, que cumplen con unos requisitos mínimos, entre los cuales están participar en el Programa Interlaboratorio de Control de Calidad del Agua Potable (PICCAP) y tener implementado un sistema de gestión de la calidad y acreditación por pruebas de ensayo ante entidades nacionales o internacionales que otorguen dicho reconocimiento <ref type="bibr" target="#b2">[3]</ref>.</p><p>El laboratorio de control de calidad de la empresa de acueducto y alcantarillado de Pereira S.A E.S.P (LCC) se encarga de realizar ensayos técnicamente válidos para analizar y determinar la calidad en el agua suministrada, realizando el control a las características físico-químicas y microbiológicas al agua que entrega a los usuarios a través de la red de distribución, dando así cumplimiento a la legislación legal vigente para el agua potable. Dentro de los parámetros de verificación realizados por el LCC se encuentra la determinación de Alcalinidad total por el método de titulación potenciométrica.</p><p>La alcalinidad es importante en muchos usos y tratamientos de aguas naturales y aguas residuales; ya que la alcalinidad de muchas aguas superficiales se debe principalmente al contenido de carbonato, bicarbonato e hidróxido, se toma como indicador de la concentración de tales componentes. Los valores medidos también pueden incluir aportes de boratos, fosfatos, silicatos u otras bases si están presentes.</p><p>Para que el LCC se acredite con el parámetro de alcalinidad total ante la ONAC y el IDEAM, uno de los requisitos es obtener un resultado satisfactorio en el PICCAP, por lo que se realizó la implementación y la estandarización del método 2320B SM Ed.22/2012, lo que sería el trabajo preliminar y los lineamientos iniciales para la validación completa del método por parte de los analistas del LCC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. CONTENIDO</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Marco teórico</head><p>La alcalinidad del agua es su capacidad para neutralizar ácidos, y es la suma de todas las bases titulables. La alcalinidad de las aguas naturales es debida principalmente a las sales de ácidos débiles, aunque también contribuyen bases débiles y fuertes.</p><p>Los carbonatos y bicarbonatos presentes en cuerpos naturales de agua dulce se originan generalmente del desgaste y disolución de rocas en la cuenca que contienen carbonatos. A pesar de que estas rocas no son solubles en agua pura, su disolución es promovida por la presencia de CO 2 disuelto en el agua (CO 2 atmosférico o CO 2 generado en sedimentos ricos en materia orgánica). El CO 2 reacciona con el agua para generar pequeñas cantidades de ácido carbónico, el cual disuelve entonces las rocas de carbonato en la cuenca, lo que a su vez contribuye a la alcalinidad del agua <ref type="bibr" target="#b3">[4]</ref>.</p><p>La alcalinidad total, expresada como mg CaCO 3 /L, es una de las características químicas del agua que tienen mayores consecuencias económicas e indirectas sobre la salud humana, ya que este parámetro está relacionado con el pH, las medidas de alcalinidad son utilizadas en la interpretación y control de los procesos de tratamiento de agua y agua residual, tal como la reacción con coagulantes hidrolizables como sales de hierro y aluminio durante el proceso de coagulación. Además, tiene incidencia en el carácter corrosivo o incrustante del agua, y cuando se alcanza niveles altos, puede tener efecto en el sabor <ref type="bibr" target="#b4">[5]</ref>.</p><p>Una fuente de agua no debe mostrar cambios bruscos o repentinos en el contenido de la alcalinidad, pues podría indicar un cambio en la calidad del agua. De acuerdo a la resolución número 2115 de 2007, la concentración máxima aceptable para alcalinidad total en agua para consumo humano es de 200 mg/L expresada como mg CaCO 3 /L <ref type="bibr" target="#b5">[6]</ref>.</p><p>La alcalinidad total se determina a partir del volumen de ácido requerido en la titulación a temperatura ambiente de una porción de muestra a un pH determinado de acuerdo al punto final. A= mL de ácido estándar utilizado.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Condición del análisis Punto final</head><p>N= Normalidad del ácido estándar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Metodología</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Materiales</head><p>Se utilizaron los siguientes instrumentos y reactivos: </p><formula xml:id="formula_0"></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Muestras de análisis</head><p>La estandarización del método se realizo para las siguientes matrices de agua:</p><p> Cruda superficial (Rio Otún, Pereira)  Superficial tratada (Red de distribución de la empresa Aguas y Aguas de Pereira)  Cruda de pozo (Puerto Caldas, Risaralda)  Tratada de pozo (Red de distribución de la empresa Aguas y Aguas de Pereira)  Residual industrial (Proceso de tintorería en industria en la ciudad de Pereira)  Residual domestica (PTAR en la ciudad de Pereira)  Afluente  Laguna  Efluente</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Atributos</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Exactitud</head><p>Se prepararon patrones de 20, 40, 150 y 200 mg de CaCO 3 /L, de acuerdo al promedio de alcalinidad de cada matriz en los últimos 11 meses y se realizó la corrida analítica por triplicado.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Linealidad</head><p>Se prepararon patrones en rango bajo y alto. Se realizó la corrida por triplicado, se hizo la curva y se determino la línea de tendencia, la ecuación de la curva y el coeficiente de correlación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estabilidad</head><p>Se realizó el ensayo de alcalinidad por triplicado a la muestra de cada matriz al momento que ingreso al laboratorio y después de transcurridas 4 y 24 horas.</p><p>Tabla 2. Instrucciones para determinar los atributos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">Análisis estadístico</head><p>Sea: n = Numero de datos obtenidos</p><formula xml:id="formula_1"> Desviación estandar S = Σ X i -X 2 n-1<label>(2)</label></formula><p> Coeficiente de varianza</p><formula xml:id="formula_2">%CV = S X × 100 (3)  Promedio X = ΣX i n (4)  Prueba t de Student t = X i -X ref n S<label>(5)</label></formula><p>Donde:</p><p>X i = Promedio del valor hallado X ref = Valor de referencia Hipótesis nula, H 0 : X i = X ref Hipótesis alternativa, H 1 : X i ≠ X ref Si t calculado &lt; t crítico (Valor en tabla de la prueba t de Student), entonces H 0 es verdadera</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">Métodos de análisis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.1">Método volumétrico</head><p>Se calculó la alcalinidad de la muestra a partir del volumen de ácido requerido en la titulación a temperatura ambiente de una porción de muestra; éste volumen se determinó cuando ocurrió un cambio de color, de azul a rosa pálido, debido a la solución indicadora. El cálculo se realizó de acuerdo a la ecuación 1.</p><p>Para muestras de agua tratada, se inhibió el cloro con tiosulfato de sodio 0.1 M, ya que el cloro residual puede causar interferencias con la solución indicadora.</p><p>Este método se implementó como un factor decisivo para definir el tamaño de la muestra y la concentración del titulante en el análisis de cada matriz en el método potenciométrico.</p><p>Para determinar la exactitud y veracidad del método según la Tabla 2, se realizó el ensayo de alcalinidad total para patrones de 20, 40, 150 y 200 mg CaCO 3 /L por el método volumétrico. Se llevó a cabo por triplicado con cada titulante debidamente estandarizado (≈0.1 y 0.02 N) y con dos tamaños de muestra (50 y 100 ml).</p><p>Se define que el ensayo cumple, cuando el %CV es menor a 10 y t calculado es menor a t crítico (hipótesis nula verdadera), de acuerdo a la prueba t de Student.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Atributo del método: Exactitud</head><p>Patrón <ref type="formula">(</ref> En todos los ensayos se obtuvo un %CV menor a 10, valor aceptado en el LCC, además t calculado fue menor a t crítico en todos los casos, lo cual indica que estadísticamente el método es exacto y veraz en el rango de concentración utilizado. Con estos resultados se determinó que el método volumétrico es un método confiable para decidir el tamaño de la muestra y la concentración del titulante a utilizar en el ensayo por el método potenciométrico.</p><p>Teniendo en cuenta el gasto de reactivos, la velocidad de dosificación optima, y la duración de la titulación en el titulador automático, se definió que para muestras con alcalinidad menor a 100 mg CaCO 3 /L se utiliza H 2 SO 4 0.02 N y para muestras mayores a 100 mg CaCO 3 /L, H 2 SO 4 0.1 N. El tamaño de la muestra en cualquier caso es de 50 mL. Para conocer el rango en el que se encuentra la muestra, se debe realizar un ensayo por el método volumétrico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.2">Método potenciométrico</head><p>Se calculó la alcalinidad de la muestra a partir del volumen de ácido requerido para titular una porción de muestra a pH 4.5. Se tituló a temperatura ambiente con titulador automático y con el titulante previamente estandarizado.</p><p>Para este método se determinó la exactitud realizando el ensayo de alcalinidad total por triplicado a patrones de 20 y 40 mg CaCO 3 /L con titulante ≈0.1 N y a patrones de 150 yEn este caso se utilizó una velocidad de dosificación de 0.5 mL/min para los patrones y de 2 mL/min para las diferentes matrices de agua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Atributo del método: Exactitud</head><p>Patrón <ref type="formula">(</ref> Volumen H 2 SO 4 0.0180 N Las curvas de calibración para el método potenciométrico en el ensayo de alcalinidad total arrojaron un coeficiente de correlación igual a uno tanto en rango bajo como en rango alto, lo cual es ideal ya que indican una buena relación entre la concentración y el volumen de H 2 SO 4 gastado en los patrones titulados.</p><p>Valores mayores a 0.995 en el coeficiente de correlación son aceptados por el LCC para la linealidad de un método de ensayo.</p><p>Con el fin de determinar la estabilidad de las muestras que se analizan a diario en el LCC y conocer el tiempo que pueden permanecer debidamente almacenadas antes de realizar el ensayo de alcalinidad total, se analizaron las diferentes matrices de agua según la tabla 2.</p><p>Para que la muestra se considere estable se debe cumplir que el coeficiente de varianza sea menor a 10 y el porcentaje de error menor a 5%, tomando como valor de referencia el resultado del análisis en el primer ensayo (al momento de llegar al laboratorio, 0h).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Atributo: Estabilidad</head><p>Agua cruda superficial </p></div>
+			<note place="foot" n="200"> mg CaCO 3 /L con titulante ≈0.02 N. El tamaño de muestra fue de 50 mL. Uno de los parámetros más relevantes del titulador automático para realizar el ensayo de alcalinidad a patrones de CaCO 3 es la velocidad de dosificación, ya que el CaCO 3 es un álcali fuerte, la velocidad de dosificación debe ser menor que al realizar el análisis de una matriz de agua, esto con el fin de que la respuesta del electrodo sea confiable y exacta.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Atributo: Estabilidad</head><p>Agua <ref type="bibr">de</ref>  Los ensayos realizados con las muestras de agua cruda y tratadas tanto superficial como de pozo, presentaron valores de coeficiente de varianza y porcentaje de error menores a los valores máximos permitidos en el LCC para determinar la estabilidad de una muestra, por tanto, estas matrices pueden ser debidamente almacenadas hasta 24 horas antes de realizar el ensayo de alcalinidad y obtener un resultado confiable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Atributo: Estabilidad</head><p>Agua residual doméstica Afluente La muestra de agua residual industrial se considera inestable a las 4 horas y 24 horas después del ingreso de la muestra ya que en ambos casos el coeficiente de varianza y porcentaje de error fueron mayores a 10 y 5% respectivamente, valores máximos permitidos. Aunque esta matriz se considero inestable para el ensayo de alcalinidad total, estos resultados no se deben generalizar, debido a que dependen del tipo de industria y proceso que se esté realizando en ella al momento de ser tomada la muestra.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. CONCLUSIONES</head><p> El método volumétrico es estadísticamente exacto y confiable en la determinación de alcalinidad total como factor decisivo en la concentración del titulante a utilizar en el método potenciométrico, que también cumple con las especificaciones que exige el LCC para la exactitud de un método de ensayo.</p><p> El coeficiente de correlación obtenido en las concentraciones contempladas en el rango bajo de 5 a 100 CaCO 3 /L y en el rango alto de 150 a 500 CaCO 3 /L, indica que el método de ensayo es lineal.</p><p> El ensayo de alcalinidad total en muestras de agua residual doméstica debe ser realizado el mismo día en que la muestra llega al laboratorio, ya que no es estable a las 24 horas y no debe ser almacenada para su posterior análisis.</p><p> Las muestras de agua residual industrial deben ser analizadas inmediatamente ingresan al laboratorio, ya que esta matriz es inestable después de transcurridas 4 horas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RECOMENDACIONES</head><p>La velocidad de dosificación del titulante en el titulador automático es un parámetro trascendental en la determinación de alcalinidad total en patrones, ya que si ésta es muy alta, los resultados que se obtienen son errados.</p><p>La estabilidad de la matriz de agua residual industrial no debe ser generalizada, debido a que depende del tipo de industria y del proceso que se esté llevando a cabo.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Métodos Analíticos para la Evaluación de la Calidad Fisicoquímica del Agua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Londoño</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Giraldo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gutiérrez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Blanecor Ltda</publisher>
+			<pubPlace>Manizales</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Evaluación de la condición del agua para consumo humano en Latinoamérica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Fernández</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mortier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="17" to="32" />
+		</imprint>
+	</monogr>
+	<note>Solar Safe Water</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Ministerio de Salud y Protección Social, Decreto 1575 de</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Water Quality Evaluation of Vaal River, Sharpeville and Bedworth Lakes in the Vaal Region of South Africa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">D</forename><surname>Dikio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. J. Appl. Sci. Eng. Technol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="574" to="557" />
+			<date type="published" when="2010-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Evaluación del proceso de coagulaciónfloculación de una planta de tratamiento de agua potable</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Restrepo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<pubPlace>Disertación, Facultad de Minas; Sede Medellín</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Nacional de Colombia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Ministerio de la Protección social, Ministerio de Ambiente, Vivienda y Desarrollo Territorial</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Baird</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Eaton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Clesceri</surname></persName>
+		</author>
+		<title level="m">Standard Methods for the Examination of Water and Wastewater</title>
+		<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="2" to="34" />
+		</imprint>
+	</monogr>
+	<note>22nd ed</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.1" ident="GROBID" when="2016-10-07T17:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Low Velocity Impact on Polymeric Foams</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2011-01">January . 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">E</forename>
+								<forename type="middle">A</forename>
+								<surname>Flores-Johnson</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Mechanical</orgName>
+								<orgName type="department" key="dep2">Aerospace and Civil Engineering</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>Pariser Building</addrLine>
+									<postBox>PO Box 88</postBox>
+									<postCode>M60 1QD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Q</forename>
+								<forename type="middle">M</forename>
+								<surname>Li</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Mechanical</orgName>
+								<orgName type="department" key="dep2">Aerospace and Civil Engineering</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>Pariser Building</addrLine>
+									<postBox>PO Box 88</postBox>
+									<postCode>M60 1QD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Low Velocity Impact on Polymeric Foams</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Cellular Plastics</title>
+						<imprint>
+							<biblScope unit="volume">47</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="45" to="63"/>
+							<date type="published" when="2011-01">January . 2011</date>
+						</imprint>
+					</monogr>
+					<note>1 The final, definitive version of this paper has been published in</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Penetration, indentation, low velocity impact, polymeric foam, nose shape effect</term>
+					<term>* Corresponding author, Email: qingmingli@manchesteracuk</term>
+					<term>2</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The effect of the impactor nose shape on the penetration behaviour of polymethacrylimide (PMI) foams is investigated in the velocity range of 4-8 m/s. It is observed from experimental results that penetration load depends on the geometry of the impactor and the density of the foam. An analytical model is developed to predict the penetration behaviour of polymeric foams with good agreements between analytical predictions and experimental data.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Rigid polymeric foams are widely used as core material for sandwich constructions in the automotive and aerospace industries because of their light weight and high stiffness. They are also used in non-structural applications, e.g. cushioning, packaging and isolating, because of their energy absorbing properties and good capabilities in vibration and acoustic attenuations. During the service life of foams or foam cored structures, impacts by foreign objects are likely to occur due to various accidental and operational causes <ref type="bibr" coords="2,293.87,225.14,12.75,10.80" target="#b0">[1]</ref>. Consequently, a good understanding of impact response of both sandwich structures and foam cores should be addressed in order to predict and assess the damage. It has been shown that low velocity impact is potentially dangerous because the internal damage caused by low velocity impact can be undetected or underestimated, which may grow under service load and cause large reductions in strength, and therefore, a decrease in its structural performance and structural failure. </p><p>Polymethacrylimide (PMI) closed-cell rigid foams (trade name Rohacell series <ref type="bibr" coords="2,462.16,396.74,13.50,10.80" target="#b1">[2]</ref>) have been widely used in aerospace, automotive, marine and aircraft structures applications. They have been studied for their compressive properties (Li et al. <ref type="bibr" coords="2,297.22,451.88,13.00,10.80" target="#b2">[3,</ref><ref type="bibr" coords="2,313.22,451.88,9.33,10.80" target="#b3"> 4]</ref>) and progressively crushing deformation mechanisms (Li and Mines <ref type="bibr" coords="2,192.85,479.48,13.99,10.80" target="#b4">[5] </ref>and Flores-Johnson et al. <ref type="bibr" coords="2,332.81,479.48,12.60,10.80" target="#b5">[6]</ref>). Impact properties of sandwich panels with PMI foam cores were reported in Sun and Wu <ref type="bibr" coords="2,341.70,507.08,14.00,10.80" target="#b6">[7] </ref>and Rizov et al. <ref type="bibr" coords="2,437.06,507.08,14.00,10.80" target="#b7">[8] </ref>while the cell structure of PMI foams and its influence on macroscopic properties were reported in Chen et al. <ref type="bibr" coords="2,59.58,562.28,13.98,10.80" target="#b8">[9] </ref>and Chen and Lakes <ref type="bibr" coords="2,177.15,562.28,18.38,10.80" target="#b9">[10]</ref>. Although substantial work has been done in the study of the dynamic compression of cellular materials <ref type="bibr" coords="2,108.82,623.48,14.65,10.80" target="#b10">[11]</ref><ref type="bibr" coords="2,123.47,623.48,4.88,10.80" target="#b11">[12]</ref><ref type="bibr" coords="2,123.47,623.48,4.88,10.80" target="#b12">[13]</ref><ref type="bibr" coords="2,123.47,623.48,4.88,10.80" target="#b13">[14]</ref><ref type="bibr" coords="2,128.35,623.48,14.65,10.80" target="#b14">[15]</ref>, the mechanical response of structural rigid foams subjected to low velocity impact has not been studied in detail. In fact, this problem has received little attention in contrast to sandwich structures although the low velocity impact usually has a significant deteriorating effect on the load-bearing capacity of the foam structure <ref type="bibr" coords="2,331.18,706.34,18.41,10.80" target="#b15">[16]</ref>. Additionally, most of the research on the low velocity impact of the foam is limited to hemi-spherical impactors which do not always represent the shape of foreign impacting objects. Penetration and perforation in polymeric foams by non-deformable impactors depends mainly on the impact velocity, material properties of the target and geometry of the impactor, e.g., nose shape and diameter. Although, the effect of the impactor nose shape on sandwich panels has been widely studied <ref type="bibr" coords="3,132.91,142.34,13.00,10.80" target="#b6">[7,</ref><ref type="bibr" coords="3,148.90,142.34,14.25,10.80" target="#b16"> 17]</ref>, there is limited research for the same effect on structural polymeric foams. Low velocity impact with spherical impactors has been studied for aluminium honeycombs targets by Shitta-Bey et al. <ref type="bibr" coords="3,197.85,203.54,18.41,10.80" target="#b17">[18]</ref>, in which, it was found that the impact load increases with the increase of the impact velocity for a given density, and with the increase of the density for a given impact velocity. The responses of PVC panels impacted by a spherical impactor have been carried out by Rizov <ref type="bibr" coords="3,129.14,286.34,18.41,10.80" target="#b15">[16]</ref>. It was found that the impact force increases with the increase of the impact velocity/energy. It was also reported in <ref type="bibr" coords="3,253.87,314.00,20.00,10.80" target="#b15">[16] </ref>that the maximum force for a given impact energy is higher for specimens with higher density. The effect of the impact velocity on polystyrene foams for hemi-spherical impactors has been studied by Mills and Moosa <ref type="bibr" coords="3,383.56,369.14,18.42,10.80" target="#b18">[19]</ref> . They found that the forcedisplacement curves did not show differences for different impact velocities. Since a lack of knowledge in the study of the nose shape effect on responses of polymeric foams under low velocity impact has been identified, the present paper addresses this problem through a study of the penetration behaviour of two PMI foams under a range of low velocity impacts from 4 to 8 m/s with conical, truncated-conical, flat and spherical nose impactors. An analytical model is developed to predict the penetration behaviour of PMI foams under low velocity impact <ref type="bibr" coords="3,137.62,562.40,18.40,10.80" target="#b19">[20]</ref>. A method for processing the experimental measurements of the impact force is also described in order to minimise the effect of noise, which is inherent in all impact measurements. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Materials</head><p>Commercially available high performance structural polymeric foams Rohacell WF were used in this investigation, which include Rohacell 51WF and 110WF with densities of 52 and 110 kg/m 3 , respectively <ref type="bibr" coords="4,155.22,114.74,12.75,10.80" target="#b1">[2]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Low velocity impact tests</head><p>Low velocity impact tests were performed on Rohacell WF foams using the impact rig shown in <ref type="figure" coords="4,72.40,209.54,27.00,10.80">Fig. 1</ref>. Impactors #1-6 (<ref type="figure" coords="4,189.58,209.54,34.59,10.80" target="#tab_1">Table 1</ref>) were used for impact tests. Impactors were dropped from 1, 2, 3 and 4 m heights using a vertical guiding tube with a releasing mechanism (<ref type="figure" coords="4,482.19,237.14,29.58,10.80">Fig. 1</ref>). A piezoelectric accelerometer (Kistler model 8602A501) was attached to the impactors. The accelerometer was connected to a signal amplifier with a 100 kHz low-pass built-in electrical filter, which is sufficient for the measurement of the deceleration of the impactor. For impact tests, Rohacell WF foams were cut into 100×100×100 mm cubes. Specimens were placed on a steel plate. The displacement and the deceleration of the projectile during the impact were measured using a non-contacting optical displacement measurement system (Zimmer 100F) and the attached accelerometer. </p><p>The impact velocity was estimated according to the free fall formula, v= gh 2 , where g is the gravitational constant and h is the drop height (<ref type="figure" coords="4,295.02,491.72,34.37,10.80">Table 2</ref>). The impact velocity was also measured using Zimmer 100F (<ref type="figure" coords="4,169.11,519.32,35.42,10.80">Table 2</ref>). The difference between the calculated and measured velocities, which increases with drop height, as shown in <ref type="figure" coords="4,292.94,546.92,35.97,10.80">Table 2</ref>, can be attributed to two factors, i.e., the friction between the guiding tube and the impactor during free fall and the small tension of the coaxial cable connecting the accelerometer to the signal amplifier. </p><p>Optimal filtering of the dynamic measurements is a difficult issue since a compromise between truncating the real signal and eliminating noise needs to be made <ref type="bibr" coords="4,418.28,657.32,18.39,10.80" target="#b20">[21]</ref>. <ref type="figure" coords="4,444.40,657.32,40.46,10.80" target="#fig_0">Figure 2</ref>shows the original signal from the accelerometer in a test of a Rohacell 110WF specimen impacted by impactor #2, which was dropped from a 1 m height. It can be seen that the signal from the accelerometer contains noise with many high-frequency components, which do not represent the deceleration of the impactor. Therefore, a filtering scheme is needed. 5 F l a t 2 0 - 9 0 y = 10 A method used by Lifshitz et al. <ref type="bibr" coords="6,255.23,433.46,19.98,10.80" target="#b21">[22] </ref>and Hernandez <ref type="bibr" coords="6,354.52,433.46,19.96,10.80" target="#b22">[23] </ref>to identify the frequencies of the system before the impact and the natural frequencies of the impactor is employed. <ref type="figure" coords="6,457.21,461.06,45.76,10.80" target="#fig_2">Figure 3a</ref>shows the PSD of the original signal from <ref type="figure" coords="6,232.05,488.66,28.14,10.80" target="#fig_0">Fig. 2</ref>and <ref type="figure" coords="6,283.75,488.66,34.07,10.80" target="#fig_2">Fig. 3b</ref>shows the PSD of the same signal before the impactor hits the specimen. Strong peaks of the frequencies of 1.5 kHz, 3.8 kHz, 10.4 kHz, 12.7 kHz, 17 kHz and 20 kHz were identified. These frequency peaks can be attributed to the natural frequencies of the impactor, the frequencies from the interaction between the impactor and the guiding tube or the frequencies of the environmental noise. </p><formula>6 2 0 y = y(x) - y = (D/2) 2 -[x-(D/2)] 2 Indenter # β ( o ) l </formula><p>In order to obtain the natural frequencies of the impactor, the impactor with the accelerometer attached was supported by a low density foam and tapped both horizontally and vertically. <ref type="figure" coords="6,504.58,654.20,31.31,10.80;6,59.58,681.80,6.00,10.80" target="#fig_3">Figure   4</ref>shows the normalized PSD of the signal from the accelerometer excited by tapping. Four very strong characteristic frequencies can be identified, i.e., 1.5, 3.9, 10.4 and 12.3 kHz, which are very similar to the frequencies that were indentified in <ref type="figure" coords="6,299.63,737.00,26.62,10.80" target="#fig_2">Fig. 3</ref>. This procedure was used for all impactors and similar frequencies were identified for all of them. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7"></head><p> After the frequency analysis, a 3.5 kHz low pass digital filter together with a 1.4-1.6 kHz bandstop digital filter were applied to all accelerometer signals. <ref type="figure" coords="7,345.50,87.14,40.50,10.80">Figure 5</ref>shows the original signal from It should be noted that the Zimmer 100F does not interact with measured object and has high response frequency (250 kHz), and therefore, the displacement signal (see <ref type="figure" coords="7,425.36,169.94,27.66,10.80" target="#fig_0">Fig. 2</ref>) is used directly without filtering. </p><p>Based on the filtered accelerometer signals, the impact force can </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>be determined by F=mâ </head><p>where m is the mass of the impactor and â is the deceleration measured by the accelerometer after the above-mentioned filtering procedures. </p><p>The force-time history from filtered accelerometer signal and the displacement-time history from Zimmer 100F are used to obtain the force-penetration curve. <ref type="figure" coords="8,160.44,750.54,23.36,9.02">Fig. 5</ref>Comparison between unfiltered and filtered signal from <ref type="figure" coords="8,411.39,750.54,23.42,9.02" target="#fig_0">Fig. 2</ref>Typical force-penetration curves of Rohacell WF foams from different drop heights tested with impactors #1-6 are depicted in Figs. 6-11, in which quasi-static indentation curves <ref type="bibr" coords="9,496.98,87.14,19.99,10.80" target="#b19">[20] </ref>are presented for comparison purpose. For both Rohacell 51WF and 110WF, the penetration force was found to be dependent on the impactor nose shape. Two distinct regimes were observed, i.e. the initial immersing regime when the nose of the impactor gradually immerse into the foam and the plateau-like regime starting from the moment when the impactor nose has completely immersed into the foam. For all types of impactors, the penetration force was found to be dependent on the density of the foam. For Rohacell 51WF foam, it can be seen that the dependency of the force-penetration curve on the impact velocity is not significant in the low velocity range (4-8 m/s). However, a dynamic effect can be clearly observed from the impact force-penetration curves, which is consistently below the quasi-static force-penetration curve. Careful examinations of the impacted specimens were performed and compared with those from quasi-static indentation <ref type="bibr" coords="9,430.08,390.74,18.41,10.80" target="#b19">[20]</ref>. Cross-sectioned specimens of Rohacell 51WF impacted with impactors #4 and #6 are shown in <ref type="figure" coords="9,470.48,418.28,34.32,10.80" target="#fig_0">Fig. 12</ref>. It is noticed that the crushed zone beneath the impactor is smaller than the crushed zone in quasi-static indentation. The difference between impact and indentation responses can be attributed to the reduced resistance of the impactor-crushed zone. In other words, the bluntness of the crushed zone in quasi-static indentation is higher than that in impact test, which causes the increase of resistance. For Rohacell 110WF, an increase in the impact force can be observed when it is compared with the resistant force in quasi-static indentation. A slight increase in the impact force with impact velocity was also observed. These observations may be attributed to the enhanced yield stress due to strain rate effects in the strain rate range used in the low velocity impact tests of Rohacell WF specimens, which is estimated as 40-80s -1 at the start of foam crushing. role that strain rate effect, which does not allow the observation of strain rate effect in these tests. a) b) Confinement effects due to the increase of foam density may also contribute to the slight increase in the impact force for Rohacell 110WF specimens. The increased density of Rohacell 110WF implies the increased cell interactions, which increase the lateral stresses due to the increased restrictions of the lateral deformation in the specimens and thus, the impact force. The increases of Young's modulus and yield stress due to lateral confinement have been observed by Song et al. <ref type="bibr" coords="11,124.05,692.00,20.00,10.80" target="#b23">[24] </ref>for epoxy syntactic foams. It is believed that confinement effects are not significant for low density foam Rohacell 51WF, but its effects increase with increase of foam </p><formula>density. a) b) a) b) </formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Penetration resistance</head><p>Based on the indentation tests on polymeric foams, an analytical model to predict the indentation resistance force was developed for an impactor with given nose shape y = y(x) <ref type="bibr" coords="12,495.84,664.40,18.39,10.80" target="#b19">[20]</ref>. The total resisting force F R during the immersing stage of the indenter nose consists of the crushing force, the tearing force and the friction force. It was also observed that, after the complete immersion of the indenter nose, there is friction traction between the indenter body and the foam. The total resisting force F R during the immersing stage of the indenter nose and after the complete immersion of the indenter nose can be expressed as <ref type="bibr" coords="13,309.16,618.38,20.00,10.80" target="#b19">[20] </ref></p><formula>0 2 ( ' ') z R y Cy F yy y y dx π σ μ σ = + +Γ ∫ (0 ≤ z ≤ l) </formula><formula>(1) </formula><formula>( ) 0 2 ( ' ') ( ) l R y Cy F yy y y dx a p z l π σ μ σ μ ⎡ ⎤ = + + Γ + − ⎢ ⎥ ⎣ ⎦ ∫ (z &gt; l) </formula><formula>(2) </formula><p>where z is the indentation depth, l is the length of the nose, Γ is the tearing energy per unit area <ref type="bibr" coords="13,59.58,757.82,18.42,10.80" target="#b24">[25]</ref>, σ y is the yield stress and μ C is the coefficient of friction. The term (μp) is the friction traction 2) developed for quasi-static indentation, can be use to predict the impact response if the yield stress is substituted by the enhanced yield stress due to strain rate effects and penetration mechanisms observed in low velocity impact tests are incorporated in the formulas. </p><formula>a) b) a) b) c) d) </formula><p>Fig. 11 Force-Penetration curves with impactor #6 for: a) Rohacell 51WF, b) Rohacell 110WF <ref type="figure" coords="15,100.08,755.88,28.34,9.02" target="#fig_0">Fig. 12</ref>Cross-section of the indented Rohacell 51WF specimens with impactor #4; (a) quasi-static, (c) impact; with impactor #6: (b) quasi-static, (d) impact. </p><formula>a) b) b) </formula><p>For Rohacell 51WF, a dynamic effect, was noted (i.e., the impact response curve is below the quasi-static response curve (<ref type="bibr" coords="16,221.95,87.14,51.52,10.80">Figs. 6-11)</ref>), which is independent of the impact velocity. The difference between impact and indentation responses can be attributable to the reduced resistance by the impactor-crushed zone, i.e., the bluntness of the frontal crushed zone in impact test is smaller than that in a quasi-static indentation test. During the advance of the impactor in foam medium, a crushed zone is formed, which changes the bluntness of the nose of the impactor. Thus, Eqs. (1-2) should be multiplied by a bluntness factor BF. For Rohacell 110WF, the dynamic effect observed for Rohacell 51WF was not observed. </p><p>However, a slight increase of load with the increase of impact velocity was observed suggesting that the impact velocity has an effect on the yield stress of the material. Due to the lack of strain rate sensitivity study for Rohacell 110WF, the dynamic yield stress is estimated as σ PE =4.2 MPa in the formulas, which gave the best agreement between predictions and experiments. <ref type="figure" coords="16,80.69,392.54,46.39,10.80" target="#fig_2">Figure 13</ref>shows the impact experimental results along with predictions from Eqs.(1-2) using a value of BF = 0.9 for Rohacell 51WF. Nose shape functions used for all the impactors are shown in <ref type="figure" coords="16,72.86,448.70,35.76,10.80" target="#tab_1">Table 1</ref>. Values of σ PE = 0.98 MPa <ref type="bibr" coords="16,250.47,448.70,12.74,10.80" target="#b3">[4]</ref>, Γ = 1.39 kJ/m 2 , μp= 0.094 MPa <ref type="bibr" coords="16,433.78,448.70,19.99,10.80" target="#b19">[20] </ref>and ε D =0.69 <ref type="bibr" coords="16,521.76,448.70,14.02,10.80" target="#b5">[6] </ref>were used for Rohacell 51WF and σ PE = 4.2 MPa, Γ = 5.64 kJ/m 2 , μp= 0.115 MPa <ref type="bibr" coords="16,493.39,478.10,20.02,10.80" target="#b19">[20] </ref>and ε D =0.65 <ref type="bibr" coords="16,101.39,507.50,13.99,10.80" target="#b5">[6] </ref>for Rohacell 110WF. </p><p>In general, good agreements are observed for all impactors between experimental and analytical predictions for Rohacell 51WF. For Rohacell 110WF, predictions reasonably agree with experimental results for the lowest impact velocity (1 m drop height). For the highest impact velocity (4 m drop height), good predictions of the maximum load can be observed, except for impactor #1 where the maximum load is overestimated. It can be observed in <ref type="figure" coords="16,457.48,646.28,35.90,10.80" target="#fig_2">Fig. 13</ref>that the stiffness increases slightly with impact velocity for Rohacell 110WF and 4 m drop height which is not predicted by the model. This observation can be attributed to various deformation mechanisms (e.g. micro inertia of the cells <ref type="bibr" coords="16,204.22,729.08,19.21,10.80" target="#b13">[14]</ref>) which are not considered by the model.  for Rohacell 51WF and 110WF, respectively, gave reasonably good predictions of the forcepenetration curves. However strain rate and confinement sensitivity studies for Rohacell 110WF a) b) </p><formula>c) d) e) f) </formula><p>foam, which are unavailable in the present study, need to be performed in order to validate the value of σ PE =4.2 MPa used in this research. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">CONCLUSIONS</head><p>It is shown in low velocity impact tests that penetration force depends on the geometry of the impactor and the density of the foam. In the low impact velocity range studied in this research, the effect of the impact velocity on the penetration resistance load is not observed for Rohacell 51WF. However, a dynamic effect is identified, i.e., the impact resistance is lower than quasi-static indentation resistance. This is due to the reduction of the crushed zone beneath the impactor in impact. For Rohacell 110WF, a slight increase of the resistance force with the increase of impact velocity is observed, which is attributed to the increased strain rate and confinement effects for higher density foams. Analytical models based on experimental observations are proposed to predict the penetration resistance. Parameters in these analytical models have clear physical meanings and can be determined by material tests. Good agreement is observed between analytical predictions and experimental results for both Rohacell 51WF and 110WF foams. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="6,173.52,393.84,248.36,9.02"><head>Fig. 2 </head><figDesc>Fig. 2 Original signals of the accelerometer and Zimmer 100F </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="7,59.58,114.74,421.34,10.80"><head>Fig. 2 </head><figDesc>Fig. 2 and the filtered signal obtained after applying the above-mentioned digital filters. </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,102.84,751.26,389.66,9.02"><head>Fig. 3 a</head><figDesc>Fig. 3 a) PSD of the original signal in Fig. 2, b) PSD of the original signal in Fig. 2 before impact </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="8,150.48,518.28,294.43,9.02"><head>Fig. 4 </head><figDesc>Fig. 4 Normalized PSD from a) vertical tapping and b) horizontal tapping </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="10,80.58,576.98,455.44,10.80;10,59.58,604.58,125.43,10.80;10,184.98,601.81,6.63,7.18;10,191.64,604.58,4.67,10.80;10,196.32,601.81,6.63,7.18;10,202.98,604.58,16.02,10.80;10,219.00,601.81,3.99,7.18;10,223.02,604.58,4.67,10.80;10,227.70,601.81,6.63,7.18;10,237.83,604.58,298.13,10.80;10,59.58,633.14,82.52,10.80;10,146.16,628.59,7.24,15.52;10,153.42,637.39,4.88,7.18;10,158.28,633.14,187.18,10.80;10,349.56,628.59,7.24,15.52;10,356.82,637.39,9.74,7.18;10,366.54,633.14,151.02,10.80;10,517.56,630.37,3.99,7.18;10,521.58,633.14,4.67,10.80;10,526.26,630.37,6.63,7.18;10,532.92,633.14,3.00,10.80;10,59.58,662.54,344.56,10.80;10,404.16,666.79,9.74,7.18;10,413.88,662.54,122.07,10.80;10,59.58,690.98,80.64,10.80;10,140.22,688.21,3.99,7.18;10,144.24,690.98,4.67,10.80;10,148.92,688.21,6.63,7.18;10,155.58,690.98,16.02,10.80;10,171.60,688.21,3.99,7.18;10,180.24,690.98,4.67,10.80;10,184.92,688.21,6.63,7.18;10,191.58,690.98,344.47,10.80;10,59.58,718.58,476.22,10.80;10,59.58,746.18,476.38,10.80"><head></head><figDesc>Strain rate effects on the compressive yield stress have been observed for Rohacell 51WF in the strain rate range of 10 -3 s -1 -10 2 s -1 by Li et al. [4]. They reported an increase of the compressive yield stress from σ P =0.8 MPa at quasi-static strain rate to σ PE =0.98 MPa at strain rate of 10 0 s -1 . They also reported that the enhanced yield stress remains constant (σ PE =0.98 MPa) in the strain rate range of 10 0 s -1 -10 2 s -1 . It is believed that the strain rate effects are also present in the low velocity impact tests of Rohacell 51WF in the present study. However, the reduced resistance due to the reduction of the bluntness of the crushed zone beneath the impactor plays more important </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="10,70.14,543.36,410.88,9.88"><head>Fig. 6 </head><figDesc>Fig. 6 Force-Penetration curves with impactor #1 for: a) Rohacell 51WF, b) Rohacell 110WF </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="13,110.94,551.22,373.60,9.02"><head>Fig. 9 </head><figDesc>Fig. 9 Force-Penetration curves with impactor #4 for: a) Rohacell 51WF, b) Rohacell 110WF </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="13,154.20,82.04,9.34,10.80;13,152.52,319.58,10.01,10.80;14,525.72,804.42,10.05,9.02;14,59.58,59.54,476.20,10.80;14,59.58,87.14,476.38,10.80"><head>per unit area between the foam wall and the body of the impactor after the </head><figDesc>nose has completely immersed into the foam. These values for Rohacell 51WF and 110WF will be given later. Eqs. (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="14,108.42,666.18,378.70,9.02"><head>Fig. 10 Force</head><figDesc>Fig. 10 Force-Penetration curves with impactor #5 for: a) Rohacell 51WF, b) Rohacell 110WF </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="17,62.46,617.88,470.59,9.02;17,229.50,629.40,136.40,9.02"><head>Fig. 13 </head><figDesc>Fig. 13 Experimental and predicted results of the penetration force for Rohacell 51WF and 110WF with impactors: a) #1, b) #2, c) #3, d) #4, e) #5, f) #6 </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="true" coords="5,92.70,59.04,376.16,650.66"><figDesc coords="5,240.06,59.04,115.25,9.02">Table 1 Impactor geometries</figDesc><table coords="5,92.70,109.95,376.16,599.74">Fig. 1 Low velocity impact test set-up 
+
+1 
+20 
+36 
+74.5 
+
+2 
+20 
+10 
+45 
+y = x cot (β) 
+
+3 
+2 0 
+6 
+3 1 
+
+4 
+Truncated 
+20 
+18 
+74.5 
+y = 5 + x cot (β) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false" coords="5,127.50,85.35,207.75,271.73"><figDesc coords="5,313.68,85.35,21.57,8.81;5,268.74,85.35,31.17,8.81;5,200.76,348.27,60.42,8.81;5,215.64,133.29,30.52,8.81;5,127.50,85.35,61.78,8.81;5,220.86,85.35,20.15,8.81;5,144.90,163.16,3.34,10.80;5,145.62,232.04,3.34,10.80;6,159.00,59.04,277.44,9.02">(mm) D (mm) Hemi-spherical Conical Nose Geometry Type l l Table 2 Calculated and measured velocities for different drop heights</figDesc><table coords="6,141.96,85.65,313.03,67.68">Drop Height (m) Calculated Velocity (m/s) Measured Velocity (m/s) 
+1 
+4.43 
+4.15 
+2 
+6.26 
+5.70 
+3 
+7.67 
+6.45 
+4 
+8.86 
+7.93 
+
+</table></figure>
+
+			<note place="foot">Fig. 7 Force-Penetration curves with impactor #2 for: a) Rohacell 51WF, b) Rohacell 110WF</note>
+
+			<note place="foot">Fig. 8 Force-Penetration curves with impactor #3 for: a) Rohacell 51WF, b) Rohacell 110WF</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="18,71.59,682.28,434.36,10.80"  xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Abrate</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Impact On Composite</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Structures</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,71.58,708.08,440.76,10.80;18,59.58,721.88,27.00,10.80"  xml:id="b1">
+	<monogr>
+		<title level="m" type="main">ROHACELL® -The Core for Sandwich Solutions</title>
+		<author>
+			<persName>
+				<forename type="first">Gmbh</forename>
+				<surname>Evonik Röhm</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Cd</forename>
+				<surname>Data</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,71.57,747.68,443.95,10.80;18,59.58,761.48,300.01,10.80"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Compressive strain at the onset of densification of cellular solids</title>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Magkiriadis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jj</forename>
+				<surname>Harrigan</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cellular Plastics</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="371" to="392" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,71.58,59.54,458.57,10.80;19,59.58,73.34,333.02,10.80"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The crush behaviour of Rohacell-51WF structural foam</title>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Rs</forename>
+				<surname>Birch</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Solids and Structures</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="6321" to="6341" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,71.58,99.14,454.38,10.80;19,59.58,112.94,116.71,10.80"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Strain measures for rigid crushable foam in uniaxial compression</title>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strain</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="132" to="172" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,71.58,138.74,402.96,10.80;19,59.58,152.54,461.98,10.80;19,59.58,166.34,43.01,10.80"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Degradation of Elastic Modulus of Progressively Crushable Foams in Uniaxial Compression</title>
+		<author>
+			<persName>
+				<forename type="first">Ea</forename>
+				<surname>Flores-Johnson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cellular Plastics</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="415" to="434" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,71.58,192.14,402.01,10.80;19,59.58,205.94,429.93,10.80;19,59.58,219.74,51.01,10.80"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Low Velocity Impact of Composite Sandwich Panels</title>
+		<author>
+			<persName>
+				<forename type="first">Ct</forename>
+				<surname>Sun</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Cl</forename>
+				<surname>Wu</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc 32th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics and Materials Conf</title>
+		<meeting>32th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics and Materials Conf<address><addrLine>Baltimore</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,71.58,245.54,437.64,10.80;19,59.58,259.34,227.59,10.80"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Indentation study of foam core sandwich composite panels</title>
+		<author>
+			<persName>
+				<forename type="first">V</forename>
+				<surname>Rizov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Shipsha</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Zenkert</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Composite Structures</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="95" to="102" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,71.59,285.14,452.31,10.80;19,59.58,298.94,324.89,10.80"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Relating the properties of foam to the properties of the solid from which it is made</title>
+		<author>
+			<persName>
+				<forename type="first">Cp</forename>
+				<surname>Chen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Wb</forename>
+				<surname>Anderson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Rs</forename>
+				<surname>Lakes</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cellular Polymers</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="32" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.59,324.74,430.61,10.80;19,59.58,338.54,181.63,10.80"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Analysis of the structure-property relations of foam materials</title>
+		<author>
+			<persName>
+				<forename type="first">Cp</forename>
+				<surname>Chen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Rs</forename>
+				<surname>Lakes</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cellular Polymers</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="186" to="202" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.59,364.34,446.92,10.80;19,59.58,378.14,468.20,10.80"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Validation of constitutive models applicable to aluminium foams</title>
+		<author>
+			<persName>
+				<forename type="first">Ag</forename>
+				<surname>Hanssen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Os</forename>
+				<surname>Hopperstad</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Langseth</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Ilstad</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Mechanical Sciences</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="359" to="406" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.58,403.94,430.32,10.80;19,59.58,417.74,427.34,10.80;19,59.58,431.54,450.63,10.80;19,59.58,445.34,71.89,10.80"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Inertial effects on the crushing strength of wood loaded along the grain</title>
+		<author>
+			<persName>
+				<forename type="first">Jj</forename>
+				<surname>Harrigan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sr</forename>
+				<surname>Reid</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ty</forename>
+				<surname>Reddy</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Experimental Mechanics: Advances in Design, Testing and Analysis : Proceedings of the 11th International Conference on Experimental Mechanics</title>
+		<meeting><address><addrLine>Oxford: A.A. Balkema</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.59,471.14,414.20,10.80;19,59.58,484.94,446.93,10.80"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mechanical Properties of Polyurethane-Foam Impact Limiters</title>
+		<author>
+			<persName>
+				<forename type="first">Ak</forename>
+				<surname>Maji</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Hl</forename>
+				<surname>Schreyer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Donald</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Q</forename>
+				<surname>Zuo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Satpathi</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Engineering Mechanics</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="528" to="540" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.57,510.74,444.86,10.80;19,59.58,524.54,130.04,10.80"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Strain rate effects in crushable structural foams</title>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Applied Mechanics and Materials</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="231" to="236" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.60,550.28,430.77,10.80;19,59.58,564.08,462.96,10.80;19,59.58,577.88,87.35,10.80"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Constitutive modeling of polymeric foam material subjected to dynamic crash loading</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Zhang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Kikuchi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">V</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Yee</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Nusholtz</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="369" to="386" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.57,603.68,446.29,10.80;19,59.58,617.48,105.38,10.80"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Low velocity localized impact study of cellular foams</title>
+		<author>
+			<persName>
+				<forename type="first">Vi</forename>
+				<surname>Rizov</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials &amp; Design</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2632" to="2640" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.59,643.28,445.56,10.80;19,59.58,657.08,434.89,10.80;19,59.58,670.88,212.04,10.80"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Indentation, Penetration and Perforation of Composite Laminate and Sandwich Panels under Quasi-Static and Projectile Loading</title>
+		<author>
+			<persName>
+				<forename type="first">Hm</forename>
+				<surname>Wen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ty</forename>
+				<surname>Reddy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sr</forename>
+				<surname>Reid</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Pd</forename>
+				<surname>Soden</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Key Engineering Materials</title>
+		<imprint>
+			<biblScope unit="page" from="141" to="143" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,77.59,696.68,445.75,10.80;19,59.58,710.48,419.96,10.80;19,59.58,724.28,473.16,10.80;19,59.58,738.08,93.37,10.80"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The localized low-velocity impact response of aluminium honeycombs and sandwich panels for occupant head protection: experimental characterization and analytical modelling</title>
+		<author>
+			<persName>
+				<forename type="first">Ot</forename>
+				<surname>Shitta-Bey</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jj</forename>
+				<surname>Carruthers</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Soutis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ms</forename>
+				<surname>Found</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Crashworthiness</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="549" to="558" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,77.59,59.54,440.57,10.80;20,59.58,73.34,226.99,10.80"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Impacts of Hemispherical Strikers on Polystyrene Bead Foam</title>
+		<author>
+			<persName>
+				<forename type="first">Nj</forename>
+				<surname>Mills</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Asi</forename>
+				<surname>Moosa</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cellular Plastics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="289" to="310" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,77.58,99.14,395.88,10.80;20,59.58,112.94,224.70,10.80"  xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Indentation into polymeric foams</title>
+		<author>
+			<persName>
+				<forename type="first">Ea</forename>
+				<surname>Flores-Johnson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>Submitted. to International Journal of Solids and Structures</note>
+</biblStruct>
+
+<biblStruct coords="20,77.59,138.74,432.99,10.80;20,59.58,152.54,407.94,10.80"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Static and dynamic behaviour of composite riveted joints in tension</title>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Rs</forename>
+				<surname>Birch</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Mechanical Sciences</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1591" to="1610" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,77.59,178.34,454.31,10.80;20,59.58,192.14,307.99,10.80"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Instrumented low-velocity impact of CFRP beams</title>
+		<author>
+			<persName>
+				<forename type="first">Jm</forename>
+				<surname>Lifshitz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Gov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Gandelsman</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="201" to="215" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,77.59,217.94,443.51,10.80;20,59.58,231.74,259.93,10.80"  xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Improving the response of an accelerometer by using optimal filtering. Sensors and Actuators A: Physical</title>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<surname>Hernández</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="198" to="208" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,77.59,257.54,400.62,10.80;20,59.58,271.34,446.93,10.80"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Confinement effects on the dynamic compressive properties of an epoxy syntactic foam</title>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Song</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<surname>Chen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Yanagita</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Dj</forename>
+				<surname>Frew</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Composite Structures</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="279" to="287" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,77.59,297.14,455.26,10.80;20,59.58,310.94,150.67,10.80"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Indentation resistance of an aluminium foam</title>
+		<author>
+			<persName>
+				<forename type="first">Ob</forename>
+				<surname>Olurin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Na</forename>
+				<surname>Fleck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Mf</forename>
+				<surname>Ashby</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="983" to="989" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

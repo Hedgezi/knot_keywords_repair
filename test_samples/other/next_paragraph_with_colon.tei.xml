@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.1" ident="GROBID" when="2016-10-07T17:48+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Indentation into polymeric foams</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2010-08-01">1 August 2010 . Pages 1987-1995</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">E</forename>
+								<forename type="middle">A</forename>
+								<surname>Flores-Johnson</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Mechanical</orgName>
+								<orgName type="department" key="dep2">Aerospace and Civil Engineering</orgName>
+								<orgName type="department" key="dep3">Pariser Building</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<postBox>PO Box 88</postBox>
+									<postCode>M60 1QD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Q</forename>
+								<forename type="middle">M</forename>
+								<surname>Li</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Mechanical</orgName>
+								<orgName type="department" key="dep2">Aerospace and Civil Engineering</orgName>
+								<orgName type="department" key="dep3">Pariser Building</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<postBox>PO Box 88</postBox>
+									<postCode>M60 1QD</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Indentation into polymeric foams</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">International Journal of Solids and Structures</title>
+						<imprint>
+							<biblScope unit="volume">47</biblScope>
+							<biblScope unit="issue">16</biblScope>
+							<date type="published" when="2010-08-01">1 August 2010 . Pages 1987-1995</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ijsolstr.2010.03.025</idno>
+					<note>1 This is the author&apos;s version of a work accepted for publication by Elsevier. Changes resulting from the publishing process, including peer review, editing, corrections, structural formatting and other quality control mechanisms, may not be reflected in this document. Changes may have been made to this work since it was submitted for publication. The definitive version has been published in</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Indentation, polymeric foam, analytical modelling</term>
+					<term>* Corresponding author, Email: qingmingli@manchesteracuk</term>
+					<term>2</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The effects of the nose shape of rigid indenters on the indentation behaviour of polymethacrylimide(PMI) and polyetherimide(PEI) foams with different densities are investigated. Experimental results show that indentation resistance depends on the geometry of the indenter and the density of the foam. Analytical models based on the deformation mechanisms observed in experiments are developed to predict the indentation resistance. It shows that the analytical predictions are in good agreement with experimental measurements for a range of polymeric foams. This study presents a complete and systematic experimental data on the indentation behaviours of a range of polymeric foams and demonstrates the capability of the analytical model to predict the indentation behaviours of PMI and PEI foams.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Polymeric foams are widely used as core materials for sandwich structures in automotive and aerospace industries due to their light weight and high specific stiffness. They are also used in non-structural applications for cushioning, packaging and insulating purposes because of their energy absorbing properties and good vibration attenuation and thermal and acoustic insulations<ref type="bibr" coords="2,121.61,202.82,13.82,10.87" target="#b0">[1]</ref>. During the service life of polymeric foams or foam-cored sandwich structures, indentation and low velocity impacts by foreign objects are likely to occur<ref type="bibr" coords="2,432.40,230.42,14.64,10.87" target="#b1">[2]</ref>. Consequently, a good understanding of indentation and impact response of both sandwich structures and foam cores is necessary to predict and assess their consequent damages. Indentation and penetration behaviours of polymeric foams loaded by non-deformable indenters depend mainly on the impact velocity, material properties of the foam target and the geometry of the indenter (i.e. nose shape, diameter and the length of indenter). Although, the effect of the nose shape of an indenter on the response of sandwich panels has been widely studied<ref type="bibr" coords="2,466.31,396.02,14.14,10.87" target="#b2">[3]</ref>, there is limited research about the nose shape effect on the response of structural polymeric foams. Quasi-static indentation test has been used to understand low velocity impact response of composites<ref type="bibr" coords="2,121.75,478.82,15.25,10.87" target="#b3">[4]</ref>. Several analytical models have been developed to predict indentation resistance during quasi-static indentation of aluminium foams<ref type="bibr" coords="2,368.84,506.42,15.88,10.87" target="#b4">[5,</ref><ref type="bibr" coords="2,388.32,506.42,8.64,10.87" target="#b5"> 6]</ref>, but little analytical work has been done for polymeric foams. Olurin et al.<ref type="bibr" coords="2,306.38,534.02,12.86,10.87" target="#b4">[5] </ref>used indentation test on aluminium foams to obtain material properties, i.e., plateau stress and tear energy. Numerical simulations of quasi-static indentation into polymeric foams have been studied by several authors, e.g. <ref type="bibr" coords="2,188.76,616.82,9.08,10.87" target="#b6">[7]</ref><ref type="bibr" coords="2,197.84,616.82,4.54,10.87" target="#b7">[8]</ref><ref type="bibr" coords="2,202.38,616.82,9.08,10.87" target="#b8">[9]</ref>, but they are limited to hemi-spherical and flat nose indenters. Low velocity impact of polyurethane foams by cylindrical indenter, rectangular block and wedge-tipped block was reported in Shim et al.<ref type="bibr" coords="2,329.85,672.02,17.40,10.87" target="#b9">[10]</ref>. It was found that the resulting deformation is governed by the geometry of the impactor. With a rectangular block, deformation is concentrated in the region beneath the impactor. With a cylinder, a small amount of lateral deformation is observed although the major deformation again occurs beneath the impactor. For the wedge-tipped impactor, material surrounding the tip is pushed apart by the two inclined faces and thus deforms as they press against and slide along the sides of the impactor. There is relatively small deformation beneath the wedge tip. A common feature for all impactors is that gross deformation is confined to their immediate vicinity and there is a well-defined boundary between deformed and undeformed regions. This research is motivated by the lack of knowledge in the study of indentation behaviour of polymeric foams. Experimental results on four polymeric foams subjected to quasi-static loading of indenters with conical (three different angles), truncated-conical, flat and hemispherical (four different diameters) nose shapes are reported in this study. Various mechanisms, which influence the indentation resistance, are identified. Analytical models are developed to predict the indentation resistance measured in experiments. A complete description of material properties of the studied polymeric foams will be presented in Section 2. Section 3 describes the indentation tests and experimental results. Analytical models based on experimental observations will be proposed in Section 4, which is followed by conclusions in Section 5. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">MATERIAL PROPERTIES</head><p>Commercially available high performance structural polymeric foams Rohacell WF and Airex R82 are used in this investigation. Rohacell foams include 51WF and 110WF with nominal densities of 52 and 110 kg/m 3 , respectively<ref type="bibr" coords="3,394.29,561.62,19.03,10.87" target="#b10">[11]</ref>, which are PMI (polymethacrylimide) closed-cell rigid foams. Mechanical properties of Rohacell WF have been extensively studied<ref type="bibr" coords="3,188.76,616.82,14.76,10.87" target="#b11">[12]</ref><ref type="bibr" coords="3,203.52,616.82,4.92,10.87" target="#b12">[13]</ref><ref type="bibr" coords="3,203.52,616.82,4.92,10.87" target="#b13">[14]</ref><ref type="bibr" coords="3,203.52,616.82,4.92,10.87" target="#b14">[15]</ref><ref type="bibr" coords="3,203.52,616.82,4.92,10.87" target="#b15">[16]</ref><ref type="bibr" coords="3,208.44,616.82,14.76,10.87" target="#b16">[17]</ref>. In addition to Rohacell WF foams, two PEI (polyetherimide) closed-cell thermoplastic foams, Airex R82.60 and R82.80 with nominal densities of 60 and 80 kg/m 3 , respectively<ref type="bibr" coords="3,181.86,672.02,19.06,10.87" target="#b17">[18]</ref>, are also investigated. Yoon et al.<ref type="bibr" coords="3,379.54,672.02,18.05,10.87" target="#b18">[19] </ref>and Kuwabara et al.<ref type="bibr" coords="3,506.38,672.02,18.05,10.87" target="#b19">[20] </ref>have reported the mechanical properties for Airex R82 foams. The densities of the foams were measured as 57.18±1.17, 125.18±0.36, 63.86±0.19 and 85.30±0.15 (kg/m 3 ) for Rohacell 51WF, Rohacell 110WF, Airex R82.60 and Airex R82.80, respectively. 4 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Uniaxial compression test</head><p>Uniaxial compression tests for Rohacell 51WF and 110WF foams have been reported in <ref type="bibr" coords="4,70.92,120.14,18.53,10.87" target="#b14">[15]</ref> . Uniaxial compression tests for Airex R82 foams were performed to obtain their stressstrain relations. The foam specimen dimensions are 100×100×60 mm where 60 mm is the thickness. The test was carried out on a standard INSTRON 200 kN servo-hydraulic machine at room temperature (22°C) and relative humidity of 27%. The compressive load was applied in thickness direction under a quasi-static condition, at a cross-head speed of 3 mm/min corresponding to a nominal strain rate of 8.3x10 -4 s -1 . <ref type="figure" coords="4,85.08,285.62,43.08,10.87" target="#fig_1">Figure 1</ref>shows the compressive stress-strain curves for Airex R82 foams. Similar to Rohacell WF foams<ref type="bibr" coords="4,165.90,313.22,20.98,10.87" target="#b14">[15]</ref>, three regimens were observed, i.e., (1) initial linear-elastic regime, </p><p>(2) a plateau regime, in which the stress is almost constant or slightly increased, and (3) a densification regime where the stress increases rapidly with the further increase of the strain. From the elastic regime, Young's modulus E, yield strain ε y and yield stress σ y were obtained. </p><p>The results are summarised in <ref type="figure" coords="4,219.12,423.62,36.48,10.87" target="#tab_1">Table 1</ref>along with the results for Rohacell WF foams obtained in previous research<ref type="bibr" coords="4,166.33,451.22,19.38,10.87" target="#b14">[15]</ref>. In the plateau regime, the stress is almost constant for Airex R82.60 foam while Airex R82.80 presents a slight strain-hardening. Strain-hardening is associated with the uniform deformation shown in <ref type="figure" coords="4,186.48,534.02,24.96,10.87" target="#fig_2">Fig.2</ref>for Airex R82.80 and other publications, e.g., polypropylene foam in <ref type="bibr" coords="4,114.00,561.62,18.43,10.87" target="#b20">[21]</ref>, which is in contrast with the progressive crushing identified in Rohacell WF foams in their plateau regimes<ref type="bibr" coords="4,213.83,589.22,20.36,10.87" target="#b14">[15]</ref>. It can be observed in <ref type="figure" coords="5,176.40,439.34,25.08,10.87" target="#fig_1">Fig.1</ref>that the transition strain between the plateau and the densification regimes for Airex R82 foams cannot be clearly defined unlike in Rohacell WF foams where an abrupt increase of the stress can be used to represent the onset of densification. To determine the densification strain ε y , a method describe in <ref type="bibr" coords="5,354.00,522.02,19.08,10.87" target="#b12">[13,</ref><ref type="bibr" coords="5,376.32,522.02,15.00,10.87" target="#b21"> 22,</ref><ref type="bibr" coords="5,394.56,522.02,14.31,10.87" target="#b22"> 23]</ref>, based on maximum of energy absorption efficiency curve was adopted </p><formula>∫ = ε ε ε σ ε σ ε η 0 ) ( ) ( 1 ) ( d . </formula><p>(1) <ref type="figure" coords="5,91.92,624.02,40.32,10.87" target="#fig_1">Figure 1</ref> shows the compressive stress-strain curves and the energy absorption efficiencystrain curves for Airex R82 foams. The maximum of the energy absorption efficiency is corresponding to the densification strain<ref type="bibr" coords="5,281.80,679.22,18.11,10.87" target="#b23">[24]</ref>. <ref type="figure" coords="5,311.64,679.22,40.56,10.87" target="#tab_1">Table 1</ref>also presents the values of the densification strain ε d obtained for Airex R82 foams using above methodology and for Rohacell WF obtained in<ref type="bibr" coords="5,191.13,734.42,18.65,10.87" target="#b14">[15]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">QUASI-STATIC INDENTATION TEST</head><p>A series of quasi-static indentation tests were conducted for Rohacell WF and Airex R82 foams using a range of steel indenters shown in <ref type="figure" coords="6,325.32,120.14,37.38,10.87" target="#tab_2">Table 2</ref>and relative humidity of 27%. The indenters were pushed into the foam specimens up to 50 mm maximum depth. 100×100×100 mm cube was used for Rohacell WF foams. For Airex R82 foams, the same 100×100×60 mm cuboid used for uniaxial compression test was adopted. <ref type="figure" coords="7,112.32,522.30,4.58,8.30;7,283.80,522.30,9.14,8.30;7,317.40,522.30,9.14,8.30;7,347.40,522.30,16.22,8.30;7,112.32,544.26,4.58,8.30;7,283.80,544.26,9.14,8.30;7,317.40,544.26,9.14,8.30;7,351.00,544.26,9.14,8.30" target="#tab_0">1  20  36  74.5   2  20  10  45</ref></p><formula># β ( o ) l (mm) D (mm) y = y(x) - y = (D/2) 2 -[x-(D/2)] 2 </formula><p>repeating cycles of yield, collapse and densification of the material as observed in aluminium foams by Olurin et al.<ref type="bibr" coords="7,188.62,92.54,12.34,10.87" target="#b4">[5]</ref>. Intermittent release of elastic energy with the progression of indentation may be another factor to explain these oscillations. As indentation increases, the indenter is supported by an increasing crushed zone of densified material and the further crushing results in the local jumping-like response. The emission of noise was also heard each time when the force dropped in each oscillation. </p><p>The increases of force in the plateau-like regime and the starting point of the plateau-like regime with the radius of the indenter in <ref type="figure" coords="7,271.56,258.02,30.41,10.87" target="#fig_3">Fig.3a</ref>depend on the geometrical dimensions of the hemi-spherical indenter. Such dependences can be largely reduced when the force is normalized by the transverse cross-sectional area of the indenter πD 2 /4 and the indentation displacement is normalized by the radius of the indenter D/2, as shown in <ref type="figure" coords="7,431.52,342.62,29.01,10.87" target="#fig_3">Fig.3b</ref>. However, a decrease of the normalized force with the increase of the diameter of the indenter can still be seen in <ref type="figure" coords="7,113.76,397.82,29.11,10.87" target="#fig_3">Fig.3b</ref>. This can be attributed to the fact that the normalization only takes the geometrical influence on the crushing resistance into consideration while the tearing resistance also contributes to the total indentation force <ref type="bibr" coords="7,338.76,453.02,12.87,10.87" target="#b4">[5]</ref>. (b) Truncated indenter Force-indentation curves show an initial small elastic regime due to the stress singularity and strain localization at the perimeter of the indenter tip<ref type="bibr" coords="10,355.34,456.62,17.94,10.87" target="#b25">[26]</ref>. After the elastic regime, a continuous and gradual increase of load is observed mainly due to the crushing of the foam in front of the indenter, tearing of the cell walls and friction between the foam and the slanted surface of the indenter. </p><p>(c) Flat indenter Force-indentation curves show an initial elastic regime at very low strains until reaching a peak load which indicates the onset of the plastic collapse and crushing of the cells. Plastic regime is characterized by a steady increase of the force as a consequence of the additional force required to tear the cell walls at the perimeter of the indenter and the frictional force between the body of the indenter and the foam wall. </p><p>(d) Hemi-spherical indenter Force-indentation curves show an initial elastic regime, which has lower slope than that of flat indenters and gradually increases with the increase of the contact area with further indentation. An increase of the force is observed during plastic regime and it can be attributed to the same tearing, crushing and friction factors mentioned before. For all types of indenters, the indentation force was found to be dependent on the density of the foam. Two distinct regimes were observed, i.e. the initial immersing regime when the nose of the indenter gradually immerse into the foam and the plateau-like regime starting from the moment when the indenter nose has completely immersed into the foam. Actually, the start of the plateau-like regime did not immediately follow the immersion of the indenter's nose into the foam specimen, but after a further small indentation, which will be further explained in Section 4.3. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">ANALYTICAL MODEL</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Indentation resistance</head><p>Based on the indentation tests on Rohacell WF and Airex R82 polymeric foams, the total resisting force F R during the immersing stage of the indenter nose consists of the crushing force F C , the tearing force F T and the friction force F F . It was also observed that after the complete immersion of the indenter nose, a friction traction F TR between the indenter body and the foam, which is different from F F , should be included. Thus, the total force F R can be expressed as ) </p><formula>( ) ( ) ( ) ( z F z F z F z F T F C R + + = (0 ≤ z ≤ l) </formula><formula>(2) ) ( ) ( ) ( ) ( ) ( z F l F l F l F z F TR T F C R + + + = (z &gt; l) </formula><formula>(3) </formula><p>where z is the indentation depth and l is the length of the nose. </p><p>Consider a rigid, axisymmetric indenter with radius a and a general convex nose shape, described by y = y(x), indenting normally into a semi-infinite medium. The cross-section of the nose is shown in <ref type="figure" coords="11,177.72,765.14,23.20,10.87" target="#fig_8">Fig.8</ref>. If only the normal pressure and the tangential friction force are considered, the increment of their resultant axial resistance on the indenter can be estimated using a similar analysis in penetration study<ref type="bibr" coords="12,281.03,92.54,20.44,10.87" target="#b26">[27] </ref>ds where p n is the normal pressure, f is the friction force per unit area due to the sliding, and </p><formula>dx y ds 2 ' 1 + = (5) </formula><p>is the increment of the arc length on the surface of the nose. From the geometry in <ref type="figure" coords="12,468.24,215.30,24.96,10.87" target="#fig_8">Fig.8</ref>θ </p><formula>tan ' = = dx dy y (6) 2 ' 1 ' sin y y + = θ (7) 2 ' 1 1 cos y + = θ (8) </formula><p>Substituting Eqs.(5), (7) and (8) into Eq.(4), </p><formula>dx f p y y dF n ) ' ( 2 + = π , (9) </formula><p>which can be integrated between x = 0 and l (length of the nose) to give the total axial resistance on the nose of the indenter, </p><formula>∫ + = l n dx yf p yy F 0 ) ' ( 2π , (10) </formula><p>which includes both crushing and friction resistance terms, i.e. </p><formula>F = F C + F F . </formula><formula>(11) </formula><p>The tearing force F T can be defined as </p><formula>0 2 ' z T F y dx π = Γ ∫ (0 ≤ z ≤ l) </formula><formula>(12) </formula><p>where Γ is the tearing energy per unit area<ref type="bibr" coords="12,272.58,667.09,13.91,10.89" target="#b4">[5]</ref>. It has been observed on low density PMI foam (Rohacell WF51) in <ref type="bibr" coords="12,415.20,695.53,69.88,10.89" target="#b13">Li et al (2000) </ref>that the compressive stress and hydrostatic stress have close values and remain relatively constant before densification is reached, which implies that the normal pressure ( n p ) in Eq.(10) can be approximated by the yield stress σ y in the present study, i.e. </p><formula>n y p σ = . (13) </formula><p>The friction f is proportional to the normal pressure through the coefficient of friction (µ C ) between the crushed foam and the indenter </p><formula>n C p f µ = . (14) </formula><p>Substituting Eqs.(11-14) into Eqs.(2-3), axial indentation resistance can be predicted by </p><formula>0 2 ( ' ') z R y C y F yy y y dx π σ µ σ = + + Γ ∫ (0 ≤ z ≤ l) </formula><formula>(15) </formula><formula>( ) 0 2 ( ' ') ( ) l R y C y F yy y y dx a p z l π σ µ σ µ   = + + Γ + −     ∫ (z &gt; l) </formula><formula>(16) </formula><p>where (µp) is the friction traction (i.e. the friction force per unit area) between the foam wall and the body of the indenter after the nose has completely immersed into the foam. It should be noted that the pressure on the side of the indenter ( p ) is different from the yield stress </p><formula>( y σ </formula><p>) because it depends on the elastic recovering of the crushed foam around the body of the indenter. The friction coefficient ( µ ) between the body of the indenter and the crushed foam may have different value from C µ because the surface of the crushed foam in front of the indenter nose is different from that on the side of the indenter body, as shown in Figs.9 and 10. Therefore, the friction traction (µp) will be treated as a single quantity, which will be determined later. In order to find a procedure to determine parameters in Eqs.(15-16), careful examinations of the indented specimens were performed to identify the different forces involved in different indentation stages for each particular indenter. A cross-sectioned specimen of Rohacell 51WF indented with indenter #4 can be observed in <ref type="figure" coords="14,291.36,409.81,23.40,10.89" target="#fig_9">Fig.9</ref>. Crushing, tearing and friction forces were clearly need to be considered. Friction traction on the body of the indenter also needs to be considered after the nose has been immersed completely. A schematic representation of the indentation is shown in <ref type="figure" coords="14,202.80,492.61,23.27,10.89" target="#fig_9">Fig.9</ref>(b). <ref type="figure" coords="14,252.00,492.61,50.65,10.89" target="#fig_1">Figure 10</ref>shows the cross-sections of the indented specimens for all types of indenters used in this study. Similar indentation mechanisms were observed for Rohacell 110WF foams. Photographs in <ref type="figure" coords="14,333.60,547.81,34.45,10.89" target="#fig_1">Fig. 10</ref>were taken after indenters were removed. Elastic recovery was estimated by measuring the diameter of the cavity and the maximum indentation. It was found that the recovery measured by <ref type="bibr" coords="14,400.44,603.97,4.68,10.89">[</ref></p><formula>(d o -d)/ d o ]×100%, where </formula><p>d o is the indenter diameter and d is the cavity diameter, is less than 5%. For Airex R82 foams, different indentation mechanisms from those observed for Rohacell WF foams were identified when the indentation is greater than the nose length. The crushed zone was not only concentrated in front of the nose of the indenter but also spread through a truncated cone-shaped shear plug of diameter D C , as shown in <ref type="figure" coords="14,432.24,742.81,30.85,10.89" target="#fig_1">Fig.11</ref>for indenter #5. This effect was also observed for other blunt indenters (#3, #4 and #7) (<ref type="figure" coords="14,447.18,770.41,29.19,10.89" target="#fig_1">Fig.10</ref>) for both Airex R82.60 and R82.80 foams. Shear plug effect has been observed in penetration of carbon-epoxy laminates<ref type="bibr" coords="15,185.76,92.53,20.32,10.89" target="#b27">[28] </ref>and concrete<ref type="bibr" coords="15,269.13,92.53,19.61,10.89" target="#b28">[29]</ref>. In this case, the crushing and tearing forces are not constant since the diameter D C of the truncated cone-shaped shear plug increases with indentation. It is evident that friction will not contribute to the total indentation resistance (F R ), and therefore, Eq.(16) is replaced by </p><formula>R C T F F F = + (z &gt; l) </formula><formula>(17) </formula><p>for Airex R82 foams, in which </p><formula>2 4 C y C D F π σ = and Γ = C T D F π (18a,b) and α Tan h z D D C ) ( 2 + + = (19) </formula><p>where z and h are the indentation depth and the length (<ref type="figure" coords="15,366.80,338.05,29.28,10.89" target="#fig_1">Fig.11</ref>) of the crushed volume, respectively, and α is the angle between the tearing line and the vertical axis. This angle was measured for Airex R82.60 and R82.80 as 0.055 rad (3.15°) and 0.18 rad (10.31°), respectively. In order to obtain a relationship between z and h, the principle of mass conservation was used, i.e. the mass of the initial volume V I of the truncated cone delimited by the tearing surface, the front surface of the crushing zone (diameter of D c ) and the entry face of the indenter (diameter of D) must be equal to the mass of the crushed volume V C (<ref type="figure" coords="15,447.93,730.33,27.92,10.89" target="#fig_1">Fig.11</ref>), i.e. </p><formula>C C I V V ρ ρ = * (20) Crushed zones (FC) INDENTER Tearing line (FT) FOAM FF FTR b) a) </formula><p>where ρ * and ρ C are the initial and crushed densities of the foam, respectively. The densification strain of the foam can be expressed as <ref type="bibr" coords="16,321.12,94.33,20.08,10.89" target="#b29">[30] </ref></p><formula>        − = S d ρ ρ ε * 4 . 1 1 (21) </formula><p>where ρ S is the density of the solid, from which the cell walls of the foam are made. </p><p>Assuming that ρ C = ρ S , Eqs.(20) and (21) can be combined to obtain the following relationship, </p><formula>=                   + + +       + + +       + * 4 )) ( 2 ( 2 ) ( 2 2 ) ( 3 1 2 2 ρ α α π h z Tan D D h z Tan D D h z         −                         + +       + +       + + +       + d h z Tan D D Tan z D h z Tan D Tan z D h ε ρ α α α α π 1 * 4 . 1 2 )) ( 2 ( 2 ) ( 2 2 ) ( 2 2 ) ( 2 3 1 2 2 </formula><p>(22) b) Solving Eq.(22) numerically, h was obtained for different indentations z. The results are shown in <ref type="figure" coords="17,122.16,304.10,30.85,10.88" target="#fig_1">Fig.12</ref>along with z and h measured from the sectioned specimens indented by indenter #5 (flat indenter). The relationship between z and h was obtained after fitting a linear curve to the measured data in <ref type="figure" coords="17,214.92,359.30,29.01,10.88" target="#fig_1">Fig.12</ref>, i.e., </p><formula>d) f) a) c) e) l) j) h) g) i) k) </formula><formula>h = 0.39z, (23) </formula><p>to substitute in Eq.(22). If we consider that the increase of D C starts after the indenter nose is completely immersed into the foam and replace h in Eq.(19) using Eq.(23), following expression can be obtained </p><formula>α Tan l z D D C )] ( 39 . 1 [ 2 − + = . (24) </formula><p>Therefore, when z&gt;l, the total indentation resistance in Airex R82 foams can be calculated by Eq.(17) together with Eqs.(18) and </p><p>(24) for blunt indenters (e.g. #3, #4, #5, #7) when shear plugging mechanism becomes dominant. . <ref type="figure" coords="17,97.32,772.43,25.74,9.02" target="#fig_1">Fig.12</ref></p><formula>3.0 z F P 0059 . 0 358 . 0 + = z F P 0072 . 0 775 . 1 + = z x D F C P 2 10 169 . 1 009 . 1 − + = π z x D F C P 3 10 46 . 4 629 . 0 − + = π F p /πD C (x10 -2 kN/mm) Rohacell 51WF Rohacell 110WF Airex R82.60 Airex R82.80 F p (kN) Indentation z (mm) </formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Determination of parameters in indentation formulae</head><p>Experimental results for flat indenter can be used to determine the tearing energy and the friction traction in the analytical model described in Section 4.1. <ref type="figure" coords="18,417.36,120.14,49.57,10.88" target="#fig_1">Figure 13</ref>shows the normalized force F P /πD C versus indentation z for Airex R82 foams for flat indenter (#5) and the linear fitting curves that were compared with Eq.(17) to obtain the values of the tearing energy Γ, which are presented in <ref type="figure" coords="18,231.12,205.70,34.74,10.88" target="#tab_3">Table 3</ref>. </p><p>For Rohacell WF foams, the total indentation force F P after the indenter nose has completely immersed into the foam for a flat nose indenter (#5) can be express as <ref type="figure" coords="18,88.92,333.02,47.17,10.88" target="#fig_1">Figure 13</ref>shows indentation force versus indentation for Rohacell WF foams along with linear fitting curves. Comparing the equations of the linear fitting curves with Eq.(25), the tearing energy Γ and the traction force per unit area µp were determined, which are given in </p><formula>( ) 2 4 P P D F D D p z π σ π π µ = + Γ + for z &gt; l. </formula><formula>(25) </formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Comparison between analytical and experimental results</head><p>Figures 4-7 show the quasi-static indentation experimental results along with predictions from Eqs.(15-17) for Rohacell WF and Airex R82 foams. Nose shape functions used for all the indenters are shown in <ref type="figure" coords="19,202.68,297.14,35.34,10.88" target="#tab_2">Table 2</ref>. Values of σ P , Γ, µp and tanα used for Rohacell WF and Airex R82 foams are shown in <ref type="figure" coords="19,223.68,325.58,35.22,10.88" target="#tab_3">Table 3</ref>. In general, reasonably good agreements are observed between experimental and analytical predictions for all indenters except indenter #2. It can be observed in Figs.10 and 11 that the crushed foam in the wall of the specimen was dragged causing some cracks, and thus, a higher indentation force was required, which was not considered in the model. It should be noted that responses for large indentations in Figs.6 and 7 are associated with the interaction between the crushed foam and the rigid boundary supporting the foam sample, which is not considered in the analytical model, and therefore, the proposed analytical model is unable to predict the indentation resistance after the front of the crushed foam reaches the rigid support. </p><p>It was noticed in experimental results (Figs.4-7) that after the nose of the indenter is completely immersed in the foam, the indentation force increases continuously until reaching a stable plateau-like regimen. In other words, the transition of the force-indentation curve from nose immersion to plateau-like regimen does not happen immediately when the nose was completely immersed (e.g. z=36 mm for Indenter #1), but 1-3 mm later. For this reason, analytical predictions of the hardening plateau were underestimated since the model did not take this delay into account. Careful examinations were made to those sectioned specimens and in numerical simulations in order to explain this phenomenon. It was found that the extra force required before reaching the plateau-like regime is due to localised elastic deformations of the foam around the perimeter of the indenter <ref type="bibr" coords="20,305.04,92.54,18.63,10.88" target="#b24">[25]</ref>. The analytical model proposed in Section 4.1 is partially based on experimental data from flat nose indentation tests. It would be interesting to compare the material parameters obtained from flat nose indentation tests with those obtained from independent material tests when they become available. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">CONCLUSIONS</head><p>Quasi-static indentation experiments are reported in this paper on two PMI foams (Rohacell WF series) and two PEI foams (Airex R82 series) for a wide range of indenter's nose shapes. It is found that both nose shape and foam density have large influence on the indentation resistance. Two indentation regimes, i.e. an immersing regime and a plateau-like regime, are observed in all indentation tests. Different indentation mechanisms are presented for Rohacell WF foams and Airex R82 foams in the plateau-like regime for blunt indenters. It is interesting to find the truncated cone-shaped shear plug in Airex R82, which spreads the crushing damage to a wide zone during the indentation process and leads to an increased indentation resistance. Analytical models based on experimental observations are proposed to predict the indentation resistance in both types of foams. Parameters in these analytical models have clear physical meanings and can be determined by indentation experiments of flat nose indenters. Good agreement was observed between analytical predictions and experimental results. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="1,70.92,308.62,453.52,10.92;1,70.92,336.26,453.53,10.87;1,70.92,363.86,453.72,10.87;1,70.92,391.46,453.60,10.87;1,70.92,419.06,453.34,10.87"><head></head><figDesc>Abstract: The effects of the nose shape of rigid indenters on the indentation behaviour of polymethacrylimide(PMI) and polyetherimide(PEI) foams with different densities are investigated. Experimental results show that indentation resistance depends on the geometry of the indenter and the density of the foam. Analytical models based on the deformation mechanisms observed in experiments are developed to predict the indentation resistance. It </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,125.88,248.51,343.41,9.02;5,238.68,260.03,117.99,9.02"><head>Fig.1 </head><figDesc>Fig.1 Uniaxial compression stress-strain and efficiency-strain curves for Airex foams, (a) R82.60, (b) R82.80 foams </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="6,172.68,525.47,249.93,9.02;6,109.44,536.99,376.29,9.02"><head>Fig.2 </head><figDesc>Fig.2 Deformation of Airex R82.80 foam, (a) No deformation, (b) at 0.3 compression strain, (c) at 0.45 compression strain, and (d) at 0.6 compression strain. </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="8,81.48,377.27,432.42,9.02;8,211.56,388.79,172.22,9.02"><head>Fig.3 a</head><figDesc>Fig.3 a) Force-indentation curves using hemi-spherical indenters, b) Variations of the normalized force with normalized indentation for Rohacell 51WF </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="8,140.88,639.47,313.58,9.02"><head>Fig.4 </head><figDesc>Fig.4 Experimental and predicted force-indentation curves for Rohacell 51WF </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="9,138.36,276.11,318.62,9.02"><head>Fig.5 </head><figDesc>Fig.5 Experimental and predicted force-indentation curves for Rohacell 110WF </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="9,145.20,519.83,304.86,9.02"><head>Fig.6 </head><figDesc>Fig.6 Experimental and predicted force-indentation curves for Airex R82.60 </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="9,145.20,749.87,304.86,9.02"><head>Fig.7 Based on experimental results observed in 7</head><figDesc>Fig.7 Experimental and predicted force-indentation curves for Airex R82.80 </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="14,148.92,280.67,297.34,9.02"><head>Fig.8 </head><figDesc>Fig.8 Cross-section of an axisymmetric indenter with a convex nose shape </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="15,135.12,596.51,324.93,9.02;15,203.64,608.03,187.98,9.02"><head>Fig.9 </head><figDesc>Fig.9 (a) Cross-section of the indented Rohacell 51 WF specimen by indenter #4, (b) Schematic representation of the indentation </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="16,75.72,721.79,443.89,9.02;16,74.88,733.31,445.52,9.02;16,171.48,744.83,252.20,9.02"><head>Fig. 10 </head><figDesc>Fig. 10 Cross-section of the indented Rohacell 51WF specimens (a) indenter #1; b) indenter #2; c) indenter #3; d) indenter #4; e) indenter #5; f) indenter #7) and indented Airex R82.80 specimens (g) indenter #1; h) indenter #2; i) indenter #3; j) indenter #4; k) indenter #5; l) indenter #7) </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11" coords="17,138.24,241.55,318.81,9.02;17,203.64,253.07,187.98,9.02"><head>Fig.11 </head><figDesc>Fig.11 (a) Cross-section of the indented Airex R82.80 specimen by indenter #5, (b) Schematic representation of the indentation </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="true" coords="5,132.24,294.47,319.31,99.61"><figDesc coords="5,159.36,294.47,276.51,9.02">Table 1 Mechanical properties of Rohacell WF and Airex R82 foams</figDesc><table coords="5,132.24,321.83,319.31,72.25">FOAM 
+E (MPa) 
+
+σy (MPa) 
+εy (%) 
+εd (%) 
+
+Rohacell 51WF 
+44.6 
+0.85 
+3.9 
+68.7 
+Rohacell 110WF 
+143.3 
+3.80 
+3.6 
+65.3 
+Airex R82.60 
+28.4 
+0.71 
+3.4 
+60.3 
+Airex R82.80 
+42.1 
+1.13 
+3.3 
+58.4 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false" coords="7,241.44,480.23,112.35,9.02"><figDesc coords="7,241.44,480.23,112.35,9.02">Table 2 Indenter geometries</figDesc><table coords="8,70.92,64.94,453.58,66.07">Typical force-indentation curves for conical indenters (#1, #2, #3), truncated indenter 
+
+(#4), flat indenter (#5) and hemi-spherical indenter (#7) for Rohacell 51WF, Rohacell 
+
+110WF, Airex R82.60 and Airex R82.80 foams are depicted in Figs.4-7, respectively. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" validated="false" coords="17,89.88,76.10,416.44,705.36"><figDesc coords="17,125.64,772.43,372.27,9.02">Indentation z and height of the crush volume h measured and calculated for Airex R82 foams</figDesc><table coords="17,89.88,76.10,416.44,626.22">h = 0.39z 
+
+a) 
+b) 
+
+∠ α 
+
+Indenter 
+Tearing line 
+
+Crushed 
+foam (VC) 
+
+z 
+h 
+
+FOAM 
+
+DC 0 
+10 
+20 
+30 
+40 
+50 
+
+0.0 
+
+0.3 
+
+0.6 
+
+0.9 
+
+1.2 
+
+1.5 
+
+1.8 
+
+2.1 
+
+2.4 
+
+2.7 
+
+3.0 
+
+0.0 
+
+0.3 
+
+0.6 
+
+0.9 
+
+1.2 
+
+1.5 
+
+1.8 
+
+2.1 
+
+2.4 
+
+2.7 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" validated="false" coords="18,70.92,417.62,436.87,314.52"><figDesc coords="18,70.92,417.62,39.24,10.88">Table 3.</figDesc><table coords="18,87.60,711.70,420.19,20.44">Fig.13 Normalized load versus indentation for Airex R82 foams and plateau load versus indentation with 
+indenter #5 for Rohacell WF foams </table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="21,99.00,92.14,425.49,9.04;21,99.00,103.51,213.69,9.07"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A phenomenological constitutive model for foams under large deformations</title>
+		<author>
+			<persName>
+				<forename type="first">Q</forename>
+				<surname>Liu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Subhash</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polymer Engineering and Science</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="463" to="473" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,127.06,363.09,9.04"  xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Impact on Composite Structures</title>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Abrate</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,150.58,425.41,9.04;21,99.00,162.10,425.44,9.04;21,99.00,173.59,347.37,9.07"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Experimental investigation of the collapse modes and the main crushing characteristics of composite sandwich panels subjected to flexural loading</title>
+		<author>
+			<persName>
+				<forename type="first">Ag</forename>
+				<surname>Mamalis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Kn</forename>
+				<surname>Spentzas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">De</forename>
+				<surname>Manolakos</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Mb</forename>
+				<surname>Ioannidis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Dp</forename>
+				<surname>Papapostolou</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Crashworthiness</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="349" to="362" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,197.14,425.35,9.04;21,99.00,208.54,425.49,9.04;21,99.00,220.06,406.89,9.04"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A Comparison of Quasi-static Testing to Low Velocity Impact Testing</title>
+		<author>
+			<persName>
+				<forename type="first">At</forename>
+				<surname>Nettles</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Mj</forename>
+				<surname>Douglas</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Composites Materials: Testing, Design, and Acceptance Criteria, ASTM STP 1416 American Society for Testing and Materials International: West Conshohocken</title>
+		<editor>A. Zureick and A.T. Nettles</editor>
+		<meeting><address><addrLine>PA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,243.58,425.37,9.04;21,99.00,255.07,77.85,9.07"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Indentation resistance of an aluminium foam</title>
+		<author>
+			<persName>
+				<forename type="first">Ob</forename>
+				<surname>Olurin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Na</forename>
+				<surname>Fleck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Mf</forename>
+				<surname>Ashby</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="983" to="989" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,278.62,425.52,9.04;21,99.00,289.99,193.05,9.07"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Impact energy absorption in an Al foam at low velocities</title>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Ramachandra</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sudheer</forename>
+				<surname>Kumar</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Ramamurty</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">U</forename>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="741" to="745" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,98.16,313.54,426.24,9.04;21,97.92,325.03,298.89,9.07"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Impact deformation of rigid polymeric foams: Experiments and FEA modelling</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gilchrist</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Nj</forename>
+				<surname>Mills</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="767" to="786" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,348.10,425.37,9.04;21,99.00,359.59,62.61,9.07"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Modelling the Indentation of low density polymer foams</title>
+		<author>
+			<persName>
+				<forename type="first">Nj</forename>
+				<surname>Mills</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gilchrist</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cellular Polymers</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="389" to="412" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,382.99,425.49,9.07;21,99.00,394.54,45.93,9.04"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Low velocity localized impact study of cellular foams</title>
+		<author>
+			<persName>
+				<forename type="first">Vi</forename>
+				<surname>Rizov</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials &amp; Design</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2632" to="2640" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.36,418.06,424.89,9.04;21,97.92,429.55,253.29,9.07"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Two dimensional response of crushable polyurethane foam</title>
+		<author>
+			<persName>
+				<forename type="first">Vpw</forename>
+				<surname>Shim</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Zh</forename>
+				<surname>Tu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ct</forename>
+				<surname>Lim</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="703" to="731" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,454.90,425.48,9.04;21,99.00,466.42,29.61,9.04"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Data CD &quot;The Core for Sandwich Solutions</title>
+	</analytic>
+	<monogr>
+		<title level="m">Techical Data</title>
+		<meeting><address><addrLine>Evonik Röhm GmbH</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,489.82,425.37,9.04;21,99.00,501.31,67.89,9.07"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Strain measures for rigid crushable foam in uniaxial compression</title>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strain</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="132" to="172" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,524.86,425.36,9.04;21,99.00,536.35,214.29,9.07"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Compressive strain at the onset of densification of cellular solids</title>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Magkiriadis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jj</forename>
+				<surname>Harrigan</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cellular Plastics</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="371" to="392" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,559.90,425.37,9.04;21,99.00,571.27,274.17,9.07"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The crush behaviour of Rohacell-51WF structural foam</title>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Rs</forename>
+				<surname>Birch</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Solids and Structures</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="6321" to="6341" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,594.82,425.35,9.04;21,99.00,606.31,363.21,9.07"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Degradation of Elastic Modulus of Progressively Crushable Foams in Uniaxial Compression</title>
+		<author>
+			<persName>
+				<forename type="first">Ea</forename>
+				<surname>Flores-Johnson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Qm</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Raw</forename>
+				<surname>Mines</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cellular Plastics</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="415" to="434" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,629.86,425.44,9.04;21,99.00,641.35,127.53,9.07"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Fatigue of Closed Cell Foams</title>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Zenkert</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Shipsha</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Burman</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sandwich Structures and Materials</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="517" to="538" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,664.90,425.37,9.04;21,99.00,676.27,225.93,9.07"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Tension, compression and shear fatigue of a closed cell polymer foam</title>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Zenkert</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Burman</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Composites Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="785" to="792" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,699.82,367.65,9.04"  xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Data Sheet Accessed on</title>
+		<author>
+			<persName>
+				<surname>Airex</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009-02-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,99.00,723.34,425.39,9.04;21,99.00,734.83,289.53,9.07"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Nonlinear Flexural Deflection of Thermoplastic Foam Core Sandwich Beam</title>
+		<author>
+			<persName>
+				<forename type="first">Kj</forename>
+				<surname>Yoon</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ck</forename>
+				<surname>Kim</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Hc</forename>
+				<surname>Park</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Composite Materials</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1529" to="1539" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,64.54,425.48,9.04;22,99.00,75.94,425.24,9.04;22,99.00,87.43,288.69,9.07"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Basic mechanical properties of balloon-type TEEK-L polyimide-foam and TEEK-L filled aramid-honeycomb core materials for sandwich structures</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Kuwabara</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Ozasa</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Shimokawa</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Watanabe</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Nomoto</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Composite Materials</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="343" to="363" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,110.98,425.29,9.04;22,99.00,122.47,399.45,9.07"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Constitutive modeling of polymeric foam material subjected to dynamic crash loading</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Zhang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Kikuchi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">V</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Yee</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Nusholtz</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="369" to="386" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,146.02,425.36,9.04;22,99.00,157.54,425.29,9.04;22,99.00,168.91,126.69,9.07"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Characterization of polymeric structural foams under compressive impact loading by means of energy-absorption diagram</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Avalle</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Belingardi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Montanini</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="455" to="472" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,192.46,425.35,9.04;22,99.00,203.95,255.33,9.07"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Energy absorption characteristics of polymeric foams used as cushioning materials</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Miltz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Ramon</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polymer Engineering and Science</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="129" to="133" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,227.50,425.41,9.04;22,99.00,238.99,298.65,9.07"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Inertia effects in uniaxial dynamic compression of a closed cell aluminium alloy foam</title>
+		<author>
+			<persName>
+				<forename type="first">Pj</forename>
+				<surname>Tan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jj</forename>
+				<surname>Harrigan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sr</forename>
+				<surname>Reid</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="480" to="488" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,262.42,425.39,9.04;22,99.00,273.91,254.73,9.07"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Mechanical property extraction through conical indentation of a closed-cell aluminum foam</title>
+		<author>
+			<persName>
+				<forename type="first">U</forename>
+				<surname>Ramamurty</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Mc</forename>
+				<surname>Kumaran</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="181" to="189" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,297.43,333.93,9.07"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Scale Effects in Cellular Metals</title>
+		<author>
+			<persName>
+				<forename type="first">Pr</forename>
+				<surname>Onck</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="279" to="283" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,320.98,425.48,9.04;22,99.00,332.47,368.01,9.07"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">On the optimal nose geometry for a rigid penetrator, including the effects of pressure-dependent friction</title>
+		<author>
+			<persName>
+				<forename type="first">Se</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Wk</forename>
+				<surname>Rule</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="403" to="415" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,356.02,425.51,9.04;22,99.00,367.42,425.35,9.04;22,99.00,378.91,137.37,9.07"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Experimental and numerical analysis of normal and oblique ballistic impacts on thin carbon/epoxy woven laminates</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>López-Puente</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Zaera</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Navarro</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Composites Part A: Applied Science and Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="374" to="387" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,402.46,425.41,9.04;22,99.00,413.95,199.77,9.07"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Local response of concrete slabs to low velocity missile impact</title>
+		<author>
+			<persName>
+				<forename type="first">Dz</forename>
+				<surname>Yankelevsky</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Impact Engineering</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="331" to="343" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,99.00,437.50,425.39,9.04;22,99.00,449.02,68.25,9.04"  xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Cellular Solids: Structure and Properties</title>
+		<author>
+			<persName>
+				<forename type="first">Lj</forename>
+				<surname>Gibson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Mf</forename>
+				<surname>Ashby</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>2nd. ed. Cambridge</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

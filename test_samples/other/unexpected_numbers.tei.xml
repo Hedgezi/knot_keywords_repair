@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/01/yarn/nm/usercache/lanastasiou/filecache/40/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-04T12:27+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Staff Papers Impact assessment case study the floating hotel at John Brewer Reef. NOT I</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="1988-02">Staff Paper 1988-02</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bastin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Great Barrier Reef Marine Park Authority</orgName>
+								<orgName type="institution">Griffith University</orgName>
+								<address>
+									<postBox>PO Box 1379 Townsville Qld 4810, P.O. Box 1379 TOWNSVILLE QLD</postBox>
+									<postCode>4810</postCode>
+									<settlement>Queensland</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mcginnity</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Great Barrier Reef Marine Park Authority</orgName>
+								<orgName type="institution">Griffith University</orgName>
+								<address>
+									<postBox>PO Box 1379 Townsville Qld 4810, P.O. Box 1379 TOWNSVILLE QLD</postBox>
+									<postCode>4810</postCode>
+									<settlement>Queensland</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Bastin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Great Barrier Reef Marine Park Authority</orgName>
+								<orgName type="institution">Griffith University</orgName>
+								<address>
+									<postBox>PO Box 1379 Townsville Qld 4810, P.O. Box 1379 TOWNSVILLE QLD</postBox>
+									<postCode>4810</postCode>
+									<settlement>Queensland</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Mcginnity</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Great Barrier Reef Marine Park Authority</orgName>
+								<orgName type="institution">Griffith University</orgName>
+								<address>
+									<postBox>PO Box 1379 Townsville Qld 4810, P.O. Box 1379 TOWNSVILLE QLD</postBox>
+									<postCode>4810</postCode>
+									<settlement>Queensland</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Staff Papers Impact assessment case study the floating hotel at John Brewer Reef. NOT I</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="1988-02">Staff Paper 1988-02</date>
+						</imprint>
+					</monogr>
+					<note>For more information contact: Librarian Great Barrier Reef Marine Park Authority Presented at: Impact Assessment and Development Planning: VII Annual Meeting of the International Association for Impact Assessment, 5-9 July 1988, IMPACT ASSESSMENT CASE STUDY THE FLOATING&quot; HOTEL AT JOHN BREWER REEF \ Floating Hotel Impact Assessment)</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Barrier Reef</term>
+					<term>marine park</term>
+					<term>environmental impact</term>
+					<term>impact assessment</term>
+					<term>John Brewer</term>
+					<term>floating hotel</term>
+					<term>tourist development 84</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Because</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Management Framework</head><p>The </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assessment of Environmental Impacts</head><p>During 1984, the. Authority received an application to develop a facility with overnight guest accommodation at John Brewer Reef.</p><p>An initial assessment indicated that the development could have the potential for impactt 9</p><p>The matter was therefore under the EPIP Act.  In summary, protection of the environment of John Brewer Reef has been ensured through the following:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9">measures</head><p>to minimise environmental impact were considered "from an early stage of project planning and design;</p><p>. a,high level of co-operation from the developer including a willingness to incorporate preventative controls;</p><p>tight control of day-to-day operations;</p><p>9 monitoring for unforseen impacts; and provision of an appropriate mechanism to adjust operations to minimise unforseen impacts.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>References</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure i. Location Map-Great Barrier Reef</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head>The first floating hotel in the world to be sited on a remote Coral reef is now operating at John Brewer Reef in the</head><label>The</label><figDesc></figDesc><table>Great 
+Barrier 
+Reef 
+Marine Park. 
+Management of the Marine Park is 
+the responsibility of the 
+Great 
+Barrier 
+Reef 
+Marine 
+Park 
+Authority. 
+Proposed 
+activities in the Park, which may have 
+significant 
+adverse 
+environmental 
+impacts, 
+may 
+only 
+be 
+carried 
+out 
+with 
+the 
+written permission of the Authority. 
+Permission 
+may 
+be 
+granted 
+only 
+after 
+the 
+potentigl ................ 
+environmental 
+impacts 
+have been assessed. 
+Should a project 
+be 
+allowed 
+to 
+proceed, 
+the 
+permit 
+system 
+provides 
+a 
+regulatory 
+mechanism 
+for 
+setting 
+conditions and standards 
+which the proponent 
+must 
+meet. 
+This 
+paper 
+outlines 
+the 
+process 
+of 
+environmental 
+impact 
+assessment 
+undertaken to 
+establish controls and conditions 
+for 
+the 
+development 
+and 
+operation 
+of 
+the floating hotel. 
+As the first of its kind, 
+the hotel has given a focus 
+to 
+a number 
+of 
+environmental 
+issues which the Authority had not previously encountered. 
+
+Introduction 
+
+The 
+Great 
+Barrier Reef is a system of coral reefs extending 
+for some 2000 kilometres along 
+the 
+north-eastern 
+coast 
+of 
+Australia, 
+from 
+Cape 
+Yo~k 
+in the north (i0 
+41'S) to just 
+north of Fraser Island (24 
+30'S) (Figure 
+i). 
+The 
+Barrier 
+Reef 
+is 
+not 
+a 
+single 
+entity, 
+but 
+comprises 
+some 
+2600 
+individual offshore reefs ranging in size from 
+less 
+than 
+1 
+hectare 
+to 
+more 
+than 100 square kilometres. 
+In some areas 
+the reefs are separated by channels 
+only 
+200 
+metres 
+wide, 
+while 
+elsewhere they may be 20 kilometres apart. 
+Most reefs 
+remain submerged at all times, although some are 
+exposed 
+at 
+low tide. 
+Few reefs support vegetated cays. 
+
+The Great Barrier Reef has been described as the largest 
+and 
+richest 
+system 
+of 
+coral reefs in the World (GBRMPA, 1981). 
+The need to ensure that the Barrier 
+Reef 
+may 
+be 
+used 
+and 
+enjoyed 
+by 
+future 
+generations 
+was 
+reoognised 
+by 
+the 
+Commonwealth Parliament through passing of the Great 
+Barrier 
+Reef 
+Marine 
+Park 
+Act 
+1975 
+(the 
+GBRMP 
+Act). 
+Further 
+recognition of the Reef as a unique natural feature of global 
+significance 
+came 
+in 
+1981 
+with inscription onto the World 
+Heritage List. 
+
+John 
+Brewer 
+Reef, 
+located 
+in 
+the 
+Central Section of the 
+Marine Park, was chosen as the site for 
+the 
+development 
+of 
+the 
+Four Seasons Barrier Reef Resort complex. 
+72 kilometres 
+across open water 
+to 
+the 
+north-east 
+of 
+Townsville, 
+John 
+Brewer is the closest reef to this regional population centre 
+and the focus for many reef related activities. 
+For 
+a 
+long 
+time 
+the 
+destination 
+for line and spearfishing John Brewer 
+Reef 
+provides 
+a 
+safe 
+anchorage 
+for 
+recreational 
+and 
+commercial fishing vessels. 
+The only tourist use of the area 
+prior to 1983 was fishing and 
+diving 
+from 
+charter 
+vessels 
+based 
+in Townsville. 
+S4nce then, pontoons and an underwater 
+viewing vessel have been installed at the Reef as part of the 
+'Reeflink' 
+day 
+trip 
+operation, 
+serviced 
+by 
+a high speed 
+catamaran. </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head>Table i .</head><label>i</label><figDesc></figDesc><table>~4--
+
+Treated water specifications 
+
+BODs* 
+
+Bacteria 
+
+Solids 
+
+Chlorine 
+
+Five day biochemical oxygendemand 
+
+less than 
+
+4/100ml 
+
+zero 
+
+zero 
+
+i0 mg/l 
+
+a 
+
+--5--
+
+Attached at a single point to the main mooring, the Hotel 
+is 
+able 
+to 
+swing 
+into 
+the wind during a storm to reduce wind 
+resistance. 
+The Hotel is also designed 
+to withstand 
+twice 
+the 
+force 
+of 
+the 
+most severe cyclonic storm with a return 
+period of one hundred years i.e. a cyclone with winds of 
+162 
+km/hr. 
+In relatively calm weather the Hotel is held in place 
+by two additional stern moorings. 
+
+The 
+main 
+mooring 
+is a similar design to those Used to moor 
+super tankers in deep water and consists 
+of 
+six 
+230m 
+long 
+chain 
+legs laid out in a radial pattern, each attached to an 
+18 tonne anchor at one end and the central 
+counterweight 
+at 
+the 
+other. 
+The 
+counterweight 
+in 
+turn is attached to the 
+H%tel mooring boom through a series of 
+joints 
+and 
+swivels. 
+In 
+total, the whole mooring system weighs 480 tonnes (Figure 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head></head><label></label><figDesc>The developer was told that the Resort Management Plan should build on information provided in the EIS and be consistent with management objectives for the John Brewer Reef area. The Plan was also to contain details of review mechanisms, including interaction with the monitoring program. Objectives set for the monitoring program were: test whether the environmental effects of the development are as predicted in the EIS;</figDesc><table>significant 
+referred for 
+
+environmental 
+consideration 
+
+An environmental impact statement 
+was 
+commissioned 
+by 
+the 
+proponent 
+and 
+completed in 1985 (Det Norske Veritas, 1985). 
+Assessment of the EIS was carried out by the then 
+Department 
+of Arts, Heritage and Environment. 
+The Department consulted 
+with other Government 
+Departments, 
+particularly 
+the 
+Great 
+Barrier Reef Marine Park Authority and also took into account 
+public submissions on the proposal. 
+The assessment concluded 
+that 
+likely 
+environmental 
+effects 
+of 
+the 
+proposal 
+were 
+appropriately identified and examined in the EIS. 
+
+In 
+summary, 
+the major impacts of the proposal were expected 
+to be: 
+
+9 visual 
+intrusion as a result of placing the structure into 
+a natural environment; 
+
+9 possible water and air pollution; 
+
+effects on marine life due to moorings, divers' 
+anchor 
+damage, shading, lights, pollution and 
+of boating traffic; and 
+
+fin damage, 
+the presence 
+
+the possibility of accidents, particularly the grounding of 
+the hotel itself. (Dept. of AH&amp;E, 1985) 
+
+The Department also recommended conditions for the protection 
+of the environment. 
+These 
+included 
+the 
+development 
+of 
+a 
+resort 
+management 
+plan 
+and 
+an 
+environmental 
+monitoring 
+program, as were offered in the EIS. 
+
+Considering 
+the 
+degree of public interest in the Hotel, the 
+EIS attracted little criticism. 
+Only six public 
+submissions 
+were 
+received 
+in 
+response 
+to the call for comments on the 
+proposal. 
+
+Four of the submissions came from environmental lobby groups, 
+three of which expressed the opinion that similar 
+structures 
+should 
+not 
+be permitted anywhere on the Great Barrier Reeff 9 
+This stance, widely reported in the media, has centred on the 
+philosophical 
+and 
+aesthetic 
+argument 
+that the ~wilderness 
+value' of the Park will be compromised by the 
+profile of the 
+Hotel 
+protruding 
+above the horizon, considered to be a form 
+of visual pollution. 
+It is apparent that resolution of these 
+arguements 
+requires 
+the 
+preparation 
+of 
+broad 
+strategic 
+guidelines, to set limits on the extent to which developments 
+will 
+be 
+permitted 
+in the Marine Park. 
+The setting of such 
+strategic 
+direction 
+is 
+clearly 
+beyond 
+the 
+scope 
+of 
+an 
+environmental assessment relating to an individual projectt 9 
+
+Another criticism of the EIS was that a detailed inventory of 
+the 
+biological 
+characteristics 
+of John Brewer Reef was not 
+includedd 9 
+However, inclusion of such an inventory 
+with 
+the 
+EIS 
+would 
+not have assisted assessment or management of the 
+environmental impacts of the proposed operation 
+and 
+it was 
+therefore 
+not 
+a 
+requirementt 9 
+Furthermore, changes to the 
+biological make-up of the Reef 
+will 
+be 
+identified 
+by 
+the 
+Monitoring 
+Program, 
+rendering 
+a biological 
+inventory 
+a 
+superficial appendage to the EIS. outline of Permission Granted 
+
+In December 1985, the Authority issued a permit 
+to 
+develop 
+the 
+floating 
+hotel 
+at John Brewer Reef. 
+Conditions of the 
+permit were based on 
+the 
+assessment 
+of 
+the 
+environmental 
+impact study and the Department's recommendations. 
+Important 
+requirements were that: 
+
+the 
+proponent 
+develop 
+and 
+plan, 
+to 
+the 
+Authority's 
+consideration all legislation 
+
+implement a resort management 
+satisfaction, 
+taking 
+into 
+applying to the proposal. 
+
+the 
+proponent 
+develop 
+and 
+implement 
+a 
+satisfactory 
+environmental 
+monitoring 
+program 
+so 
+that results of the 
+program 
+would 
+assist 
+management 
+of 
+the 
+development, 
+including 
+amendment of the management plan if appropriate; 
+and 
+
+among 
+insurance requirements, a AS1 million bond be posted 
+to provide for removal of the structure at the cessation of 
+operations, 
+if necessary, 
+or to counter any unacceptable 
+environmental impactss 9 
+
+test 
+effects 
+of activities which could not be assessed in 
+the EIS; and 
+
+9 provide 
+a measure of the state of heaIth of the Reef biota 
+adjacent to the Hotel site. 
+
+The 
+proponent 
+was 
+also 
+required 
+to undertake 
+modelling 
+studies to determine the rate of dilution of the brine 
+plume 
+arising 
+from 
+the 
+desalination 
+plant 
+discharge 
+and 
+the 
+dispersion characteristics of the incinerator 
+and 
+generator 
+stack 
+emissions. 
+Further 
+information was also required on 
+erosion and sedimentation processes in the 
+vicinity 
+of 
+the 
+hotell 9 
+
+Separate specific permits 
+were 
+issued 
+for 
+each 
+stage 
+of 
+development, 
+covering such activities as approved site works 
+(cropping of coral outcrops), installation 
+of 
+moorings 
+and 
+ancillary 
+pontoons 
+and 
+commencement 
+of 
+operations at the 
+floating hotel. 
+This 
+staging 
+of 
+permissions 
+enabled 
+the 
+Authority 
+to set specific conditions based on the results of 
+the further detailed studiess 9 
+
+The 
+general 
+permit 
+fox 
+installation 
+and operation of the 
+hotel was re-issued in January 1988 
+for 
+a period 
+of 
+five 
+years, 
+incorporating 
+changes made in the light of knowledge 
+and events that had arisen 
+in 
+the 
+two 
+years 
+since 
+first 
+issue. 
+The Resort Management Plan and the Monitoring Program 
+
+L~ were included as attachments. 
+A summary 
+of 
+the 
+; stages appears in 
+Table 2. 
+
+assessment 
+
+Assessment 
+of Post EIS Issues 
+
+Some 
+changes 
+were 
+made 
+to the plan for the development in 
+response to issues that arose after the 
+EIS 
+was 
+completed. 
+Among 
+the changes, the Hotel site is not in exactly the same 
+location as identified in the EIS. 
+This is 
+because 
+further 
+studies 
+cast 
+doubt 
+on 
+an initiai assumption that wind and 
+waves would come from the same direction during a cyclone. 
+A 
+more 
+sheltered site further towards the centre of the lagoon 
+waz chosen to allow for the more severe condition of wind and 
+w~ves 
+coming from different directions. 
+The minor change of 
+site did not invalidate the EIS. 
+
+Preparation of the new site required 'cropping' of more coral 
+outcrops than 
+envisaged 
+in 
+the 
+EIS. 
+However, 
+as 
+major 
+modification 
+was only required in the case of three bommies, 
+the environmental impact of the cropping 
+was 
+judged 
+to 
+be 
+within 
+the 
+broad 
+scope 
+of 
+the 
+original 
+assessment 
+and 
+therefore did not warrant 
+further 
+investigation 
+under 
+the 
+EPIP 
+Act. 
+Conducted 
+with 
+a pontoon-mounted back hoe, the 
+cropping operations were controlled under a 
+specific 
+permit 
+and 
+were 
+closely 
+monitored, particularly for the impact of 
+disturbed 
+sediments. 
+All 
+live 
+corals 
+encountered 
+were 
+transplanted to a nearby area. 
+
+The EIS envisaged that treated waste water 
+would 
+accumulate 
+in the Hotel holding tank at an average of about 800 cu.m per 
+week. 
+This amount was to be transferred to a 
+barge 
+with 
+a 
+similar 
+capacity 
+once 
+a week and discharged in a stream on 
+the return trip to Townsville. 
+In the event, 
+the$~developer 
+has 
+chosen 
+a contractor with a barge housing a much smaller 
+tank capacity (80 cu.m.) and the 
+barge 
+must 
+make: repeated 
+trips to a dump site in order to drain the holding tank. 
+
+Although treated, the nutrient content 
+of 
+the 
+effluent 
+is 
+undiminished 
+and 
+staff of the Authority were concerned that 
+currents should not carry effluent 
+back 
+onto 
+the 
+Reef 
+as 
+nutrient 
+rich 
+water 
+is 
+deleterious 
+to coral health. 
+The 
+change of plans presented the Authority with the 
+problem 
+of 
+nominating 
+suitable 
+disposal 
+sites 
+at 
+the 
+minimum 
+safe 
+distance 
+from 
+John 
+Brewer 
+and 
+neighbouring 
+reefs. 
+Oceanographic 
+researchers 
+at 
+the 
+Australian 
+Institute of 
+Marine Science were consulted. 
+The researchers were able 
+to 
+offer 
+advice 
+on 
+suitable dump 
+sites 
+based 
+on 
+computer 
+modelling of water current circulation. 
+Waste dumping at sea 
+also 
+falls 
+within the ambit of the Commonwealth Environment 
+Protection (Sea Dumping) Act 1981 and staff of the 
+Authority 
+were consulted in drawing up conditions for the permit issued 
+under this Act. 
+
+An 
+anti-scalant 
+and 
+a flocculant chemical are added to the 
+desalination plant feed water to prevent fouling 
+of 
+osmotic 
+membranes 
+essential 
+to. the 
+desalination 
+process. 
+These 
+chemicals are discharged back into the Reef lagoon 
+with 
+the 
+hypersaline 
+water, 
+in 
+concentrations 
+of 
+a 
+few parts per 
+million. 
+Toxicity of these reactive organic polymers was not 
+discussed 
+in 
+the 
+EIS 
+and 
+the 
+developer 
+was 
+asked 
+to 
+investigate the 
+matter. 
+Further 
+investigations 
+concluded 
+
+q, 
+
+,',,% 
+. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" validated="false"><head>Table 2 .</head><label>2</label><figDesc></figDesc><table>Diary of Events 
+
+-9-(~ 
+
+1984 
+
+March 1985 
+
+April to 
+May 1985 
+
+M~y 1985 
+
+June 1985 
+
+December 1985 
+
+July 1987 
+
+October 1987 
+
+December 1987 
+
+March 1988 
+
+Initial 
+application 
+to develop a floating hotel 
+at John Brewer Reef 
+
+Draft 
+EIS 
+prepared 
+by 
+Det 
+Norske Veritas and 
+Coastal Ecosystems 
+
+Public comment invited on EIS (6 submissions 
+received) 
+
+Proponent 
+prepares 
+addendum 
+to 
+draft 
+EIS 
+in 
+response to public comment 
+
+Minister 
+advises 
+that EPIP Act requirements are 
+satisfied and recommends 
+further 
+action 
+to be 
+taken by the Authority 
+
+Authority issues permit 
+to 
+hotel 
+at John Brewer Reef. 
+prior to installation there 
+
+develop 
+a 
+floating 
+Permit requires that 
+is a need for: 
+
+9 assessment of the structure by a classification 
+society 
+standards of health and safety to be met 
+bank guarantee of $1m to be 
+provided 
+to 
+the 
+Authority 
+resort management plan and 
+monitoring 
+program 
+to be finalised before installation 
+
+Eachstage 
+of installing hotel-is 
+subject 
+to 
+separate permitt 9 
+
+Approved site works (cropping of coral 
+outcrops) 
+begins 
+
+Installation of mooring system and helipad begin 
+
+Approval 
+for 
+installation 
+and operation of the 
+hotel 
+for 
+the 
+next 
+five 
+years, 
+subject 
+to 
+conditions 
+including 
+resort management plan and 
+environment monitoring program 
+
+Resort opens 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="annex">
+			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

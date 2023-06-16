@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/07/yarn/nm/usercache/lanastasiou/filecache/11/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-20T23:03+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A data mining approach to guide students through the enrollment process based on academic performance</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Nature</publisher>
+				<availability status="unknown"><p>Copyright Springer Nature</p>
+				</availability>
+				<date type="published" when="2011">2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">César</forename><surname>Vialardi</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jorge</forename><surname>Chue</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><forename type="middle">Pablo</forename><surname>Peche</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gustavo</forename><surname>Alvarado</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruno</forename><surname>Vinatea</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jhonny</forename><surname>Estrella</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Álvaro</forename><surname>Ortigosa</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Facultad de Ingeniería de Sistemas</orgName>
+								<orgName type="department" key="dep2">Escuela Politécnica Superior</orgName>
+								<orgName type="institution">Universidad de Lima</orgName>
+								<address>
+									<settlement>Lima</settlement>
+									<country>Perú</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad Autónoma de Madrid</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A data mining approach to guide students through the enrollment process based on academic performance</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">User Modeling and User-Adapted Interaction</title>
+						<title level="j" type="abbrev">User Model User-Adap Inter</title>
+						<idno type="ISSN">0924-1868</idno>
+						<idno type="eISSN">1573-1391</idno>
+						<imprint>
+							<publisher>Springer Nature</publisher>
+							<biblScope unit="volume">21</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="217" to="248"/>
+							<date type="published" when="2011">2011</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1007/s11257-011-9098-4</idno>
+					<note type="submission">Received: 16 April 2010 / Accepted in revised form: 8 February 2011 /</note>
+					<note>ORIGINAL PAPER</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Data mining · Enrollment process · Supervised classification · Machine learning · Recommender systems · Predictive accuracy</keywords>
+			</textClass>
+			<abstract>
+				<p>Student academic performance at universities is crucial for education management systems. Many actions and decisions are made based on it, specifically the enrollment process. During enrollment, students have to decide which courses to sign up for. This research presents the rationale behind the design of a recommender system to support the enrollment process using the students&apos; academic performance record. To build this system, the CRISP-DM methodology was applied to data from students of the Computer Science Department at University of Lima, Perú. One of the main contributions of this work is the use of two synthetic attributes to improve the relevance of the recommendations made. The first attribute estimates the inherent difficulty of a given course. The second attribute, named potential, is a measure of the competence of a student for a given course based on the grades obtained in related 123 218 C. Vialardi et al. courses. Data was mined using C4.5, KNN (K-nearest neighbor), Naïve Bayes, Bagging and Boosting, and a set of experiments was developed in order to determine the best algorithm for this application domain. Results indicate that Bagging is the best method regarding predictive accuracy. Based on these results, the &quot;Student Performance Recommender System&quot; (SPRS) was developed, including a learning engine. SPRS was tested with a sample group of 39 students during the enrollment process. Results showed that the system had a very good performance under real-life conditions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>In the context of higher education, the decisions taken during the enrollment process at the beginning of each academic term are a key issue in the successful completion of university degrees. However, even though many universities offer the opportunity to receive advice from an experienced teacher, most of the times the students make decisions on their own; therefore, the process generally depends on their experience as well as on the available information. Unfortunately, the students' experience is often insufficient to make these decisions, as they do not take into consideration the time, effort and academic skills required by a course.</p><p>Generally, the students try to take as many courses as possible, with the goal of completing their studies as soon as possible. This direct approach leads to unbal- anced amounts of workload and many times increases the risk of failing some of the courses. The university provides information about available courses, sections, sched- ules, classrooms and professors. However, implicit information about other students' previous experiences from past enrollments, as well as their outcomes, is usually ignored.</p><p>The core of this research is the acquisition of knowledge from students' academic performance records. While this knowledge could be used in different ways, this work proposes a methodology to develop recommender systems able to guide stu- dents through the enrollment process starting from this knowledge. These systems are similar to collaborative recommender systems (CRSs) and use recommendation engines based on data mining techniques. CRSs are agents that suggest options among which users can choose. They are based on the idea that individuals with the same profile generally have similar preferences and often make the same choices. In most cases, they are well accepted by the users and offer good results in a large variety of applications.</p><p>In the field of education, a recommender system is an agent that suggests, in an intelligent manner, actions to students based on previous decisions of others with sim- ilar academic, demographic or personal characteristics <ref type="bibr" target="#b32">(Zaïane 2002)</ref>. In this context, data mining can be applied to data from two main types of educational environments: traditional classrooms and distance education systems, each having different data sources and objectives. In traditional classroom environments, educators attempt to enhance instruction by monitoring students' learning processes and analyzing their performance through the study of academic records and observations. Distance edu- cation involves techniques and methods to provide access to educational programs resources for students separated by time and space from lecturers. Currently, the most common paradigm in this context is web-based education, which provides students a convenient way to learn through the Internet. Web-based educational systems gener- ally record the students' actions in a web log that provides a raw trace of the learners' navigation on the site. In this way, data mining can work with these data to discover patterns and rules <ref type="bibr" target="#b26">(Romero and Ventura 2010)</ref>.</p><p>Unlike others CRSs in educational data mining, this work proposes using classi- fication techniques to provide students with the information needed to make better enrollment-related decisions.</p><p>The focus of this research is on experiments with real-life data, mainly from the academic database of the Computer Science Department at the University of Lima. The records span a period from its creation in 1991 to the first term of 2009. The data- base comprises, for each student: demographic data, enrollment on courses, grades obtained, number of courses per academic term, average grade and the cumulative average grade per academic term. It also includes two synthetic attributes: the diffi- culty of each course, and the potential of each student for every course.</p><p>Besides proposing to take into consideration specific attributes for the application domain, the research includes four experimental phases. The final goal is to deter- mine the best configuration to develop a recommendation engine based on student performance data.</p><p>The goal of the first phase is to determine which of the classification algorithms tested (C4.5, KNN (K-nearest neighbor) and Naïve Bayes) has the highest accuracy. This phase also provides support to select the best set of attributes and the best way to calculate the potential of the student in a specific course. In the second phase, our research focuses on studying the effect of old data in the application domain. The objective of the third phase is to determine the best method to avoid the over fitting of the model with pruning methods. Finally, in the fourth phase, based on the previous results, ensemble classification techniques like Bagging and Boosting are used. These techniques showed to produce lower error rates.</p><p>The rest of this document is organized as follows: Sect. 2 presents related works in which data mining has been applied to different aspects in the educational domain; Sect. 3 describes the recommendation mechanism proposed, with a CRISP-DM orien- tation; Sect. 4 explains the six phases of CRISP-DM (data mining is included as part of the process); Sect. 5 describes the experiments developed to evaluate the proposal; Sect. 6 describes the deployment of the recommender system; and finally, Sect. 7 outlines the conclusions of this research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Related works</head><p>Data mining techniques have been successfully applied in different areas of human knowledge. Its results are especially useful in contexts in which it is required to analyze large amounts of data, as it enables the extraction of patterns to be used in the construction of predictive models. Finance and information management, banks <ref type="bibr" target="#b12">(Han and Kamber 2006</ref>), telecommunications <ref type="bibr" target="#b12">(Han and Kamber 2006;</ref><ref type="bibr" target="#b17">Luan 2002b</ref>), medicine <ref type="bibr" target="#b12">(Han and Kamber 2006;</ref><ref type="bibr" target="#b11">Han 2002;</ref><ref type="bibr" target="#b9">Feldman 2003)</ref>, retail industry <ref type="bibr" target="#b12">(Han and Kamber 2006;</ref><ref type="bibr" target="#b6">Edelstein 2000)</ref>, exploitation of information in the web ( <ref type="bibr" target="#b21">Mobasher et al. 1996</ref>) and education <ref type="bibr" target="#b15">(Luan 2001</ref><ref type="bibr" target="#b16">(Luan , 2002a</ref><ref type="bibr" target="#b30">Waiyamai 2003;</ref><ref type="bibr" target="#b0">Al-Radaideh et al. 2006</ref>; <ref type="bibr" target="#b4">Cortez and Silva 2008;</ref><ref type="bibr" target="#b2">Castellano and Martínez 2008)</ref> are some of the scenarios and situations in which it is currently being used.</p><p>Nowadays, there is an increasing interest in data mining techniques, as well as its applications, in the educational area. Following is a brief description of some of the most relevant studies found in related literature.</p><p>Luan (2002a,b) used data mining techniques in four studies. The first one grouped students according to their academic requirements, to tailor the availability of courses, curricula and teaching time. The second study aimed to predict the probability of transferring a student, to facilitate an early intervention with students at greater risk of leaving the institution. In this case, artificial neural networks were used, achieving an accuracy of 72%, as well as C5.0 rule induction, showing an accuracy of 80%.</p><p>In the third case, Luan used data mining to help universities to identify those stu- dents with better chances of making an economic contribution after graduation.</p><p>Finally, the fourth study aimed to predict the probability of students dropping-out as well as to group those with greater risk. Institutions can then apply strategies to improve persistence and reduce the drop-out rate. For this purpose, Luan took data from a university in Silicon Valley and used two classification techniques: artificial neural networks and decision trees.</p><p>Al- <ref type="bibr" target="#b0">Radaideh et al. (2006)</ref> used the classification to evaluate performance of stu- dents enrolled in a C++ course at Yarmouk University. Twelve attributes and one class were considered. In order to build a reliable classification model, the CRISP-DM methodology was applied. Firstly, relevant characteristics were collected through a questionnaire. Secondly, a classification model was built. In this step Naïve Bayes and decision trees, specifically ID3 and C4.5, were used. The model contributed to the prediction of future performance of students from historical data. In order to measure the performance of the classifier, holdout and ten times cross-validation were used for the three techniques applied in the study. However, accuracy of the classification was not very good. Therefore, the conclusion was that the examples collected were insufficient to create a high quality classification model. <ref type="bibr" target="#b2">Castellano and Martínez (2008)</ref> proposed the application of collaborative filter- ing for the recommendation of courses; grades to be obtained by the students were estimated based on the performance of students with a similar academic profile. The aim was to study the validity of using collaborative filtering as a tool to guide students when making decisions related to course selection, and to detect courses with potential problems and requiring extra effort from the students.</p><p>The dataset comprised a total of 744 students from 9 classes in different Spanish educative centers. The data contained close to 100 courses and a total of 15,752 grades. This dataset was used in Orieb, a system aimed at helping students who are willing to get into High School. The system gives three different types of recommendation: the most appropriate type of High School for the student out of four options, the most recommended type of courses and courses that will require extra learning effort by the student. <ref type="bibr" target="#b4">Cortez and Silva (2008)</ref> used data mining to build a model of the students' perfor- mance in secondary schools. The research was based on data extracted from school records, as well as data provided by the students through questionnaires. Four super- vised techniques were used: decision trees, random trees, neural networks and support vector machines. Each of these techniques were applied to three data setups, with different combination of attributes, trying to find out those with more effect on the prediction. Instances were labeled considering three different classifications: binary classes ("approved" and "suspended"), discrete classes (five levels from "insufficient" to "very good") and numeric grades, where regression was considered.</p><p>After the tests, it was concluded that the students' achievement is highly correlated with their performance in the past years, and with other academic, social and cultural characteristic of the students and their contexts.</p><p>Dekker in <ref type="bibr" target="#b5">(Dekker et al. 2009</ref>) designed a study to predict whether students would drop out in their first year of studies in the Electrical Engineering department of Eind- hoven University of Technology. The main reason for the study is the existence of a subgroup of students considered to be at risk by the department. That is, students who could be successful but who need extra personalized temporal attention. Detecting this risk group is essential to prevent these students from deciding to drop out.</p><p>For this study the CRISP-DM methodology <ref type="bibr" target="#b13">(Larose 2005</ref>) was used. In the data preparation phase, the initial dataset was transformed to an appropriate format for mining, splitting up the data from 648 students into two subsets: the first one con- tained attributes from the academic past of the students, and the other contained the university grades and other related data.</p><p>When they mined the data from the university phase, they obtained a predictive accuracy of 78%. It was concluded that decision trees were the best classification technique for that dataset. <ref type="bibr" target="#b24">Ramaswami and Bhaskaran (2010)</ref> used data mining in order to identify a set of predictive variables and to assess the impact of these variables on the academic per- formance of higher education students. First, they conducted a pilot experiment with 224 students from two different colleges, and they collected 35 attributes. The model was built using simple regression and it was able to predict the students' performance with 39.23% of accuracy. This pilot study showed that there was a strong correlation between attributes such as location, school type, parents' education, secondary school grades and the students' performance at the university.</p><p>Based on these results, they developed a new experiment. The data, gathered from five different schools in three different districts, was preprocessed through transfor- mations and filtering, in order to simplify and strengthen the model. As a result, 772 instances were obtained, and they were processed through the Chi-squared Automatic Interaction Detector (CHAID) tool to build decision trees. The accuracy of the model built through this procedure was 44.69%.</p><p>This research, unlike the other reviewed works, presents a recommender system supported by a model based on the historical data of students without considering demographic attributes. The recommendations provided by the system are only based on the academic performance of the students.</p><p>Among all the studies we have reviewed, only Castellano and Martínez (2008) propose a recommender system. In their work, they recommend courses estimating the student's grades, based on the grades obtained in the past by students with similar academic profile. While our research pursues similar goals, it uses other attributes: the enrolled credits, the number of times the student was enrolled without success, his/her cumulative average and two synthetic attributes representing the difficulty of the course and the level of knowledge of the student before taking the course.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Recommendation based on Crisp-DM</head><p>The importance of recommender systems has grown with the introduction of the Internet. Currently, there are recommender systems that automatically support users in making the most accurate decisions among their preferences. These systems con- nect users with items <ref type="bibr" target="#b27">(Schafer 2005</ref>) by associating the content of the recommended item or the opinion of other individuals with actions of previous users of the system. Developing a recommender system is a complex process, especially when high accuracy is required. This development involves several steps, like data cleaning and data filtering and, in most cases, an evaluation phase where results obtained by the users are analyzed.</p><p>In order to simplify this process, the CRISP-DM methodology focuses on the devel- opment of methods and techniques to give sense to the data. In this context, CRISP-DM comprises the entire process: domain and data understanding phase, data preparation, modeling-where algorithms are applied to big sets of data-and, finally, evaluation and deployment.</p><p>The most important step in CRISP-DM is the modeling phase. In this step, data is analyzed and proper algorithms area applied in order to produce new patterns from the original data. The challenge is, precisely, to work with large datasets, which can present their own problems: noise, missing data, volatility, etc.</p><p>A classification technique or a classifier is a systematic approximation to build models from a dataset. Some examples are decision trees, rule-based classifiers, neural networks, support vector machines, Naïve Bayes classifiers, etc. Each technique uses a learning algorithm to identify the model that best suits the training data. Afterwards, these models are validated using cross-validation, holdout resampling or simple evalu- ation on a testing set. Using this model, predictions can be obtained for new instances: the key goal of the learning algorithm is to build models with good generalization capacity.</p><p>From the classification techniques researched in this work, five were found to pro- duce good results with the working data: decision trees, Naïve Bayes, KNN, bagging and boosting.</p><p>Decision trees are diagrams constructed from a set of observations with attributes describing each item. According to <ref type="bibr" target="#b20">Mitchell (1997)</ref>, decision trees represent a "dis- junction of conjunctions of restrictions" of the values of the attributes of the instances. Each path corresponds to the conjunction of values to which the attribute has been subordinated. Therefore, the tree itself is the disjunction of these conjunctions.</p><p>The algorithm used to generate decision trees in this work was C4.5, developed by Quinlan (1993). The input for the algorithm is known as the training set (of instances). C4.5 constructs the decision tree by determining, recursively at each step, which attribute must be used as root of the new sub-tree. In order to answer this question, each instance is evaluated to determine the quality of classification. C4.5 builds up the decision tree until it correctly classifies the training examples or all the attributes have been used.</p><p>The Naïve Bayes algorithm applies to learning tasks where each instances of train- ing is described by a conjunction of attribute values. The algorithm estimates the class conditional probability by assuming that the attributes are conditionally independent, given a determined class label <ref type="bibr" target="#b20">(Mitchell 1997)</ref>.</p><p>The KNN algorithm is generally used when all the attributes are continuous, even though it can be used with discrete attributes. The idea of this algorithm is to esti- mate the classification of an unseen instance using the most common class of the neighboring instances.</p><p>Bagging and boosting, denominated ensemble techniques, introduce perturbations in the training data to generate models from a single classifier. While Bagging (Breiman 1996) generates multiple classifiers, that are later managed through a voting process, boosting builds classifiers in a serial way by assigning weights to the original instances. In each iteration, a classifier tries to compensate the errors committed previously by the last classifier built <ref type="bibr" target="#b10">(Freund and Schapire 1996)</ref>. In this research, the C4.5 algorithm is used as the base learning technique for the application of bagging and boosting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Applying the methodology</head><p>In order to build a model able to support decision making during the enrollment pro- cess, the CRISP-DM methodology was applied. Firstly, this section will provide a brief description of our application domain to help to understand the context and data used to develop the experiments. Secondly, the data preparation phase is described, emphasizing the generation of two synthetic attributes-the difficulty of a course and the level of knowledge of a student for that course-showing how they are calculated through formulas and examples. Finally, modeling, evaluation and deployment phases are introduced. Details about the development of these last three phases are described in Sects. 5 and 6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Domain and data understanding phases</head><p>This research was developed in the context of the University of Lima enrollment pro- cess. Therefore, a brief explanation of this context and the academic regulations is presented here.</p><p>Studies at University of Lima are organized in two academic terms by year, each one spanning four months. Additionally, there is a two month summer term, which due to its shortness implies greater effort from the students.</p><p>The qualification system uses a scale of from 0 to 20; in order to pass each course, the student has to obtain at least eleven points; otherwise he will be required to attend the course again in the following term. This rule applies even if there is a change in the curricula. The maximum number of attempts to pass a course is three; otherwise, the student will not be able to continue his/her studies. In this context, students use the online enrollment system to decide how many and which courses to take each term. Students eligible for enrollment in a course are those that have passed the prerequisites for the said course.</p><p>The historical records contain data from eight different curricula, each of them with its own validity period. As our research uses historical data and each modification in the curriculum implies change, it is necessary to consider the creation, replacement, elimination and modification of the prerequisites for each course in each curricular change. <ref type="figure" target="#fig_0">Figure 1</ref> shows an example of a modification in the curriculum: the creation of the course Álgebra Lineal; the substitution of Matemática Básica II by Álgebra Lineal; and the modification of the prerequisites for Cálculo II.</p><p>A concept used throughout the following sections is the distance between a course and its prerequisites. <ref type="figure" target="#fig_1">Figure 2</ref> shows the section of the curriculum and the level corre- sponding to the course Gráficos por Computadora with its corresponding prerequisites. The figure also shows that they belong to two different academic areas (Basic Science and Software Engineering).</p><p>The distance is defined as the difference of levels in the dependency graph between one course and each of its prerequisites. In <ref type="figure" target="#fig_1">Fig. 2</ref> it is shown that the distance between the course Gráficos por Computadora and its direct prerequisite, Programación and Cálculo III, is 1; while the distance with Matemática Básica is 4. When there is more than one path from a prerequisite to a target course, the distance value will be that of the shortest path.</p><p>The set of prerequisite courses (SPC) is defined as the relation which returns a set of prerequisites for a determined course given a distance. The relation can be defined in the following way:</p><formula xml:id="formula_0">SPC (course,distance) = Set of Prerequisite Courses</formula><p>For example, the SPC corresponding to Gráficos por Computadora, with distance 1 is represented as:   In the same way the SPC corresponding to Cálculo II with distance 2 is represented as:</p><formula xml:id="formula_1">SPC GráGr´Grá f icos por Computadora, 1 = {Programací on, C ´ alculo I I I }.</formula><formula xml:id="formula_2">SPC C ´ alculo I I, 2 = {Cálculo{C´{Cálculo I, ´ Algebra Lineal, MatemáticaMatem´Matemática B ´ asica}</formula><p>The data extracted from the Online Transaction Processing (OLTP) Database was loaded into four tables (see <ref type="table" target="#tab_0">Table 1</ref>). Each term is described by the corresponding cal- endar year and the academic term; for example, 19912 makes reference to the second term of year 1991.</p><p>The main goal of the current research is to discover patterns that can be used to give positive or negative recommendations for a student to register on a given course, taking the grades from other students with similar academic achievements as the basis. After analyzing the role of each attribute and the relations among them, it was decided that automatic learning would be performed considering the attributes presented in <ref type="table" target="#tab_2">Table 2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Data preparation phase</head><p>The data described in the previous section was processed in order to generate a dataset able to be fed with the learning algorithms. This process was divided in four sub-pro- cesses. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1">Data normalization</head><p>In this sub-process, the data was normalized so that it could be manipulated easily.</p><p>The </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2">Data aggregation</head><p>In this sub process, three additional tables were built to accelerate the manipulation of data (see <ref type="table" target="#tab_4">Table 3</ref>). The linear dependency table was created to support the calculation of the SPC relation. This relation can be described as:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LD (Course, Curriculum) = Prerequisites of a course in a given Curriculum</head><p>Because of the several changes made to the Computer Science curriculum since its creation, it is necessary to consider the equivalences of the courses. For this reason, Backward and Forward Equivalence tables were created and their relations can be described as: </p><formula xml:id="formula_3">Backward Equivalence (course) = Set o f f ormer courses Forward Equivalence (course) = Current Course</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3">Attribute generation</head><p>Preliminary experiments with the dataset showed that the accuracy of the models generated by the classification algorithms could be improved by using two synthetic attributes: the course difficulty and the student's potential for a course ( <ref type="bibr" target="#b29">Vialardi et al. 2010)</ref>. Difficulty The course difficulty is the weighted average of the grades of every student that has taken that course or its backward equivalences. It is represented by:</p><formula xml:id="formula_4">Di f f icult y c = t∈B E c m t j=1 G j,t * W t t∈B E c W t * m t</formula><p>where c, current course; t, course equivalent to the current one; B E c , Set of equiva- lence courses for course c; m t , Total number of students in course t; G j,t Grade of the jth student in course t; W t Number of credits of course t.</p><p>The following example shows how difficulty is computed for the Álgebra Lineal course. This course in previous curricula had an equivalent course called Matemática Básica II with a different number of credits. The difficulty of this course in the 20062 term is computed as follows based on <ref type="table" target="#tab_5">Table 4</ref>:</p><formula xml:id="formula_5">Di f f icult y Alg Lineal = 12 × 4 + 10 × 4 + 14 × 4 + 13 × 2 + 14 × 2 + 10 × 2 4 × 3 + 2 × 3 = 12.11</formula><p>As the example shows, grades from students enrolled in the same course in previous terms are used in the calculation, even if they were enrolled more than once (Student 2 in <ref type="table" target="#tab_5">Table 4</ref>).</p><p>In order to consider the grades of new students, this attribute must be recalculated before each enrollment period. As the value of the attribute is proportional to the aver- age grade of students enrolled on the course, a lower value represents a more difficult course.</p><p>Potential The potential represents the competence of a student for a given course based on the grades he has obtained in the prerequisites. Potential is calculated as a weighted average of those grades divided by their corresponding difficulties. During the experimentation, four different values of potential are calculated, as can be observed in <ref type="table" target="#tab_7">Table 5</ref>. The potential is represented by:</p><formula xml:id="formula_6">Potential s,c,d = t∈SPC c,d H t v=1 G s,t,v * W t D t t∈SPC c,d W t * H t</formula><p>where s, student; c, current target course; d, distance for the potential calculation; t, prerequisite course; SPC c,d , set of prerequisites of course c at distance d; H t , number of times student s was enrolled in course c; G s,t,v , grade from student s in the course t at attempt v; W t number of credits from course t; D t difficulty from the course t.</p><p>The next example corresponds to the calculation of Cálculo III potential for Stu- dent 2 (previous example), using the dependency graph from <ref type="figure" target="#fig_1">Fig. 2</ref> to determine the courses to be included in the computation. </p><formula xml:id="formula_7">4 × 1 + 4 × 1 + 2 × 2 + 4 × 1 + 4 × 2 + 4 × 1 = 1.17</formula><p>In this case, the SPC relation is used to determine the different sets of prereq- uisite courses for the calculation of the potential. That relation returns the set of Potential is calculated on the basis that the linear dependencies of a course have two levels of prerequisites Potential NT</p><p>The estimation of the potential is calculated using all the courses that are prerequisites for the target Potential PPA It is a particular case, which takes all the courses (prerequisites or not) that the student has taken up to the moment, being the distance irrelevant for this treatment prerequisites of a determined course that has been taken by the student, taking into account the equivalence between courses and the different curricular changes. Then the potential can be computed using the formula shown above. According to this expression, the higher the value of the attribute, the better the chance the student will achieve good performance on the course.</p><p>In the case in which a course does not have prerequisites, the potential PPA (calcu- lated with all the grades obtained by the student until the moment of the query) is used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.4">Data cleaning and filtering</head><p>It is crucial to eliminate irrelevant information that could change results, disrupt the analysis and therefore alter the accuracy of the prediction. Pattern discovery is use- ful only if data contained in the training set is an accurate representation of the real academic performance of students and their past decisions.</p><p>The initial data contained 250,843 records corresponding to 5,938 different students who had been attending the Computer Science Academic Program. A brief description of each filter is presented in <ref type="table" target="#tab_9">Table 7</ref> ( <ref type="bibr" target="#b28">Vialardi et al. 2009</ref>). Instances used as input for the machine-learning algorithm were composed by the attributes shown in <ref type="table" target="#tab_10">Table 8</ref> (CV means coefficient of variation). <ref type="table" target="#tab_10">Table 8</ref> shows the attributes used and a short statistical summary for each of them. The table also shows that data types for number of credits and course credits are contin- uous. This is an implementation decision. If they were considered discrete attributes, a decision tree would have as many ramifications as attribute values, making the tree extremely complex and difficult to analyze. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Modeling and evaluation phase</head><p>The overall problem is centered on finding groups of students with similar aca- demic performance. In the modeling phase, three basic algorithms and two ensemble techniques were considered. The three basic algorithms were decision trees, nearest neighbors and Naïve Bayes. The two first were used due to the need to find predic- tions with algorithms that have proven to be the most efficient for the classification of similar problems ( <ref type="bibr" target="#b31">Wu et al. 2008</ref>). Naïve Bayes, on the other hand, is used because it has a performance benchmark using a simple learning algorithm. The evaluation phase is explained in detail in Sect. 5, together with the best condi- tions for automatic learning, the effectiveness of the classification algorithm, data sets, treatments for the potential calculation, time independence of the data, and analysis of ensemble classification techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">Deployment phase</head><p>The deployment phase is explained in Sect. 6, where a pilot experiment with a group of students, carried out to test the effectiveness of the system, is presented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Experimentation and evaluation</head><p>This section presents the descriptions and results of the four phases consider for the construction of the recommender system. The first phase was composed of three exper- iments related to the learning process; the second phase analyzed the independence of the data over time; the third focused on pruning methods; and in the last the ensemble classification techniques of boosting and bagging were analyzed. In all the experi- ments, standard inferential statistics techniques were applied to test the hypothesis under study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Phase 1: determination of the best conditions for automatic learning</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objective</head><p>The method used in this phase was sequential, in the sense that results from one experiment were used to design subsequent experiments. The goal was the empirical verification of the following three factors:</p><p>1.1. The most effective classification algorithm. 2.2. The best data set. 3.3. The best treatment for potential calculation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Two sets of the same size (number of instances) were considered. Both of them had 161,247 instances. Each instance corresponded to one student enrolled on one course. The records represented all the data stored from the beginning of the academic term 19912. The first dataset, with five attributes and one class, contained data from the original set. The second dataset had, additionally, two synthetic attributes, resulting from apply- ing the methodology to the original database. In other words, both datasets had the same instances the number of attributes being the only difference.</p><p>The first synthetic attribute was the potential. This attribute can have four different values, as can be seen in the section related to the proposed methodology (Sect. 4.2.3), corresponding to the four ways of calculation.</p><p>The experimental design was based on holdout resampling, that is, randomly split- ting the dataset into two sets (training and testing) with 70% and 30% of the instances of the original, respectively. This process was repeated ten times. Finally, prediction errors were averaged through all the tests to calculate the mean prediction error and its corresponding variance.</p><p>With this configuration, decision trees, nearest neighbors and Naïve Bayes were tested. Each algorithm was executed with all the ten training sets, using different configurations. For decision trees a confidence factor (F.C. = 0.4) was used together with a minimum of forty (M = 40) for the number of instances in each leaf. These configuration values were found to yield the best results after several tests.</p><p>In the nearest neighbor algorithm case, it requires a parameter K, representing the number of neighbors that are taken into considerations in the learning process. The value K = 91 was used as it is known that the relation k = n 3 8 obtains the best results ( <ref type="bibr" target="#b7">Enas and Choi 1986)</ref>, where n is the number of training instances and k is the number of nearest neighbors.</p><p>Once the models were constructed, they were validated with their respective testing sets, obtaining the error rates. <ref type="table" target="#tab_11">Table 9</ref> shows error percentages resulting after the use of the three learning algo- rithms in the database with five attributes (original dataset). Likewise, <ref type="table" target="#tab_0">Table 10a-d</ref> show the error percentages obtained when considering the attribute potential, in each of the four different methods of calculation: N1, N2, NT and PPA.</p><p>For statistical testing the paired t test was used. Generally, it is used when data from the same individual is recorded before and after the application of a treatment that   On <ref type="table" target="#tab_0">Tables 9 and 10a-d</ref> is going to be analyzed. The paired t test was used as follows: the treatments to be studied were the classification algorithms, the datasets and the four ways for potential calculation, respectively; and the individuals were the different datasets obtained after doing the holdout resampling. The observations registered were error rates generated when applying the different techniques to each of the generated sets. A sign corresponding to the statistical test and its P-value are presented in the all hypothesis tests. These allow the analysis of the significance of the differences among different results. A sign +(−) in front of the P-value indicates that some of the condi- tions produced worse (better) learning. When the P-value is not preceded by a sign, but by a 0, it indicates that there are no meaningful differences between treatments. Values between parentheses represent P-values of the paired t test. A P-value is the probability of obtaining a value (smaller or larger) more extreme than the observed statistical test value. In our case, if a P-value is less than the significance level (0.05), we will reject the null hypothesis; so, we concluded that prediction error rates have different means.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.1">Experiment related to the effectiveness of the classification algorithm</head><p>The first experiment tried to answer the question as to which of the algorithms used in this research would produce a lower prediction error.</p><p>In order to answer this question, the error percentages obtained previously were considered. Statistical analysis was performed on each of the tables; it applied the paired t test to the results of <ref type="table" target="#tab_0">Tables 9 and 10a-d.  Table 11</ref> shows a description of all the ten tests performed and <ref type="table" target="#tab_0">Table 12</ref> shows the obtained results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation</head><p>• The error average rate of algorithm C4.5 is lower than the error average rate of the Naive Bayes algorithm, both in the original dataset and in the four treatments of the potential calculation.</p><p>• The error average rate of algorithm C4.5 is lower than the error average rate of the KNN algorithm when the original dataset and estimations N1, NT and PPA for the potential were used. In the case of potential N2 the error was the same.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>It can be concluded that C4.5 is the most effective algorithm predicting new instances in our application domain. Besides, it is the most appropriate due to its representation capability, ease of interpretation and lower computational cost (Rokach and Maimon 2008).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.2">Experimenting with the effectiveness of the dataset</head><p>The second experiment aimed at answering which of the datasets would produce lower prediction error rates. Results from the previous experiment were used in this analysis.</p><p>In that way, only decision trees were used to compare results using different datasets.</p><p>In order to answer the question the error percentages were used again. Statistical analysis between the different tables was undertaken, by applying the paired t test to the results of Tables 9 and 10a-d. <ref type="table" target="#tab_0">Table 13</ref> shows a description of all the tests performed and the obtained results can be seen in <ref type="table" target="#tab_0">Table 14</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation</head><p>• Classifiers built using potential N1, N2 and NT values had a lower average of error rates than those built with the original dataset.</p><p>• It can be observed that in the case of the treatment for potential PPA there was no meaningful difference in the error rate between this treatment and the original dataset.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>We conclude that the dataset with synthetic attributes produces better average error rates. In other words, it enables the construction of a model better representing the  C4.5 applied to <ref type="table" target="#tab_11">Table 9</ref> vs. C4.5 applied to <ref type="table" target="#tab_0">Table 10a</ref> C4.5 applied to <ref type="table" target="#tab_11">Table 9</ref> vs. C4.5 applied to <ref type="table" target="#tab_0">Table 10b</ref> C4.5 applied to <ref type="table" target="#tab_11">Table 9</ref> vs. C4.5 applied to <ref type="table" target="#tab_0">Table 10c</ref> C4.5 applied to <ref type="table" target="#tab_11">Table 9</ref> vs. C4.5 applied to <ref type="table" target="#tab_0">Table 10d Table 14</ref> P values and signs of paired t test of <ref type="table" target="#tab_0">Table 13</ref> Potential N1 Potential N2 Potential NT Potential PPA (C4.5) (C4.5) (C4.5) (C4.5)</p><formula xml:id="formula_8">− (0.0188) 0 (0.5842) − (0.0299) − (0.0115) C4.5 vs. NB − (0) − (0) − (0) − (0) − (0)</formula><p>Original data set (C4.5)</p><formula xml:id="formula_9">+ (0.0018) + (0.0069) + (0.0104) 0 (0.0877)</formula><p>reality under study. However, using the PPA potential value does not produce a mean- ingful difference with the results obtained from the original dataset, and for this reason it was excluded from subsequent experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.3">Experiment related to the effectiveness of the treatments for the potential calculation</head><p>The third experiment was to determine which of the treatments for the potential cal- culation produces the lowest prediction error rate. Again, results from the previous experiment were used to design this experiment. For this reason only decision trees and databases with seven attributes were used.</p><p>In order to answer the question, statistical analysis among the different tables was carried out, applying the paired t test to the results of Table 10a-c. <ref type="table" target="#tab_0">Table 15</ref> shows a description of all the tests performed.</p><p>The obtained results can be seen in <ref type="table" target="#tab_0">Table 16</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation</head><p>There are not meaningful differences between the averages of error rates of the three treatments for potential N1, N2 and NT.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The treatments for potential N1, N2 and NT have statistically equal averages of error rates.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objective</head><p>The objective of this experiment was to verify the effect caused in the training sets when older data is not considered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Considerations</head><p>The university environment, and especially our application domain, has some char- acteristics that allow data analysis under certain conditions from different points of view. When considering student performance, courses are not the same term after term. Although normally there are no meaningful performance changes from one term to another, it is possible that after some terms a generational change could mean a change in trends. This new trend should be reflected in training sets, so it can be captured in the classifier model. From the course point of view, normally a large group of them change every time. Every time a curriculum is modified, the university creates rules so that modifications would not affect students. One of the most important rules is related to the equivalences between courses. Without these equivalences it would be impossible to consider an old course that has undergone more than one modification. In other words, the records of that course should be deleted during the cleaning phase, losing the related information.</p><p>In this sense, one hypothesis suggests that when old records are taken into account, they will impact negatively in predictions generated by the model used to give recom- mendations to future students.</p><p>In order to test this hypothesis, it is necessary to determine whether datasets with only newer records lead to better classifiers. Otherwise, the most appropriate proce- dure will be to consider the whole dataset (dataset corresponding to term 19912 up to term 20091). The reason is that datasets with more data will generally lead to better estimations due to the concept of consistency ( <ref type="bibr" target="#b14">Lehmann and Casella 1998</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Thirty-one different training subsets were created as is shown in <ref type="figure" target="#fig_2">Fig. 3</ref>. Each subset was obtained by removing from the previous dataset the records corresponding to the oldest term. That is, the first subset comprises records from all the available terms. The second one includes all the records excepting the ones corresponding to the first term, 19912 in this case. The last subset includes only the records of the most recent terms. Afterwards, these subsets were studied using the algorithm C4.5.</p><p>As holdout resampling was used for evaluation, analyzing the variance of the errors of each of the tests allows the estimation of the variability of the learning method in relation to the training data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>The goal of the experiment was to find out if the oldest data increase the estimated error of predictions. Again, results from the previous phases were used to design this experiment. It means that only the C4.5 algorithm was used on datasets containing the three calculated values for the potential attribute (N1, N2 and NT)</p><p>The average error rates obtained in each of the tests was calculated. Afterwards, a hypothesis test of equality of proportions was applied. In this test, the chi-square  distribution is the statistic of the test. The objective was to determine if there were meaningful differences between the average error rates found in the 31 subsets. <ref type="table" target="#tab_0">Table 17</ref> shows that P-values are greater than the significance level (0.05). Therefore, there is no statistical evidence to sustain the view that error average rates are different in the 31 subsets for each one of the treatments for potential N1, N2 and NT.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>With the test of proportions, we conclude that there are no meaningful differences between error percentages obtained with the oldest data and data from more recent periods for each one of the treatments. With these results it is convenient to use the data set corresponding to the first subset. That is to say, records spanning 19912 to 20091.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3">Analysis of pruning methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objective</head><p>This experiment aimed at determining which of the pruning methods produced lower error rate in our domain of application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Considerations</head><p>The following pruning methods were used in this research: Reduced Error Prun- ing (REP) <ref type="bibr" target="#b22">(Quinlan 1987)</ref>, Pessimistic Error pruning (PEP) <ref type="bibr" target="#b22">(Quinlan 1987)</ref>, Mini- mum Error Pruning (MEP) <ref type="bibr" target="#b3">(Cestnik and Bratko 1991)</ref>, Critical Value Pruning (CVP) <ref type="bibr" target="#b18">(Mingers 1987)</ref> and Error Based Pruning (EBP) <ref type="bibr" target="#b23">(Quinlan 1993)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Basically, all pruning methods follow the same procedure. First, a metric is calcu- lated for the two possible options: pruning and not pruning. Then both metrics are compared, in order to determine which option should be selected. This is a recursive procedure and occurs at each sub-tree. This section presents the results of an empirical comparison of the pruning meth- ods presented above. Nine datasets corresponding to <ref type="bibr">the 19952, 20001, 20041</ref> terms were chosen after having applied the machine-learning algorithm 279 times. The first set corresponds to the term with the best error rate (that is, classifiers built with this dataset produced the best accuracy). The second term generated the worst error rate, while the third one was chosen to coincide with curricular changes.</p><p>The base error would be obtained if the most frequent class were used to classify each instance. With the use of classification algorithms we expected lower error rates.</p><p>Each set was randomly divided into two subsets: training (70%) and testing (30%). The training set itself was subdivided into: growing (70%) and pruning (30%). The error rate is always evaluated on the testing set. This experimental design has been used in similar empirical studies such as <ref type="bibr" target="#b19">(Mingers 1989</ref>). The error rates are averaged and the standard error is calculated as well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiments</head><p>This section discusses the results of the 45 experiments resulting from the combination of the nine data sets and the five pruning methods.</p><p>The experiments show that EBP has the lowest error rates. On the other hand, PEP has the highest error for the seventh and eighth dataset, while CVP has the highest for the rest of them. <ref type="table" target="#tab_0">Table 18</ref> reports the results of a paired t test using a 0.10 confidence level ( <ref type="bibr" target="#b8">Esposito et al. 1997</ref>). "+" (−) indicates better (worse) performance than the unpruned trees. 0 indicates no change at all. The number of datasets that report + (−) may indicate which method is appropriate for each data set.</p><p>Due to the difficulty of presenting every comparison and the fact that the EBP appears to be the most stable, each method is compared with the EBP as shown in <ref type="table" target="#tab_0">Table 19</ref>.  </p><formula xml:id="formula_10">− (0) − (0) − (0.0013) 2 − (0.0107) − (0) − (0) − (0.0002) NT − (0.0019) − (0) − (0) − (0.0128) 20001 1 − (0.0084) − (0.0001) − (0) − (0.0095) 2 − (0.0957) − (0.0001) − (0) 0 (0.1773) NT − (0.0842) − (0.0001) − (0) 0 (0.5554) 20041 1 0 (0.1188) − (0.0001) − (0) − (0.0031) 2 − (0.0024) − (0) − (0) − 0.0114) NT − (0.0607) − (0.0001) − (0) − (0.0263)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation</head><p>According to the results, the EBP method produces the lowest error rates for our particular domain while the CVP method shows the worst results. The behavior of the PEP method is stable across datasets. REP and MEP may be considered interchangeable since they work similarly. One may go so far as to claim that they produce equal trees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In conclusion, EBP can be considered to be the best pruning method because it is the one that has the best predictive accuracy. Therefore, it will be the one used during the development of the following experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4">Analysis of ensemble classification techniques: bagging and boosting</head><p>Objective This experiment aimed to determine which ensemble classification techniques (such as bagging and boosting) would perform better than base techniques in each variant of the potential calculation.</p><p>Accordingly to the results from the previous phases, the C4.5 base algorithm and the variants for potential N1, N2 and NT were used. In the same way, data from the term 19912 and the EBP pruning technique were chosen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Holdout resampling was applied to subset 19912 in order to generate a set composed of 70% training data and 30% testing data. Models for both the C4.5 base algorithm as the ensemble technique were generated.</p><p>Afterwards, 25 iterations (models) for the bagging algorithm and 10 iterations for boosting were defined. The whole process was performed ten times (Opitz and Maclin 1999).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>The goal was to find out whether a model obtained through an ensemble classifier is better than on obtained through a base method. With this intention, error rates obtained when applying bagging, boosting and algorithm base C4.5 to the entire data were analyzed. Then the algorithm with the lowest average error rate was determined.</p><p>In order to do this, a paired t test was performed on the results from Tables 20 and 21a, b. <ref type="table" target="#tab_2">Table 22</ref> shows a description of the nine tests performed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation</head><p>The results indicate that the average error rate decreases when using the bagging clas- sifier, compared against the C4.5 algorithm base as well as boosting. Besides, it can be observed that the average error rate for C4.5 is lower than the one obtained with the boosting classifier.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Derived from these results, it can be concluded that applying bagging ensemble tech- nique can significantly reduce the error rate in each of the variants, compared with the use of other algorithms.</p><p>To conclude this section, the best conditions for implementing the recommender system resulting from all the experiments showed above are in summary: bagging using C4.5 with the pruning method EBP as a base classifier. Besides, it was demonstrated that it is more effective to use all the historical data, because greater amounts of data will give better estimations, and also the dataset including the two synthetic attributes would produces lower error rates. With regard to the different potential approaches, we will use the variant for potential N1. The reason behind this decision is that, in our domain, the enrollment advisor mainly takes into consideration, mainly, the direct prerequisites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Recommender system deployment</head><p>The last step in the CRISP-DM methodology implies diffusion and use of the model built through data mining. Taking into consideration lessons learnt through the exper- iments, a model was built and included in a recommender module. In this section the integration of the module with the enrollment system, the system interfaces and the  </p><formula xml:id="formula_11">+ (0) + (0) C4.5 vs. Boosting − (0) − (0) − (0) Bagging vs. Boosting − (0) − (0) − (0)</formula><p>results of a pilot test are described. This pilot test was taken in the academic period 20101 (from April to August, 2010).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1">Consult process sequence</head><p>Figure 4 presents the recommender system, implemented as a web service and inte- grated into the enrollment application of University of Lima. In order to answer queries from the application, the web service interacts with a processed database and with the recommendation engine, implemented through an independent executable file named Consult.exe. The following is the description of the control and data flow. The student logs into the enrolling application using his/her username and password (1). At this point, his/her cumulative average, the list of courses that he is able to sign into and the attempt number are shown.</p><p>When the student selects a course, the enrolling application automatically invokes the web service (2) sending it the code of the student, the course, the total amount of credits that he wishes to take, the attempt number and the cumulative average.</p><p>The web service obtains the difficulty of the course and the student potential through a query to the database (3)-(4).</p><p>With this information, the web service builds a new group of instances <ref type="formula">(5)</ref> to call the recommender engine. The consult executable file reads the model (6), looking for the predicted class of each instance (pass or fail) and its confidence factor (7), (8). Finally, these results are returned to the enrollment system (9) and presented to the user (10).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2">SPRS user interface</head><p>In <ref type="figure">Fig. 5</ref>, the interface of the SPRS system is shown. The candidate courses, in which the student can enroll, are shown on the left. Once the student has selected a group of them, the system queries the recommender system, as shown in <ref type="figure" target="#fig_3">Fig. 4</ref>. The feedback of the system, with its respective confidence factors, can be seen on the right of the interface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3">Preliminary results of the recommender system under enrollment conditions</head><p>In this section a pilot experiment and the preliminary results of the recommender sys- tem are presented. This system was implemented using data including the academic term 20092 and taking into account the results from Sect. 5. Then it was tested on the academic term 20101 enrollment.</p><p>During that period, 804 students were able to enroll on different courses; from this group, 50 students were chosen for the pilot experiment applying a systematic sampling technique. The features of the SPRS were explained to them and they were informed that, if they considered it convenient, they could use it. From these 50</p><p>Fig. 5 Enrollment system user interface students, only 39 used the recommender system. These students generated 198 in- stances to test our system. As the enrollment procedure is carried out via the Internet and the experiment should simulate real conditions, students enrolled without super- vision using only the recommender system.</p><p>By comparing the predictions of the system with real results, we obtained 85.35% of accuracy. The interpretation of this accuracy has to take into consideration the following issues:</p><p>• The proportion of students obtaining a positive recommendation by the system and that, at the end of the term, really passed the courses was 82.32% of the total.</p><p>• The proportion of students obtaining a negative recommendation and that, at the end of the term, really failed was 3.03% of the total.</p><p>For this analysis, the prediction confidence factor was taken into consideration. This factor represents the proportion of instances from the training dataset whose classifi- cation match the predicted outcome. When testing the recommender system, students had the opportunity of seeing the confidence factor of each recommendation and using it to decide whether to enroll or not on a given course. Thus, results from <ref type="table" target="#tab_2">Table 23</ref> can be interpreted in the following way:</p><p>• Analyzing cases where the system predicted "Pass" with a confidence factor be- tween [0.75-1], the prediction was correct 154 times, while in 20 cases it was wrong. As expected, the system is more efficient when it has a greater confidence factor. It is worth mentioning that most of the cases of wrong prediction were due to the unusual behavior of the students or because they just left the course.  • Analyzing cases where the system predicted "Fail", it can be observed that in most of them the system produced a low confidence factor, between [0.5-0.7]. These values are too close to the decision threshold, indicating that the system can provide ambiguous predictions in those cases.</p><p>Additionally, the system performance was contrasted against the criteria of students who did not use the system. With this goal, five samples were randomly extracted from the student record database. The cases where a student enrolled a course and then failed it were considered errors. For each sample, the average error rate made by the students, that is, the proportion of courses failed from the total of courses in which they enrolled, was calculated. Afterwards the system was fed with the data from the sample, and its predictions were compared with the results obtained by students in real-life. Similarly, each course recommended by the system and then failed by the student was considered an error, and the corresponding error average value was calculated. <ref type="table" target="#tab_2">Table 24</ref> shows the average of both students' errors (base error) and system errors for the five samples. In the five cases, the SPRS error was lower than the base error. Moreover, <ref type="table" target="#tab_2">Table 24</ref> shows that these results were statistical significant (P &lt; 0.05) in three of the five samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">Conclusions and future work</head><p>The idea for this research emerged when exploring ways to support students during regular enrollment processes by offering additional criteria for their decision-making. With this goal in mind, we proposed a methodology-which can be applied in any higher education institution-whose objective is to prepare student academic data to be organized in such a way that it can be treated through the Crisp-DM methodology to make predictions related to academic performance.</p><p>We observed that predictive accuracy depends, in most cases, on data quality. Fol- lowing this lead, the main contribution of this research was to include two synthetic attributes in the data preparation process. The first synthetic attribute, the difficulty of a course, is the cumulative average of previously registered grades; it measures the course difficulty or ease. The second synthetic attribute is the student's potential, defined as the numeric value that measures his/her capacities and skills, particularly for a certain course.</p><p>In the section corresponding to the evaluation of the proposed methodology, we explain the four different phases of experiments carried out.</p><p>In the first phase, we determined the best conditions for automatic learning. We con- cluded that the C4.5 algorithm was the most efficient for this particular domain, and that the set that best represented the reality under study was that including synthetic attributes with treatments for potential N1, N2 and NT.</p><p>In the second phase, after applying the statistical test of equality of proportions, we concluded that there were no meaningful differences in error rate among the terms. With this result, we decided to use-for the rest of the research-database information available since the very creation of the Department.</p><p>Results from the third phase showed that pruning methods-especially EBP-pro- duced improvements in predictive accuracy as well as in the understanding of the trees.</p><p>Finally, in the fourth phase we concluded that the bagging ensemble technique obtained better predictive accuracy than the base algorithm C4.5 and the boosting ensemble technique.</p><p>Once we had determined the best conditions for the implementation of the system, we performed a pilot experiment with real enrollments of 50 students. In this context, the system was able to predict with 85.36% of accuracy.</p><p>We also compared the results of the system with the predictions made by students with no support from it. In this case, the system consistently produced better results than the students did, as it can be observed in <ref type="table" target="#tab_2">Table 24</ref>.</p><p>The prediction of academic performance opens many possibilities, as there are numerous applications that can be obtained from grade prediction in the academic context. However, further analysis need to be done yet. For example, regarding the application domain, it is necessary to involve more variables in the study. These vari- ables could depend either on the environment (i.e., more detailed information on the difficulty of the courses, student's assistance and interest, or secondary school grades, among others) or on the student (time dedicated to study, his/her capacity for certain courses, his/her disposition to face them, etc.). Future proposals of new techniques that assure a better classification for this domain of application would also be very interesting.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Curricula comparison</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Dependency graph</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Data subsets from academic terms</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Consult process sequence</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head>Table 1 Description of the non-normalized tables</head><label>1</label><figDesc></figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="true"><head>Table 2 Relevant attributes</head><label>2</label><figDesc></figDesc><table>Attributes 
+Rationale for selection 
+
+Course name 
+Identifier for each course the student is enrolled on 
+
+Attempt number 
+Whether the student has been enrolled on the same course before 
+
+Cumulative average 
+Overview of the student's performance over time 
+
+Course credits 
+Practical and theoretical workload for each course 
+
+Number of credits 
+Workload of the student by term 
+
+Final grade (class) 
+Result obtained at the end of the term in each course 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false"><head>table Curriculum (</head><label>Curriculum</label><figDesc></figDesc><table>667 instances) was separated into: 
+
+-courses (244 instances) 
+-curriculum (8 instances) 
+-curriculum contains courses (667 instances): this relational table represents the 
+inclusion of a course in certain curriculum. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="true"><head>Table 3 Additional tables</head><label>3</label><figDesc></figDesc><table>Table 
+Description 
+Instances 
+
+Linear dependency 
+Direct and indirect prerequisites of a course 
+2652 
+Forward equivalence 
+The most recent equivalence of a course 
+244 
+Backward equivalence 
+Equivalences of each course in previous curricula 
+404 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" validated="false"><head>Table 4 Grades</head><label>4</label><figDesc></figDesc><table>for difficulty 
+calculation 
+Term Course name 
+Student name Grade Credits 
+(depends on 
+curriculum) 
+
+Student 1 
+12 
+4 
+
+20052 Matemática Básica II Student 2 
+10 
+4 
+
+Student 3 
+14 
+4 
+
+20061 Álgebra Lineal 
+Student 2 
+13 
+2 
+
+Student 4 
+14 
+2 
+
+Student 5 
+10 
+2 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" validated="false"><head>Table 6 shows the grades of Student 2, needed for calculating the potential of Cálcu- lo III, both in the current courses as well as in the ones replaced (Matemática Básica II substituted by Álgebra Lineal). It is important to mention that the difficulty of Álgebra Lineal is the same as that for Matemática Básica II because they are equivalent.</head><label>6</label><figDesc></figDesc><table>We 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" validated="true"><head>Table 5 Treatments for potential calculation</head><label>5</label><figDesc></figDesc><table>Treatment 
+Description 
+
+Potential N1 
+Potential is calculated on the basis that the linear dependencies of a course 
+consist of their immediate prerequisites 
+Potential N2 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" validated="true"><head>Table 6 Student 2 attributes for potential calculation</head><label>6</label><figDesc></figDesc><table>Course 
+Distance 
+Credits 
+Difficulty 
+Grade 
+Attempt 
+
+Cálculo II 
+1 
+4 
+10.88 
+12 
+1 
+
+Cálculo I 
+2 
+4 
+10.83 
+15 
+1 
+
+Álgebra Lineal 
+2 
+2 
+10.08 
+13 
+3 
+
+Álgebra Lineal 
+2 
+2 
+10.08 
+09 
+2 
+
+Matemática Básica II 
+2 
+4 
+10.08 
+10 
+1 
+
+Matemática Básica 
+3 
+4 
+10.87 
+16 
+1 
+
+Lenguaje I 
+-
+4 
+11.53 
+11 
+1 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" validated="true"><head>Table 7 Elimination filters</head><label>7</label><figDesc></figDesc><table>Description 
+Rationale 
+Deleted records Remaining records 
+
+Instances from other 
+academic programs 
+
+The focus of this study is the 
+Systems Engineering 
+Academic Program 
+
+480 
+250363 
+
+Instances for which potential 
+cannot be calculated 
+
+There was no previous data 
+available for these students 
+so an accurate pattern could 
+not be identified 
+
+37575 
+212788 
+
+Instances that did not fit into 
+the current curriculum 
+
+In order to include instances 
+from previous curricula, an 
+update was needed; if this 
+was not feasible the 
+instances were eliminated 
+
+32647 
+180141 
+
+Summer term instances 
+Their particular conditions 
+are harder and cannot be 
+compared to those of 
+regular terms 
+
+18894 
+161247 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" validated="true"><head>Table 8 Selected attributes</head><label>8</label><figDesc></figDesc><table>Attributes 
+Data type 
+Possible values 
+Statistical summary 
+
+Course name 
+String 
+Álgebra Lin-
+eal, Cálculo 
+I, Cálculo II, 
+etc. 
+
+82 courses 
+
+Attempt number 
+Discrete 
+1,2,3 
+Value 
+Percentage 
+
+1 
+80.94 
+
+2 
+15.84 
+
+3 
+3 . 2 2 
+
+Cumulative 
+average 
+
+Continuous 
+0.00-20.00 
+Range = 19.55 
+
+Mean = 12.336 
+
+St. Dev. = 1.96 
+
+CoefVar = 15.89 
+
+Difficulty 
+Continuous 
+0.00-20.00 
+Range = 6.172 
+
+Mean = 12.136 
+
+St. Dev. = 1.052 
+
+CoefVar = 8.67 
+
+Potential 
+Continuous 
+0.0000-2.00 
+Range = 1.9845 
+
+Mean = 1.0234 
+
+St. Dev. = 0.2408 
+
+CoefVar = 23.53 
+
+Course credits 
+Continuous 
+2,3,4,5 
+Value 
+Percentage 
+
+2 
+16.27 
+
+3 
+49.28 
+
+4 
+24.55 
+
+5 
+9 . 9 
+
+Number of credits 
+Continuous 
+1,2,3,…,27 
+Range = 25.00 
+
+Mean = 17.39 
+
+St. Dev. = 3.601 
+
+CoefVar = 20.71 
+
+Final grade (class) 
+String 
+FAIL, PASS 
+Final grade 
+Percentage 
+
+Fail 
+21.64 
+
+Pass 
+78.36 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11" validated="false"><head>Table 9 Original</head><label>9</label><figDesc></figDesc><table>data set error 
+percentages 
+Split 
+C4.5 
+KNN 
+Naïve Bayes 
+
+1 
+18.8238 
+19.0326 
+22.1085 
+
+2 
+18.9664 
+19.0760 
+22.3959 
+
+3 
+18.9354 
+19.1049 
+22.2842 
+
+4 
+18.7225 
+18.8486 
+22.0899 
+
+5 
+18.9106 
+18.9871 
+22.3318 
+
+6 
+18.8258 
+19.0264 
+22.1251 
+
+7 
+19.1070 
+19.0760 
+22.1933 
+
+8 
+18.9664 
+19.0739 
+22.2057 
+
+9 
+18.7762 
+19.1276 
+22.1003 
+
+10 
+19.1339 
+19.1711 
+22.5488 
+
+18.92 ± 0.13 
+19.05 ± 0.09 
+22.24 ± 0.15 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12" validated="false"><head>Table 10 Potential</head><label>10</label><figDesc></figDesc><table>(a) N1, (b) 
+N2, (c) NT, (d) PPA dataset 
+Split 
+C4.5 
+KNN 
+Naïve Bayes 
+
+(a) N1 
+
+1 
+18.7638 
+18.9127 
+23.7519 
+
+2 
+18.7225 
+18.9726 
+23.9214 
+
+3 
+18.6398 
+18.586 
+23.4687 
+
+4 
+18.5468 
+18.7018 
+23.8574 
+
+5 
+18.8548 
+18.9209 
+23.9276 
+
+6 
+18.6481 
+18.8362 
+23.9401 
+
+7 
+18.6997 
+18.6956 
+23.6775 
+
+8 
+18.8424 
+18.9643 
+23.8615 
+
+9 
+18.7494 
+18.83 
+23.7912 
+
+10 
+18.677 
+18.6357 
+23.6382 
+
+18.71 ± 0.09 
+18.81 ± 0.14 
+23.78 ± 0.15 
+
+(b) N2 
+
+1 
+18.369 
+18.6708 
+23.7416 
+
+2 
+18.8651 
+18.7618 
+23.9483 
+
+3 
+18.5199 
+18.677 
+23.7912 
+
+4 
+18.7163 
+18.8238 
+23.7747 
+
+5 
+18.8258 
+18.6667 
+23.8698 
+
+6 
+18.8155 
+18.7307 
+23.6196 
+
+7 
+18.7886 
+18.7018 
+24.093 
+
+8 
+18.5881 
+18.6977 
+23.5142 
+
+9 
+18.799 
+18.801 
+23.6713 
+
+10 
+18.7473 
+18.7597 
+23.6858 
+
+18.7 ± 0.16 
+18.73 ± 0.06 
+23.77 ± 0.17 
+
+(c) NT 
+
+1 
+18.9189 
+18.9333 
+24.0579 
+
+2 
+18.9395 
+18.8672 
+24.1385 
+
+3 
+18.6315 
+18.708 
+23.63 
+
+4 
+18.7659 
+18.9809 
+23.8388 
+
+5 
+18.5819 
+18.7866 
+23.7933 
+
+6 
+18.7225 
+18.8134 
+23.754 
+
+7 
+18.6873 
+18.8279 
+23.7457 
+
+8 
+18.6543 
+18.5798 
+23.7499 
+
+9 
+18.6481 
+18.7928 
+23.6837 
+
+10 
+18.8134 
+18.9023 
+23.8718 
+
+18.74 ± 0.12 
+18.82 ± 0.12 
+23.83 ± 0.16 
+
+(d) PPA 
+
+1 
+18.8713 
+18.8734 
+23.5473 
+
+2 
+18.708 
+18.7473 
+23.3778 
+
+3 
+18.9788 
+18.9437 
+23.439 8 
+
+4 
+18.8775 
+18.9147 
+23.3116 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13" validated="true"><head>Table 10 continued</head><label>10</label><figDesc></figDesc><table>Split 
+C4.5 
+KNN 
+Naïve Bayes 
+
+5 
+18.8713 
+19.0098 
+23.6941 
+
+6 
+18.7783 
+19.1276 
+23.3902 
+
+7 
+18.7349 
+19.0636 
+23.4481 
+
+8 
+18.7969 
+19.0904 
+23.5618 
+
+9 
+18.6956 
+18.7514 
+23.4398 
+
+10 
+18.6253 
+18.9003 
+23.0842 
+
+18.79 ± 0.11 
+18.94 ± 0.13 
+23.43 ± 0.16 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14" validated="false"><head>Table 11 Hypothesis</head><label>11</label><figDesc></figDesc><table>testing to 
+determine best algorithm 
+Hypothesis testing to analyze the effect of the classification algorithm 
+
+C4.5 vs. KNN 
+On Tables 9 and 10a-d 
+C4.5 vs. Naive 
+Bayes 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15" validated="false"><head>Table 12 P values and signs of paired t test of Table 11</head><label>12</label><figDesc></figDesc><table>Test 
+First data set 
+Potential N1 
+Potential N2 
+Potential NT 
+Potential PPA 
+
+C4.5 vs. KNN 
+− (0.0028) 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16" validated="false"><head>Table 13 Hypothesis testing to determine the best set of attributes</head><label>13</label><figDesc></figDesc><table>Hypothesis testing to analyze effect of new attributes (potential and difficulty) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17" validated="true"><head>Table 15 Hypothesis testing to determine the best potential</head><label>15</label><figDesc></figDesc><table>Hypothesis testing to analyze effect of methodology in calculation of potential 
+
+C4.5 applied to Table 10a N1 
+vs. 
+C4.5 applied to Table 10b N2 
+
+C4.5 applied to Table 10a N1 
+vs. 
+C4.5 applied to Table 10c NT 
+
+C4.5 applied to Table 10b N2 
+vs. 
+C4.5 applied to Table 10c NT 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_18" validated="false"><head>Table 16 P values and Signs of paired t test of</head><label>16</label><figDesc></figDesc><table>Table 15 
+Test 
+Sign (P value) 
+
+Potential N1 vs. Potential N2 
+0 (0.8596) 
+Potential N1 vs. Potential NT 
+0 (0.6925) 
+Potential N2 vs. Potential NT 
+0 (0.6426) </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_19" validated="false"><head>Table 17 Chi-squared and P values obtained for test of equality of proportions</head><label>17</label><figDesc></figDesc><table>N1 
+N2 
+NT 
+
+Chi-squared 
+7.5529 
+8.5929 
+7.7875 
+
+P value 
+0.9999 
+0.9999 
+0.9999 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_20" validated="true"><head>Table 18 Significance table</head><label>18</label><figDesc></figDesc><table>Term 
+Distance 
+REP 
+MEP 
+CVP 
+PEP 
+EBP 
+Total 
+
+19952 
+1 
++ 
++ 
+− 
++ 
++ 
+4 / 1 
+
+2 
++ 
++ 
+− 
++ 
++ 
+4 / 1 
+
+NT 
++ 
++ 
+− 
++ 
++ 
+4 / 1 
+
+20001 
+1 
++ 
++ 
+0 
++ 
++ 
+4/0 
+
+2 
++ 
++ 
+− 
++ 
++ 
+4 / 1 
+
+NT 
++ 
++ 
+− 
++ 
++ 
+4 / 1 
+
+20041 
+1 
++ 
++ 
+− 
+0 
++ 
+3 / 1 
+
+2 
++ 
++ 
+− 
+0 
++ 
+3 / 1 
+
+NT 
++ 
++ 
+− 
+0 
++ 
+3 / 1 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_21" validated="false"><head>Table 19 Significance of pruning method with EBP</head><label>19</label><figDesc></figDesc><table>Term 
+Distance 
+REP 
+MEP 
+CVP 
+PEP 
+
+19952 
+1 
+0 (0.3434) 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_22" validated="true"><head>Table 20 Error</head><label>20</label><figDesc></figDesc><table>rates of C4.5 
+Split 
+N1 
+N2 
+NT 
+
+1 
+18.7638 
+18.369 
+18.9189 
+
+2 
+18.7225 
+18.8651 
+18.9395 
+
+3 
+18.6398 
+18.5199 
+18.6315 
+
+4 
+18.5468 
+18.7163 
+18.7659 
+
+5 
+18.8548 
+18.8258 
+18.5819 
+
+6 
+18.6481 
+18.8155 
+18.7225 
+
+7 
+18.6997 
+18.7886 
+18.6873 
+
+8 
+18.8424 
+18.5881 
+18.6543 
+
+9 
+18.7494 
+18.799 
+18.6481 
+
+10 
+18.677 
+18.7473 
+18.8134 
+
+18.71 ± 0.09 
+18.7 ± 0.16 
+18.74 ± 0.12 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_23" validated="false"><head>Table 21 Error</head><label>21</label><figDesc></figDesc><table>rates of (a) 
+bagging and (b) boosting 
+Split 
+N1 
+N2 
+NT 
+
+(a) Bagging 
+
+1 
+18.3504 
+18.2305 
+18.7204 
+
+2 
+18.6109 
+18.5013 
+18.6233 
+
+3 
+18.2057 
+18.1705 
+18.3483 
+
+4 
+18.4269 
+18.5034 
+18.6481 
+
+5 
+18.5984 
+18.5178 
+18.3731 
+
+6 
+18.4889 
+18.4351 
+18.5592 
+
+7 
+18.2925 
+18.4661 
+18.4124 
+
+8 
+18.7618 
+18.3669 
+18.3711 
+
+9 
+18.4786 
+18.5984 
+18.3876 
+
+10 
+18.5116 
+18.524 
+18.584 
+
+18.47 ± 0.16 
+18.43 ± 0.14 
+18.5 ± 0.14 
+
+(b) Boosting 
+
+1 
+19.6176 
+19.3488 
+19.6693 
+
+2 
+19.5452 
+19.7292 
+19.9711 
+
+3 
+19.5059 
+19.4398 
+19.5928 
+
+4 
+19.4894 
+19.6093 
+19.7623 
+
+5 
+19.6837 
+19.816 
+19.3282 
+
+6 
+19.3116 
+19.7251 
+19.6072 
+
+7 
+19.601 
+19.5245 
+19.6693 
+
+8 
+19.6858 
+19.2951 
+19.3344 
+
+9 
+19.5969 
+19.7168 
+19.6734 
+
+10 
+19.5225 
+19.5659 
+19.7891 
+
+19.56 ± 0.11 
+19.58 ± 0.18 
+19.62 ± 0.2 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_24" validated="false"><head>Table 22 P values and signs of paired t test</head><label>22</label><figDesc></figDesc><table>for C4.5, bagging 
+and boosting 
+
+N1 
+N2 
+NT 
+
+C4.5 vs. Bagging 
++ (0.0003) 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_25" validated="true"><head>Table 23 Results of the system predictions</head><label>23</label><figDesc></figDesc><table>FC 
+Prediction 
+Pass (real) 
+Fail (real) 
+Number of registrations 
+Number of registrations 
+
+[0.50, 0.70 
+Fail 
+3 
+5 
+
+[0.70, 0.80 
+Fail 
+1 
+1 
+
+[0.50, 0.75 
+Pass 
+9 
+5 
+
+[0.75, 1.00 
+Pass 
+154 
+20 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_26" validated="true"><head>Table 24 Results of comparing user versus system errors</head><label>24</label><figDesc></figDesc><table>Size sample 
+Enrollment process 
+Two proportion test 
+
+Base error 
+SPRS error 
+P value 
+
+258 
+23.64% 
+20.9% 
+0.919 
+
+271 
+26.94% 
+20.66% 
+0.043 
+
+270 
+25.56% 
+24.44% 
+0.383 
+
+263 
+20.15% 
+18.25% 
+0.028 
+
+255 
+20.39% 
+16.07% 
+0.000 
+
+</table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+			</div>
+
+			<div type="annex">
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mining student data using decision trees</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Al-Radaideh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ai-Shawakfa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Al-Najjar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The 2006 International Arab Conference on Information Technology</title>
+		<meeting><address><addrLine>Yarmouk University, Jordan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bagging predictors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="123" to="140" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">ORIEB, A CRS for academic orientation using qualitative assessments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Castellano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Martínez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IADIS International Conference E-Learning</title>
+		<meeting>the IADIS International Conference E-Learning</meeting>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="38" to="42" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">On estimating probabilities in tree pruning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Cestnik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Bratko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning (EWSL&apos;91</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">482</biblScope>
+			<biblScope unit="page" from="138" to="150" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Using data mining to predict secondary school student performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Cortez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of 5th Future Business Technology Conference</title>
+		<meeting>5th Future Business Technology Conference<address><addrLine>Oporto, Portugal</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="5" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Predicting students drop out: a case study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Dekker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pechenizkiy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vleeshouwers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd International Conference on Educational Data Mining (EDM&apos;09)</title>
+		<meeting>the 2nd International Conference on Educational Data Mining (EDM&apos;09)<address><addrLine>Cordoba, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="41" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Building profitable customer relationships with data mining</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Edelstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">SPSS White Paper-Executive Briefing</title>
+		<imprint>
+			<publisher>Two Crows Corporation</publisher>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="1" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Choice of the smoothing parameter and efficiency of K-nearest neighbor classification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Enas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Math. Appl</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="235" to="244" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A comparative analysis of methods for pruning decisión trees</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Esposito</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Malerba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Semeraro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="476" to="491" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mining the biomedical literature using semantic analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Feldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosilico</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="69" to="80" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Experiments with a new boosting algorithm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Freund</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Schapire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning, Proceedings of the Thirteenth International Conference (ICML&apos;96)</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="148" to="156" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">How can data mining help bio-data analysis?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd ACM SIGKDD Workshop on Data Mining in Bioinformatics (BIOKDD&apos;2002)</title>
+		<meeting>the 2nd ACM SIGKDD Workshop on Data Mining in Bioinformatics (BIOKDD&apos;2002)<address><addrLine>Edmonton, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Data Mining: Concepts and Techniques</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kamber</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Morgan Kaufmann</publisher>
+			<pubPlace>San Francisco</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Discovering Knowledge in Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Larose</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>New Jersey</pubPlace>
+		</imprint>
+	</monogr>
+	<note>1st edn. Willey</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Theory of Point Estimation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Casella</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Data mining and knowledge management: a system analysis for establishing a Tiered Knowledge Management Model (TKMM)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Luan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of AIR Forum</title>
+		<meeting>AIR Forum<address><addrLine>Toronto, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Data mining and knowledge management in higher education-potential applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Luan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of AIR Forum</title>
+		<meeting>AIR Forum<address><addrLine>Toronto, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="1" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Data Mining Application in Higher Education</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Luan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+<note type="report_type">SPSS Executive Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Expert Systems-Rule Induction with Statistical Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mingers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Oper. Res. Soc</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="39" to="47" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">An empirical comparison of pruning methods for decision tree induction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mingers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="227" to="243" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="m">Machine Learning</title>
+		<meeting><address><addrLine>Boston</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>1st edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Web Mining: Pattern Discovery from World Wide Web Transactions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Mobasher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Srivastava</surname></persName>
+		</author>
+		<idno>TR96-OS0</idno>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+		<respStmt>
+			<orgName>Department of Computer Science, University of Minnesota</orgName>
+		</respStmt>
+	</monogr>
+<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Popular ensemble methods: an empirical study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Opitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Maclin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Man-Mach. Stud</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="221" to="234" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note>J. Artif. Intell. Res.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<title level="m">C4.5: Programs for Machine Learning</title>
+		<meeting><address><addrLine>San Mateo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A CHAID based performance prediction model in educational data mining</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ramaswami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bhaskaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Sci. Issues (IJCSI)</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rokach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Maimon</surname></persName>
+		</author>
+		<title level="m">Data Mining with Decision Trees: Theory and Applications</title>
+		<meeting><address><addrLine>Danvers</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Scientific Publishing</publisher>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Educational data mining: a review of the state-of-the-art</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ventura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst. Man Cybern. C Appl. Rev</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="601" to="618" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The application of data-mining to recommender systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Schafer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Encyclopedia of Data Warehousing and Mining</title>
+		<meeting><address><addrLine>Hershey, PA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="44" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Recommendation in higher education using data mining techniques</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vialardi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bravo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Shafti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ortigosa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Second Educational Data Mining Conference</title>
+		<meeting>Second Educational Data Mining Conference<address><addrLine>Córdoba, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="190" to="199" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A case study: data mining applied to student enrollment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vialardi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Barrientos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Victoria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Estrella</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ortigosa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Peche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Third Educational Data Mining Conference</title>
+		<meeting>Third Educational Data Mining Conference<address><addrLine>Pennsylvania, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="333" to="335" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Improving Quality of Graduate Students by Data Mining</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Waiyamai</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<pubPlace>Bangkok</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Computer Engineering, Faculty of Engineering, Kasetsart University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Top ten algorithms in data mining</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knowl. Inform. Syst</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="37" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Building a recommender agent for E-learning systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Zaïane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Computers in Education</title>
+		<meeting><address><addrLine>New Zealand</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="55" to="59" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

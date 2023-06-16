@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/01/yarn/nm/usercache/lanastasiou/filecache/11/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-15T23:20+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note type="submission">Fecha de Recepción: 25 de Enero de 2008 Fecha de Aceptación: 2 de Abril de 2008</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>PALABRAS CLAVES: Demanda tecnológica</term>
+					<term>Sector productivo KEY WORDS: Demand technological</term>
+					<term>productive sector</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>EL ESTADO DE LA DEMANDA TECNOLÓGICA DEL SECTOR PRODUCTIVO EN EL DEPARTAMENTO DE RISARALDA: UNA PROVOCACIÓN AL DEBATE State of the demand for technology sector in the department of productive Risaralda: A provocation to debate RESUMEN Este trabajo muestra, a través de información suministrada por los mismos empresarios, el carácter y capacidad real de demandar tecnología por parte del sector productivo del Departamento de Risaralda. ABSTRACT This work shows, through information provided by the same employers, the nature and actual ability to sue technology on the part of the productive sector of the Department of Risaralda.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCCIÓN</head><p>El objetivo de este trabajo es mostrar la capacidad que tiene el sector productivo del Departamento de Risaralda para demandar tecnología. La hipótesis básica es que la capacidad de demandar tecnología para introducirla en sus procesos productivos no depende exclusivamente de la voluntad de las empresas o de uno o de varios o de todos los diferentes actores sociales comprometidos en la misma, sino que depende, en última instancia, de un entramado de condiciones y situaciones materiales propias de las empresas y de cada actor, las cuales dependen, a su vez, de las características del contexto en el cual actúan y a partir del cual construyen su marco institucional (conjunto de norma formales e informales) que los impulsa a actuar. Este contexto inmediato no es posible desligarlo de la matriz original <ref type="bibr" target="#b5">(Max Neef, 1984)</ref> que lo condiciona, en última instancia, y que le imprime su naturaleza y dinamismo: el sistema capitalista en su actual fase de desarrollo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">METODOLOGÍA</head><p>Los sectores y número de empresas encuestadas se relacionan en la Tabla 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sectores Productivos</head><p>Total empresas por sector Para determinar la capacidad de demanda tecnológica de las empresas se seleccionaron un conjunto de variables siguiendo a Dahlman et al <ref type="bibr">(1987)</ref> y <ref type="bibr" target="#b4">Lall (1992)</ref>, así como las variables de estudio expuestas por <ref type="bibr">Benavides (1998)</ref> y Viana y . En este sentido, se construyeron, en conjunto, 30 variables relacionadas con las clases de capacidades a estudiar: la capacidad de inversión, la capacidad de producción (incluye las capacidades de innovación: asociadas a las actividades de invención, innovación y mejora de las tecnologías existentes) y la capacidad de organización.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">RESULTADOS DEL ESTUDIO 3.1. Capacidades de inversión 3.1.1. Capacidad de Inversión en factores claves</head><p>Para la gran mayoría de las empresas de la Región las capacidades de inversión (Tabla 2) en paquetes o transferencia de tecnología, en Ingeniería básica, en tecnologías Administrativas, en patentes, en I+D, y en capacitación de personal, son nulas. Las causas (Gráfico 1) de esta falta de capacidad de inversión se encuentran, muy posiblemente, en la falta de disponibilidad de recursos financieros, en la estrechez de mercado 1 y en la poca capacidad instalada por parte de las empresas. Estos tres factores se encuentran estructuralmente interrelacionados constituyéndose en una fuerza (círculo vicioso) que asfixia el desarrollo de las empresas, las cuales son, en su gran mayoría, Mipymes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1</head><p>Esta estrechez de mercado no se debe únicamente a la poca calidad del producto sino a una serie de factores adicionales, tales como la poca capacidad de atender los volúmenes demandados del exterior dada su escasa infraestructura, la poca capacidad para financiar la ampliación de la infraestructura y la asistencia a ferias internacionales para mostrar los productos, el poco apoyo real del gobierno y del sistema financiero, entre otros.</p><p>En cuanto a su disposición de invertir en estos factores claves (Gráfico 2), manifestaron una disposición media a invertir en ingeniería básica (planeación de la producción, métodos, tiempos, diseño de planta, etc.) mientras que su disposición a invertir en el resto de factores es baja. Se presenta aquí dos tendencias importantes: la primera es que, en términos generales, la disposición a invertir, por parte de las empresas, es media o baja y la segunda, es que su disposición se orienta hacia la Ingeniería básica y no hacia la innovación y los desarrollos tecnológicos. Esta conducta es explicada, en buena parte, por la poca capacidad de financiación que tienen las empresas que los obliga a priorizar su inversión (sus pocos recursos disponibles) en aquellos aspectos de más corto plazo y cuya rentabilidad sea cierta y segura. En aquellas inversiones de mediano o largo plazo cuya recuperación de la inversión y generación de utilidades no son tan ciertos, la disposición a invertir es prácticamente nula. La preocupación por el corto plazo y no por el mediano y largo plazo en su gestión empresarial es una conducta que obedece, no a la voluntad de los empresarios, sino a su propia situación material. Las respuestas posibles a la pregunta eran "Muy relevante", "Medianamente relevante", "poco relevante", "Muy poco relevante" y "No relevante". Se puntuó numéricamente cada respuesta con los valores 5, 4, 3, 2, y 1, respectivamente. Gráfico 2</p><p>Dis pos ición a invertir en los factores s eñalados Las respuestas posibles a la pregunta eran: Alta: 5; Media: 4; Baja: 3; Muy baja: 2; Nula: 1 3.1.2. Necesidades inmediatas de inversión (corto plazo) Los empresarios destacan que en la actualidad sus necesidades de inversión son la ampliación del mercado y la inversión en maquinaria y equipo (Gráfico 3). Los factores que tienen que ver con innovación y desarrollos tecnológicos son los de menor puntuación. De acuerdo al nuevo lenguaje de la llamada "sociedad del conocimiento", podemos decir que las empresas del Departamento de Risaralda, en términos generales, aún no han entrado (y tampoco existen indicios de que pronto lo harán) a la llamada "revolución tecnológica".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gráfico 3</head><p>Necesidades inmediatas de inversión Las respuestas posibles a la pregunta eran: Alta: 5; Media: 4; Baja: 3; Muy baja: 2; Nula: 1</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.3.">Orientación de la I+D Para los empresarios que</head><p>respondieron que tenían algún grado de capacidad de invertir en I+D (Tabla 2), dicha inversión se hace, fundamentalmente, en Métodos de producción y en mercadeo, administración y calidad (el énfasis mayor lo tiene el mercadeo 2 ), es decir, en algunos aspectos de la ingeniería básica (Gráfico 4). Parece ser que, en la actualidad, las empresas están más interesadas en aspectos distintos (los de ingeniería básica, por ejemplo) que a los de la innovación y desarrollos tecnológicos para el sostenimiento y crecimiento de sus empresas. Sin embargo, esto no obedece a su voluntad. En efecto, el desarrollo tecnológico como síntesis de factores técnicos, económicos, ideológicos y políticos (Cáceres 1991) está incrustado en el entramado de relaciones sociales de producción (asimétricas por lo demás para nuestro caso) que es el elemento que en última instancia localiza, concentra, posibilita y determina las características de este proceso de desarrollo tecnológico e innovación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gráfico 4</head><p>Las respuestas posibles a la pregunta eran: Importancia alta: 5; Importancia media: 4; Importancia baja: 3; importancia muy baja: 2; Sin importancia: 1. Los que afirmaron que su capacidad de inversión en I+D es nula no respondieron esta pregunta.</p><p>Precisión a partir de la respuesta a una pregunta abierta. 3.1.4. Compromiso con la I+D Un poco más de la tercera parte de los empresarios que dicen tener algún grado de capacidad de invertir en I+D, dijeron tener un compromiso alto o medio con la misma (Gráfico 5) ya que comprenden la importancia de esta función para el logro de mayores niveles de productividad y competitividad; sin embargo, esta I+D no está orientada hacia la innovación y los desarrollos tecnológicos, sino hacia algunos aspectos de la Ingeniería básica (Gráfico 4). Alrededor del 40% tienen un compromiso bajo en I+D y la quinta parte de los empresarios manifiestan que su compromiso frente a la I+D es nulo (Gráfico 5). En términos generales, se puede decir que el compromiso que tiene la mayoría de los empresarios de Risaralda con la I+D es muy poco. Sin embargo vale la pena destacar la tendencia reflejada en el gráfico 6: existe una clara diferenciación en cuanto al compromiso con I+D por tamaño de empresas: las empresas grandes poseen un compromiso entre medio y alto (para la mitad de estos empresarios el compromiso es medio y para un poco más de la tercera parte el compromiso es alto), mientras que el compromiso de las Mipymes se encuentra entre bajo y nulo. Es importante destacar que la mitad de las empresas grandes manifiestan tener un compromiso medio con la I+D, cuando se esperaba que estas empresas tuvieran un compromiso alto con ésta. La mitad de los trabajadores de las empresas tienen apenas estudios de primaria y casi la tercera parte alcanzaron el grado de bachiller. Si incluimos los técnicos, podemos decir que en total el 87,60% de los trabajadores de las empresas del Departamento de Risaralda no tienen estudios universitarios. Apenas un 5,3% tienen estudios universitarios (profesionales de cinco años) y están ubicados en los cargos de Administración, diseño, contaduría, costos, gerencia y mercadeo, fundamentalmente 3 . El 7,1% son tecnólogos (profesionales de tres años) y se encuentran ubicados como supervisor, jefe de producción, asistentes, mecánico, mantenimiento, entre otros 4 (Gráfico 7). Si analizamos por separado las empresas grandes (Gráfico 8), observamos que, inclusive ellas, poseen un porcentaje muy bajo de trabajadores profesionales. En efecto, sólo el 8,2% del total de sus trabajadores son profesionales de cinco años, el 10,2% son tecnólogos (profesionales de tres años) y el restante 81,6% no son profesionales. No existe, pues, tendencia alguna que marque una diferencia radical entre estas empresas y las Mipymes en cuanto al grado de formación de sus trabajadores. A esto hay que agregarle el hecho de que para casi la mitad de las empresas, la regularidad en la capacitación del personal es nula (Gráfico 9). Sólo para una cuarta parte de las empresas la regularidad de la capacitación de los trabajadores es alta o media. Sin embargo, y sacando conclusiones de los gráficos anteriores, podemos afirmar que esta capacitación de la uarta parte de las empresas señaladas, se centra en la parte operativa; es decir, se realiza para incrementar el rendimiento y la productividad de las empresas y no para generar capacidades teóricas y sistémicas capaces de generar innovación y desarrollo tecnológico.</p><p>Es esta la razón por la cual la capacitación alta y media que dicen tener estas empresas no se convierte en palanca de innovación. La capacitación del personal para la innovación no existe en las empresas del Departamento de Risaralda. Su capacitación es operativa y basada en el rendimiento de corto plazo.</p><p>Esta situación indica la enorme restricción existente para la generación de desarrollo tecnológico endógeno vía capacidades de los trabajadores. Si a esta situación se le suma el bajo nivel de formación de los dueños de las empresas (gráfico 10) y la poca capacidad de inversión de las empresas (Tabla2) podemos decir que no es prometedor el futuro que les depara al sector empresarial del Departamento de Risaralda mientras actúen exclusivamente por sus propios medios y fuerzas y con actitudes individualistas y mientras los diferentes actores del Departamento, comprometidos con el proceso, no presten su apoyo a través de estrategias que partan de un análisis objetivo de la situación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3</head><p>Información tomada de las encuestas a partir de una pregunta abierta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4</head><p>Información tomada de las encuestas a partir de una pregunta abierta. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Valoración del Nivel tecnológico de las empresas</head><p>Más de la mitad de las empresas poseen un nivel tecnológico bajo. De igual forma, es crítico que exista un 14% de los empresarios que no estén en capacidad de dar una opinión sobre el estado de la tecnología en su empresa (Gráfico 11). Para las empresas que respondieron que su nivel tecnológico era alto y medio, las características que más definen dicho nivel tecnológico (Tabla 3) son, en su orden, la reorganización de los métodos de producción, introducción de nueva maquinaria y equipo, organización del sistema de costos, organización de la planeación y programación de la producción, capacitación del personal de la empresa, mejora del clima organizacional, apertura y desarrollo de nuevos mercados y la existencia de internet. Aunque estos factores son importantes no constituyen los elementos medulares de los desarrollos tecnológicos empresariales. El resto de factores, que bien pueden ser medulares, están puntuados con porcentajes bajos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gráfico 11</head><p>Tabla 3. Existencia de algunas características del nivel tecnológico para los que dijeron poseer un nivel alto y medio de tecnología en sus empresas</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Características</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>% de Empresas</head><p>Inventario organizado (definido) del capital intelectual de la empresa 2,6%</p><p>Método definido de gestión de los recursos tecnológicos 1,4%</p><p>Definición de la función de vigilancia tecnológica 1,6%</p><p>Innovaciones en los últimos dos años (procesos, producto, gestión, etc.) 3,7%</p><p>Relaciones con empresas e instituciones para la transferencia de conocimiento e innovación 2,4% Existencia de Solicitudes de patentes y registros de software en los últimos dos años 0%</p><p>Existencia de un Departamento de I+D 0%</p><p>Existencia de Personal dedicado a I+D (tiempo completo) 1,3%</p><p>Existencia de personal dedicado a I+D (esporádicamente) 2,8%</p><p>I+D en colaboración con empresas, Universidades u otras Instituciones (en los últimos dos años) 3,4%</p><p>Reorganización de los métodos de producción en los últimos dos años 23,7%</p><p>Introducción de Nueva maquinaria y equipo en los últimos dos años 17,4% Existencia de Internet 9,4%</p><p>Generación de Spin Off empresariales 1,2%</p><p>Transferencia de paquetes tecnológicos (conocimientos sobre diseño, nuevos métodos de producción, etc) en los últimos dos años 1.3% Apertura y desarrollo de nuevos mercados 10,3%</p><p>Otras, cuál? 5 17,5%</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TOTAL 100%</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Tipo de mejoramiento o innovación que la empresa implementa con mayor frecuencia</head><p>Los tipos de mejoramiento o innovación que las empresas implementan con mayor frecuencia son, en su orden, el mejoramiento de la estructura de costos, el mejoramiento de los métodos de producción y la apertura de nuevos mercados (Gráfico 12), los factores que tienen que ver con innovación y desarrollos tecnológicos no se encuentran dentro de los tipos de innovación o mejoramiento que la empresa implementa con mayor frecuencia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gráfico 12</head><p>Tipo de mejoramiento o innovación que la empresa implementa con mayor frecuencia Las respuestas posibles a la pregunta eran "Mucha Importancia", "Mediana Importancia", "Poca Importancia", "Muy poca Importancia" y "Ninguna Importancia". Se puntuó numéricamente cada respuesta con los valores 5, 4, 3, 2, y 1, respectivamente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4.">Tipo de maquinaria usada</head><p>En la actualidad la maquinaria tradicional es el tipo más usado por los empresarios; la maquinaria no tradicional no hace parte, aún, en forma decisiva, de la estructura productiva de las empresas (Gráfico 13) lo que les representa cierta debilidad productiva y competitiva.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gráfico 13</head><p>Tipo de maquinaria usada Las respuestas posibles a la pregunta eran "Mucha Importancia", "Mediana Importancia", "Poca Importancia", "Muy poca Importancia" y "Ninguna Importancia". Se puntuó numéricamente cada respuesta con los valores 5, 4, 3, 2, y 1, respectivamente. La maquinaria Tradicional comprende: hechiza, mecánica, neumática, manual, etc. La maquinaria No tradicional comprende: maquinarias de control numérico por computador, máquinas y herramientas controladas y enlazadas entre si por un computador, robots, sistemas automáticos de transporte y manejo de materiales, sistemas de almacenamiento y recuperación automáticos, etc</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.5.">Métodos empleados en el proceso de diseño</head><p>Aunque con muy poca importancia, algunas empresas implementan el diseño como un tipo de mejoramiento o innovación (Gráfico 12). Sin embargo, estas empresas destacan, como muy relevante, los métodos tradicionales (manuales) de diseño y como poco relevante el diseño asistido por computador (CAD) y otros software. Igualmente, como nada relevante los empresarios destacan los ensayos, pruebas pilotos y construcción de prototipos (Gráfico 14).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gráfico 14</head><p>Método empleado en el proceso de diseño Las respuestas posibles a la pregunta eran "Muy empleado", "Medianamente empleado", "poco empleado", "Muy poco empleado" y "No empleado". Se puntuó numéricamente cada respuesta con los valores 5, 4, 3, 2, y 1, respectivamente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.6.">Necesidades más urgentes de la empresa en el mediano y largo plazo</head><p>Tabla 4. Necesidades más urgentes de la empresa en el mediano y largo plazo NECESIDADES PUNTUACIÓN Concertación de proyectos de I+D para la innovación (productos, procesos, gestión, etc.) 2,2</p><p>Servicios Técnicos (producción, calidad, costos, maquinaria y equipo, etc.) 4,7 Servicios de laboratorio 2,1 Programas de capacitación y actualización empresarial en estrategias avanzadas de competitividad, gestión tecnológica y temas especializados de nuevas tecnologías 1,3 Programas de capacitación en organización de la producción, costos, calidad, etc.</p><p>3,2</p><p>Transferencia de tecnología 1,6 Recursos financieros 4,8 Apertura de nuevos mercados 4,5 Asesoría para Spin Off empresariales 1,4 Asesoría en Propiedad Intelectual 1,2 Montaje de la función de vigilancia tecnológica 1,3 Las respuestas posibles a la pregunta eran "Mucha urgencia", "Mediana urgencia", "Poca urgencia" "Muy poca urgencia" y "Ninguna urgencia". Se puntuó numéricamente cada respuesta con los valores 5, 4, 3, 2, 1, respectivamente.</p><p>Las necesidades más urgentes de las empresas en el mediano y largo plazo, se pueden inscribir dentro del campo de las necesidades tradicionales. Las necesidades derivadas de los desarrollos tecnológicos avanzados aún no entran dentro de su menú de requerimientos. Es así como lo más urgente para las empresas en el mediano y largo plazo es la obtención de recursos financieros, los servicios técnicos (producción, calidad, costos, maquinaria y equipo, etc.) y la apertura de nuevos mercados. Les sigue en importancia, aunque valorada por debajo de cuatro, los programas de capacitación en organización de la producción, costos, calidad, etc. Es importante destacar que cuando se comparan las necesidades de mediano y largo plazo y las necesidades de inversión en el corto plazo (Tabla 4 y Gráfico 3) se presenta una gran coincidencia entre ambos, lo que quiere decir que las empresas están tan sumidas en el corto plazo (están tan involucradas en la problemática actual tratando de salir de ella, problemática por lo demás, altamente perjudicial) que les queda difícil desligarse de esta situación de corto plazo y ver otras necesidades (oportunidades) de mediano y largo plazo. Es casi seguro que, dada la tendencia aquí expuesta, una política o un proyecto de desarrollo empresarial o sectorial que no tome en cuenta las necesidades de corto plazo de las empresas, no tendrá mucho apoyo real, efectivo, de estos empresarios, pues éstos no se verán, de momento, identificados con el mismo. En cuanto las razones que hacen que dentro de sus necesidades más urgentes no esté todo lo pertinente a desarrollos tecnológicos (Tabla 5), cuando el mundo globalizado hace prioritario este factor, los empresarios consideraron que el factor más influyente en esta decisión tiene que ver con el hecho de que los beneficios económicos de la tecnología se presentan a mediano y largo plazo y esta espera puede llegar a ser demasiado perjudicial; refuerza esto el hecho, discutido más arriba, de que la tendencia del sector empresarial nuestro, caracterizado por ser en su gran mayoría Mipymes, es a pensar en el corto plazo y no el mediano y largo plazo.</p><p>Tabla 5. Influencia, en los empresarios, de algunos factores en su actitud a no inclinarse por la tecnología como factor prioritario para su crecimiento</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OPINIÓN PUNTUACIÓN</head><p>Se requiere de capacidad de financiación 4,4</p><p>Los beneficios económicos de ésta se presentan a mediano y largo plazo 4,5</p><p>Los proyectos de desarrollo tecnológico son muy riesgosos 4,2</p><p>No se cuenta con personal capacitado para el desarrollo y gestión de la tecnología 3,8</p><p>Igualmente manifiestan como razones la poca capacidad de financiación, los egresos adicionales que generan los desarrollos tecnológicos, el riesgo asociado a los proyectos tecnológicos y la percepción de los empresarios en el sentido de que la incorporación de tecnología no disminuye los costos ni incrementa las utilidades de forma importante. El nivel de capacitación de los trabajadores y la eficiencia de la infraestructura Regional para el apoyo de la innovación, aunque importantes, parece ser que son causas secundarias.  <ref type="bibr">[2003, lal]</ref>. Las respuestas posibles a la pregunta eran: Alta: 5; Media: 4; Baja: 3; Muy baja: 2; Nulo: 1. Una vez se tuvieron las calificaciones por parte de las empresas se procedió a promediarlas para la construcción de la tabla. Los promedios se ajustaron a las escalas de valoración y se señalaron con una equis (X).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Capacidad de Organización empresarial</head><p>Con base en los resultados se puede concluir, que es evidente que la problemática actual de las empresas del Departamento de Risaralda, reflejada en un fuerte atraso tecnológico en sus procesos productivos y de gestión, aunado a una débil capacitación del personal, contribuyen, en lo fundamental, a que el conjunto de los aspectos organizacionales estén ausentes o se apliquen de manera limitada en las empresas estudiadas (Tabla 6). A su vez, la ausencia de estos aspectos organizacionales en las empresas influye en la permanencia del atraso tecnológico y en las condiciones actuales de comportamiento, aptitud y actitud de los trabajadores. La capacidad de organización tiene una importancia fundamental como estrategia para empoderar a las personas y generar condiciones que permita avanzar en la productividad y competitividad; a su vez, es un aspecto fundamental como proceso previo necesario para poder poner en marcha los cambios que las empresas requieren.</p><p>Estas empresas deben realizar esfuerzos notorios en los factores organizacionales, fundamentalmente en los que tienen que ver con estandarización de procesos, en los procesos de planificación y programación de la producción, en el control estadístico de procesos y autónomo de defectos y en los Sistemas de información integrados y uso de paquetes computacionales especializados, entre otros.</p><p>4. CONCLUSIONES La capacidad de demandar ciencia y tecnología por parte del sector productivo del Departamento de Risaralda es demasiado débil, casi que inexistente. Las causas más profundas de esta situación no hay que buscarlas en la falta de gestión y voluntad de éstos. Por el contrario, las causas más profundas parecen estar en un problema que se plantea en términos de estructura económica y social que se refleja en la presencia de un desequilibrio estructural de factores y de posibilidades.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">BIBLIOGRAFÍA</head></div>
+			<note place="foot" n="5"> Organización de un sistema de costos, organización de la planeación y programación de la producción, capacitación al personal de la empresa, mejora del clima organización.</note>
+
+			<note place="foot">La tecnología genera unos egresos adicionales (Departamentos. De I+D, capacitación de personal, vigilancia tecnológica, costos de mantenimiento, asesoría especializada, etc.) para los cuales se requiere de dineros disponibles 4,2 La infraestructura Regional de apoyo a la innovación no es la más eficiente 3,6 La introducción de tecnología en la empresa no disminuye los costos de producción de forma importante 4,0 La introducción de tecnología en la empresa no aumenta las utilidades de la misma de forma importante 4,0 Las respuestas posibles a la pregunta eran &quot;Mucha influencia&quot;, &quot;Mediana Influencia&quot;, &quot;Poca Influencia&quot;, &quot;Muy poca influencia&quot; y &quot;Ninguna Influencia&quot;. Se puntuó numéricamente cada respuesta con los valores 5, 4, 3, 2 y 1, respectivamente.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">CANTV: De la existencia de capacidades tecnológicas nacionales a la privatización o cómo influyen los factores políticos e ideológicos en la gestión tecnológica de una empresa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cáceres</forename><surname>Soto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">María</forename><surname>Gabriela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Espacios</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Innovación como un proceso económico y social: algunas implicaciones para el diseño de una estrategia de desarrollo, CENDES, Temas de Docencia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cervilla</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<pubPlace>Caracas</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Dahlman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ross-Larson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Westphal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Managing Technological Development: Lessons from the Newly Industrializing Countries</title>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="759" to="775" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Technological capabilities and industrialization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World development</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="165" to="186" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Economía Descalza: señales desde el mundo invisible</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Max-Neef</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Nordan</publisher>
+			<pubPlace>Bogotá</pubPlace>
+		</imprint>
+	</monogr>
+	<note>en coedición con Cepaur, colección Pensamiento Descalzo</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Estrategia y procedimientos con enfoque al cliente para contribuir al mejoramiento del nivel de desempeño de las PyME&apos;s de confección, a partir del perfeccionamiento de sus sistemas de producción. Aplicaciones en la región de Tolima (Colombia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarache</forename><surname>Castro</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">lal</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">lal</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Trabajo de Grado. Doctorado en Ciencias Técnicas</title>
+		<imprint>
+			<pubPlace>Santa Clara, Cuba</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Central de las Villas</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Viana</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Tecnología y Competitividad en la Industria Manufacturera Venezolana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cervilla</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>FINTEC</publisher>
+			<pubPlace>Caracas</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

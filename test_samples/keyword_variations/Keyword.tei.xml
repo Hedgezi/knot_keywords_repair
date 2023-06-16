@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:///data/grobid/grobid-home/schemas/rng/Grobid.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dietary patterns and risk of oral cancer: A factor analysis study of a population in Jakarta, Indonesia</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Author</forename>
+								<surname>Amtha</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">R</forename>
+								<forename type="middle">;</forename>
+								<surname>Zain</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">R</forename>
+								<forename type="middle">;</forename>
+								<surname>Razak</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">A ;</forename>
+								<surname>Basuki</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<forename type="middle">;</forename>
+								<surname>Roeslan</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<forename type="middle">O ;</forename>
+								<surname>Gautama</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">W</forename>
+								<forename type="middle">;</forename>
+								<surname>Purwanto</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">D</forename>
+								<forename type="middle">J</forename>
+								<surname>Source</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Oral Oncology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dietary patterns and risk of oral cancer: A factor analysis study of a population in Jakarta, Indonesia</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.oraloncology.2009.01.007</idno>
+					<note>Page e49-e53 Volume 45 Year AUG 2009</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Keyword Dietary patterns</term>
+					<term>Factor analysis</term>
+					<term>Indonesia</term>
+					<term>Jakarta</term>
+					<term>Oral cancer</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>A matched case-control, hospital-based study of oral cancer was conducted in Jakarta population. The sample included 81 cases and 162 controls. The purpose of this study was to determine the association between dietary pattern and oral cancer in a Jakarta population using factor analysis. Dietary data were collected using food frequency questionnaire and factor analysis was performed on 15 food groups resulting in four principle factors/components being retained. The first factor &quot;preferred&quot; was characterized by fast food, fermented food, canned food, snacks high in fat and sugar, cooked and raw vegetables, and seafood. The second factor labeled &quot;combination&quot; was loaded by the intake of dairy product, red meat, white meat and fruits. The third factor labeled &quot;chemical related was loaded by processed food and monosodium glutamate and the fourth principle component consisted of drinks and grain was labeled as &quot;traditional&quot;. The conditional logistic regression was done using STATA 8 to obtain the odds ratio (OR) of highest tertile of each component retained from factor analysis and the ORs were then adjusted with risk habits. The consumption the highest tertile of the &quot;preferred&quot; pattern increased the risk of oral cancer by two-times compared to the lowest tertile of consumption [adjusted odds ratio (aOR) = 2.17; 95% confidence interval (CI) = 1.05-4.50]. The chemical related&quot; pattern showed higher risk of about threefold (aOR = 2.56; 95% CI = 1.18-5.54), while the &quot;traditional&quot; pattern showed an increased of risk by twofold (aOR = 2.04; 95% CI = 1.01-4.41). In contrast, the &quot;combination&quot; pattern displayed protective effects in relation to oral cancer (aOR = 0.50; 95% CI = 0.24-1.00). This finding suggests that factor analysis may be useful to determine the diet pattern of a big set of food type and establish the correlation with oral cancer.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+				<p>( CI) = 1.05-4.50]. The chemical related&quot; pattern showed higher risk of about threefold (aOR = 2.56; 95% CI = 1.18-5.54), while the &quot;traditional&quot; pattern showed an increased of risk by twofold (aOR = 2.04; 95% CI = 1.01-4.41). In contrast, the &quot;combination&quot; pattern displayed protective effects in relation to oral cancer (aOR = 0.50; 95% CI = 0.24-1.00). This finding suggests that factor analysis may be useful to determine the diet pattern of a big set of food type and establish the correlation with oral cancer.</p>
+
+			<note>Author Amtha, R. ; Zain, R. ; Razak, I. A. ; Basuki, B. ; Roeslan, B. O. ; Gautama, W. ; Purwanto, D. J. Source Oral <ref type="bibr">Oncology ISSN 1368-8375 DOI 10.1016/j.oraloncology.2009.</ref></note>
+
+				<figure>
+					<trash>01.007 Page e49-e53 Volume 45 Year AUG 2009</trash>
+
+
+				</figure>
+
+			<div>
+				<head>Keyword</head>
+
+				<p>Dietary patterns, Factor analysis, Indonesia, Jakarta, Oral cancer</p>
+
+			</div>
+		</body>
+		<back>
+		<div type="annex">
+			<div>
+				<head>Please Cite As</head>
+
+			<note>AMTHA, R., ZAIN, R., RAZAK, I. A., BASUKI, B., ROESLAN, B. O., GAUTAMA, W. &amp; PURWANTO, D. J. 2009. Dietary patterns and risk of oral cancer: A factor analysis study of a population in Jakarta, Indonesia.</note>
+
+				<p>Oral Oncology, 45, e49-e53. URL http://www.scopus.com/inward/record.url?eid=2-s2.0- 67650444764&amp;partnerID=40&amp;md5=02b6e3f4dd13dd83d9c97c069e332515 http://apps.webofknowledge.com Search Via Web of Science Accession No: 000268112800020 http://www.ncbi.nlm.nih.gov/pubmed/19251469 http://www.oraloncology.com/article/S1368-8375(09)00007-4/abstract</p>
+
+			</div>
+		</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

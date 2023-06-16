@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/cluster/01/yarn/nm/usercache/lanastasiou/filecache/40/grobid-home.zip/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2018-06-16T05:00+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Enfermedad de Moyamoya: Reporte de caso y revisión de la literatura reporte de caso Moyamoya disease: Case report and review of literature</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Víctor</forename><forename type="middle">Hugo</forename><surname>Ruiz</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julián</forename><surname>Andrés</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hoyos</forename><surname>Pulgarin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Médico Radiólogo</orgName>
+								<address>
+									<addrLine>Profesor de Radiología</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Facultad de Ciencias de la Salud</orgName>
+								<orgName type="institution" key="instit1">Especialización en Medicina Interna</orgName>
+								<orgName type="institution" key="instit2">Hospital Universitario San Jorge</orgName>
+								<orgName type="institution" key="instit3">Universidad Tecnológica de Pereira</orgName>
+								<address>
+									<settlement>Pereira, Risaralda</settlement>
+									<region>Colom-bia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Especialización en Medicina Interna, Hos-pital Universitario San Jorge</orgName>
+								<address>
+									<addrLine>Facultad de Ciencias de la Salud</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Uni-versidad Tecnológica de Pereira</orgName>
+								<address>
+									<addrLine>Pereira, Risaralda</addrLine>
+									<country>Colombia. Correo</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Enfermedad de Moyamoya: Reporte de caso y revisión de la literatura reporte de caso Moyamoya disease: Case report and review of literature</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Palabras claves: Enfermedad cerebrovascular</term>
+					<term>Moyamoya</term>
+					<term>hemorragia intracerebral</term>
+					<term>Artereopatía Oclusiva Intracraneal Progresiva</term>
+					<term>Colombia Key Words: Cerebrovascular disease</term>
+					<term>Moyamoya</term>
+					<term>intracerebral hemorrhage</term>
+					<term>Progressive Intracranial Occlusive Arteropathy</term>
+					<term>Colombia</term>
+				</keywords>
+			</textClass>
+			<abstract xml:lang="es">
+				<p>Resumen Mujer de 46 años que ingreso por cefalea súbita, hemiparesia izquierda y disartria, con tomografía axial computarizada cerebral simple que mostró hemorragia frontoparietal derecha drenada a ventrículos y arteriografía con patrón Moyamoya. Reingreso 3 meses después con deterioro del estado de consciencia y tomografía axial computarizada cerebral simple que mostró hemorragia intraparenquimatosa temporoparietal izquierda con extensión intraventricular y desviación de la línea media, se manejo en Unidad de Cuidados Intensivos con traqueostomía y gastrostomía, presentó neumonía y sepsis nosocomial, finalmente falleció en la Unidad de Cuidados Intensivos. Abstract Woman of 46 years old that income for left hemiplegia and dysarthria, with brain computed tomography showed right frontoparietal hemorrhage drained ventricles and arteriography with Moyamoya pattern. Readmission 3 months later with deterioration of consciousness and brain computed tomography showed temporoparietal intracerebral hemorrhage with intraventricular extension and deviation from the midline, was managed with tracheostomy and gastrostomy, presented nosocomial pneumonia and sepsis, finally, after 15 days of hospitalization she died at the intensive care unit.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introducción</head><p>La enfermedad de Moyamoya es una causa rara de eventos cerebrovasculares tanto isquémicos como hemorrágicos. Presenta una mayor incidencia en países asiáticos, entre ellos Japón, donde alcanza una tasa de incidencia de 0,94 casos por cada 100.000 habitantes y una prevalencia de 10,5 por 100.000 habitantes. tiene dos picos de presentación, uno entre los 5 y 9 años y otro entre los 45 y 49 años, con un ligero predominio en mujeres sobre hombres (1).</p><p>recibido : <ref type="bibr">19-10-2012. aceptado : 14-11-2012.</ref> vol 18 N°2 diciembre de 2012 revista Médica de risaraldase desconoce su etiología, pero existe un componente familiar que da cuenta hasta del 15% de las causas. entre otras hipótesis se postula el papel de proteínas que intervienen en la angiogénesis, moléculas de adhesión y proteínas de la matriz extracelular.</p><p>se puede presentar tanto como un evento isquémico como hemorrágico. el estándar de oro para el diagnóstico es la angiografía cerebral convencional, aunque otras modalidades de imagen se han utilizado como la resonancia nuclear y la tomografía multicorte (2). dado lo infrecuente de la enfermedad de Moyamoya, se presenta el siguiente caso.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Caso Clínico</head><p>Mujer de 46 años que ingresa con cuadro clínico consistente en cefalea intensa de aparición súbita, hemiparesia izquierda, disartria y relajación de esfínter vesical. antecedentes personales: obesidad, coledocolitiasis y pancreatitis. antecedentes quirúrgicos: colecistectomía. en la revisión por sistemas no se encontró sintomatología previa. en el examen físico al ingreso se encontró: presión arterial: 135/66 mmHg; frecuencia cardíaca: 74 latidos/min; frecuencia respiratoria: 18 respiraciones/min; afebril, saturación de oxígeno: 93% sin oxígeno suplementario. La paciente estaba somnolienta, orientada en tiempo, persona y espacio. a la evaluación cardiopulmonar no se encontraron alteraciones. en el examen neurológico se observó hemiparesia izquierda, fuerza muscular 2/5 en hemicuerpo izquierdo y 5/5 en hemicuerpo derecho, signo de Babinski izquierdo positivo, reflejos osteotendinosos: 2/4 en hemicuerpo izquierdo y 1/4 en hemicuerpo derecho. sin otros hallazgos al examen físico.</p><p>se solicitó tomografía cerebral simple (tac) (Figura 1 a, B y c), se inició manejo en unidad de cuidados intensivos (Uci) y ante hallazgos de la tac, se solicitó arteriografía cerebral <ref type="figure">(Figura 2a-d)</ref>.</p><p>La paciente presentó mejoría progresiva de su fuerza, el servicio de neurocirugía dio salida con manejo médico, rehabilitación y control por consulta externa. La paciente egresó con hemiparesia izquierda, fuerza muscular 4/5 en hemicuerpo izquierdo y 5/5 en hemicuerpo derecho.</p><p>Figura 1. tac cerebral simple con hemorragia intraparenquimatosa a nivel frontotemporal derecho con drenaje a ventrículo lateral derecho.</p><p>Figura 2. angiografía cerebral primer ingreso hospitalario. arteria carótida (ac) interna derecha vista lateral (a) y aP (B). arteria carótida interna izquierda vista lateral (c) y aP (d). angiografía cerebral de 4 vasos que muestra obstrucción supraclinoidea de ac interna derecha (a y B) y de porción supraclinoidea de ac interna izquierda (c y d) con múltiples pequeños vasos colaterales formando una gran red de circulación colateral en forma de nube de humo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enfermedad de Moyamoya: Reporte de caso y revisión de la literatura</head><p>vol 18 N°2 diciembre de 2012 173 revista Médica de risaralda reingresó 3 meses después, traída por su familia, la cual la encontró en el piso de su habitación, sin respuesta verbal ni motora. al ingreso a urgencias se encontraba estuporosa, con los siguientes signos vitales: presión arterial: 155/72 mmHg; frecuencia cardíaca: 67 latidos/min; frecuencia respiratoria: 19 respiraciones/min, afebril y saturación de oxígeno: 94%. al examen neurológico: escala de coma de Glasgow: 6/15, anisocoria reactiva, con rigidez de descerebración y presencia de signo de Babinski bilateral. se realizó intubación orotraqueal, se solicitó tac cerebral simple (Figura 3 a y B) en la cual se encontró gran hematoma parenquimatoso frontoparietal izquierdo con extensión intraventricular, edema cerebral y herniación transfalcina a la derecha. el servicio de neurocirugía solicitó de nuevo arteriografía cerebral (Figura 4), la cual reportó oclusión bilateral de arteria carótida interna en la región supraclinoidea, con presencia de múltiples colaterales basales y del territorio vertebrobasilar, confiriendo aspecto en "nube de humo", compatible con vasculopatía Moyamoya.</p><p>Figura 4. angiografía cerebral reingreso. Paciente con enfermedad de Moyamoya. arteria carótida interna derecha vista lateral (a) y aP (B). arteria carótida interna izquierda vista lateral (c) y aP (d). Poligono de Willis (e). se evidencia oclusión bilateral de arteria carótida interna en la región supraclinoidea, con presencia de múltiples colaterales basales, confiriendo aspecto en "nube de humo".</p><p>Presentó neumonía asociada a ventilador por Streptococcus pneumoniae resistente, sepsis por bacterias Gram negativas, falleciendo en la Uci.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discusión</head><p>La enfermedad de Moyamoya fue descrita desde el año 1957 por takeuchi y shimizu como una "hipoplasia bilateral de la arteria carótida interna". en 1969 suzuki y takaku utilizan la expresión "Moyamoya" que en japonés significa "nube de humo" para describir la apariencia angiográfica dada por la red de vasos de neo vascularización (1).</p><p>Presenta una mayor incidencia y prevalencia en países asiáticos. en Japón la incidencia va de 0,35 a 0,94 casos por cada 100.000 habitantes y la prevalencia de 3,2 a 10,5 casos por cada 100.000 habitantes, de acuerdo a las diferentes series publicadas (3-6).</p><p>Un estudio realizado en estados Unidos de américa encontró una incidencia de 0,086 casos por cada 100.000 habitantes. entre los diferentes grupos étnicos encontrados en el estudio, se reportó una incidencia de 0,28 en asiáticos, 0,13 para afroamericanos, 0,06 en blancos y 0,03 en hispanos (3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enfermedad de Moyamoya: Reporte de caso y revisión de la literatura</head><p>vol 18 N°2 diciembre de 2012 revista Médica de risaraldaLa incidencia reportada es mayor en mujeres que en hombres, con una relación mujer: hombre de 2,18:1; presenta dos picos de presentación, entre los 5 y 9 años y entre los 45 y 49 años (4).</p><p>La etiología se desconoce aún, pero la investigación se ha centrado en tres escenarios para explicar la patogénesis: 1. el estudio histológico de los tejidos afectados, 2. estudios de asociación genética y 3. angiogénesis y proteínas de la matriz extracelular (2).</p><p>en los estudios histológicos se han encontrado varias alteraciones estructurales en las capas de las arterias carótidas: engrosamiento fibrocelular de la capa intima que es secundario a proliferación de células de músculo liso; irregularidades de la lámina elástica interna y adelgazamiento de la túnica media arterial. adicionalmente se ha descrito la formación de una fina red de vasos (vasos Moyamoya) y de anastomosis transdurales que se producen por la proliferación de la capa intima y por la angiogénesis incrementada (7).</p><p>estos eventos histológicos se relacionan con tres eventos moleculares: el primero es la activación de la vía de la apoptosis dependiente de la c-aspasa 3; el segundo es el estímulo angiogénico del Factor de crecimiento Fibroblástico básico (b-FGF) el cual induce la proliferación celular (células endoteliales, de músculo liso y fibroblastos); el tercer evento es el incremento de la expresión del factor de crecimiento del hepatocito en el músculo liso vascular que promueve el engrosamiento de la capa intima y la migración de estas células a dicha capa en las terminaciones carotídeas (5,7).</p><p>existe una forma familiar de la enfermedad que tiene un patrón de herencia autosómico dominante con penetrancia incompleta y da cuenta del 15% de los casos (8).</p><p>Las manifestaciones clínicas son diferentes en niños y en adultos. en los primeros son más comunes los accidentes isquémicos transitorios (ait) y los accidentes cerebrovasculares (acv) isquémicos, mientras que en los segundos es más común los acv hemorrágicos, aunque también se describen ait y acv isquémicos (7). se han descrito síntomas como cefalea, disartria, afasia, hemiparesia, síncope, paraparesia, síntomas visuales, movimientos involuntarios, convulsiones y alteraciones cognitivas (6,7).</p><p>Los vasos Moyamoya son una red de neovascularización que se encuentra dilatada para compensar la isquemia generada por los cambios esteno-oclusivos. Por las alteraciones en las capas arteriales, se forman microaneurismas (que son difíciles de visualizar por medio de angiografía) los cuales al someterse a estrés hemodinámico se pueden romper produciendo sangrados a nivel de ganglios basales, tálamo, región periventricular y espacio subaracnoideo (7,9).</p><p>se debe diferenciar entre enfermedad de Moyamoya y síndrome Moyamoya. La enfermedad de Moyamoya hace referencia a las formas idiopáticas con alteraciones bilaterales y el síndrome Moyamoya es cuando hay compromiso unilateral y generalmente asociado a varias condiciones como arteriosclerosis, síndrome down, radiación craneal terapéutica, anemia de células falciformes, neurofibromatosis tipo 1 e hipertiroidismo (2).</p><p>en 1997 se desarrolló en Japón la guía para el diagnóstico y tratamiento de esta entidad, en la cual se define la enfermedad de Moyamoya en su forma idiopática según los siguientes criterios:</p><p>• estenosis u oclusión de la parte terminal de la arteria carótida interna y parte proximal de las arterias cerebral anterior y media demostrado por angiografía convencional o por resonancia magnética.</p><p>• Presencia de una red vascular anormal en las cercanías de las lesiones estenóticas u oclusivas.</p><p>• Los hallazgos deben ser bilaterales.</p><p>• se deben excluir otras entidades como arterioesclerosis, enfermedades autoinmunes, meningitis, neoplasias cerebrales, síndrome down, Neurofibromatosis tipo 1, trauma encéfalo craneano e irradiación craneal entre otros (10).</p><p>Por medio de imágenes de tomografía o resonancia se puede demostrar el compromiso hemorrágico o isquémico, siendo la resonancia más sensible para detectar infartos agudos (6).</p><p>La angiografía continua siendo el estándar de oro para diagnóstico. La angiografía por resonancia puede demostrar también las lesiones vasculares con sensibilidad de 92% y especificidad de 100% (11,12) si se compara con la angiografía convencional. La angiografía por tomografía multicorte es un método alternativo a la angiografía por resonancia en el diagnóstico y evaluación de la enfermedad, permitiendo de forma rápida la valoración especialmente en los niños y en pacientes en la sala de urgencias (11).</p><p>La enfermedad de Moyamoya tiende a ser progresiva hasta en un 20% de los casos <ref type="bibr" target="#b12">(13)</ref>. No existe un tratamiento efectivo que detenga la progresión de la enfermedad. el manejo se ha basado en terapia médica y tratamiento quirúrgico. se ha recurrido a la terapia médica utilizando esteroides, vasodilatadores y anticoagulantes sin mostrar efectividad en prevenir la progresión (12).</p><p>dos modalidades de tratamiento médico se han indicado: acido acetilsalicílico para la prevención de síntomas secundarios a la formación de microtrombos en los sitios de estenosis y bloqueadores de canales de calcio usados en caso de cefalea de difícil control.</p><p>adicionalmente se ha encontrado que los bloqueadores de canales de calcio pueden ser efectivos en reducir tanto la frecuencia como la severidad de eventos isquémicos transitorios (5).</p><p>cuando se recurre al tratamiento quirúrgico el objetivo es realizar un puente entre la circulación extra craneal e intracraneal con el fin de crear vías colaterales y de disminuir Enfermedad de Moyamoya: Reporte de caso y revisión de la literatura vol 18 N°2 diciembre de 2012 175 revista Médica de risaralda el estrés hemodinámico a los vasos y por consiguiente la formación de vasos de neovascularización (Moyamoya) <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b13">14)</ref>. desde su descripción en 1957, han sido muchas las investigaciones que se vienen realizando en diferentes campos con el fin de entender la etiología de la enfermedad, su historia natural, las mejores técnicas de imágenes diagnosticas y las diferentes aproximaciones terapéuticas. aunque es una entidad poco descrita en nuestro medio (15), se debe sospechar en cierto grupo de pacientes y buscar las características angiográficas relatadas ya que su diagnóstico es eminentemente imagenológico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicto de intereses:</head><p>Los autores declaran no tener conflicto de intereses.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 3 .</head><label>3</label><figDesc>Figura 3. tac cerebral simple segunda hospitalización.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">radiological Findings, clinical course, and Outcome in asymptomatic Moyamoya disease: results of Multicenter survey in Japan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kuroda S</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshimoto</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">stroke</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1430" to="1435" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Moyamoya disease and Moyamoya syndrome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Scott Rm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Er</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1226" to="1237" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Prevalence and clinicoepidemiological Features of Moyamoya disease in Japan: Findings from a Nationwide epidemiological survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kuriyama S</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Kusaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujimura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Wakai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Hashimoto S, Tsuji I, Inaba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yoshimoto</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">stroke</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="42" to="47" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Novel epidemiological features of Moyamoya disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Baba T, Houkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kuroda</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurol Neurosurg Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="900" to="904" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The News on Moyamoya disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hong</forename><surname>Cha Kc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kor J cerebrovascular surgery</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="59" to="65" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Moyamoya disease in Washington state and california</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Uchino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Johnston Sc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Becker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="956" to="958" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Moyamoya disease: current concepts and future perspectives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kuroda S, Houkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Neurol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1056" to="1066" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Kure s. a genomewide association study identifies rNF213 as the first Moyamoya disease gene</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Kamada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Komatsuzaki</forename><forename type="middle">S</forename><surname>Kikuchi A</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kanno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Niihori T</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ishii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Owada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujimura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Mashimo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Matsubara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hum Genet</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="34" to="40" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">surgical Therapy for adult Moyamoya disease: can surgical revascularization Prevent the recurrence of intracerebral Hemorrhage?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kiyohiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hiroyasu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">stroke</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1342" to="1346" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Guidelines for the diagnosis and treatment of spontaneous occlusion of the circle of Willis (&apos;Moyamoya&apos; disease). research committee on spontaneous Occlusion of the circle of Willis (Moyamoya disease) of the Ministry of Health and Welfare</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fukui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Japan. clin Neurol Neurosurg</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="238" to="240" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">assessment of Moyamoya disease Using Multidetector row computed tomography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sugino T, Mikami T</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ohtaki S, Hirano T, Iihoshi S</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Houkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Mikuni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J stroke cerebrovasc dis</title>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>artículo en prensa</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Moyamoya disease and surgical intervention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Rhee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">N</forename><surname>Zurres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">curr Neurol Neurosci rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="179" to="186" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">incidence and clinical features of disease progression in adult Moyamoya disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kuroda S, Ishikawa T</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Houkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nanba R</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hokari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Iwasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">stroke</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2148" to="2153" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Neurosurgical advances in the treatment of Moyamoya disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Steinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">stroke</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3304" to="3310" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Non-aneurysmal subarachnoid hemorrhage as presentation of moyamoya disease in an adult</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moscote-Salazar</forename><surname>Ga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Barrios Rs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Niñohernández</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gutiérrez</forename><surname>Paternina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">surg Neurol int</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">80</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Enfermedad De Moyamoya</surname></persName>
+		</author>
+		<title level="m">Reporte de caso y revisión de la literatura vol 18 N°2 diciembre de 2012 revista Médica de risaralda</title>
+		<imprint>
+			<biblScope unit="page">176</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

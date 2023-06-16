@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:///data/grobid/grobid-home/schemas/rng/Grobid.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tooth size discrepancies in an orthodontic population</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date>668-674 Year 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Tooth size discrepancies in an orthodontic population</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">668-674 Year 2007</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.2319/031406-102</idno>
+					<note>Type: Article Author Othman, S. , Harradine, N. Source Angle Orthodontist Page</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Keyword:</term>
+					<term>Bolton&apos;s ratios, tooth size discrepancy, different malocclusion groups, premolar,</term>
+					<term>extractions, ratio</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Objective: To explore how many millimeters of tooth size discrepancy (TSD) are clinically significant, to determine what percentage of a representative orthodontic population has such a tooth size discrepancy, and to determine the ability of simple visual inspection to detect such a discrepancy. Materials and Methods: The sample comprised 150 pretreatment study casts with fully erupted and complete permanent dentitions from first molar to first molar, which were selected randomly from 1100 consecutively treated white orthodontic patients. The mesiodistal diameter tooth sizes were measured using digital calipers, and the Bolton analysis and the tooth size corrections were calculated by the Hamilton Arch Tooth System (HATS) software. Simple visual estimation of Bolton discrepancy was also performed. Results: In the sample group 17.4% had anterior tooth-width ratios and 5.4% had total arch ratios greater than 2 of Bolton&apos;s standard deviations from Bolton&apos;s mean. For the anterior analysis, correction greater than +/-2 mm was required for 16% of patients in the upper arch or 9% in the lower arch. For the total arch analysis, the corresponding figures are 28% and 24%. Conclusions: It is recommended that 2 mm of required tooth size correction is an appropriate threshold for clinical significance. A significant percentage of patients have a TSD of this size. Visual estimation of TSD has low sensitivity and specificity. Careful measurement is more frequently required in clinical practice than visual estimation would suggest.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+				<p>Objective: To explore how many millimeters of tooth size discrepancy (TSD) are clinically significant, to determine what percentage of a representative orthodontic population has such a tooth size discrepancy, and to determine the ability of simple visual inspection to detect such a discrepancy. Materials and Methods: The sample comprised 150 pretreatment study casts with fully erupted and complete permanent dentitions from first molar to first molar, which were selected randomly from 1100 consecutively treated white orthodontic patients. The mesiodistal diameter tooth sizes were measured using digital calipers, and the Bolton analysis and the tooth size corrections were calculated by the Hamilton Arch Tooth System (HATS) software.</p>
+
+				<p>Simple visual estimation of Bolton discrepancy was also performed. Results: In the sample group 17.4% had anterior tooth-width ratios and 5.4% had total arch ratios greater than 2 of Bolton&apos;s standard deviations from Bolton&apos;s mean. For the anterior analysis, correction greater than +/-2 mm was required for 16% of patients in the upper arch or 9% in the lower arch. For the total arch analysis, the corresponding figures are 28% and 24%. Conclusions: It is recommended that 2 mm of required tooth size correction is an appropriate threshold for clinical significance. A significant percentage of patients have a TSD of this size. Visual estimation of TSD has low sensitivity and specificity. Careful measurement is more frequently required in clinical practice than visual estimation would suggest.</p>
+
+				<figure>
+					<trash>Author Othman, S. , Harradine, N. Source Angle Orthodontist ISSN 0003-3219 DOI 10.2319/031406-102 Volume (Issue) 77(4) Page 668-674 Year 2007 Keyword: Bolton&apos;s ratios, tooth size discrepancy, different malocclusion groups, premolar, extractions, ratio Please Cite As: OTHMAN, S. &amp; HARRADINE, N. 2007. Tooth size discrepancies in an orthodontic population. Angle Orthodontist, 77, 668-674. URL:</trash>
+
+					<figDesc> http://apps.webofknowledge.com search via web of science accession no: 000248074900015  http://www.angle.org/doi/abs/10.2319/031406-102  http://angle.org/doi/abs/10.2319/031406-102  http://www.ncbi.nlm.nih.gov/pubmed/17605478  http://d.wanfangdata.com.cn/NSTLQK_NSTL_QKJJ028696433.aspx </figDesc>
+
+				</figure>
+
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

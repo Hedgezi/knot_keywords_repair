@@ -1,0 +1,3297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /data/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.1" ident="GROBID" when="2016-10-11T06:03+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Virtual R&amp;D teams and SMEs growth: A comparative study between Iranian and Malaysian SMEs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2010-09-04">4 September, 2010</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Nader</forename>
+								<forename type="middle">Ale</forename>
+								<surname>Ebrahim</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Design and Manufacture</orgName>
+								<orgName type="department" key="dep2">Faculty of Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Malaya (UM)</orgName>
+								<orgName type="institution" key="instit2">Kuala Lumpur</orgName>
+								<address>
+									<postCode>50603</postCode>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Shamsuddin</forename>
+								<surname>Ahmed</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Engineering Design and Manufacture</orgName>
+								<orgName type="department" key="dep2">Faculty of Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Malaya (UM)</orgName>
+								<orgName type="institution" key="instit2">Kuala Lumpur</orgName>
+								<address>
+									<postCode>50603</postCode>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Zahari</forename>
+								<surname>Taha</surname>
+							</persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Manufacturing Engineering</orgName>
+								<orgName type="institution">University Malaysia Pahang</orgName>
+								<address>
+									<postCode>26300</postCode>
+									<settlement>Gambang, Pahang</settlement>
+									<region>Kuantan</region>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Virtual R&amp;D teams and SMEs growth: A comparative study between Iranian and Malaysian SMEs</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">African Journal of Business Management</title>
+						<imprint>
+							<biblScope unit="volume">4</biblScope>
+							<biblScope unit="issue">11</biblScope>
+							<biblScope unit="page" from="2368" to="2379"/>
+							<date type="published" when="2010-09-04">4 September, 2010</date>
+						</imprint>
+					</monogr>
+					<note type="submission">Accepted 13 July, 2010</note>
+					<note>Available online at Full Length Research Paper</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Virtual R&amp;D team</term>
+					<term>small and medium enterprises</term>
+					<term>survey</term>
+					<term>developing countries</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper explores potential advantages of using virtual teams for small and medium-sized enterprises (SMEs) with a comprehensive review on various aspects of virtual teams. Based on the standing of the pertinent literatures, attempt has been made to study the aspects by online survey method in Iran and Malaysia. In both countries, SMEs play an important role in their economies, employments, and capacity building. Virtual R&amp;D team can be one of the means to increase SMEs efficiency and competitiveness in their local as well as global markets. In this context, surveys have been conducted to evaluate the effects of virtuality to the growth of SMEs. The study addresses some differences between two countries in engaging virtual research and development (R&amp;D) teams in their SMEs. It is observed that there is a significant difference between the SMEs turnover that employed virtual team and that did not employ the virtual team. The way for further studies and recommend improvements are proposed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION </head><p>Faced with the challenges like increased globalization of markets and technological change, SMEs need reinforced support through transnational research cooperation to enhance their innovation and research investment. SMEs' survival depends on their capability to improve their performance and produce products that could meet international standards (<ref type="bibr" coords="1,205.03,531.11,93.66,12.33;1,43.20,542.51,18.81,12.33" target="#b36">Gomez and Simpson, 2007</ref>). In other words, a certain level of competitiveness appears to be a prerequisite for an SME's survival when dealing with dynamic conditions in the business environment . To compete with global competition and, overcome the rapid technology change and product variety proliferation in the new manufacturing environment, SMEs must be able to sustain product innovation (<ref type="bibr" coords="1,265.63,611.51,33.18,12.33;1,43.20,623.03,18.81,12.33" target="#b55">Laforet, 2007</ref>). Internationalization holds much potential for the growth of SMEs (<ref type="bibr" coords="1,132.37,634.55,106.16,12.33" target="#b65">Lu and Beamish, 2006</ref>). One very important trend to enable new knowledge creation and transfer in-and-to SME's is the development of collaborative environments and networks to increase their innovation capabilities as a single unit and also the *Corresponding author E-mail: aleebrahim@perdana.um.edu.my. and also the capabilities of the network as a whole (<ref type="bibr" coords="1,324.63,473.51,53.41,12.33" target="#b33">Flores, 2006</ref>). Participation in networks has nowadays become very important for any organization that strives to achieve a differentiated competitive advantage, especially if the company is small or medium sized (<ref type="bibr" coords="1,525.37,508.07,50.47,12.33;1,320.40,519.59,82.73,12.33">CamarinhaMatos et al., 2009</ref>). E-collaboration is related to better operational and business performance (Rosenzweig, 2009). O'<ref type="bibr" coords="1,340.65,542.51,91.43,12.33">Regan et al. (2006a) </ref>investigated in a sample of 207 manufacturing SMEs and found a positive correlation between R&amp;D investment and technological change in products and processes in firms with static or declining sales. <ref type="bibr" coords="1,349.44,588.59,80.12,12.33" target="#b53">Kuo and Li (2003) </ref>argue that the empirical result in Taiwan's SMEs indicates that a firm's likelihood in undertaking foreign direct investment (FDI) reaches a maximum when its R&amp;D intensity reaches 11.08%; hence a strong quadratic relationship between R&amp;D intensity in SMEs and FDI exists. O'<ref type="bibr" coords="1,445.44,646.07,99.27,12.33">Regan et al. (2006a)</ref>, after discussions with Managing Directors of six organizations suggested that, in general, investment in R&amp;D for development of a number of new products introduced the need to meet technological changes in both processes and products and the importance of prototype development are the most important attributes of innovation in manufacturing SMEs. <ref type="bibr" coords="1,419.16,726.69,127.24,11.74" target="#b34">Gassmann and Keupp (2007) </ref>found that managers of SMEs should invest less in tangible assets, but more in those areas that will directly generate their future competitive advantage (e.g., in R&amp;D to generate knowledge, and in their employees' creativity to stimulate incremental innovations in already existing technologies). Global market requires short product development times, and so SMEs are also forced into transition from sequential to concurrent product development (<ref type="bibr" coords="2,261.59,166.55,37.22,12.33;2,43.20,178.07,35.57,12.33" target="#b54">Kusar et al., 2004</ref>). SMEs are key actors in the innovation system and the economy of a country. Despite their limitations in size, they make a lot of creativity in products and services they provide through R&amp;D. Therefore, networking seems to be one of strategic solutions for technology based companies in order to give them a competitive advantage and the ability to tap into the knowledge base of other network partners. Putting an SME in the way to Information Society or in the way to making the best ICT investment in terms of economic return through company benefits is more of an art than engineering (<ref type="bibr" coords="2,242.97,293.03,55.72,12.33;2,43.20,304.55,18.81,12.33" target="#b86">Redoli et al., 2008</ref>). <ref type="bibr" coords="2,76.68,304.55,97.76,12.33" target="#b58">Lawson et al. (2006) </ref>study focuses on R&amp;D in SMEs, and consequently provides novel insights currently lacking in the published literature. The first step of this paper provides a primary definition of virtual teams; the importance of SMEs, the major characteristics of SMEs, differences in R&amp;D between SMEs and large firms, SMEs and virtual teams working, based on comprehensive literature review of recent articles. On the next step, after over viewing of SMEs in Iran and Malaysia, research hypothesis, methodology and data collection, survey results are described. Lastly a guide line for future study evolved. It is argued that the establishing of virtual teams should be given consideration in the management of SMEs. Although computers widespread use for personal applications, very few programming frameworks exist for creating synchronous collaborative applications between SMEs. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Virtual teams </head><p>A virtual team is a temporary group of professionals that work together towards a common goal such as realizing a new product, a joint project etc., and that uses computer networks as their main interaction environment (<ref type="bibr" coords="2,48.36,596.63,129.76,12.33" target="#b13">Camarinha-Matos et al., 2009</ref>). It is a worth mentioning that virtual teams are often formed to overcome geographical or temporal separations (<ref type="bibr" coords="2,243.29,619.55,55.52,12.33;2,43.20,631.07,72.41,12.33" target="#b18">Cascio and Shurygailo, 2003</ref>). Virtual teams work across boundaries of time and space by utilizing modern computer-driven technologies. The term " virtual team " is used to cover a wide range of activities and forms of technologysupported working (<ref type="bibr" coords="2,134.36,677.15,92.24,12.33" target="#b5">Anderson et al., 2007</ref>). Virtual teams comprised members who are located in more than one physical location. This team trait has fostered the extensive use of a variety of forms of computer-mediated communication that enable geographically dispersed <ref type="bibr" coords="2,399.33,212.51,84.19,12.33" target="#b42">Hertel et al., 2005</ref>). Different authors have identified diverse areas. From the perspective of <ref type="bibr" coords="2,320.40,235.55,111.44,12.33" target="#b59">Leenders et al. (2003) </ref>virtual teams are groups of individuals collaborating in the execution of a specific project while geographically and often temporally distributed, possibly anywhere within (and beyond) their parent organizations. Lurey and Raisinghani (2001) defined virtual teams -groups of people who work together although they are often dispersed across space, time, and/or organizational boundaries. Amongst the different definitions of a virtual team the following concept from which the term employed in this paper is one of the most widely accepted definitions: (<ref type="bibr" coords="2,482.89,350.51,83.68,12.33" target="#b83">Powell et al., 2004</ref>), ''virtual teams are groups of geographically, organizationally and/or time dispersed workers brought together by information technologies to accomplish one or more organization tasks ''. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SMEs definition </head><p>There are many accepted definitions of SMEs and the classifications vary from industry to industry and from country to country (O'<ref type="bibr" coords="2,431.35,491.87,135.10,12.33">Regan and Ghobadian, 2004</ref>). Different countries adopt different criteria such as employment, sales or investment for defining small and medium enterprises (<ref type="bibr" coords="2,419.42,526.43,92.19,12.33" target="#b8">Ayyagari et al., 2007</ref>). At present, there seems to be no consensus on the definition for SMEs (<ref type="bibr" coords="2,359.83,549.35,88.86,12.33" target="#b27">Deros et al., 2006</ref>). <ref type="figure" coords="2,465.96,549.35,38.30,12.33" target="#tab_1">Table 1</ref>illustrates the definition of SMEs in selected countries. In absence of a definitive classification, a consensus has been developed around the EC criteria for SME classification (O'<ref type="bibr" coords="2,549.23,583.91,26.79,12.33;2,320.40,595.31,108.65,12.33">Regan and Ghobadian, 2004</ref>). This definition adopts a quantitative approach emphasizing " tangible " criteria (employee numbers (up to 250 employees), turnover and balance sheet statistics) (<ref type="bibr" coords="2,438.19,629.87,99.21,12.33" target="#b100">Tiwari and Buse, 2007</ref>). While turnover and balance sheet statistics are parts of the criteria, the overriding consideration in practice appears to be employee number based. Even if all three criteria were afforded equal consideration, it could be argued that the definition fails to take into account the attributes of a modern day small to medium-sized firm. This study use Malaysian SME definition which is more limited than Iranian ones. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The importance of SMEs </head><p>The importance of small and medium-sized enterprises (SMEs) in economic growth has made them central elements in recent policymaking (<ref type="bibr" coords="3,199.79,120.59,89.58,12.33" target="#b44">Hoffman et al., 1998</ref>). SMEs are a major part of the industrial economies (Robles-Estrada and Gómez-Suárez, 2007; <ref type="bibr" coords="3,254.88,143.51,43.86,12.33;3,43.20,155.03,82.13,12.33" target="#b32">Eikebrokk and Olsen, 2007</ref>). Their survival and growth has therefore been a prominent issue. <ref type="bibr" coords="3,211.08,166.55,87.68,12.33" target="#b10">Beck et al. (2005) </ref>explored the relationship between the relative size of the small and medium enterprise (SME) sector, economic growth, and poverty alleviation using a sample of 45 countries, and found a strong, positive association between the importance of SMEs and GDP per capita growth. SMEs can successfully enter the global market if they can fulfill the customer needs regarding features and quality of products (<ref type="bibr" coords="3,134.49,258.59,75.91,12.33" target="#b54">Kusar et al., 2004</ref>). argued that small firms are indeed the engines of global economic growth. SMEs play an important role to promote economic development. SMEs in the beginning of R&amp;D activities always face capital shortage and need technological assistance. In most countries, SMEs dominate the industrial and commercial infrastructure (<ref type="bibr" coords="3,48.19,338.99,83.38,12.33" target="#b27">Deros et al., 2006</ref>). More importantly SMEs play an important role in foreign direct investment (FDI) (<ref type="bibr" coords="3,263.13,350.51,35.56,12.33;3,43.20,362.03,34.61,12.33" target="#b53">Kuo and Li, 2003</ref>). Many economists believe that the wealth of nations and the growth of their economies strongly depend upon their SMEs' performance (<ref type="bibr" coords="3,224.98,385.07,64.27,12.33" target="#b94">Schröder, 2006</ref>). In many developed and developing countries, SMEs are the unsung heroes that bring stability to the national economy. They help buffer the shocks that come with the boom and bust of economic cycles. SMEs also serve as the key engine behind equalizing income disparity among workers (<ref type="bibr" coords="3,86.02,454.07,44.34,12.33" target="#b21">Choi, 2003</ref>). China's recent rapid growth is also linked to the emergence of many new small firms in village townships and in coastal areas, often in new industries (). SMEs seem to be appropriate units to behave like network nodes because of their lean structure, adaptability to market evolution, active involvement of versatile human resources, ability to establish subcontracting relations and good technological level of their products (<ref type="bibr" coords="3,90.44,557.51,83.37,12.33" target="#b70">Mezgar et al., 2000</ref>). In the light of the above, SMEs have advantages in terms of flexibility, reaction time, and innovation capacity that make them central actors in the new economy (<ref type="bibr" coords="3,190.08,591.95,108.73,12.33;3,43.20,603.47,18.81,12.33" target="#b85">Raymond and Croteau, 2006</ref>). <ref type="bibr" coords="3,74.28,603.47,48.50,12.33">Gassmann </ref><ref type="bibr" coords="3,320.40,180.35,101.84,12.33" target="#b98">Susman et al. (2003) </ref>have probed more deeply than existing theories into the psychological and social dynamics of virtual teams and propose a model that articulates the processes that intervene between recognition of a misalignment, and appropriations that reduce or eliminate them. From the human resources point of view, SMEs' employees are given the authority and responsibility in their own work areas that can create cohesion and enhance common purposes amongst the workforce to ensure that a job is well done (<ref type="bibr" coords="3,522.07,283.79,53.82,12.33;3,320.40,295.31,18.81,12.33" target="#b27">Deros et al., 2006</ref>). In order to implement an appropriate knowledge management strategy in SMEs, cultural, behavioral, and organizational issues need to be tackled before even considering technical issues (<ref type="bibr" coords="3,455.83,329.87,78.34,12.33" target="#b73">Nunes et al., 2006</ref>). further argue that the international diffusion of SMEs innovations are important for global economic welfare. The traditional independence of small firms is being replaced by a network environment (<ref type="bibr" coords="3,526.62,375.83,49.27,12.33;3,320.40,387.35,53.01,12.33" target="#b40">Hanna and Walsh, 2002</ref> ). Generally speaking three types of technologies are picked up by SMEs: small scale technologies, labor intensive technologies and specialized high technology know-how (<ref type="bibr" coords="3,426.07,421.79,98.85,12.33" target="#b2">Acs and Preston, 1997</ref>). Creating networks in the cycle of the management of these technologies is of a high importance. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The major characteristics of SMEs </head><p>In order to have a better understanding of SMEs, a brief knowledge of the characteristics of SMEs is a must. The major characteristics of SMEs are listed in Tables 2 and 3. Dickson and Hadjimanolis (1998) state that since small companies typically lack some of the essential resources for innovation they have to acquire them from external sources, such as other companies, technical institutions, etc. Therefore, the management of inter-organizational relationships and networking in general may well be critical for the successful development in small companies. It is also important that the companies have the ability to network. As firms become 'networked' the critical capabilities are moving from within to between firms, and innovation will need to move too (<ref type="bibr" coords="3,527.82,672.47,48.07,12.33;3,320.40,683.99,56.37,12.33" target="#b40">Hanna and Walsh, 2002</ref>). Cooperative R&amp;D is a useful way to overcome the lack of internal business resources and to improve innovativeness and competitiveness, particularly SMEs (<ref type="bibr" coords="3,355.07,718.55,63.70,12.33" target="#b77">Okamuro, 2007</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Advantage Reference </head><p>Generally dominated by the entrepreneur (owner-manager) (<ref type="bibr" coords="4,333.77,357.52,108.60,10.55" target="#b50">Jones and Macpherson, 2006</ref>; Bougrain and Haudeville, 2002; Love and <ref type="bibr" coords="4,434.88,367.24,38.61,10.55" target="#b64">Irani, 2004</ref>) Able to respond quickly to customer requests and market changes, Customers focused (<ref type="bibr" coords="4,333.77,379.12,108.60,10.55" target="#b50">Jones and Macpherson, 2006</ref>; <ref type="bibr" coords="4,449.04,379.12,93.93,10.55;4,329.52,388.84,21.21,10.55" target="#b15">Canavesio and Martinez, 2007;</ref><ref type="bibr" coords="4,353.16,388.84,67.89,10.55" target="#b45"> Huang et al., 2004</ref>) Flexible and fast-response to change, easily adaptive to new market conditions , dynamic in behavior, developing customized solutions for partners and customers (<ref type="bibr" coords="4,333.77,411.40,67.96,10.55" target="#b27">Deros et al., 2006;</ref><ref type="bibr" coords="4,404.16,411.40,52.89,10.55" target="#b91"> Sarosa, 2007;</ref><ref type="bibr" coords="4,459.48,411.40,66.09,10.55;4,329.52,421.12,16.06,10.55" target="#b0"> Abdul-Nour et al., 1999</ref>). </p><p>Concentrated production and sales in their home country (<ref type="bibr" coords="4,333.30,443.80,49.95,10.55" target="#b72">Narula, 2004;</ref><ref type="bibr" coords="4,388.08,443.80,66.18,10.55" target="#b80"> Perrini et al., 2007</ref>). Driven by client demands Quick decision making process (decisions are made by an individual or a small number of people, or a single individual) (<ref type="bibr" coords="4,334.11,460.48,74.22,10.55" target="#b58">Lawson et al., 2006;</ref><ref type="bibr" coords="4,410.76,460.48,69.45,10.55" target="#b27"> Deros et al., 2006;</ref><ref type="bibr" coords="4,482.64,460.48,56.60,10.55" target="#b6"> Axelson, 2005) </ref>Strongly correlated and inter-related with respect to Innovation and entrepreneurship High innovatory potential (<ref type="bibr" coords="4,362.32,494.68,130.61,10.55" target="#b88">Estrada and Gómez-Suárez, 2007;</ref><ref type="bibr" coords="4,495.36,494.68,44.37,10.55" target="#b38"> Gray, 2006;</ref><ref type="bibr" coords="4,329.52,504.52,98.24,10.55" target="#b39"> Gunasekaran et al., 1999) </ref>More extensive use of external linkages for Innovate. (<ref type="bibr" coords="4,333.18,522.16,89.79,10.55" target="#b56">Laforet and Tann, 2006;</ref><ref type="bibr" coords="4,425.40,522.16,78.81,10.55" target="#b44"> Hoffman et al., 1998;</ref><ref type="bibr" coords="4,506.64,522.16,27.33,10.55;4,329.52,531.88,63.18,10.55" target="#b9"> Barnett and Storey, 2000</ref>) </p><p>Un bureaucratic processes, flat and flexible structures (<ref type="bibr" coords="4,333.77,543.76,67.96,10.55" target="#b27">Deros et al., 2006;</ref><ref type="bibr" coords="4,404.16,543.76,83.59,10.55" target="#b61"> Levy and Powell, 1998</ref>; Massa and <ref type="bibr" coords="4,329.52,553.48,43.29,10.55" target="#b68">Testa, 2008</ref>) Strong inter and intra-firm relationships , managing a great amount of information (<ref type="bibr" coords="4,333.63,570.16,64.74,10.55" target="#b17">Carbonara, 2005;</ref><ref type="bibr" coords="4,400.80,570.16,63.21,10.55" target="#b20"> Chen et al., 2007</ref>) Good at multi-tasking (<ref type="bibr" coords="4,333.42,586.84,50.79,10.55" target="#b93">Schatz, 2006;</ref>) Focused on gaining instant gratification with technology solutions. (<ref type="bibr" coords="4,333.42,603.52,51.26,10.55" target="#b93">Schatz, 2006) </ref>Informal and dynamic strategies (<ref type="bibr" coords="4,334.17,620.20,101.97,10.55" target="#b95">Sharma and Bhagwat, 2006</ref>) Capable of going international early and rapidly (<ref type="bibr" coords="4,334.41,631.96,104.52,10.55" target="#b34">Gassmann and Keupp, 2007</ref>) Possessing tight control over production processes due to close management involvement (<ref type="bibr" coords="4,333.66,648.64,82.59,10.55" target="#b61">Levy and Powell, 1998</ref>) Productive (<ref type="bibr" coords="4,333.88,665.20,60.29,10.55" target="#b10">Beck et al., 2005</ref>) Knowledge creating (<ref type="bibr" coords="4,334.04,677.08,64.81,10.55">Egbu et al., 2005;</ref><ref type="bibr" coords="4,401.28,677.08,60.81,10.55" target="#b60"> Levy et al., 2003</ref>) Capable of fast learning and adapting routines and strategy Great potential to adapt new production methods (<ref type="bibr" coords="4,333.45,694.72,55.55,10.55" target="#b6">Axelson, 2005) </ref>Creating astute alliances, networking (<ref type="bibr" coords="4,332.92,712.36,60.29,10.55" target="#b30">Dijk et al., 1997;</ref><ref type="bibr" coords="4,398.04,712.36,91.17,10.55" target="#b68"> Massa and Testa, 2008;</ref><ref type="bibr" coords="4,491.64,712.36,50.01,10.55;4,329.52,722.08,21.68,10.55" target="#b51"> Karaev et al., 2007) </ref>2372 </p><p>Afr. J. Bus. Manage. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disadvantage References </head><p>Scarce resources and manpower (<ref type="bibr" coords="5,354.22,109.86,58.44,11.14" target="#b7">Axelson, 2007;</ref><ref type="bibr" coords="5,415.20,109.86,95.02,11.14" target="#b0"> Abdul-Nour et al., 1999;</ref><ref type="bibr" coords="5,512.76,109.86,51.08,11.14;5,350.04,120.30,62.59,11.14" target="#b48"> Jansson and Sandberg, 2008</ref>) </p><p>Limited degree of information technology (IT) implementation (<ref type="bibr" coords="5,355.36,145.02,85.79,11.14" target="#b101">Wang and Chou, 2008</ref>Strategy is based on low price, high quality offerings, rather than new product innovations (<ref type="bibr" coords="5,354.92,257.34,74.63,11.14" target="#b43">Hobday et al., 2004</ref>) </p><p>Not having formal R&amp;D activities (<ref type="bibr" coords="5,355.21,287.22,70.94,11.14" target="#b3">Adams et al., 2006</ref>; <ref type="bibr" coords="5,433.20,287.22,126.12,11.14" target="#b12">Bougrain and Haudeville, 2002) </ref>Strategy formulation on the basis of what available, lack a long run perspective (<ref type="bibr" coords="5,355.39,310.74,109.35,11.14" target="#b36">Gomez and Simpson, 2007;</ref><ref type="bibr" coords="5,467.16,310.74,62.64,11.14" target="#b63"> Lindman, 2002) </ref>Reliance on small number of customers, and operating in limited markets. Reactive and fire fighting mentality. </p><p>(<ref type="bibr" coords="5,354.99,345.90,108.16,11.14" target="#b95">Sharma and Bhagwat, 2006</ref>) </p><p>Rely on outdated technology, labor intensive and traditional management practices (<ref type="bibr" coords="5,354.55,382.02,72.15,11.14" target="#b27">Deros et al., 2006;</ref><ref type="bibr" coords="5,429.24,382.02,69.46,11.14" target="#b10"> Beck et al., 2005;</ref><ref type="bibr" coords="5,501.24,382.02,53.50,11.14;5,350.04,392.34,23.16,11.14" target="#b16"> Caputo et al., 2002) </ref>Lagging in the export, lack the resources necessary to enter foreign markets (<ref type="bibr" coords="5,354.48,422.22,82.42,11.14" target="#b67">Mahajar et al., 2006';</ref><ref type="bibr" coords="5,439.32,422.22,116.11,11.14" target="#b48"> Jansson and Sandberg, 2008</ref>) Lack of formal competitor analysis, data collection during NPD processes. (<ref type="bibr" coords="5,355.05,452.10,90.15,11.14" target="#b102">Woodcock et al., 2000) </ref>Absolute size , fewer technological assets (<ref type="bibr" coords="5,354.06,476.70,48.97,11.14" target="#b72">Narula, 2004</ref>) </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differences in R&amp;D between SMEs and large firms </head><p>Small and medium-sized businesses are often edged out by their larger counterparts in today's competitive business environment. Until now, large multinational corporations enjoyed the advantage of having affordable resources spread out across the globe. Small and medium-sized enterprises (SMEs) typically suffer from lack of resources; their central role in the development of technology-and science-driven industries is paradoxical (<ref type="bibr" coords="5,48.07,641.99,90.10,12.33" target="#b78">Partanen et al., 2008</ref>). Therefore, virtual teams are able to provide a reliable structure to promote SMEs. Most products are multi-technology in nature, and multiple skills are needed; few companies, regardless of their size, can afford to maintain R&amp;D facilities with world-class competencies in many different sectors (<ref type="bibr" coords="5,234.36,699.47,54.88,12.33" target="#b72">Narula, 2004</ref>). Innovation is equally important for large and small firms in the contemporary competitive and changing market (<ref type="bibr" coords="5,325.26,526.91,139.22,12.33" target="#b29">Dickson and Hadjimanolis, 1998</ref>). The ability of SMEs to meet growing consumer expectations is largely based on their capability to innovate and deliver new products at competitive prices. Innovation is a key driver of sustainable competitive advantage and one of the key challenges for SMEs (O'<ref type="bibr" coords="5,437.71,584.51,87.92,12.33">Regan et al., 2006b</ref>). Building global teams and Internet-related capabilities are now options for all companies, regardless of size and location (<ref type="bibr" coords="5,324.70,618.95,80.47,12.33" target="#b11">Bergiel et al., 2008</ref>). In every organization, regardless of size, profit, over the last decades, R&amp;D teams have become increasingly virtual (<ref type="bibr" coords="5,468.97,641.99,107.04,12.33" target="#b52">Kratzer et al., 2005;</ref><ref type="bibr" coords="5,320.40,653.51,90.53,12.33" target="#b59"> Leenders et al., 2003</ref>). On the other hand, some authors argue that large firms appear to have been more innovative rather than small firms (<ref type="bibr" coords="5,349.85,687.95,52.72,12.33">Tether, 1998</ref>). Especially in IT industry large firms create more IT innovation than do small firms (<ref type="bibr" coords="5,530.07,699.47,45.86,12.33;5,320.40,710.99,71.33,12.33" target="#b79">Patrakosol and Olson, 2007</ref>). In multinational companies, the use of dispersed constellations in R&amp;D activities is seen to be increasing (<ref type="bibr" coords="6,103.65,74.51,125.92,12.33" target="#b69">McDonough et al., 2001;</ref><ref type="bibr" coords="6,238.92,74.51,59.78,12.33;6,43.20,86.03,59.33,12.33" target="#b87"> Richtne and Rognes, 2008</ref>). <ref type="bibr" coords="6,115.20,86.03,57.74,12.33" target="#b49">Jeong (2003)</ref>, in a survey of 179 US and 250 Chinese firms, explores the role of firm size in facilitating the relationship between multinational expansion and new product performance. The study shows that the firm size effects appear to be significant among Chinese firms, but not in the US sample. The article also shows that US firms can incorporate the benefits of international expansion into their new product development efforts, irrespective of their size. However, although large companies have sufficient resources for investing in innovation, they suffer from a variety of issues that may make them less innovative (<ref type="bibr" coords="6,265.61,212.51,33.07,12.33;6,43.20,224.03,18.81,12.33" target="#b55">Laforet, 2007</ref>); larger firms are able to avail themselves of the flexibility long enjoyed by SMEs (<ref type="bibr" coords="6,190.44,235.55,52.84,12.33" target="#b72">Narula, 2004</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SMEs and virtual teams working </head><p>Virtuality has been presented as one solution for SMEs aiming to increase their competitiveness (<ref type="bibr" coords="6,236.70,305.63,61.99,12.33;6,43.20,317.15,18.81,12.33" target="#b82">Pihkala et al., 1999</ref>). Karaev (2007) in a comprehensive literature has shown the benefits of establishing clusters as an efficient tool for overcoming the size limitations of SMEs. Geographical proximity brings so-called agglomeration effects in terms of higher specialization, innovation and knowledge transfer, which results in costs reduction and improving the competitiveness of industrial sectors, regions and nations. Small businesses must leverage the adoption process to maximize the speed and ease of technology transfer from its partners. Only through cooperation in the adoption of innovations can interorganizational networks function optimally (<ref type="bibr" coords="6,255.16,443.63,43.53,12.33;6,43.20,455.15,18.81,12.33" target="#b41">Hausman, 2005</ref>). Past literature often hypothesized that SMEs did not innovate in formally recognized ways and that they made much more extensive use of external linkages (<ref type="bibr" coords="6,47.51,489.71,111.26,12.33" target="#b56">Laforet and Tann, 2006;</ref><ref type="bibr" coords="6,163.56,489.71,98.29,12.33" target="#b44"> Hoffman et al., 1998;</ref><ref type="bibr" coords="6,266.52,489.71,32.29,12.33;6,43.20,501.11,78.85,12.33" target="#b9"> Barnett and Storey, 2000</ref>). To survive in the global economy SMEs have to improve their products and processes exploiting their intellectual capital in a dynamic network of knowledge-intensive relations inside and outside their borders (<ref type="bibr" coords="6,84.92,547.19,74.24,12.33" target="#b22">Corso et al., 2003</ref>). If small firms want to make a step change in their technological and innovation base they may have to rethink their approach to cooperation (<ref type="bibr" coords="6,48.64,581.63,105.28,12.33" target="#b40">Hanna and Walsh, 2002</ref>). SMEs need to focus on core competences for efficiency matters; they need to cooperate with external partners to compensate for other competences and resources. This is especially the case in the field of new product development, where SMEs face specific problems compared to large firms (<ref type="bibr" coords="6,260.61,639.11,38.08,12.33;6,43.20,650.63,34.97,12.33" target="#b84">Pullen et al., 2008</ref>). Despite the widespread publicity of information technology, the application of internet technology to upgrade and enhance the product design and business operation by most enterprises, especially for the SMEs, is still at its infancy (<ref type="bibr" coords="6,132.32,708.11,76.17,12.33" target="#b103">Zhan et al., 2003</ref><ref type="bibr" coords="6,208.49,708.11,85.34,12.33" target="#b62">). Lin et al. (2007</ref>found that although almost all senior executives and <ref type="bibr" coords="6,447.12,28.55,78.85,12.33;6,553.80,28.55,22.22,12.33">Ale Ebrahim et al. 2373 </ref>managers were committed to the IT investments in enterprise during the implementation stage, most of these organizations did not manage user resistance effectively. The SMEs are one of the sectors that have a strong potential to benefit from advances in ICTs and the adaptation of new business modes of operation. The combination of explosive knowledge growth and inexpensive information transfer creates a fertile soil for unlimited virtually invention (<ref type="bibr" coords="6,450.57,166.55,74.59,12.33" target="#b71">Miles et al., 2000</ref>). The use of ICTs can be considered as key factors for innovation and entrepreneurship. ICTs are a must for SMEs to innovate (<ref type="bibr" coords="6,365.61,200.99,76.71,12.33" target="#b86">Redoli et al., 2008</ref>). Web resource services can help the enterprises to get external service resources and implement collaborative design and manufacturing (<ref type="bibr" coords="6,554.19,224.03,21.71,12.33;6,320.40,235.55,65.57,12.33" target="#b31">Dong and Liu, 2006</ref>). It is especially urgent for SMEs to construct a service platform of network to speed up the product development process (<ref type="bibr" coords="6,465.30,258.59,69.70,12.33" target="#b57">Lan et al., 2004</ref>). SMEs have lack of capital investment for systematic use of information, developing organization processes and technology development. Three out of the eleven organizations used the intranet for knowledge identification. This is basically a data warehouse with data on previous projects and employees (those involved in projects, together with their skills and competences) (<ref type="bibr" coords="6,524.81,338.99,51.08,12.33;6,320.40,350.51,18.81,12.33">Egbu et al., 2005</ref>). This indicates that organizations, especially SMEs, do not fully explore the potential benefits of IT for growth. <ref type="bibr" coords="6,356.04,373.55,77.72,12.33" target="#b60">Levy et al. (2003) </ref>state that SMEs are knowledge creators but are poor at knowledge retention. They need to be proactive in knowledge sharing arrangements to recognize that knowledge has value and the value added is derived from knowledge exchange (<ref type="bibr" coords="6,490.73,419.51,70.27,12.33">Egbu et al., 2005</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AN OVERVIEW OF SMES IN IRAN AND MALAYSIA </head><p>Before going to data collection and analyzing the results, an overview of the situation of SMEs in Iran and Malaysia is provided to increase knowledge about these developing countries. The current trend of economic growth and rapid industrial development has made Malaysia one of the most open economies in the world. Under the Ninth Malaysia <ref type="bibr" coords="6,362.88,543.71,46.82,12.33">Plan (2006</ref><ref type="bibr" coords="6,414.48,543.71,19.12,12.33">Plan ( -2010</ref>), the Government devotes and designs a SME development plan to help SMEs to meet the challenges in the competitive global business environment (<ref type="bibr" coords="6,385.77,578.15,131.84,12.33" target="#b104">Zulkifli-Muhammad et al., 2010</ref>). The role of SMEs in Malaysia and Iran's economic development is well recognized. SMEs represent over 99% of total establishments, but contribute only 32% of gross domestic product (GDP), in comparison to over 40% GDP contribution in other regional economies such as Thailand, <ref type="bibr" coords="6,381.24,647.15,32.30,12.33">Taiwan </ref>not aligned with the requirements of the knowledge age. Today's changes require a new model of thought as a basic requirement (<ref type="bibr" coords="7,131.54,97.55,75.62,12.33" target="#b47">Jafari et al., 2007</ref>). Indeed, there are huge opportunities for SMEs to grow and become active and increase their level of contribution as the case of SMEs in developed economies by implementing virtual R&amp;D teams in the NDP. The purpose of choosing these two developing countries was due to the potential growth of SMEs and the creation of a network of SMEs that might be geographically dispersed, but virtually linked. Thus, the participating members focus on their specialized tasks but also share their knowledge and experience to create resources of an agile and flexible structure. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESEARCH HYPOTHESES, METHODOLOGY AND DATA COLLECTION </head><p>The focus of the investigation is on virtual R&amp;D projects in SMEs. Data for this research are gathered from the desk study and survey in Malaysian and Iranian SMEs. A web based questionnaire was designed and sent to Malaysian SMEs. Its translated Persian version was sent to Iranian manufacturing SMEs. Due to the fact that these countries adopt different definitions of SMEs depending on their business interests, the data were tailored accordingly. Based on these data analysis, some interpretations and formulation of the link between R&amp;D virtual teams and SMEs performance from financial points of view are developed. Advanced statistical methods are used and analyses are carried out to examine the effect of virtuality on SMEs outputs. This study attempts to identify the effect of virtuality in the growth of SMEs in Iran and Malaysia. Despite knowing that virtual environments can be created using the internet facilities and there could be similarities of such environments irrespective of geographical location, this study, however, also intended to identify if there is any significant difference between these countries. To summarize, the objectives of the survey attempted to examine two relevant hypotheses: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hypothesis 1 </head><p>Virtual team activities in SME are positively related to SME's growth. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hypothesis 2 </head><p>There is no significant difference between Iranian and Malaysian SMEs growth in which virtual teams are applied. To that end a questionnaire was developed to collect data for this research. In order to achieve the objectives of the study an online questionnaire has been sent to relevant SMEs in both countries. The rapid expansion of internet users has given web-based surveys the potential to become a powerful tool in survey research (<ref type="bibr" coords="7,266.85,643.12,31.89,10.55;7,43.20,652.84,44.46,10.55" target="#b96">Sills and Song, 2002</ref>). Denscombe's (2006) findings encouraged social researchers to use web-based questionnaires with confidence and the data produced by web-based questionnaires were equivalent to that produced by paper-based questionnaires. Another authors emphasized that the data provided by Internet methods were of at least as good quality as those provided by traditional paper-andpencil methods (<ref type="bibr" coords="7,112.33,711.52,82.88,10.55" target="#b37">Gosling et al., 2004;</ref><ref type="bibr" coords="7,200.40,711.52,90.34,10.55" target="#b28"> Deutskens et al., 2006</ref>). However, minor differences occur between the two survey methods; online respondents provide more improved suggestions (<ref type="bibr" coords="7,258.69,731.08,38.61,10.55;7,320.40,74.44,42.93,10.55" target="#b28">Deutskens et al., 2006</ref>) and tended to be slightly longer than those from the paper version, and the differences are not statistically significant (<ref type="bibr" coords="7,324.99,94.00,64.39,10.55" target="#b26">Denscombe, 2008</ref>). The main sampling targets were managing director, R&amp;D manager, new product development manager, project and design manager and appropriate persons who were most familiar with the R&amp;D issue in the firm. For better understanding, the questionnaire has been prepared in two different languages, English and Persian. The Iranian respondents were able to select either English version or Persian version of the questionnaire. Out of 947 respondents 210 (22.1%) firms responded to the questionnaire completely and the rest answered it partially. This response rate was satisfactory since accessing the managers is usually difficult. 91 firms met the criteria of SMEs definition for this research. The rest responses were deducted from the analysis. A descriptive cross-tabulation statistic is done to find the frequency and relationship between the countries and virtual team as illustrated in <ref type="figure" coords="7,388.20,240.64,30.04,10.55" target="#tab_4">Table 4</ref>. The result shows that Iranian SMEs employed virtual team in R&amp;D activities more than double of Malaysian SMEs (71.4 and 33.3% respectively). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SURVEY RESULTS </head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background of respondents </head><p>As virtuality is relatively a new idea and competent individuals should get involved, the job position of respondents in the company was the first aspect to be investigated as a background. The respondents to the survey were mainly the Managing Directors or the persons who were in charge of R&amp;D and New Product Development of the companies. The results are presented in <ref type="figure" coords="7,378.12,412.67,31.98,12.33" target="#tab_5">Table 5</ref>. The second aspect investigated is the company size and turnover according to Malaysian SME definition which are different from that of Iranian ones. Figures 1 and 2 show that the respondents were mostly from small companies. Small-sized firms defined in this study have less than 50 full-time employees and less than $2.8 million turnover last year. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hypotheses </head><p>The following hypothesis was formulated for conducting the significance test from the responses of SMEs. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hypothesis 1: 'Employee virtual team in SME is positively related to SME's growth' </head><formula>H 0 : µ 1 -µ 2 = 0</formula><p>, there is no significant difference between the SMEs turnover that employed virtual team and did not employ virtual team. </p><formula>H 1 : µ 1 -µ 2 0</formula><p>, there is a significant difference between SMEs turnover that employed virtual team and did not employ virtual team. The Fisher's exact test by using SPSS was employed for analyzing the test. The results in <ref type="figure" coords="7,466.44,717.35,33.38,12.33" target="#tab_6">Table 6</ref> show that the pvalue is lower than 0.05 (significant level); hence the null Ale Ebrahim et al. 2375  Therefore, Mann-Whitney U test and descriptive crosstabulation statistics (The governments of developing countries have to be active in creating opportunities and networks for building SMEs' linkages and networks to succeed in R&amp;D ventures. While larger organizations by their nature can afford the risk of making mistakes, small to medium enterprises (SMEs) are typically more vulnerable and, hence, need a structured low risk approach such as virtual R&amp;D teams. With virtual R&amp;D team the gap between large organizations and SMEs is closing and the pattern of winning in the market space is changing due to technological advances. Competitive advantage, which once belonged exclusively to the large firms, is now becoming available to SMEs through geographically open boundaries created by the virtual team. Reviewing the literature and survey finding shows that SMEs can achieve higher growth rates by the usage of virtual teams. Most of the research activities relevant for SMEs do not encourage and support R&amp;D collaboration and technology transfer. Benefiting from the cross functional virtual R&amp;D teams beyond the organizations or countries are therefore vital to fill this gap, unlock growth opportunities for SMEs through research, and help them to carry out or outsource research in order to develop new technology based products, processes and services, explore research results, acquire technological know-how and train their employees to incorporate new developments. However, the literature so far has not paid adequate attention to the virtual R&amp;D team activities in SMEs. While some studies have been conducted on model usage in MNCs and large companies, applications within SMEs remain largely un-documented. In the competitive era it is obvious that the survival of the SMEs will be determined first and foremost by their ability to manufacture/supply more, at competitive cost, in less delivery time, with minimum defects, using fewer resources. In order to face this challenge SMEs reinforce to create synergies via virtual R&amp;D team that allows firms to overcome difficulties and succeeds. Therefore, managers of SMEs should invest less in tangible assets, but more in those areas that will directly generate their future competitive advantage such as virtual R&amp;D. Future research needs to design infrastructures to support virtual R&amp;D team in SMEs. New ways of communicating and interacting among team members in virtual environments will necessitate being developed and implemented. Future research should concentrate on above mentioned gab as well as find a common and consistent definition for SMEs in order to make a universal platform to communicate in a smooth manner with the developed world. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGEMENTS </head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="6,418.08,647.15,157.82,12.33;6,320.40,658.67,255.49,12.33;6,320.40,670.19,255.50,12.33;6,320.40,681.71,255.50,12.33;6,320.40,693.23,255.50,12.33;6,320.40,704.75,255.61,12.33;6,320.40,716.15,255.49,12.33;6,320.40,727.67,253.58,12.33;7,43.20,28.55,22.10,12.33;7,93.24,28.55,90.49,12.33"><head></head><figDesc>and Korea and more than 55% in countries like China and Japan (SME Annual Report, 2006). Therefore, major opportunities for SMEs in Malaysia to expand their role are pending. Malaysian SMEs have not moved fast enough to their traditional role of developing new products. Same as Malaysia most SMEs in Iran are still conventional. Their school of thought belongs to the industrial age and their efforts are 2374 Afr. J. Bus. Manage. </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="10,43.20,702.95,258.35,12.33;10,43.20,714.47,255.54,12.33;10,43.20,725.99,254.06,12.33;10,447.12,28.55,78.85,12.33;10,553.80,28.55,22.22,12.33;10,320.40,74.51,255.68,12.33;10,320.40,86.03,255.54,12.33;10,320.40,97.55,46.69,12.33"><head></head><figDesc>This research was funded by a grant from the University of Malaya (Grant No. PS404/2009C), the authors acknowledge this support. In addition, the authors are Ale Ebrahim et al. 2377 grateful to the editors and two anonymous reviewers for their helpful and insightful on the first version of this document. </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false" coords="3,43.20,74.51,532.81,656.37"><figDesc coords="3,125.64,603.47,173.06,12.33;3,43.20,614.99,255.50,12.33;3,43.20,626.51,255.50,12.33;3,43.20,638.03,255.62,12.33;3,43.20,649.55,19.93,12.33;3,43.20,672.47,255.56,12.33;3,43.20,683.99,255.47,12.33;3,43.20,695.51,30.13,12.33;3,43.20,707.03,255.78,12.33;3,43.20,718.55,104.41,12.33;3,320.40,74.51,255.38,12.33;3,320.40,86.03,255.61,12.33;3,320.40,97.55,59.53,12.33;3,320.40,109.07,255.53,12.33;3,320.40,120.59,172.45,12.33;3,320.40,131.99,255.50,12.33;3,320.40,143.51,255.54,12.33;3,320.40,155.03,122.17,12.33">and Von Zedtwitz (2003) based on 204 interviews with R&amp;D directors and project managers in 37 technology-intensive multinational companies have shown five trends in organizing virtual R&amp;D teams which are : 1. Continued internationalization of R&amp;D will further increase the importance of and reliance on virtual R&amp;D teams. 2. Virtual R&amp;D teams will better integrate talent in newly industrialized countries. 1. Advances in information and communication technologies will further enhance the functionality of virtual teams. 2. Relative costs of running virtual R&amp;D projects will decrease due to learning curve effects. 3. Highly decentralized virtual R&amp;D teams will gain importance in open system architectures such as internet-based applications.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="true" coords="4,43.20,74.44,527.34,214.53"><figDesc coords="4,43.20,74.44,337.29,10.74">Table 1. Definition of SMEs in selected countries (adapted from Ale Ebrahim et al., 2009).</figDesc><table coords="4,43.20,96.79,527.34,192.18">Country 
+Category of 
+enterprise 
+Employee 
+numbers 
+Turnover 
+Other measures 
+
+Small 
+10-50 employees 
+Less than € 10 (13.5 USD) million 
+turnover 
+Balance sheet total : Less than € 
+10 million balance sheet total 
+European 
+Commission 
+Medium 
+Fewer than 250 
+employees 
+Less than € 50 (67.6 USD) million 
+turnover 
+Balance sheet total : Less than € 
+43 million balance sheet total 
+
+Small 
+Less than 10* 
+Less than 50** 
+
+Iran 
+
+Medium 
+10-100* 
+50-250** 
+
+Small 
+Between 5-50 
+employees 
+Between RM 250,000 (75,000 USD) 
+and less than RM 10 (3 USD) million 
+Malaysia 
+
+Medium 
+Between 50-150 
+employees 
+Between RM 10 (3 USD) million and RM 
+25 (7.5 USD) million 
+
+*(CBI, 2009); **(ISIPO, 2009). 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false" coords="4,70.20,322.72,186.69,10.74"><figDesc coords="4,70.20,322.72,186.69,10.74">Table 2. Some of the major advantages of SMEs.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false" coords="5,43.20,74.44,197.49,10.74"><figDesc coords="5,43.20,74.44,197.49,10.74">Table 3. Some of the major disadvantages of SMEs.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" validated="true" coords="8,146.76,74.44,302.72,183.24"><figDesc coords="8,146.76,74.44,225.81,10.74">Table 4. Cross-tabulation between country and virtual team.</figDesc><table coords="8,150.72,96.58,298.76,161.11">With virtual team 
+Country 
+Yes 
+No 
+Total 
+
+Count 
+35 
+14 
+49 
+% within country 
+71.4 
+28.6 
+100.0 
+Iran 
+% of total 
+38.5 
+15.4 
+53.8 
+
+Count 
+14 
+28 
+42 
+% within country 
+33.3 
+66.7 
+100.0 
+Malaysia 
+% of total 
+15.4 
+30.8 
+46.2 
+
+Count 
+49 
+42 
+91 
+% within country 
+53.8 
+46.2 
+100.0 
+Total 
+
+% of total 
+53.8 
+46.2 
+100.0 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" validated="true" coords="8,150.72,285.16,310.92,108.84"><figDesc coords="8,151.20,285.16,185.13,10.74">Table 5. Position of respondents in the company.</figDesc><table coords="8,150.72,307.54,310.92,86.47">Position in the company 
+Frequency Percentage (%) 
+
+Managing director 
+35 
+38.5 
+R&amp;D manager 
+10 
+11.0 
+New product development manager 
+10 
+11.0 
+Project manager 
+11 
+12.1 
+Others (CEO, GM, QC manager, etc.) 
+25 
+27.5 
+Total 
+91 
+100 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" validated="true" coords="9,87.60,74.44,426.12,96.72"><figDesc coords="9,88.20,74.44,146.61,10.74">Table 6. The fisher's exact test results.</figDesc><table coords="9,87.60,97.26,426.12,73.90">Country 
+Test 
+Value 
+Exact significance of P-value. (2-sided) 
+Fisher's exact test 
+7.685 
+Iran 
+Number of valid cases 
+49 
+.033 
+
+Fisher's exact test 
+8.315 
+Malaysia 
+Number of valid cases 
+42 
+.022 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" validated="true" coords="9,43.20,199.24,416.96,541.84"><figDesc coords="9,142.20,199.24,190.29,10.74">Table 7. Test statistics results grouped by country.</figDesc><table coords="9,43.20,220.06,416.96,521.02">Turnover 
+Virtual team 
+Mann-Whitney U 
+954.000 
+637.000 
+Z 
+-.662 
+-3.614 
+P-value (2-tailed) 
+.520 
+.000 
+
+Ranks 
+Country 
+N 
+Mean rank 
+Sum of ranks 
+Iran 
+49 
+44.47 
+2179.00 
+Malaysia 
+42 
+47.79 
+2007.00 
+Turnover 
+
+Total 
+91 
+
+Iran 
+49 
+38.00 
+1862.00 
+Malaysia 
+42 
+55.33 
+2324.00 
+With virtual team 
+
+Total 
+91 
+
+the null hypothesis was rejected. In short, it can be 
+concluded that there was a significant difference between 
+the SMEs turnover that employed virtual team and did not 
+employ virtual teams. Taking advantage of virtual teams 
+enables companies to gain more revenue. Analysis of the 
+survey for Iranian and Malaysian SMEs shows that SMEs 
+which implemented virtual R&amp;D teams have considerably 
+higher growth compared to the traditional SMEs which 
+face increased competition costs due to geographical 
+limits. 
+
+Hypothesis 2: 'There is no significant difference 
+between Iranian and Malaysian SMEs growth on 
+employed virtual team' 
+
+H 0 : µ 1 -µ 2 = 0, there is no significant differences between 
+Iranian and Malaysian SMEs turnover on employed 
+virtual team. 
+
+H 1 : µ 1 -µ 2 = 0, there is a significant difference between 
+Iranian and Malaysian SMEs turnover on employed 
+virtual team. 
+
+The nonparametric Mann-Whitney U test for two 
+independent samples (Iranian and Malaysian SMEs) was 
+utilized for determining whether or not the values of a 
+particular variable differ between two groups. From the 
+Mann-Whitney U test results (Table 7), there was a 
+significant difference between Iranian and Malaysia 
+SMEs (P-value = 0. 000) on employed virtual team. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" validated="false" coords="9,320.40,395.39,255.73,345.81"><figDesc coords="9,419.44,395.39,38.91,12.33">Table 4)</figDesc><table coords="9,320.40,395.39,255.73,345.81">results are with Iranian 
+SMEs employed virtual team in R&amp;D activities more than 
+Malaysian SMEs. It means using virtual R&amp;D teams in 
+Iranian SMEs are more popular than Malaysian SMEs. 
+Hypothesis 1 finding in Table 7 shows there was no 
+significant difference between Iranian and Malaysia 
+SMEs turnover (P-value = 0.520 &gt; 0.05) on employed 
+virtual team. It means higher revenue belonged to the 
+SMEs that use virtual R&amp;D teams. The negative Z 
+statistics indicate that the rank sums are lower than their 
+expected values. 
+
+Conclusion 
+
+This paper has presented the results from a comprehensive 
+review and survey finding on different aspects of virtual 
+teams in SMEs. We found that there was a significant 
+difference between the SMEs turnover employed virtual 
+teams and unemployed virtual teams. Furthermore, it was 
+found that there was a significant difference between 
+Iranian and Malaysia SMEs on employed virtual team. 
+Iranian SMEs employed virtual team in R&amp;D activities 
+more than Malaysian SMEs (71.4 and 33.3 percent 
+respectively). Many SMEs have limited recourses, and it 
+is well-known for their dynamic behavior in contrast to the 
+difficulty of diverting skilled personnel from day-by-day 
+activities, to undertake process re-engineering and R&amp;D. 
+Therefore, applying virtual R&amp;D team in SMEs is a 
+foundation of high-growth SMEs. 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,320.40,150.38,255.78,9.95;10,329.40,159.50,162.32,9.95"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mixed production, flexibility and SME</title>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Abdul-Nour</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Drolet</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Lambert</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Ind. Engineer</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="429" to="432" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,329.40,168.74,246.63,9.95;10,329.40,177.98,246.66,9.95;10,329.40,187.10,140.48,9.95"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Internationalization of Small and Medium-Sized Enterprises: A Policy Perspective</title>
+		<author>
+			<persName>
+				<forename type="first">Zj</forename>
+				<surname>Acs</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Morck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jm</forename>
+				<surname>Shaver</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Yeung</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Bus. Econ</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="7" to="20" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,196.34,255.68,9.95;10,329.40,205.58,246.63,9.95;10,329.40,214.70,246.70,9.95;10,329.40,223.94,65.84,9.95"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Small and Medium-Sized Enterprises, Technology, and Globalization: Introduction to a Special Issue on Small and Medium-Sized Enterprises in the Global Economy</title>
+		<author>
+			<persName>
+				<forename type="first">Zj</forename>
+				<surname>Acs</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Preston</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Bus. Econ</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,233.18,255.67,9.95;10,329.40,242.30,199.27,9.95"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Innovation Management Measurement: A Review</title>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Adams</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Bessant</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Phelps</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Manage. Rev</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="21" to="47" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,251.54,255.70,9.95;10,329.40,260.78,246.56,9.95;10,329.40,269.90,42.20,9.95"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Virtual R &amp; D teams in small and medium enterprises: A literature review</title>
+		<author>
+			<persName>
+				<forename type="first">Ale</forename>
+				<surname>Ebrahim</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Ahmed</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Taha</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Z</forename>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Res. Essay</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1575" to="1590" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,279.14,255.70,9.95;10,329.40,288.38,246.68,9.95;10,329.40,297.50,82.76,9.95"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Virtual team meetings: An analysis of communication and context</title>
+		<author>
+			<persName>
+				<forename type="first">Ah</forename>
+				<surname>Anderson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Mcewan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Bal</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Carletta</forename>
+				<forename type="middle">J</forename>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Hum. Behav</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2558" to="2580" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,306.74,255.63,9.95;10,329.40,315.98,246.70,9.95;10,329.40,325.10,82.76,9.95"  xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Transfer of production knowledge to small and medium-size enterprises -a suggested model</title>
+		<author>
+			<persName>
+				<forename type="first">Jv</forename>
+				<surname>Axelson</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,334.34,255.64,9.95;10,329.40,343.58,246.70,9.95;10,329.40,352.70,82.76,9.95"  xml:id="b7">
+	<monogr>
+		<title level="m" type="main">On the development of production methods for transfer to small to medium-sized enterprises. Doctoral</title>
+		<author>
+			<persName>
+				<forename type="first">Jv</forename>
+				<surname>Axelson</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,361.94,255.70,9.95;10,329.40,371.18,216.56,9.95"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Small and Medium Enterprises Across the Globe</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Ayyagari</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Beck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Demirguc-Kunt</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Bus. Econ</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="415" to="434" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,380.30,255.66,9.95;10,329.40,389.54,246.56,9.95;10,329.40,398.78,44.96,9.95"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Managers&apos; accounts of innovation processes in small and medium-sized enterprises</title>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Barnett</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Storey</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Small Bus. Enterprise Dev</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="315" to="324" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,407.90,255.63,9.95;10,329.40,417.14,226.88,9.95"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">SMEs, Growth, and Poverty: Cross-Country Evidence</title>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Beck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Demirguc-Kunt</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Levine</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Econ. Growth</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="199" to="229" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,426.38,255.75,9.95;10,329.40,435.50,246.80,9.95;10,329.40,444.74,65.00,9.95"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Nature of virtual teams: a summary of their advantages and disadvantages</title>
+		<author>
+			<persName>
+				<forename type="first">Jb</forename>
+				<surname>Bergiel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Eb</forename>
+				<surname>Bergiel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Pw</forename>
+				<surname>Balsmeier</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manage. Res. News</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="99" to="110" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,453.98,255.66,9.95;10,329.40,463.10,181.52,9.95"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Innovation, collaboration and SMEs internal research capacities</title>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Bougrain</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Haudeville</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Pol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="735" to="747" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,472.34,255.56,9.95"  xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">Lm</forename>
+				<surname>Camarinha-Matos</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Afsarmanesh</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Galeano</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Molina</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,329.40,481.58,246.63,9.95;10,329.40,490.70,199.76,9.95"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Collaborative networked organizations -Concepts and practice in manufacturing enterprises</title>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Ind. Eng</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="46" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,499.94,255.76,9.95;10,329.40,509.06,246.56,9.95;10,329.40,518.30,31.52,9.95"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Enterprise modeling of a projectoriented fractal company for SMEs networking</title>
+		<author>
+			<persName>
+				<forename type="first">Mm</forename>
+				<surname>Canavesio</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Martinez</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Ind</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="794" to="813" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,527.54,255.59,9.95;10,329.40,536.66,246.68,9.95;10,329.40,545.90,139.64,9.95"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A methodological framework for innovation transfer to SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Ac</forename>
+				<surname>Caputo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Cucchiella</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Fratocchi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Pm</forename>
+				<surname>Pelagagge</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Scacchia</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Manage. Data Syst</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="271" to="283" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,555.14,255.63,9.95;10,329.40,564.26,246.56,9.95;10,329.40,573.50,31.52,9.95"  xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Information and communication technology and geographical clusters: opportunities and spread. Technovation</title>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Carbonara</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="213" to="222" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,582.74,255.56,9.95;10,329.40,591.86,84.56,9.95"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">E-Leadership and Virtual Teams</title>
+		<author>
+			<persName>
+				<forename type="first">Wf</forename>
+				<surname>Cascio</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Shurygailo</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="362" to="376" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,601.10,255.63,9.95;10,329.40,610.34,24.90,9.95;10,387.72,610.34,31.02,9.95;10,452.04,610.34,6.68,9.95;10,492.12,610.34,16.04,9.95;10,541.44,610.34,34.64,9.95;10,329.40,619.46,246.68,9.95;10,329.40,628.70,22.28,9.95"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">SMEs Definition in Iran [Online]. The Central Bank of the Islamic Republic of Iran Available: http://tsd</title>
+	</analytic>
+	<monogr>
+		<title level="j">CBI</title>
+		<imprint>
+			<date type="published" when="2009-08" />
+		</imprint>
+	</monogr>
+	<note>cbi. .ir/IntTSD/EnDisplay/Display.aspx [Accessed 28</note>
+</biblStruct>
+
+<biblStruct coords="10,320.40,637.94,255.67,9.95;10,329.40,647.06,246.63,9.95;10,329.40,656.30,244.15,9.95"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Team Spirit: Design, implementation, and evaluation of a Web-based group decision support system</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Chen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Liou</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Cw</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Yw</forename>
+				<surname>Fan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ypj</forename>
+				<surname>Chi</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Decision Support Systems</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1186" to="1202" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,665.54,255.63,9.95;10,329.40,674.66,246.56,9.95;10,329.40,683.90,17.84,9.95"  xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Korea&apos;s Small and Medium-Sized Enterprises: Unsung Heroes or Economic Laggards? Academy of Management Executive</title>
+		<author>
+			<persName>
+				<forename type="first">Ty</forename>
+				<surname>Choi</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page">17</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,693.14,255.63,9.95;10,329.40,702.26,246.68,9.95;10,329.40,711.50,121.04,9.95"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Knowledge management configurations in Italian small-to-medium enterprises</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Corso</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Martini</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Paolucci</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Pellegrini</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integrated Manuf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="46" to="56" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,320.40,720.74,255.68,9.95;10,329.40,729.86,244.76,9.95;11,43.20,28.55,22.10,12.33"  xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Web-Based Questionnaires and the Mode Effect: An Evaluation Based on Completion Rates and Data Contents of 2378</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Denscombe</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,93.24,28.55,90.49,12.33"  xml:id="b24">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Afr. J. Bus. Manage</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,74.42,255.68,9.95;11,52.20,83.66,98.36,9.95"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Near-Identical Questionnaires Delivered in Different Modes</title>
+	</analytic>
+	<monogr>
+		<title level="j">Soc. Sci. Comput. Rev</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="246" to="254" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,92.90,255.63,9.95;11,52.20,102.02,246.75,9.95;11,52.20,111.26,219.80,9.95"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The Length of Responses to Open-Ended Questions: A Comparison of Online and Paper Questionnaires in Terms of a Mode Effect</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Denscombe</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soc. Sci. Comput. Rev</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="359" to="368" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,120.50,255.75,9.95;11,52.20,129.62,246.80,9.95;11,52.20,138.86,132.08,9.95"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A benchmarking implementation framework for automotive manufacturing SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Bm</forename>
+				<surname>Deros</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sm</forename>
+				<surname>Yusof</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Am</forename>
+				<surname>Salleh</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Benchmarking: Int. J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="396" to="430" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,148.10,255.56,9.95;11,52.20,157.22,241.04,9.95;11,52.20,166.46,80.12,9.95"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">An assessment of equivalence between online and mail surveys in service research</title>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Deutskens</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>De Ruyter</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Wetzels</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Serv. Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="346" to="355" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,175.70,255.75,9.95;11,52.20,184.82,246.80,9.95;11,52.20,194.06,132.08,9.95"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Innovation and networking amongst small manufacturing firms in Cyprus</title>
+		<author>
+			<persName>
+				<forename type="first">Dickson</forename>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">E</forename>
+				<surname>Hadjimanolis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Entrepreneurial Behav. Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="5" to="17" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,203.30,255.75,9.95;11,52.20,212.42,246.68,9.95;11,52.20,221.66,63.20,9.95"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Some New Evidence on the Determinants of Large-and Small-Firm Innovation Small Bus</title>
+		<author>
+			<persName>
+				<forename type="first">Bv</forename>
+				<surname>Dijk</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Rd</forename>
+				<surname>Hertog</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Menkveld</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Thurik</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econ</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="335" to="343" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,230.90,255.63,9.95;11,52.20,240.02,246.64,9.95;11,52.20,249.26,246.63,9.95;11,52.20,258.50,246.68,9.95;11,52.20,267.62,126.28,9.95;11,43.20,276.86,255.64,9.95;11,52.20,285.98,246.63,9.95;11,52.20,295.22,114.32,9.95"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Implementation of Web Resource Service to Product Design International Federation for Information Processing -Knowledge Enterprise: Intelligent Strategies in Product Design, Manufacturing, and Management Knowledge management for sustainable competitiveness in small and medium surveying practices</title>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Dong</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Liu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Hari</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sh</forename>
+				<surname>Renukappa</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Struct. Surv</title>
+		<editor>Wang, K., Kovacs G., Wozny M, Fang M</editor>
+		<imprint>
+			<publisher>Springer Egbu CO</publisher>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="7" to="21" />
+			<date type="published" when="2005" />
+			<publisher>Springer Egbu CO</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,304.46,255.56,9.95;11,52.20,313.58,246.68,9.95;11,52.20,322.82,89.43,9.95"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">An empirical investigation of competency factors affecting e-business success in European SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Tr</forename>
+				<surname>Eikebrokk</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Dh</forename>
+				<surname>Olsen</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inf. Manage</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="364" to="383" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,332.06,255.75,9.95;11,52.20,341.18,246.68,9.95;11,52.20,350.42,61.88,9.95"  xml:id="b33">
+	<monogr>
+		<title level="m" type="main">IFIP International Federation for Information Processing. Network-Centric Collaboration and Supporting Fireworks</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Flores</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Springer</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,359.66,255.66,9.95;11,52.20,368.78,246.56,9.95;11,52.20,378.02,180.20,9.95"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The competitive advantage of early and rapidly internationalising SMEs in the biotechnology industry: A knowledge-based view</title>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Gassmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Keupp</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Mm</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. World Bus</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="350" to="366" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,387.26,255.68,9.95;11,52.20,396.38,203.72,9.95"  xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Trends and determinants of managing virtual R&amp;D teams. R&amp;D Manage</title>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Gassmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Von</forename>
+				<surname>Zedtwitz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="243" to="262" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,405.62,255.75,9.95;11,52.20,414.86,219.80,9.95"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Achieving competitive advantage in the Mexican footwear industry</title>
+		<author>
+			<persName>
+				<forename type="first">Jo</forename>
+				<surname>Gomez</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Simpson</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Benchmarking: Int. J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="289" to="305" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,423.98,255.68,9.95;11,52.20,433.22,246.54,9.95;11,52.20,442.46,200.24,9.95"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Should We Trust Web-Based Studies? A Comparative Analysis of Six Preconceptions About Internet Questionnaires</title>
+		<author>
+			<persName>
+				<forename type="first">Sd</forename>
+				<surname>Gosling</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Vazire</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Srivastava</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Op</forename>
+				<surname>John</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="93" to="104" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,451.58,255.63,9.95;11,52.20,460.82,246.58,9.95;11,52.20,470.06,90.80,9.95"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Absorptive capacity, knowledge management and innovation in entrepreneurial small firms</title>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Gray</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Entrepreneurial Behav. Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="345" to="360" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,479.18,255.63,9.95;11,52.20,488.42,222.92,9.95"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Activity based costing in small and medium enterprises</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gunasekaran</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Hb</forename>
+				<surname>Marri</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Rj</forename>
+				<surname>Grieve</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Ind. Eng</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="407" to="411" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,497.66,255.70,9.95;11,52.20,506.78,190.88,9.95"  xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Small Firm Networks: A Successful Approach to Innovation? . R&amp;D Manage</title>
+		<author>
+			<persName>
+				<forename type="first">V</forename>
+				<surname>Hanna</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Walsh</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="201" to="207" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,516.02,255.66,9.95;11,52.20,525.26,246.64,9.95;11,52.20,534.38,15.56,9.95"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Innovativeness among small businesses: Theory and propositions for future research</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Hausman</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Mark. Manage</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="773" to="782" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,543.62,255.68,9.95;11,52.20,552.86,246.68,9.95;11,52.20,561.98,24.44,9.95"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Managing virtual teams: A review of current empirical research</title>
+		<author>
+			<persName>
+				<forename type="first">Gt</forename>
+				<surname>Hertel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Geister</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">U</forename>
+				<surname>Konradt</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Resour. Manage. Rev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="69" to="95" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,571.22,255.63,9.95;11,52.20,580.46,246.56,9.95;11,52.20,589.58,38.19,9.95"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Approaching the innovation frontier in Korea: the transition phase to leadership</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Hobday</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Rush</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Bessant</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Pol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1433" to="1457" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,598.82,255.68,9.95;11,52.20,608.06,246.44,9.95;11,52.20,617.18,86.36,9.95"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Small firms, R&amp;D, technology and innovation in the UK: a literature review</title>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Hoffman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Parejo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Bessant</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Perren</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Technovation</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="39" to="55" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,626.42,255.68,9.95;11,52.20,635.66,246.68,9.95;11,52.20,644.78,46.76,9.95"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Measuring new product success: an empirical investigation of Australian SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">X</forename>
+				<surname>Huang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Gn</forename>
+				<surname>Soutar</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Brown</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Mark. Manage</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="117" to="123" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,654.02,255.63,9.95;11,52.20,663.26,29.84,9.95;11,264.12,663.26,34.76,9.95;11,52.20,672.38,246.56,9.95;11,52.20,681.62,49.40,9.95"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Iran Small Industries &amp; Industrial Parks Organization [Online] Available: http://www.iraniec.ir/Site.aspx?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Isipo</title>
+		<imprint>
+			<date type="published" when="2009-08" />
+		</imprint>
+	</monogr>
+	<note>ParTree=13181311. [Accessed 28</note>
+</biblStruct>
+
+<biblStruct coords="11,43.20,690.86,255.82,9.95;11,52.20,699.98,206.36,9.95"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Exploring KM features and learning in Iranian SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Jafari</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Fathian</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Akhavan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Hosnavi</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">VINE</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="207" to="218" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,43.20,709.22,255.63,9.95;11,52.20,718.46,246.56,9.95;11,52.20,727.58,36.08,9.95"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Internationalization of small and medium sized enterprises in the Baltic Sea Region</title>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Jansson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Sandberg</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Int. Manage</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="65" to="77" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,74.42,255.51,9.95;11,329.40,83.66,246.80,9.95;11,329.40,92.90,63.68,9.95"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A cross-national study of the relationship between international diversification and new product performance</title>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Jeong</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Mark. Rev</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="353" to="376" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,102.02,255.63,9.95;11,329.40,111.26,227.84,9.95"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Inter-Organizational Learning and Strategic Renewal in SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Macpherson</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Long Range Planning</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="155" to="175" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,120.50,255.63,9.95;11,329.40,129.62,246.64,9.95;11,329.40,138.86,15.56,9.95"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The cluster approach and SME competitiveness: A review</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Karaev</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Scl</forename>
+				<surname>Koh</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Lt</forename>
+				<surname>Szamosi</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manuf. Technol. Manage</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="818" to="835" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,148.10,255.66,9.95;11,329.40,157.22,223.28,9.95"  xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Keeping Virtual R&amp;D Teams Creative</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Kratzer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Leenders</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jv</forename>
+				<surname>Engelen</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005-03" />
+			<publisher>Industrial Research Institute, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,166.46,255.58,9.95;11,329.40,175.70,87.68,9.95"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A Dynamic Decision Model of SMEs&apos; FDI</title>
+		<author>
+			<persName>
+				<forename type="first">Hc</forename>
+				<surname>Kuo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Li</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Bus. Econ</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="219" to="231" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,184.82,255.64,9.95;11,329.40,194.06,246.63,9.95;11,329.40,203.30,86.84,9.95"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">How to reduce new product development time</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Kusar</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Duhovnik</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Grum</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Starbek</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Robotics and Computer-Integrated Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,212.42,255.63,9.95;11,329.40,221.66,146.35,9.95"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Size, strategic, and market orientation affects on innovation</title>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Laforet</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bus. Res</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Article. in press</note>
+</biblStruct>
+
+<biblStruct coords="11,320.40,230.90,255.70,9.95;11,329.40,240.02,219.80,9.95"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Innovative characteristics of small manufacturing firms</title>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Laforet</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Tann</forename>
+				<forename type="middle">J</forename>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Small Bus. Enterp. Dev</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="363" to="380" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,249.26,255.63,9.95;11,329.40,258.50,246.68,9.95;11,329.40,267.62,88.59,9.95"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">A web-based manufacturing service system for rapid product development</title>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Lan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Ding</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Hong</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Huang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Lu</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Ind</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="51" to="67" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,276.86,255.64,9.95;11,329.40,285.98,246.68,9.95;11,329.40,295.22,93.03,9.95"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The application of a new research and development project selection model in SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Cp</forename>
+				<surname>Lawson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Pj</forename>
+				<surname>Longhurst</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Pc</forename>
+				<surname>Ivey</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Technovation</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="242" to="250" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,304.46,255.68,9.95;11,329.40,313.58,246.66,9.95;11,329.40,322.82,176.60,9.95"  xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Virtuality, communication, and new product team creativity: a social network perspective</title>
+		<author>
+			<persName>
+				<forename type="first">Rtaj</forename>
+				<surname>Leenders</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jmlv</forename>
+				<surname>Engelen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Kratzer</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Eng. Technol. Manage</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="69" to="92" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,332.06,255.63,9.95;11,329.40,341.18,246.68,9.95;11,329.40,350.42,29.43,9.95"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">SMEs, co-opetition and knowledge sharing: the role of information systems</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Levy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Loebbecke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Powell</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Inf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="3" to="17" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,359.66,255.75,9.95;11,329.40,368.78,143.12,9.95"  xml:id="b61">
+	<analytic>
+		<title level="a" type="main">SME Flexibility and the Role of Information Systems</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Levy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Powell</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Bus. Econ</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="183" to="196" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,378.02,255.63,9.95;11,329.40,387.26,246.63,9.95;11,329.40,396.38,246.80,9.95;11,329.40,405.62,36.08,9.95"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">A Study of Planning and Implementation Stages in Electronic Commerce Adoption and Evaluation: The Case of Australian SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Lin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ya</forename>
+				<surname>Huang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sw</forename>
+				<surname>Tseng</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contemp. Manage. Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="83" to="100" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,414.86,255.64,9.95;11,329.40,423.98,246.68,9.95;11,329.40,433.22,78.32,9.95"  xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Open or closed strategy in developing new products? A case study of industrial NPD in SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Mt</forename>
+				<surname>Lindman</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Innov. Manage</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="224" to="236" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,442.46,255.63,9.95;11,329.40,451.58,246.66,9.95;11,329.40,460.82,195.68,9.95"  xml:id="b64">
+	<analytic>
+		<title level="a" type="main">An exploratory study of information technology evaluation and benefits management practices of SMEs in the construction industry</title>
+		<author>
+			<persName>
+				<forename type="first">Ped</forename>
+				<surname>Love</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Irani</forename>
+				<forename type="middle">Z</forename>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Info. Manage</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="227" to="242" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,470.06,255.68,9.95;11,329.40,479.18,206.36,9.95"  xml:id="b65">
+	<analytic>
+		<title level="a" type="main">SME internationalization and performance: Growth vs. profitability</title>
+		<author>
+			<persName>
+				<forename type="first">Jw</forename>
+				<surname>Lu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Pw</forename>
+				<surname>Beamish</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Int. Entrepreneurship</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="27" to="48" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,488.42,255.66,9.95;11,329.40,497.66,152.00,9.95"  xml:id="b66">
+	<analytic>
+		<title level="a" type="main">An empirical study of best practices in virtual teams Info</title>
+		<author>
+			<persName>
+				<forename type="first">Js</forename>
+				<surname>Lurey</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ms</forename>
+				<surname>Raisinghani</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manage</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="523" to="544" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,506.78,255.68,9.95;11,329.40,516.02,246.68,9.95;11,329.40,525.26,246.56,9.95;11,329.40,534.38,246.56,9.95;11,329.40,543.62,246.63,9.95;11,329.40,552.86,103.64,9.95"  xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The Effectiveness of Small and Medium Development Corporation (SMIDEC) Export Assistance Programs on Malaysian SME&apos;s</title>
+		<author>
+			<persName>
+				<forename type="first">Ajb</forename>
+				<surname>Mahajar</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ss</forename>
+				<surname>Abdullah</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Jbm</forename>
+				<surname>Yunus</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Advances in Global Business Research</title>
+		<editor>Welsh, D. H. B., Yajid, M. S. A., Pashtenko, V. H. &amp; Ahmed, Z. U.</editor>
+		<meeting>Advances in Global Business Research<address><addrLine>Kuala Lumpur, Malaysia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006-01-46" />
+			<biblScope unit="page" from="90" to="98" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,561.98,255.63,9.95;11,329.40,571.22,246.66,9.95;11,329.40,580.46,128.12,9.95"  xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Innovation and SMEs: Misaligned perspectives and goals among entrepreneurs, academics, and policy makers</title>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Massa</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Testa</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="393" to="407" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,589.58,255.75,9.95;11,329.40,598.82,246.67,9.95;11,329.40,608.06,160.15,9.95"  xml:id="b69">
+	<analytic>
+		<title level="a" type="main">An investigation of the use of global, virtual, and collocated new product development teams</title>
+		<author>
+			<persName>
+				<forename type="first">Ef</forename>
+				<surname>Mcdonough</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Kb</forename>
+				<surname>Kahn</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Barczak</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Prod. Innov. Manage</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="110" to="120" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,617.18,255.75,9.95;11,329.40,626.42,246.67,9.95;11,329.40,635.66,36.08,9.95"  xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Co-operative production planning for small-and medium-sized enterprises</title>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Mezgar</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Gl</forename>
+				<surname>Kovacs</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Paganelli</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Prod. Econ</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="37" to="48" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,644.78,255.63,9.95;11,329.40,654.02,80.60,9.95"  xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">Re</forename>
+				<surname>Miles</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Cc</forename>
+				<surname>Snow</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Miles</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">TheFuture.org Long Range Planning</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="300" to="321" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,663.26,255.63,9.95;11,329.40,672.38,230.00,9.95"  xml:id="b72">
+	<analytic>
+		<title level="a" type="main">R&amp;D Collaboration by SMEs: new opportunities and limitations in the face of globalisation</title>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Narula</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Technovation</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="153" to="161" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,681.62,255.63,9.95;11,329.40,690.86,246.68,9.95;11,329.40,699.98,115.28,9.95"  xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Knowledge management issues in knowledge-intensive SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Mb</forename>
+				<surname>Nunes</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Annansingh</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Eaglestone</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Documentation</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="101" to="119" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,320.40,709.22,255.75,9.95;11,329.40,718.46,246.56,9.95;11,329.40,727.58,85.04,9.95"  xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Testing the homogeneity of SMEs – The impact of size on managerial and organisational processes</title>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>&apos;regan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Ghobadian</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Bus. Rev</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="64" to="79" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,74.42,255.68,9.95;12,52.20,83.66,221.12,9.95"  xml:id="b75">
+	<monogr>
+		<title level="m" type="main">In search of the drivers of high growth in manufacturing SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>&apos;regan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Ghobadian</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gallear</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="30" to="41" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,92.90,255.63,9.95;12,52.20,102.02,171.75,9.95"  xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Fast tracking innovation in manufacturing SMEs Technovation</title>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>&apos;regan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Ghobadian</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Sims</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="251" to="261" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,111.26,255.63,9.95;12,52.20,120.50,246.63,9.95;12,52.20,129.62,185.48,9.95"  xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Determinants of successful R&amp;D cooperation in Japanese small businesses: The impact of organizational and contractual characteristics</title>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Okamuro</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Pol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1529" to="1544" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,138.86,255.70,9.95;12,52.20,148.10,246.56,9.95;12,52.20,157.22,100.52,9.95"  xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Social capital in the growth of science-and-technology-based SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Partanen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Möller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Westerlund</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Rajala</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Rajala</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Mark. Manage</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="513" to="522" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,166.46,255.71,9.95;12,52.20,175.70,125.91,9.95"  xml:id="b79">
+	<analytic>
+		<title level="a" type="main">How interfirm collaboration benefits IT innovation</title>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Patrakosol</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Dl</forename>
+				<surname>Olson</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Info. Manage</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="53" to="62" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,184.82,255.63,9.95;12,52.20,194.06,217.52,9.95"  xml:id="b80">
+	<analytic>
+		<title level="a" type="main">CSR Strategies of SMEs and Large Firms. Evidence from Italy</title>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Perrini</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Russo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Tencati</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bus. Ethics</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="285" to="300" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,203.30,255.70,9.95;12,52.20,212.42,176.96,9.95"  xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Identifying antecedents of virtual team collaboration. Team Perfor</title>
+		<author>
+			<persName>
+				<forename type="first">Lm</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Cc</forename>
+				<surname>Manz</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manage</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="117" to="129" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,221.66,255.63,9.95;12,52.20,230.90,246.63,9.95;12,52.20,240.02,101.96,9.95"  xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Virtual organization and the SMEs: a review and model development</title>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Pihkala</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Varamaki</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Vesalainen</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Regional Dev</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="335" to="349" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,249.26,255.68,9.95;12,52.20,258.50,246.56,9.95;12,52.20,267.62,71.24,9.95"  xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Virtual teams: a review of current literature and directions for future research. The Data base for Adv</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Powell</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Piccoli</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Ives</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Info. Syst</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="6" to="36" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,276.86,255.68,9.95;12,52.20,285.98,246.66,9.95;12,52.20,295.22,246.63,9.95;12,52.20,304.46,111.20,9.95"  xml:id="b84">
+	<monogr>
+		<title level="m" type="main">Configurations of external SME characteristics to explain differences in innovation performance</title>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Pullen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Pd</forename>
+				<surname>Weerd-Nederhof</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Groen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Fisscher</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,313.58,255.68,9.95;12,52.20,322.82,246.58,9.95;12,52.20,332.06,194.00,9.95"  xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Enabling the strategic development of SMEs through advanced manufacturing systems A configurational perspective</title>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Raymond</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Am</forename>
+				<surname>Croteau</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Manage. Data Syst</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1012" to="1032" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,341.18,255.80,9.95;12,52.20,350.42,246.63,9.95;12,52.20,359.66,246.70,9.95;12,52.20,368.78,139.16,9.95"  xml:id="b86">
+	<monogr>
+		<title level="m" type="main">A model for the assessment and development of Internet-based information and communication services in small and medium enterprises Technovation</title>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Redoli</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Mompó</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>García-Díez</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>López-Coronado</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="424" to="435" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,378.02,255.76,9.95;12,52.20,387.26,246.56,9.95;12,52.20,396.38,125.48,9.95"  xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Organizing R&amp;D in a global environment- Increasing dispersed co-operation versus continuous centralization</title>
+		<author>
+			<persName>
+				<forename type="first">Rognes</forename>
+				<forename type="middle">J</forename>
+				<surname>Richtne´ra</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J.Innov. Manage</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="125" to="141" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,405.62,255.75,9.95;12,52.20,414.86,246.63,9.95;12,52.20,423.98,246.70,9.95;12,52.20,433.22,246.68,9.95;12,52.20,442.46,246.75,9.95"  xml:id="b88">
+	<analytic>
+		<title level="a" type="main">E-Business Adoption in the SME&apos;s: towards an Integrated Theoretical-Empirical Research Framework</title>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Robles-Estrada</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Gómez-Suárez</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The 10th International Conference on Global Business &amp; Economic Development, Creativity &amp; Innovation: Imperatives for Global Business and Development</title>
+		<imprint>
+			<date type="published" when="2007-08-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,43.20,460.82,255.63,9.95;12,52.20,470.06,219.68,9.95"  xml:id="b89">
+	<analytic>
+		<title level="a" type="main">A contingent view of e-collaboration and performance in manufacturing</title>
+		<author>
+			<persName>
+				<forename type="first">Ed</forename>
+				<surname>Rosenzweig</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Oper. Manage</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="462" to="478" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,447.12,28.55,78.85,12.33;12,553.80,28.55,22.22,12.33"  xml:id="b90">
+	<monogr>
+		<title/>
+		<author>
+			<persName>
+				<forename type="first">Ale</forename>
+				<surname>Ebrahim</surname>
+			</persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">2379</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,74.42,255.75,9.95;12,329.40,83.66,246.66,9.95;12,329.40,92.90,52.52,9.95"  xml:id="b91">
+	<analytic>
+		<title level="a" type="main">The information technology adoption process within Indonesian small and medium enterprises</title>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Sarosa</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thesis (PhD)</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,102.02,255.75,9.95;12,329.40,111.26,246.63,9.95;12,329.40,120.50,246.68,9.95;12,329.40,129.62,40.52,9.95"  xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Strategy for Adopting Information Technology for SMEs: Experience in Adopting Email within an Indonesian Furniture Company</title>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Sarosa</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Zowghi</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electronic J. Info. Syst. Evaluation</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="165" to="176" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,138.86,255.63,9.95;12,329.40,148.10,246.56,9.95;12,329.40,157.22,89.96,9.95"  xml:id="b93">
+	<monogr>
+		<title level="m" type="main">A Methodology for Production Development -The Body of Knowledge Approach. Doctoral</title>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Schatz</surname>
+			</persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,166.46,255.63,9.95;12,329.40,175.70,246.56,9.95;12,329.40,184.82,246.67,9.95;12,329.40,194.06,246.64,9.95;12,329.40,203.30,39.19,9.95"  xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Past, Present and Future of Knowledge Integration Knowledge Integration-The Practice of Knowledge Management in Small and Medium Enterprises</title>
+		<author>
+			<persName>
+				<forename type="first">Hh</forename>
+				<surname>Schröder</surname>
+			</persName>
+		</author>
+		<editor>JETTER, A., Schröder, H. H., Kraaijenbrink, J. &amp; Wijnhoven, F.</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Physica- Verlag HD</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,212.42,255.67,9.95;12,329.40,221.66,246.68,9.95;12,329.40,230.90,36.08,9.95"  xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Practice of information systems: Evidence from select Indian SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Mk</forename>
+				<surname>Sharma</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Bhagwat</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Manuf. Technol. Manage</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="199" to="223" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,240.02,255.75,9.95;12,329.40,249.26,246.64,9.95;12,329.40,258.50,11.12,9.95"  xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Innovations in Survey Research: An Application of Web-Based Surveys</title>
+		<author>
+			<persName>
+				<forename type="first">Sj</forename>
+				<surname>Sills</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Song</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Sci. Comput. Rev</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="22" to="30" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,267.62,255.58,9.95;12,329.40,276.86,46.28,9.95"  xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Small and Medium Enterprise (SME) Annual Report</title>
+	</analytic>
+	<monogr>
+		<title level="j">SME annual report</title>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,285.98,255.63,9.95;12,329.40,295.22,246.63,9.95;12,329.40,304.46,246.68,9.95;12,329.40,313.58,240.68,9.95"  xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Recognition and reconciliation of differences in interpretation of misalignments when collaborative technologies are introduced into new product development teams</title>
+		<author>
+			<persName>
+				<forename type="first">Gi</forename>
+				<surname>Susman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Bl</forename>
+				<surname>Gray</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Perry</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ce</forename>
+				<surname>Blair</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Engineering Technol. Manage</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="141" to="159" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,322.82,255.58,9.95;12,329.40,332.06,126.80,9.95"  xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Small and large firms: sources of unequal innovations?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Tether BS Res. Pol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="725" to="745" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,341.18,255.63,9.95;12,329.40,350.42,246.63,9.95;12,329.40,359.66,246.63,9.95;12,329.40,368.78,225.08,9.95"  xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Barriers to Innovation in SMEs: Can the Internationalization of R&amp;D Mitigate Their Effects?</title>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Tiwari</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Buse</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the First European Conference on Knowledge for Growth: Role and Dynamics of Corporate R&amp;D</title>
+		<meeting>the First European Conference on Knowledge for Growth: Role and Dynamics of Corporate R&amp;D<address><addrLine>Seville, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,378.02,255.64,9.95;12,329.40,387.26,246.68,9.95;12,329.40,396.38,130.76,9.95"  xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Entities&apos; representation modes and their communication effects in collaborative design for SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Ch</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sy</forename>
+				<surname>Chou</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Adv. Manufacturing Technol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="455" to="470" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,405.62,255.68,9.95;12,329.40,414.86,230.00,9.95"  xml:id="b102">
+	<analytic>
+		<title level="a" type="main">New product development in British SMEs</title>
+		<author>
+			<persName>
+				<forename type="first">Dj</forename>
+				<surname>Woodcock</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">P M</forename>
+				<surname>And</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">B W</forename>
+				<surname>Wood</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Innov. Manage</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="212" to="221" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,423.98,255.75,9.95;12,329.40,433.22,246.66,9.95;12,329.40,442.46,205.52,9.95"  xml:id="b103">
+	<analytic>
+		<title level="a" type="main">A web-based collaborative product design platform for dispersed network manufacturing</title>
+		<author>
+			<persName>
+				<forename type="first">Hf</forename>
+				<surname>Zhan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Wb</forename>
+				<surname>Lee</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Cf</forename>
+				<surname>Cheung</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Sk</forename>
+				<surname>Kwok</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Xj</forename>
+				<surname>Gu</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mat. Processing Technol</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="600" to="604" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,320.40,451.58,255.63,9.95;12,329.40,460.82,246.66,9.95;12,329.40,470.06,206.84,9.95"  xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Small and Medium Enterprises (SMEs) Competing in the Global Business Environment: A Case of Malaysia</title>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Zulkifli-Muhammad</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Char</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ym</forename>
+				<surname>Bin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<surname>Hassan</surname>
+			</persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Bus. Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="66" to="75" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

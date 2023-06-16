@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:///data/grobid/grobid-home/schemas/rng/Grobid.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">THE RADIOPACITY OF DENTAL PROSTHESES (FIXED AND REMOVABLE) ON PLAIN RADIOGRAPHS-AN EXPERIMENTAL STUDY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">THE RADIOPACITY OF DENTAL PROSTHESES (FIXED AND REMOVABLE) ON PLAIN RADIOGRAPHS-AN EXPERIMENTAL STUDY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>COMPOSITE RESIN; DENTAL PULP STEM CELL; FUNCTIONALLY GRADED DESIGN; MULTI LAYERED POST; FUNCTIONALLY GRADED DENTAL POST; SOFT SKILLS; CLINICAL PAIRING; DENTAL PULP STROMAL CELLS; LONG-TERM EXPANSION; ROLLING BALL; BALL MILL;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Authors: Abu Kasim, NH</term>
+					<term>Abdullah, BII</term>
+					<term>Mahadevan, I Year: 1998 Keywords : Radiology</term>
+					<term>radiopacity</term>
+					<term>dentat prostheses</term>
+					<term>in vitro</term>
+					<term>SELF-REPAIR</term>
+					<term>CULTURE-CONDITIONS</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The impaction of dental prostheses in either the airway or esophagus is an under-recognized problem which may result in severe morbidity or even mortality. The radio-opacity and the size of fixed and removable dental prostheses in an animal carcass was investigated. Prostheses were placed one at a time in the oro-laryngopharynx or in tho trachea and the esophagus. Lateral radiographs were taken for each prosthesis in site. The radio-opacity and size of the prostheses on the radiograph was graded. Most of the prostheses investigated were radio-opaque though the removable prostheses were more likely to be radiolucent and differ in size. In a symptomatic patient with a missing dental prosthesis, a negative chest or abdominal radiograph does not exclude impaction, inhalation or ingestion. Further evaluation with endoscopy or even computed tomography may be essential to reduce the possibility of severe morbidity or even mortality.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+				<p>of fixed and removable dental prostheses in an animal carcass was investigated. Prostheses were placed one at a time in the oro-laryngopharynx or in tho trachea and the esophagus. Lateral radiographs were taken for each prosthesis in site. The radio-opacity and size of the prostheses on the radiograph was graded. Most of the prostheses investigated were radio-opaque though the removable prostheses were more likely to be radiolucent and differ in size. In a symptomatic patient with a missing dental prosthesis, a negative chest or abdominal radiograph does not exclude impaction, inhalation or ingestion. Further evaluation with endoscopy or even computed tomography may be essential to reduce the possibility of severe morbidity or even mortality.</p>
+
+				<figure>
+					<head>Authors:</head>
+
+					<figDesc>Abu Kasim, N.H.; Abdullah, BII; Mahadevan, I.</figDesc>
+
+				</figure>
+
+				<figure>
+					<head>Year: 1998 Keywords :</head>
+
+					<figDesc>Radiology; radiopacity; dentat prostheses; in vitro; SELF-REPAIR; CULTURE-CONDITIONS; COMPOSITE RESIN; DENTAL PULP STEM CELL; FUNCTIONALLY GRADED DESIGN; MULTI LAYERED POST; FUNCTIONALLY GRADED DENTAL POST; SOFT SKILLS; CLINICAL PAIRING; DENTAL PULP STROMAL CELLS; LONG-TERM EXPANSION; ROLLING BALL; BALL MILL;</figDesc>
+
+				</figure>
+
+				<figure>
+					<head>Please cite as :</head>
+
+					<figDesc>Abu Kasim, N.H., ABDULLAH, B. &amp; MAHADEVAN, I. 1998. THE RADIOPACITY OF DENTAL PROSTHESES (FIXED AND REMOVABLE) ON PLAIN RADIOGRAPHS-AN EXPERIMENTAL STUDY.</figDesc>
+
+				</figure>
+
+				<figure>
+					<head>URL :</head>
+
+					<figDesc> http://myjurnal.um.edu.my/publish/Ann%20Dent/179-193  http://umepublication.um.edu.my/filebank/published_article/2137/474.pdf  http://myjurnal.um.edu.my/filebank/published_article/2137/474.pdf</figDesc>
+
+				</figure>
+
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>
